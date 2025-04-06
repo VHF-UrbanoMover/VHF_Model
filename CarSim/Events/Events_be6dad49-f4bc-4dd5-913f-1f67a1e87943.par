@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Events`A. Wait 3 seconds`VHF Acceleration
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 T
+*VALUE1 3
+*SPEED 2
+MAKE_EVENT T > 3 ; Events\Events_87ece221-9eca-4797-8340-5f89e544460a.par
+#BlueLink0 Events`B2. Wait 0.5s and reset speed` VHF Acceleration` , Events`Events_87ece221-9eca-4797-8340-5f89e544460a
+
+SET_EVENT_ID 0 ! reset to default
+
+LOG_ENTRY Used Dataset: Events; { VHF Acceleration } A. Wait 3 seconds
+#Library : Events
+#DataSet : A. Wait 3 seconds
+#Category: VHF Acceleration
+#FileID  : Events_be6dad49-f4bc-4dd5-913f-1f67a1e87943
+#Created : 02-29-2024 16:16:56
+#Modified: 02-29-2024 16:17:04
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Events
+
+END

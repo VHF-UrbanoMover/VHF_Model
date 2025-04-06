@@ -1,0 +1,62 @@
+PARSFILE
+#FullDataName Vehicle: Trailer Sprung Mass`Gooseneck Trailer (2A) w Dual Wheels`Gooseneck
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 0
+X_LENGTH 11014
+X_LENGTH 12178
+HT_SM 2068
+WID_SM 2710
+H_CG_SU 1077
+Z_LENGTH 2068
+LX_CG_SU 9750
+M_SU 3305
+IXX_SU 3909
+IYY_SU 51331
+IZZ_SU 52363
+IXZ_SU 0
+*RX 1.088
+*RY 3.941
+*RZ 3.980
+Y_CG_SU 0
+IXY_SU 0
+IYZ_SU 0
+Y_LENGTH 2710
+H_H_FRONT 850
+*HWC_LF 335
+*HWC_RF 335
+*HWC_LR 335
+*HWC_RR 335
+*LXA1 11014
+*LXA2 12178
+LEN_SM 8000
+LX_F_SM -1200
+iaxle 1
+iside 1
+H_WC 335
+LX_AXLE 11014
+iside 2
+H_WC 335
+iaxle 2
+iside 1
+H_WC 335
+LX_AXLE 12178
+iside 2
+H_WC 335
+iaxle 3
+iside 1
+iside 2
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { Gooseneck } Gooseneck Trailer (2A) w Dual Wheels
+#Library : Vehicle: Trailer Sprung Mass
+#DataSet : Gooseneck Trailer (2A) w Dual Wheels
+#Category: Gooseneck
+#FileID  : TrlSprM_6910d1c4-0434-4bf8-9b26-431fdfb39f2c
+#Created : 08-03-2021 12:01:30
+#Modified: 12-10-2021 10:38:35
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Sprung Mass (Trailer)
+
+END

@@ -1,0 +1,62 @@
+PARSFILE
+#FullDataName Brakes: Trailer Two-Wheel System`10 kN-m Capacity, Air (2 ch. ABS)`Artic Bus
+#CheckBox1 0    
+#RingCtrl0 2
+#RingCtrl1 2
+#RingCtrl3 2
+#RingCtrl5 1
+
+iside 1
+symbol_push <<ax_bk>> <<axle>>
+symbol_push <<side>> L
+TL_L1 0.05
+TLAG_BK 0.05
+*MY_FRIC_L 2
+MY_FRICTION 2
+PARSFILE Brakes\Proportioning\BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c.par
+#BlueLink4 Brakes: Proportioning / Limiting Valve`Linear: Unity Gain` ` , Proportioning`BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c
+
+TC_L1 0.3
+TC_BK 0.3
+OPT_BK_DYN 1
+PARSFILE Brakes\Torque\BrkTrq_c876c1b7-ced1-47e5-af0e-25186afbeb0d.par
+#BlueLink0 Brakes: Torque`10 kN-m, Air` Artic Bus` , Torque`BrkTrq_c876c1b7-ced1-47e5-af0e-25186afbeb0d
+
+
+INSTALL_ABS_CONTROLLER
+
+OPT_ABS_CTRL 2
+*OFF_F 0.2
+*ON_F 0.1
+*V_F 6
+ABS_SLIP_OFF 0.2
+ABS_SLIP_ON 0.1
+ABS_VMIN 6
+
+iside 2
+symbol_set <<side>> R
+TL_L1 0.05
+TLAG_BK 0.05
+*MY_FRIC_L 2
+MY_FRICTION 2
+PARSFILE Brakes\Proportioning\BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c.par
+#BlueLink4 Brakes: Proportioning / Limiting Valve`Linear: Unity Gain` ` , Proportioning`BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c
+
+TC_L1 0.3
+TC_BK 0.3
+OPT_BK_DYN 1
+PARSFILE Brakes\Torque\BrkTrq_c876c1b7-ced1-47e5-af0e-25186afbeb0d.par
+#BlueLink0 Brakes: Torque`10 kN-m, Air` Artic Bus` , Torque`BrkTrq_c876c1b7-ced1-47e5-af0e-25186afbeb0d
+
+
+LOG_ENTRY Used Dataset: Brakes: Trailer Two-Wheel System; { Artic Bus } 10 kN-m Capacity, Air (2 ch. ABS)
+#Library : Brakes: Trailer Two-Wheel System
+#DataSet : 10 kN-m Capacity, Air (2 ch. ABS)
+#Category: Artic Bus
+#FileID  : Brk2W_c1daa283-16c4-49c3-bef3-cde55425bcfd
+#Modified: 12-01-2021 09:22:24
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Brakes
+
+END

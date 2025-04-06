@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Cube: 1m (Transparency=0.5) Ref = 1000`Geometric Shapes
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Geometric_Shapes\Cubes\cube_1m_wide.obj
+#ENDMYellow
+
+SET_COLOR 0.2 0.6 0.8
+SET_OFFSET_X -0.5
+SET_OFFSET_Z 1.3
+X_REF_LENGTH 1000
+*SPECULAR 1
+*TRANSPARENCY 0.7
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 1    
+USE_RUN_COLOR
+#CheckBox4 0    
+
+set_transparency 0.7
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_cf264102-4b84-4838-8d9f-70451f2edd50.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: 1m (Transparency=0.5) Ref = 1000
+#Library : Animator: Shape File Link
+#DataSet : Cube: 1m (Transparency=0.5) Ref = 1000
+#Category: Geometric Shapes
+#FileID  : Shape_cf264102-4b84-4838-8d9f-70451f2edd50
+#Created : 11-11-2021 13:59:37
+#Modified: 11-23-2021 17:29:21
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape File
+
+END

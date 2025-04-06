@@ -1,0 +1,98 @@
+PARSFILE
+#FullDataName CarSim Run Control`Artic Bus, 90-deg Turn`* Articulated Bus
+#VEHICLECODE Ind_SA + S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_4f105978-d130-48db-ac2f-fcaa9f6549a9
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_0f5c43ef-ab77-4055-86ff-be8da1e4debf.par
+#BlueLink0 Animator: Camera Setup`160 Azm, 7.4 El, 50 m` Trailer Reference` , Animator camera`Camera_0f5c43ef-ab77-4055-86ff-be8da1e4debf
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 2
+#RingCtrl3 0
+#RingCtrl6 5
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_dd69d7ce-8dc2-4259-b929-1d487240ea81.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`Artic bus, damping` Artic Bus` , Math Model`VehLoad_dd69d7ce-8dc2-4259-b929-1d487240ea81
+
+PARSFILE Procedures\Proc_52e31587-782e-4553-99a3-997331322bc7.par
+#BlueLink28 Procedures`3-Way Intersection (Articulated Trucks)` Road Networks` , Procedure`Proc_52e31587-782e-4553-99a3-997331322bc7
+
+PARSFILE Generic\Group\GenGrp_e211cc58-bbd0-4acb-8c6b-ccfcc035e310.par
+#BlueLink9 Generic Data Group`3 Axle - Fx, Fy, Fz (duals)` Tire Force Arrows` , Miscellaneous`GenGrp_e211cc58-bbd0-4acb-8c6b-ccfcc035e310
+
+SSTART -50
+*SSTART -50
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Plot\Setup\Plot_80c4ab96-85b7-40b9-a983-1d6470edbe60.par
+#BlueLink15 Plot: Setup`Spring: Force vs. Time` Artic Bus` , Plot`Plot_80c4ab96-85b7-40b9-a983-1d6470edbe60
+
+PARSFILE Plot\Setup\Plot_7ef824f4-600d-403d-a9d1-336b3902f345.par
+#BlueLink16 Plot: Setup`Fs vs. Wheel Jounce (Axle 1)` Artic Bus` , Plot`Plot_7ef824f4-600d-403d-a9d1-336b3902f345
+
+PARSFILE Plot\Setup\Plot_cf96f784-975b-4a62-b8a6-1393e9fa45c9.par
+#BlueLink17 Plot: Setup`Axle Loads` Artic Bus` , Plot`Plot_cf96f784-975b-4a62-b8a6-1393e9fa45c9
+
+PARSFILE Plot\Setup\Plot_f928197a-e7ff-4c2f-a97d-b53557b034cf.par
+#BlueLink18 Plot: Setup`Spin Rates in Powertrain - Unit 2` Powertrain` , Plot`Plot_f928197a-e7ff-4c2f-a97d-b53557b034cf
+
+PARSFILE Plot\Setup\Plot_b0058360-5d62-4bd0-a55c-a1cf8043df95.par
+#BlueLink19 Plot: Setup`Hitch Deflections` Hitch` , Plot`Plot_b0058360-5d62-4bd0-a55c-a1cf8043df95
+
+
+*IMAGE_TYPE PASS_THROUGH
+WRITE_SENSOR_DETECT
+Title Artic Bus, 90-deg Turn <* Articulated Bus>
+CATEGORY * Articulated Bus 
+DATASET_TITLE Artic Bus, 90-deg Turn
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#The articulated bus is modeled with a lead unit connected to a trailer with an articulation joint.
+#
+#In this example, the bus is making a 90-degree turn.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * Articulated Bus } Artic Bus, 90-deg Turn
+#Library : CarSim Run Control
+#DataSet : Artic Bus, 90-deg Turn
+#Category: * Articulated Bus
+#FileID  : Run_4f105978-d130-48db-ac2f-fcaa9f6549a9
+#Created : 11-19-2021 12:18:35
+#Modified: 12-10-2021 15:28:42
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`2A Articulated Bus - Front, Simple Ani`Artic Bus
+
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox6 0    
+#CheckBox8 0    
+
+OBJ_X_LENGTH 5375
+OBJ_Y_LENGTH 2632
+OBJ_Z_LENGTH 2973
+*DZ_V 0
+*LAT_WC 2300
+*LAT_WC_2 1863
+*HWC 520
+*WHEEL_RATIO 0.99
+*LAXLE_1 0
+*LAXLE_2 5375
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_a503b340-e942-4bdd-8627-9f454864c047.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL\Shape_cf264102-4b84-4838-8d9f-70451f2edd50.par
+#BlueLink1 Animator: Shape File Link`Cube: 1m (Transparency=0.5) Ref = 1000` Geometric Shapes` , Vehicle Body`Shape_cf264102-4b84-4838-8d9f-70451f2edd50
+
+WRITE_REFERENCE_FRAME_SIZE
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_9cc2ba49-3f6e-4c5c-9b44-55695dd364b5.par
+#BlueLink5 Animator: Camera Setup`XZ Plane, No Offsets - Large Objects` Shape Preview` , Video Camera`Camera_9cc2ba49-3f6e-4c5c-9b44-55695dd364b5
+
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Artic Bus } 2A Articulated Bus - Front, Simple Ani
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : 2A Articulated Bus - Front, Simple Ani
+#Category: Artic Bus
+#FileID  : AniVeh_a503b340-e942-4bdd-8627-9f454864c047
+#Created : 11-18-2021 08:47:37
+#Modified: 12-09-2021 03:28:47
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Vehicle Shape
+
+END

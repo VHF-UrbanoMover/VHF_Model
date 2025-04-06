@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Reference slip`VHF Controls
+#RingCtrl0 1
+#RingCtrl1 1
+
+
+EXPORT KappaRef
+#MiscYellow0
+#Number of Selected Channels: 1
+#CHN_NAME: KappaRef
+#ENDMYellow
+
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Reference slip
+#Library : I/O Channels: Export
+#DataSet : Reference slip
+#Category: VHF Controls
+#FileID  : Export_bdebf396-b7ec-4434-b1f6-56a9def11867
+#Created : 10-13-2022 11:52:03
+#Modified: 10-13-2022 11:52:44
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Export Channels
+
+END

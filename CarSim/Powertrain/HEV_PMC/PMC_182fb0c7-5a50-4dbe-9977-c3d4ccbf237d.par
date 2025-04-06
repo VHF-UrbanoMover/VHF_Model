@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Powertrain: Hybrid/Electric Power Management Control`Power Management: Full Load 300 kW`
+! Hybrid Power Management Controller. 
+#CheckBox0 1    
+#CheckBox1 0    
+OPT_REGEN_OFF_THRT 0
+PWR_HEV_DRV_MAX 300
+TC_PWR_HYBRID_AV 0.8
+KPW_PBK_HEV 50
+PWR_EV_MODE 300
+REGEN_BRK_OFF 0.8
+
+PARSFILE Generic\tables\GenTab_e53c788a-ea93-4704-8e09-47bcc55c5b85.par
+#BlueLink0 Generic Table`Driver Demand Power: Full Load 300 kW` Powertrain (HEV / EV)` , Driver Demand Power`GenTab_e53c788a-ea93-4704-8e09-47bcc55c5b85
+
+
+LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric Power Management Control; Power Management: Full Load 300 kW
+#Library : Powertrain: Hybrid/Electric Power Management Control
+#DataSet : Power Management: Full Load 300 kW
+#Category: 
+#FileID  : PMC_182fb0c7-5a50-4dbe-9977-c3d4ccbf237d
+#Created : 05-18-2021 12:31:51
+#Modified: 08-03-2021 10:11:08
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Power Management (HEV)
+
+END

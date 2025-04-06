@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Payload: Box Shape`Driver (75 kg)`B-Class, Sports Car Payloads
+DEFINE_PAYLOADS 1
+ILOAD = NLOAD
+OPT_PL_BODY_ID = IUNIT
+SET_DESCRIPTION PAYLOAD_NAME Driver (75 kg)
+IOBJECT_SAVE
+*X_LENGTH 300
+*Y_LENGTH 550
+*Z_LENGTH 950
+Y_CG_PL 425
+H_BOX_BOTTOM 175
+LX_CG_PL 1500
+M_PL 75
+*SET_COLOR 1 1 0
+
+#CheckBox0 0    
+
+Z_CG_PL 650.00
+IXX_PL 7.53
+IYY_PL 6.20
+IZZ_PL 2.45
+IXY_PL 0
+IXZ_PL 0
+IYZ_PL 0
+IOBJECT_RESTORE
+
+LOG_ENTRY Used Dataset: Payload: Box Shape; { B-Class, Sports Car Payloads } Driver (75 kg)
+#Library : Payload: Box Shape
+#DataSet : Driver (75 kg)
+#Category: B-Class, Sports Car Payloads
+#FileID  : Box_5cfc75a9-4a1b-48d9-aa4d-5459e53f38d2
+#Modified: 06-08-2021 14:24:57
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Payload: Box
+
+END

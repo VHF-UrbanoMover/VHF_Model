@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Driver Desired Power`VHF Controls
+#RingCtrl0 1
+#RingCtrl1 1
+
+
+EXPORT PwrDrHEV
+#MiscYellow0
+#Number of Selected Channels: 1
+#CHN_NAME: PwrDrHEV
+#ENDMYellow
+
+
+
+#EMBEDDED_NOTES
+#ESC/TCS export variables involve engine torque management:
+#
+#M_ENG_IN: actual engine torque
+#M_ENG_RQ: driver requesting engine torque
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Driver Desired Power
+#Library : I/O Channels: Export
+#DataSet : Driver Desired Power
+#Category: VHF Controls
+#FileID  : Export_39f462ac-7bdb-466e-8a13-b43bf716e930
+#Created : 10-13-2022 11:39:26
+#Modified: 11-07-2022 11:16:45
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Export Channels
+
+END

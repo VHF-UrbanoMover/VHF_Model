@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Suspension: Roll Steer (Solid Axle)`Spline: 0.15 deg/deg`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+SUSP_AXLE_ROLL_STEER_COMBINE MULTIPLY
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+#DiagramOne0
+SUSP_AXLE_ROLL_STEER_TABLE SPLINE
+-10, -1
+0, 0
+10, 2
+ENDTABLE
+SUSP_AXLE_JNC_STEER_CONSTANT 1
+*SCALAR2 1
+
+
+LOG_ENTRY Used Dataset: Suspension: Roll Steer (Solid Axle); Spline: 0.15 deg/deg
+#Library : Suspension: Roll Steer (Solid Axle)
+#DataSet : Spline: 0.15 deg/deg
+#Category: 
+#FileID  : StrRoll_61bc70fe-31c8-4477-8296-da3c4f9ec87c
+#Modified: 05-28-2021 14:59:08
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Axle Roll Steer
+
+END

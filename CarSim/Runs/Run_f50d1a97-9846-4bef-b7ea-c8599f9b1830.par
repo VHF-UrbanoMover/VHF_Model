@@ -1,0 +1,97 @@
+PARSFILE
+#FullDataName CarSim Run Control`02 - Aux Str Ctrl, LTARG_ID_AUX = 0`* Auxiliary Steer Control
+#VEHICLECODE Ind_Ind
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_f50d1a97-9846-4bef-b7ea-c8599f9b1830
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 9 El, 18 m, No Yaw` Vehicle Reference` , Animator camera`Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 0
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 -1
+*RUN_COLOR 0 0.8 0
+SET_RUN_COLOR 0 0.8 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_9db9b98a-6725-424b-9635-e1ca6e15979d.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback` C-Class` , Math Model`Vehicle_9db9b98a-6725-424b-9635-e1ca6e15979d
+
+PARSFILE Procedures\Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e.par
+#BlueLink28 Procedures`DLC @ 120 km/h (Quick Start)` Handling Testing` , Procedure`Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e
+
+PARSFILE Generic\VS_commands\GenVS_c29f0559-f6d7-4308-8979-a3762828bae0.par
+#BlueLink9 Generic VS Commands`Enable Aux Steer Control` Auxiliary Steer Control` , Miscellaneous`GenVS_c29f0559-f6d7-4308-8979-a3762828bae0
+
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Plot\Setup\Plot_a89030f5-89a9-4a62-821c-ca01c00892d3.par
+#BlueLink15 Plot: Setup`Road Wheel Steer Angle Targets` Auxiliary Steer Control` , Plot`Plot_a89030f5-89a9-4a62-821c-ca01c00892d3
+
+
+SPECIAL_PARSFILE Runs\Run_2e6d62a6-3a09-4bd0-8e35-2dd96dd50efa.par
+#BlueLink23 CarSim Run Control`01 - Enable Aux Steer Control` * Auxiliary Steer Control` , Overlay run or ERD file`Run_2e6d62a6-3a09-4bd0-8e35-2dd96dd50efa
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_9db9b98a-6725-424b-9635-e1ca6e15979d.png
+WRITE_SENSOR_DETECT
+Title 02 - Aux Str Ctrl, LTARG_ID_AUX = 0 <* Auxiliary Steer Control>
+CATEGORY * Auxiliary Steer Control 
+DATASET_TITLE 02 - Aux Str Ctrl, LTARG_ID_AUX = 0
+#MiscYellow0
+LTARG_ID_AUX 0
+#ENDMYellow
+
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#Here, a Generic VS Commands dataset is added to a copy of the Quick Start Guide example.  It enables the Auxiliary Driver control (also called Auxiliary Steer Control or Auxiliary Path Follower)
+#
+#Here, the Aux Control is enabled with LTARG_ID_AUX = 0, (no offset from the Reference PATH)
+#
+#The Aux Steer Controller only generates outputs, so results are identical to overlay.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * Auxiliary Steer Control } 02 - Aux Str Ctrl, LTARG_ID_AUX = 0
+#Library : CarSim Run Control
+#DataSet : 02 - Aux Str Ctrl, LTARG_ID_AUX = 0
+#Category: * Auxiliary Steer Control
+#FileID  : Run_f50d1a97-9846-4bef-b7ea-c8599f9b1830
+#Created : 11-08-2021 09:15:51
+#Modified: 11-17-2021 11:33:31
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

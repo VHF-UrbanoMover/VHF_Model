@@ -1,0 +1,125 @@
+PARSFILE
+#FullDataName I/O Channels: Write`Optimal_ASR Analisys (MAT File)`
+
+#RingCtrl1 1
+#RingCtrl2 0
+#RingCtrl3 0
+#RingCtrl4 1
+
+#MiscYellow0
+#Vx
+#Ax
+#Vy
+#Ay
+#AVy_L1
+#AVy_R1
+#AVy_L2
+#AVy_R2
+#Throttle
+#Kappa_L1
+#Kappa_R1
+#Kappa_L2
+#Kappa_R2
+#KappL_L1
+#KappL_R1
+#KappL_L2
+#KappL_R2
+#KappaRef
+#Fx_L1
+#Fx_R1
+#Fx_L2
+#Fx_R2
+#Fz_L1
+#Fz_R1
+#Fz_L2
+#Fz_R2
+#M_Mtr_D2_L
+#M_MtC_D2_L
+#M_Mtr_D2_R
+#M_MtC_D2_R
+#ENDMYellow
+
+OPT_ALL_WRITE_CONVERT_CSV 0
+OPT_ALL_WRITE_CONVERT_MAT 0
+OPT_CONVERT_SUFFIX 
+OPT_FMT_CSV 0
+OPT_FMT_MAT 1
+WRT_Vx
+WRTCVT Vx
+WRT_Ax
+WRTCVT Ax
+WRT_Vy
+WRTCVT Vy
+WRT_Ay
+WRTCVT Ay
+WRT_AVy_L1
+WRTCVT AVy_L1
+WRT_AVy_R1
+WRTCVT AVy_R1
+WRT_AVy_L2
+WRTCVT AVy_L2
+WRT_AVy_R2
+WRTCVT AVy_R2
+WRT_Throttle
+WRTCVT Throttle
+WRT_Kappa_L1
+WRTCVT Kappa_L1
+WRT_Kappa_R1
+WRTCVT Kappa_R1
+WRT_Kappa_L2
+WRTCVT Kappa_L2
+WRT_Kappa_R2
+WRTCVT Kappa_R2
+WRT_KappL_L1
+WRTCVT KappL_L1
+WRT_KappL_R1
+WRTCVT KappL_R1
+WRT_KappL_L2
+WRTCVT KappL_L2
+WRT_KappL_R2
+WRTCVT KappL_R2
+WRT_KappaRef
+WRTCVT KappaRef
+WRT_Fx_L1
+WRTCVT Fx_L1
+WRT_Fx_R1
+WRTCVT Fx_R1
+WRT_Fx_L2
+WRTCVT Fx_L2
+WRT_Fx_R2
+WRTCVT Fx_R2
+WRT_Fz_L1
+WRTCVT Fz_L1
+WRT_Fz_R1
+WRTCVT Fz_R1
+WRT_Fz_L2
+WRTCVT Fz_L2
+WRT_Fz_R2
+WRTCVT Fz_R2
+WRT_M_Mtr_D2_L
+WRTCVT M_Mtr_D2_L
+WRT_M_MtC_D2_L
+WRTCVT M_MtC_D2_L
+WRT_M_Mtr_D2_R
+WRTCVT M_Mtr_D2_R
+WRT_M_MtC_D2_R
+WRTCVT M_MtC_D2_R
+
+#EMBEDDED_NOTES
+#This dataset is set up to write 4 channels of output variables in a MAT file for use in MATLAB.
+#
+#The CPAR_INCLUDE statements make sure the matlab files used for the analysis are included in the consolidated parsfile for these examples.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Write; Optimal_ASR Analisys (MAT File)
+#Library : I/O Channels: Write
+#DataSet : Optimal_ASR Analisys (MAT File)
+#Category: 
+#FileID  : Write_d0c3b391-b7bd-4d14-b429-cb98f6f9ac45
+#Created : 05-22-2024 16:39:59
+#Modified: 05-22-2024 17:36:47
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Write Channels
+
+END

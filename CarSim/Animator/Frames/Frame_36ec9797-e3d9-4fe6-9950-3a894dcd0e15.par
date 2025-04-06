@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Trailing body of articulated bus`
+ADD_REFERENCE_FRAME Frame_36ec9797-e3d9-4fe6-9950-3a894dcd0e15
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME Xo_2
+SET_Y_NAME Yo_2
+SET_Z_NAME Zo_2
+SET_ROLL_NAME Roll_E_2
+SET_PITCH_NAME pitch_2
+SET_YAW_NAME yaw_2
+
+PARSFILE Animator\STL\Shape_0f41e94c-8317-47b7-914f-3aef26946d3a.par
+#BlueLink1 Animator: Shape File Link`Sphere 0.2 m (Green) Z = .625` Geometric Shapes` , Animator Data`Shape_0f41e94c-8317-47b7-914f-3aef26946d3a
+
+PARSFILE Animator\STL\Shape_fcfe718a-b563-4d89-854d-9a6ac5bf45de.par
+#BlueLink2 Animator: Shape File Link`Sphere 0.2 m, X = -1m` Geometric Shapes` , Animator Data`Shape_fcfe718a-b563-4d89-854d-9a6ac5bf45de
+
+#MiscYellow0
+SET_COLOR 0 0 1
+#ENDMYellow
+
+WRT_Xo_2
+ANI_Xo_2
+WRT_Yo_2
+ANI_Yo_2
+WRT_Zo_2
+ANI_Zo_2
+WRT_Roll_E_2
+ANI_Roll_E_2
+WRT_pitch_2
+ANI_pitch_2
+WRT_yaw_2
+ANI_yaw_2
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; Trailing body of articulated bus
+#Library : Animator: Reference Frame
+#DataSet : Trailing body of articulated bus
+#Category: 
+#FileID  : Frame_36ec9797-e3d9-4fe6-9950-3a894dcd0e15
+#Created : 11-17-2021 15:53:41
+#Modified: 11-18-2021 11:11:32
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Reference Frame
+
+END

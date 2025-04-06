@@ -1,0 +1,6 @@
+SIMFILE
+INPUT Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1.par
+ECHO Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1_echo.par
+ERDFILE Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1.vs
+LOGFILE Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1_log.txt
+END

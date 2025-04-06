@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Plot: Setup`Dive vs. Time`Suspension - Ind. Kin. Outputs
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS DiveG_<<tire>>, Time
+PLOTCHANNELS DiveG_<<tire>>_Alt, Time, Wheel <<tire>> dive (input)
+
+#ENDMYellow
+
+YAXISLABEL <<tire>> - Dive angle [deg]
+XAXISLABEL Time [s]
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Dive vs. Time
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Suspension - Ind. Kin. Outputs } Dive vs. Time
+#Library : Plot: Setup
+#DataSet : Dive vs. Time
+#Category: Suspension - Ind. Kin. Outputs
+#FileID  : Plot_5e6dce14-91cc-4618-a1c2-e6235310e306
+#Created : 11-08-2021 08:27:13
+#Modified: 11-08-2021 13:01:42
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

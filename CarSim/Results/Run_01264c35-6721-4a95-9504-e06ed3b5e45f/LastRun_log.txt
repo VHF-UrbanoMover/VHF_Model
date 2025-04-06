@@ -1,0 +1,356 @@
+Run made by CarSim 2022.0 at 14:18 on December 13, 2021.
+
+Started with simfile: simfile_Run_01264c35-6721-4a95-9504-e06ed3b5e45f.sim
+
+Include PARSFILE "Results\Run_01264c35-6721-4a95-9504-e06ed3b5e45f\Run_all.par"
+Installed keywords into VS Solver for MODEL_LAYOUT I_S__S
+Used Dataset: Animator: Reference Frame; { Trailers } Trailer
+Used Dataset: Animator: Camera Setup; { Trailer Reference } 160 Azm, 7.4 El, 50 m
+Used Dataset: Steering System: Kinematics for 2 Wheels (Recirc. Ball); { CS Utility Vehicles: SUVs and Vans } Large European Van
+Used Dataset: Steering System: Compliance; { Linear } 0.002 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; Constant: Zero
+Used Dataset: Steering; Artic Bus
+Used Dataset: Suspension: Dive Angle (Caster Change); { Artic Bus } Constant: Zero Dive Angle (deg)
+Used Dataset: Suspension: Longitudinal Movement; { Artic Bus } Tour Bus - Steer Axle
+Used Dataset: Suspension: Camber Angle; { Artic Bus } Generic Commercial Vehicle
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Artic Bus } Tour Bus - Steer Axle
+Used Dataset: Suspension: Toe Angle; { Artic Bus } Zero Offset
+Used Dataset: Suspension: Dive Angle (Caster Change); { Artic Bus } Constant: Zero Dive Angle (deg)
+Used Dataset: Suspension: Longitudinal Movement; { Artic Bus } Tour Bus - Steer Axle
+Used Dataset: Suspension: Camber Angle; { Artic Bus } Generic Commercial Vehicle
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Artic Bus } Tour Bus - Steer Axle
+Used Dataset: Suspension: Toe Angle; { Artic Bus } Zero Offset
+Used Dataset: Suspension: Independent System Kinematics; { Artic Bus } Articulated Bus - Steer Axle
+Used Dataset: Suspension: Shock Absorber; { Linear } Linear: 10 kN-s/m
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 100 mm to 150 mm } +150 mm / -150 mm
+Used Dataset: Suspension: Shock Absorber; { Linear } Linear: 10 kN-s/m
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 100 mm to 150 mm } +150 mm / -150 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Constant } Constant: Zero
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Artic Bus } Tour Bus - Steer Axle
+Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Steer
+Used Dataset: Generic Table; { Artic Bus } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Rating
+Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rating
+Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load Rating
+Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+Used Dataset: Tire; { Artic Bus } 510 mm Radius (Steer)
+Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Steer
+Used Dataset: Generic Table; { Artic Bus } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Rating
+Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rating
+Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load Rating
+Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+Used Dataset: Tire; { Artic Bus } 510 mm Radius (Steer)
+Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Driven
+Used Dataset: Generic Table; { Artic Bus } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Rating
+Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rating
+Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load Rating
+Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+Used Dataset: Tire; { Artic Bus } 510 mm Radius (Drive)
+Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Driven
+Used Dataset: Generic Table; { Artic Bus } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Rating
+Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rating
+Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load Rating
+Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+Used Dataset: Tire; { Artic Bus } 510 mm Radius (Drive)
+Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Driven
+Used Dataset: Generic Table; { Artic Bus } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Rating
+Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rating
+Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load Rating
+Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+Used Dataset: Tire; { Artic Bus } 510 mm Radius (Drive)
+Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Driven
+Used Dataset: Generic Table; { Artic Bus } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Rating
+Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rating
+Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load Rating
+Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+Used Dataset: Tire; { Artic Bus } 510 mm Radius (Drive)
+Used Dataset: Tires for Any Vehicle Unit; { Artic Bus } 3000 kg Steer, 3000 kg Drive (510 mm)
+Used Dataset: Suspension: Dive Angle (Solid Axle); Constant: Zero Dive Angle (deg)
+Used Dataset: Suspension: Longitudinal Movement (Solid Axle); { Artic Bus } Zero Forward X Movement
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; { Artic Bus } Roll Center: 195 mm Above Axle
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Solid Axles: Heavy Duty (Driven)
+Used Dataset: Suspension: Solid Axle System Kinematics; { Artic Bus } 10t Drive, Dual Wheels
+Used Dataset: Suspension: Spring; { Artic Bus } Air Spring, 2000 N Friction
+Used Dataset: Suspension: Shock Absorber; { Linear } Linear: 50 kN-s/m
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -60 mm
+Used Dataset: Suspension: Spring; { Artic Bus } Air Spring, 2000 N Friction
+Used Dataset: Suspension: Shock Absorber; { Linear } Linear: 50 kN-s/m
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -60 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 8500 N-m/deg
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { Artic Bus } 10t Air: +60 mm, -60 mm Travel
+Used Dataset: Hitch: Roll Moment; { Turntable } 500 kN-m/deg (0 deg lash)
+Used Dataset: Hitch: Yaw Moment; Artic Bus: 100 kN-m/deg (108 deg Lash)
+Used Dataset: Hitch: Joint Assembly; Turntable Art Bus
+Used Dataset: Vehicle: Sprung Mass; { Artic Bus } Articulated Bus
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; { Artic Bus } Cab-Over-Engine
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; { Artic Bus } Linear: 0.082 1/deg.
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; { Artic Bus } Spline: -0.15 at 0 deg.
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; { Artic Bus } Spline: 0.064 1/deg.
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; { Artic Bus } Spline: 0.2 at 0 deg., 0.38 at 25 deg.
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; { Artic Bus } Linear: 0.012 1/deg.
+Used Dataset: Aerodynamics: Basic; { Artic Bus } Tour Bus, 4.5 m Ref.
+Used Dataset: Brakes: Proportioning / Limiting Valve; Linear: Unity Gain
+Used Dataset: Brakes: Torque; { Artic Bus } 7.5 kN-m, Air
+Used Dataset: Brakes: Proportioning / Limiting Valve; Linear: Unity Gain
+Used Dataset: Brakes: Torque; { Artic Bus } 7.5 kN-m, Air
+Used Dataset: Brakes: Proportioning / Limiting Valve; Linear: Unity Gain
+Used Dataset: Brakes: Torque; { Artic Bus } 10 kN-m, Air
+Used Dataset: Brakes: Proportioning / Limiting Valve; Linear: Unity Gain
+Used Dataset: Brakes: Torque; { Artic Bus } 10 kN-m, Air
+Used Dataset: Brakes: Four-Wheel System; Artic Bus
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: 1m (Transparency=0.5) Ref = 1000
+Used Dataset: Animator: Vehicles and Sensor Targets; { Artic Bus } 2A Articulated Bus - Front, Simple Ani
+Used Dataset: Vehicle: Assembly; { Articulated Bus } Articulated Bus Lead, Simple Ani
+Used Dataset: Positions, Velocities, and Accelerations; Hitch Point (Lead)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cylinder: D=0.1m, L=1m, X direction
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Orange)
+Used Dataset: Animator: Reference Frame; Articulation Lead Arm
+Used Dataset: Suspension: Spring; { Artic Bus } Air Spring, 2000 N Friction
+Used Dataset: Suspension: Shock Absorber; { Linear } Linear: 50 kN-s/m
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -60 mm
+Used Dataset: Suspension: Spring; { Artic Bus } Air Spring, 2000 N Friction
+Used Dataset: Suspension: Shock Absorber; { Linear } Linear: 50 kN-s/m
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -60 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 8500 N-m/deg
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { Artic Bus } 10t Air: +60 mm, -60 mm Travel
+Used Dataset: Suspension: Dive Angle (Solid Axle); Constant: Zero Dive Angle (deg)
+Used Dataset: Suspension: Longitudinal Movement (Solid Axle); { Artic Bus } Zero Forward X Movement
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; { Artic Bus } Roll Center: 195 mm Above Axle
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Solid Axles: Trailer Axle
+Used Dataset: Suspension: Solid Axle System Kinematics; { Artic Bus } 10t Trailer, Dual Wheels
+Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Trailer
+Used Dataset: Animator: Shape Assembly; { Artic Bus } Highway Trailer Tire
+Used Dataset: Generic Table; { Artic Bus } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Rating
+Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rating
+Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load Rating
+Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+Used Dataset: Tire; { Artic Bus } 510 mm Radius (Trailer)
+Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Trailer
+Used Dataset: Animator: Shape Assembly; { Artic Bus } Highway Trailer Tire
+Used Dataset: Generic Table; { Artic Bus } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Rating
+Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rating
+Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load Rating
+Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+Used Dataset: Tire; { Artic Bus } 510 mm Radius (Trailer)
+Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Trailer
+Used Dataset: Animator: Shape Assembly; { Artic Bus } Highway Trailer Tire
+Used Dataset: Generic Table; { Artic Bus } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Rating
+Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rating
+Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load Rating
+Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+Used Dataset: Tire; { Artic Bus } 510 mm Radius (Trailer)
+Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Trailer
+Used Dataset: Animator: Shape Assembly; { Artic Bus } Highway Trailer Tire
+Used Dataset: Generic Table; { Artic Bus } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Rating
+Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rating
+Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load Rating
+Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+Used Dataset: Tire; { Artic Bus } 510 mm Radius (Trailer)
+Used Dataset: Tires for Any Vehicle Unit; { Artic Bus } 510 mm, Trailer, Dual
+Used Dataset: Brakes: Proportioning / Limiting Valve; Linear: Unity Gain
+Used Dataset: Brakes: Torque; { Artic Bus } 10 kN-m, Air
+Used Dataset: Brakes: Proportioning / Limiting Valve; Linear: Unity Gain
+Used Dataset: Brakes: Torque; { Artic Bus } 10 kN-m, Air
+Used Dataset: Brakes: Trailer Two-Wheel System; { Artic Bus } 10 kN-m Capacity, Air (2 ch. ABS)
+Used Dataset: Vehicle: Trailer Sprung Mass; { Artic Bus } Articulated Bus, L = 500
+Used Dataset: Aerodynamics: Basic; No Aerodynamics
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green) Z = .625
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m, X = -1m
+Used Dataset: Animator: Reference Frame; Trailing body of articulated bus
+Used Dataset: Vehicle: Trailer with 1 Axle; Art Bus Rear, Simple Ani
+Used Dataset: Powertrain: Engine; { Engines: 150 kW to 250 kW } 175 kW Diesel (3000 RPM)
+Used Dataset: Powertrain: Torque Converter; { Torque Converters: 150 kW to 250 kW } 175 kW, 3000 RPM Engine
+Used Dataset: Powertrain: Shift Schedule; { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 1-2, 3000 RPM
+Used Dataset: Powertrain: Shift Schedule; { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 2-3, 3000 RPM
+Used Dataset: Powertrain: Shift Schedule; { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 3-4, 3000 RPM
+Used Dataset: Powertrain: Shift Schedule; { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 4-5, 3000 RPM
+Used Dataset: Powertrain: Shift Schedule; { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 5-6, 3000 RPM
+Used Dataset: Powertrain: Shift Schedule; { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 6-7, 3000 RPM
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); { 7-Speed } 7 Spd., AT, 3000 RPM (2A Tour Bus)
+Used Dataset: Powertrain: Rear Differential; { Open } Open Differential: Gear Ratio 5:1
+Used Dataset: Powertrain: Rear-Wheel Drive; { 175 kW Powertrains } 175 kW, 7 Speed AT (2A Tour Bus)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: 1m (Transparency=0.5) Ref = 1000
+Used Dataset: Animator: Reference Frame; Articulated Bus Rear Cube
+Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { Artic Bus } Art bus, Simple Ani
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position: Non-Zero Offset } 2m Right, 0.75s Single Preview
+Used Dataset: Control: Clutch Shifting Timelines (Closed Loop); Clutch Actuation: 0.5s, Gear Change: 0.1s
+Used Dataset: Control: Shifting (Closed Loop); { Closed-Loop Shifting } NGEARS, Clutch Act 0.5s, Gear 0.1s
+Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { Speed vs. Station } Crossing, Right Turn (Air Brakes)
+ Straight South, ID = 1013 <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight South, ID = 1013
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Intersections } Big Grass, Pavement Intersection, 3-Way
+Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Skybox (Vehicle X-Y-Z)
+Used Dataset: Animator: Shape File Link; { Environment: Sky Boxes } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Environment: Land Bowls } Light Grass
+Used Dataset: Animator: Group; { Environment Spheres } Partly Cloudy Sky with Light Grass
+Used Dataset: Road: 3D Surface (All Properties); { Intersection, 3D Roads with Curbs } 999: Grass and Intersection, 3-Way
+ South Entrance, Right Turn, 1001 <Crossing with Curbs>
+Used Dataset: Path: Segment Builder; { Crossing with Curbs } South Entrance, Right Turn, 1001
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Gutters, Curbs, Ditches } Cross-slope and Curb for Intersection
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Intersections } Right Turn w/ Curb, Crosswalk @ 10m
+Used Dataset: Road: 3D Surface (All Properties); { Intersection, 3D Roads with Curbs } 1001: Enter South, Exit East
+ East Entrance, Right Turn, 1002 <Crossing with Curbs>
+Used Dataset: Path: Segment Builder; { Crossing with Curbs } East Entrance, Right Turn, 1002
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Gutters, Curbs, Ditches } Cross-slope and Curb for Intersection
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Intersections } Right Turn w/ Curb, Crosswalk @ -10m
+Used Dataset: Road: 3D Surface (All Properties); { Intersection, 3D Roads with Curbs } 1002: Enter East, Exit North
+ 1013: Straight Path South <Straight>
+Used Dataset: Path: Segment Builder; { Straight } 1013: Straight Path South
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Gutters, Curbs, Ditches } 2003: Lane with Curb and Cross-Slope
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Intersections } Straight w/ Curb
+Used Dataset: Road: Animator Repeated Object; { Forests } Mixed Forest, R. Side, -1000m - 0
+Used Dataset: Road: Animator Repeated Object; { Forests } Mixed Forest, R. Side, 0 - 1000m
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Mixed Forest
+Used Dataset: Road: 3D Surface (All Properties); { Intersection, 3D Roads with Curbs } 1013: Enter North Straight South
+ 2004: South Entrance, Right Turn, Wide <Crossing with Curbs>
+Used Dataset: Path: Segment Builder; { Crossing with Curbs } 2004: South Entrance, Right Turn, Wide
+Used Dataset: Road Boundary: Lateral Edge; { Intersections and Roundabouts } Turn into 3-Way Intersection
+Used Dataset: Road Boundary: New Road ID; { Intersection, 3-Way } Left Edge for 1001
+Used Dataset: Road Boundary: New Station; Negative S
+Used Dataset: Road Boundary: Lateral Edge; { Intersections and Roundabouts } Turn into 3-Way Intersection
+Used Dataset: Road Boundary: New Road ID; { Intersection, 3-Way } Left Edge for 1002
+Used Dataset: Road Boundary: New Station; Negative S
+Used Dataset: Road Boundary: New Road ID; { Intersection, 3-Way } Left Edge for 1013
+Used Dataset: Road Boundary: New Station; Negative S
+Used Dataset: Road: Boundaries; { Crossing with Curbs } 3-Way Intersection, No West Entrance
+Used Dataset: Generic Group of Links; { Roads and Paths } 3-Way Intersection, Articulated Trucks
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed (Vxz_Fwd) vs. Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Steering } Steering Wheel Angle vs. Time
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Steering } Road Wheel Steer (Axle 1)
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Roll Angle of Sprung Masses vs. Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Pitch Angle of Sprung Masses vs. Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Yaw Angle of Sprung Masses vs. Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Lateral Accel. of CG's vs. Station
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Accel. of CG's vs. Station
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Tracking } Station vs. Time
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tracking } Y vs X - Trajectory
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces (Axle 1, Single Tires)
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces (Axle 2, Dual Tires)
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces (Axle 3, Dual Tires)
+Used Dataset: Procedures; { Road Networks } 3-Way Intersection (Articulated Trucks)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (3 Axles) } 3A - Fx Tire Force Arrows (duals)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (3 Axles) } 3A - Fy Tire Force Arrows (duals)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (3 Axles) } 3A - Fz Tire Force Arrows (duals)
+Used Dataset: Generic Data Group; { Tire Force Arrows } 3 Axle - Fx, Fy, Fz (duals)
+Used Dataset: Plot: Format; { Artic Bus } Default Plot Settings
+Used Dataset: Plot: Setup; { Artic Bus } Spring: Force vs. Time
+Used Dataset: Plot: Format; { Artic Bus } Default Plot Settings
+Used Dataset: Plot: Setup; { Artic Bus } Fs vs. Wheel Jounce (Axle 1)
+Used Dataset: Plot: Setup; { Artic Bus } Axle Loads
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Powertrain } Spin Rates in Powertrain - Unit 2
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Hitch } Hitch Deflections
+ Artic Bus, Simple Ani, 90-deg Turn <* Articulated Bus>
+Used Dataset: CarSim Run Control; { * Articulated Bus } Artic Bus, Simple Ani, 90-deg Turn
+
+Time to read input = 0.247318
+Function F_JNC_STOP_TABLE(2,1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(1,1,1) extrapolated (out of range HIGH) for X = -10.1105 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1,1) extrapolated (out of range LOW) for X = -10.1105 mm at T = 0
+Function F_REB_STOP_TABLE(1,1,2) extrapolated (out of range HIGH) for X = -10.1105 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1,2) extrapolated (out of range LOW) for X = -10.1105 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2,1) extrapolated (out of range LOW) for X = -2.70314 mm at T = 0
+Function F_REB_STOP_TABLE(1,2,1) extrapolated (out of range HIGH) for X = -2.70314 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2,2) extrapolated (out of range LOW) for X = -2.70314 mm at T = 0
+Function F_REB_STOP_TABLE(1,2,2) extrapolated (out of range HIGH) for X = -2.70314 mm at T = 0
+
+Run started: VS output file = Results\Run_01264c35-6721-4a95-9504-e06ed3b5e45f\Run.vsb
+Function L_RELAX_X_FZ_TABLE(1,1,2,1) extrapolated (out of range HIGH) for X = 1.00014 N at T = 0.334
+Function L_RELAX_X_FZ_TABLE(1,1,1,1) extrapolated (out of range HIGH) for X = 1.00035 N at T = 0.359
+Function MY_BRAKE_TABLE(2,1,1) extrapolated (out of range HIGH) for X = 0.700672 MPa at T = 1.4435
+Function MY_BRAKE_TABLE(2,1,2) extrapolated (out of range HIGH) for X = 0.700672 MPa at T = 1.4435
+Function MY_BRAKE_TABLE(1,1,1) extrapolated (out of range HIGH) for X = 0.700672 MPa at T = 1.4435
+Function MY_BRAKE_TABLE(1,1,2) extrapolated (out of range HIGH) for X = 0.700672 MPa at T = 1.4435
+Function MY_BRAKE_TABLE(1,2,1) extrapolated (out of range HIGH) for X = 0.700672 MPa at T = 1.4435
+Function MY_BRAKE_TABLE(1,2,2) extrapolated (out of range HIGH) for X = 0.700672 MPa at T = 1.4435
+Function STEER_KIN_TABLE(1,1,1) extrapolated (out of range LOW) for X = -34.1106 deg at T = 14.5755
+Function STEER_KIN_TABLE(1,1,2) extrapolated (out of range LOW) for X = -34.1106 deg at T = 14.5755
+
+Run stopped at t = 45. Stop time reached.
+
+Computational time ratio: RTIME = 0.159721 (real time)/(simulation time)
+

@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Hitch: Joint Assembly`Turntable Art Bus w damping`
+#CheckBox0 0    
+OPT_ROLL_HITCH 0
+#CheckBox1 1    
+#CheckBox2 1    
+
+OPT_HITCH_TYPE 1
+PARSFILE Hitches\Mx\HchMx_96f8431a-9b8b-4f81-9ac5-a4e898f2803e.par
+#BlueLink0 Hitch: Roll Moment`500 kN-m/deg (0 deg lash)` Turntable` , Roll Stiffness`HchMx_96f8431a-9b8b-4f81-9ac5-a4e898f2803e
+
+PARSFILE Hitches\Mz\HchMz_1d0cdd7a-1cb0-4d5b-b69f-1c678465b69a.par
+#BlueLink2 Hitch: Yaw Moment`Artic Bus: 100 kN-m/deg (108 deg Lash)` ` , Yaw Stiffness`HchMz_1d0cdd7a-1cb0-4d5b-b69f-1c678465b69a
+
+HITCH_DMP_Z 2000
+
+
+#EMBEDDED_NOTES
+#The damping on the articulation joint is modeled by including a damping coefficient for the articulation degree of freedom.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Hitch: Joint Assembly; Turntable Art Bus w damping
+#Library : Hitch: Joint Assembly
+#DataSet : Turntable Art Bus w damping
+#Category: 
+#FileID  : Hitch_2fde9a98-9403-40ab-ac7c-ab4756bb53ba
+#Created : 12-10-2021 14:35:46
+#Modified: 12-10-2021 14:56:30
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Hitch
+
+END

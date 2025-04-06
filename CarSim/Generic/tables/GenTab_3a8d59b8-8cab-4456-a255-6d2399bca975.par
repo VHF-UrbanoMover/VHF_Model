@@ -1,0 +1,52 @@
+PARSFILE
+#FullDataName Generic Table`Rebound Stop Compression (2D)`Generic Suspension Comp.: Twist-Beam (2D)
+#RingCtrl0 2D_SPLINE
+#CheckBox0 1    
+
+*3D_XLabel Jounce (other side)
+*3D_YLabel Jounce
+*3D_ZLabel Coilover compression
+
+#DiagramTwo0
+*3D_DATA 11, 11 ! columns x rows
+CMP_RSTOP_CARPET 2D_SPLINE
+0, -75, -60, -45, -30, -15, 0, 15, 30, 45, 60, 75
+-75, -68.512, -67.494, -66.465, -65.433, -64.387, -63.339, -62.279, -61.214, -60.141, -59.059, -57.973
+-60, -55.844, -54.833, -53.812, -52.787, -51.747, -50.705, -49.65, -48.589, -47.52, -46.441, -45.357
+-45, -43.157, -42.155, -41.142, -40.123, -39.091, -38.055, -37.005, -35.949, -34.884, -33.809, -32.728
+-30, -30.452, -29.458, -28.453, -27.442, -26.417, -25.388, -24.343, -23.294, -22.232, -21.161, -20.083
+-15, -17.726, -16.741, -15.746, -14.742, -13.725, -12.704, -11.665, -10.621, -9.5645, -8.4984, -7.4238
+0, -4.979, -4.0031, -3.0175, -2.0225, -1.0136, 0, 1.0323, 2.0688, 3.1204, 4.1811, 5.2517
+15, 7.7905, 8.7564, 9.7317, 10.718, 11.718, 12.723, 13.748, 14.777, 15.823, 16.878, 17.944
+30, 20.583, 21.538, 22.503, 23.479, 24.469, 25.466, 26.482, 27.503, 28.543, 29.591, 30.652
+45, 33.399, 34.343, 35.296, 36.262, 37.242, 38.229, 39.236, 40.248, 41.281, 42.322, 43.377
+60, 46.239, 47.171, 48.111, 49.066, 50.035, 51.013, 52.01, 53.012, 54.037, 55.069, 56.118
+75, 59.104, 60.023, 60.949, 61.893, 62.849, 63.816, 64.802, 65.793, 66.81, 67.833, 68.875
+ENDTABLE
+
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD CMP_RSTOP
+*X_LABEL Jounce
+*Y_LABEL Coilover compression
+*X_LABEL_2 Jounce (other side)
+
+
+#EMBEDDED_NOTES
+#New for 2021.1. This suspension uses a coilover with integral jounce and rebound stops, so the data here is the same as used for the spring and damper, just with the correct math model keyword for the bump stop. The actual engagement point of the stop is handled in its force vs. displacement table.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Table; { Generic Suspension Comp.: Twist-Beam (2D) } Rebound Stop Compression (2D)
+#Library : Generic Table
+#DataSet : Rebound Stop Compression (2D)
+#Category: Generic Suspension Comp.: Twist-Beam (2D)
+#FileID  : GenTab_3a8d59b8-8cab-4456-a255-6d2399bca975
+#Created : 04-01-2021 08:34:49
+#Modified: 05-28-2021 15:02:30
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode table
+
+END

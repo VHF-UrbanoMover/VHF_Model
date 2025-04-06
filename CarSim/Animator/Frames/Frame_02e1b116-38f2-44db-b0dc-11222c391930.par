@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Aux Steer Controller Target`Auxiliary Steer Controller
+ADD_REFERENCE_FRAME Frame_02e1b116-38f2-44db-b0dc-11222c391930
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME target_x_a
+SET_Y_NAME target_y_a
+SET_Z_NAME target_z_a_road
+
+WRT_target_x_a
+ANI_target_x_a
+WRT_target_y_a
+ANI_target_y_a
+WRT_target_z_a_road
+ANI_target_z_a_road
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Auxiliary Steer Controller } Aux Steer Controller Target
+#Library : Animator: Reference Frame
+#DataSet : Aux Steer Controller Target
+#Category: Auxiliary Steer Controller
+#FileID  : Frame_02e1b116-38f2-44db-b0dc-11222c391930
+#Created : 11-12-2021 09:19:05
+#Modified: 11-12-2021 09:21:12
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Reference Frame
+
+END

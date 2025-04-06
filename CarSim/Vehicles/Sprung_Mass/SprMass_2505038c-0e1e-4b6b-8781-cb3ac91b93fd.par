@@ -1,0 +1,56 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`VHF, Hatchback`Meu Veiculo
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+#CheckBox2 0    
+X_LENGTH 1917
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_AXLE 1917
+LX_CG_SU 1036
+M_SU 558.2
+IXX_SU 88
+IYY_SU 155
+IZZ_SU 155
+IXZ_SU 0
+*RX 0.397
+*RY 0.527
+*RZ 0.527
+Y_CG_SU 0
+H_CG_SU 577
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1365
+Y_LENGTH 1291
+*HWC_LF 274
+*HWC_RF 274
+*HWC_LR 274
+*HWC_RR 274
+LEN_SM 3000
+LX_F_SM 400
+H_WC 274
+iside 2
+H_WC 274
+iaxle 1
+iside 1
+H_WC 274
+iside 2
+H_WC 274
+iaxle 2
+iside 1
+HT_SM 1365
+WID_SM 1291
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Meu Veiculo } VHF, Hatchback
+#Library : Vehicle: Sprung Mass
+#DataSet : VHF, Hatchback
+#Category: Meu Veiculo
+#FileID  : SprMass_2505038c-0e1e-4b6b-8781-cb3ac91b93fd
+#Created : 06-29-2022 11:15:09
+#Modified: 01-10-2024 17:11:40
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Rigid sprung mass
+
+END

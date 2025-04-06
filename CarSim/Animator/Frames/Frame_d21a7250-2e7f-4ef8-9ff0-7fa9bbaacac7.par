@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Articulation Lead Arm`
+ADD_REFERENCE_FRAME Frame_d21a7250-2e7f-4ef8-9ff0-7fa9bbaacac7
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME x_s1
+SET_Y_NAME y_s1
+SET_Z_NAME z_s1
+SET_ROLL_NAME roll
+SET_PITCH_NAME pitch_2
+SET_YAW_NAME yaw
+
+PARSFILE Animator\STL\Shape_47188e55-b203-43d6-868e-04e4bd63cdc3.par
+#BlueLink0 Animator: Shape File Link`Cylinder: D=0.1m, L=1m, X direction` Geometric Shapes` , Animator Data`Shape_47188e55-b203-43d6-868e-04e4bd63cdc3
+
+PARSFILE Animator\STL\Shape_ea51ce21-7087-45f6-91b3-659cb2c510fc.par
+#BlueLink1 Animator: Shape File Link`Sphere 0.2 m (Orange)` Geometric Shapes` , Animator Data`Shape_ea51ce21-7087-45f6-91b3-659cb2c510fc
+
+WRT_x_s1
+ANI_x_s1
+WRT_y_s1
+ANI_y_s1
+WRT_z_s1
+ANI_z_s1
+WRT_roll
+ANI_roll
+WRT_pitch_2
+ANI_pitch_2
+WRT_yaw
+ANI_yaw
+
+#EMBEDDED_NOTES
+#This shows the articulation arm for an articulation system.
+#
+#It requires a motion sensor at the hitch point on the lead unit for X-Y-Z, and sets angles based on roll and yaw of lead unit, pitch of trailer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; Articulation Lead Arm
+#Library : Animator: Reference Frame
+#DataSet : Articulation Lead Arm
+#Category: 
+#FileID  : Frame_d21a7250-2e7f-4ef8-9ff0-7fa9bbaacac7
+#Created : 11-18-2021 17:10:19
+#Modified: 11-19-2021 12:00:39
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Reference Frame
+
+END

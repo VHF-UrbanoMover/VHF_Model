@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Unit 2 Passengers`Artic Bus
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trucks\Articulated_Bus\Payloads\Articulated_Bus_Passengers_Rear.OSG
+#ENDMYellow
+
+SET_OFFSET_X 10.8
+SET_OFFSET_Z -1.95
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_7117989f-e693-4984-a206-5a1b1be90223.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_7117989f-e693-4984-a206-5a1b1be90223
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_21450d76-8034-44b1-8e3c-5466db4e1b81.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Artic Bus } Unit 2 Passengers
+#Library : Animator: Shape File Link
+#DataSet : Unit 2 Passengers
+#Category: Artic Bus
+#FileID  : Shape_21450d76-8034-44b1-8e3c-5466db4e1b81
+#Created : 12-09-2021 03:43:06
+#Modified: 12-10-2021 15:20:27
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape File
+
+END

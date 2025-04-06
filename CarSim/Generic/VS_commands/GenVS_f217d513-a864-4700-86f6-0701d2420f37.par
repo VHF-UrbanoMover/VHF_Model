@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Generic VS Commands`Disable Ind. Susp. Comp.`Ind. Susp. Kinematics
+#VehCode VS Commands
+
+#MiscYellow0
+CT_FX_COEFFICIENT(<<axle>>, <<side2>>) 0
+CS_FY_COEFFICIENT(<<axle>>, <<side2>>) 0
+CS_MZ_COEFFICIENT(<<axle>>, <<side2>>) 0
+CC_FX_COEFFICIENT(<<axle>>, <<side2>>) 0
+CI_FY_COEFFICIENT(<<axle>>, <<side2>>) 0
+CI_MZ_COEFFICIENT(<<axle>>, <<side2>>) 0
+C_LONG_COEFFICIENT(<<axle>>, <<side2>>) 0
+C_LAT_COEFFICIENT(<<axle>>, <<side2>>) 0
+CD_MY_COEFFICIENT(<<axle>>, <<side2>>) 0
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Ind. Susp. Kinematics } Disable Ind. Susp. Comp.
+#Library : Generic VS Commands
+#DataSet : Disable Ind. Susp. Comp.
+#Category: Ind. Susp. Kinematics
+#FileID  : GenVS_f217d513-a864-4700-86f6-0701d2420f37
+#Created : 11-16-2021 10:20:19
+#Modified: 11-16-2021 10:20:42
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode VS Commands
+
+END

@@ -1,0 +1,23 @@
+PARSFILE
+#FullDataName Control: Throttle (Open Loop)`Constant: 1.0`Constant
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RadioCtrl0 0    
+
+THROTTLE_ENGINE_CONSTANT 1
+*SCALAR 1
+
+
+LOG_ENTRY Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 1.0
+#Library : Control: Throttle (Open Loop)
+#DataSet : Constant: 1.0
+#Category: Constant
+#FileID  : Throttle_3da12db1-5dff-46bc-992e-e7a512c8c045
+#Created : 08-17-2023 16:24:43
+#Modified: 08-17-2023 16:24:47
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Open-loop Throttle
+
+END

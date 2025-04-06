@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Generic Group of Links`Electric Generator: Max. Load 132 N-m`Powertrain (REEV)
+#VehCode Generic Links
+PARSFILE Generic\tables\GenTab_d8197fd3-ada0-4c33-a962-aef4821f3b86.par
+#BlueLink0 Generic Table`Electric Generator Max Load 132 N-m` Powertrain (HEV)` , Miscellaneous`GenTab_d8197fd3-ada0-4c33-a962-aef4821f3b86
+
+PARSFILE Generic\tables\GenTab_1a3ad104-4c12-4abe-9041-6f0e6fcd4440.par
+#BlueLink1 Generic Table`Generator efficiency` Powertrain (HEV)` , Miscellaneous`GenTab_1a3ad104-4c12-4abe-9041-6f0e6fcd4440
+
+#MiscYellow0
+TC_GNRTR 0.05
+IGNRTR 0.0476
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic Group of Links; { Powertrain (REEV) } Electric Generator: Max. Load 132 N-m
+#Library : Generic Group of Links
+#DataSet : Electric Generator: Max. Load 132 N-m
+#Category: Powertrain (REEV)
+#FileID  : GenLink_f8f61e0a-6b97-487c-b705-2e660147b8a2
+#Created : 09-13-2021 15:46:50
+#Modified: 09-13-2021 15:47:10
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Generic Links
+
+END

@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Models: Self-Contained Solvers`Live Animation Wrapper, 64-bit`Wrappers: Custom
+#RingCtrl0 -1
+#CheckBox0 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox1 1    
+*USE_WRAPPER 1
+#CheckBox3 0    
+#CheckBox4 0    
+OPT_IO_SYNC_FM 0
+#CheckBox5 0    
+*PAUSE 0
+*WRAPPER Extensions\Custom_C\wrapper_live_animation\wrapper_live_animation_Release_x64.exe
+#MiscYellow0
+NSAMP_BUFFER 4000
+#ENDMYellow
+
+#MiscYellow1
+LIVE_SERVER_VSC localhost
+
+*CPAR_INCLUDE Extensions\Custom_C\wrapper_live_animation
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This links to a simple C program that acts as a wrapper for the VS Solver.
+#
+#This dataset is linked to the 64-bit exe which load the 64 bit version of the VS solver.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Self-Contained Solvers; { Wrappers: Custom } Live Animation Wrapper, 64-bit
+#Library : Models: Self-Contained Solvers
+#DataSet : Live Animation Wrapper, 64-bit
+#Category: Wrappers: Custom
+#FileID  : Extern_58ae5add-6e3a-4ad8-98d3-b3f1902fef08
+#Created : 12-09-2021 09:59:28
+#Modified: 12-10-2021 19:25:09
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode 
+
+END

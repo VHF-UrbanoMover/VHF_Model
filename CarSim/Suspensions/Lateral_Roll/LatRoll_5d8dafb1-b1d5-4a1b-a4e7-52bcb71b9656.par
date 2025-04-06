@@ -1,0 +1,52 @@
+PARSFILE
+#FullDataName Suspension: Lateral Movement Due to Roll and Jounce`1.7 mm/deg`Solid Axle
+#CheckBox0 0    
+#CheckBox1 0    
+OPT_SUSP_Y_AXLE_ROLL 0
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+SUSP_Y_AXLE_ROLL_COMBINE ADD
+
+! Note: if *TABLE_KEYWORD is not set to "SUSP_Y_AXLE_ROLL" then Y values read from the table will be reversed.
+*SCALAR2 0
+*TABLE_KEYWORD SUSP_Y_AXLE_ROLL
+
+#DiagramOne0
+SUSP_Y_AXLE_ROLL_TABLE SPLINE
+-10, -17.412
+-8, -13.955
+-6, -10.481
+-4, -6.995
+-2, -3.499
+0, 0
+2, 3.499
+4, 6.995
+6, 10.481
+8, 13.955
+10, 17.412
+ENDTABLE
+SUSP_LAT_AXLE_JOUNCE_CONSTANT 0
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+#EMBEDDED_NOTES
+#Name of this dataset was "Roll Center: 100 mm Below Axle".
+#Directly/Inversely propositional relationship between "Lateral movement" and "Roll relative to axle" implies where the roll center is relative to solid axle.
+#
+#In this dataset, 6 degrees of roll corresponds to 10.481 mm of lateral movement. Hence, 10.481/(sin 6) = 100 mm (Roll center is 100 mm below Axle)
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; { Solid Axle } 1.7 mm/deg
+#Library : Suspension: Lateral Movement Due to Roll and Jounce
+#DataSet : 1.7 mm/deg
+#Category: Solid Axle
+#FileID  : LatRoll_5d8dafb1-b1d5-4a1b-a4e7-52bcb71b9656
+#Modified: 10-06-2021 14:21:29
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Lateral Movement
+
+END

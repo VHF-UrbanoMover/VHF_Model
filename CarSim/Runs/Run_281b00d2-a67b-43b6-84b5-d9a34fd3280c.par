@@ -1,0 +1,81 @@
+PARSFILE
+#FullDataName CarSim Run Control`EPA Urban Cycle`Electric Midsize Pickup
+#VEHICLECODE Ind_SA
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_281b00d2-a67b-43b6-84b5-d9a34fd3280c
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 9 El, 18 m, No Yaw` Vehicle Reference` , Animator camera`Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 1    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 -1
+*RUN_COLOR 0 0.6 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_f248039e-cb2b-4dbc-ab99-9315f48cab45.par
+#BlueLink2 Vehicle: Assembly`Pickup, Midsize: Electric` Pickup Trucks` , Math Model`Vehicle_f248039e-cb2b-4dbc-ab99-9315f48cab45
+
+PARSFILE Procedures\Proc_b72aff54-cc5c-4024-9ee3-af49dd19730a.par
+#BlueLink28 Procedures`Hybrid/Electric: EPA Urban Cycle` Accel. and Brake Testing` , Procedure`Proc_b72aff54-cc5c-4024-9ee3-af49dd19730a
+
+*TSTOP 1369
+*TSTART 0
+*SSTART 0
+PARSFILE Plot\Setup\Plot_5ade7bba-df0d-43d8-b20a-991eaded38af.par
+#BlueLink15 Plot: Setup`Battery temperature` Powertrain (Hybrid)` , Plot`Plot_5ade7bba-df0d-43d8-b20a-991eaded38af
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_f248039e-cb2b-4dbc-ab99-9315f48cab45.png
+WRITE_SENSOR_DETECT
+Title EPA Urban Cycle <Electric Midsize Pickup>
+CATEGORY Electric Midsize Pickup 
+DATASET_TITLE EPA Urban Cycle
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#The Procedure is a US EPA Urban Cycle, represented with a Target Speed vs. Time profile.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Electric Midsize Pickup } EPA Urban Cycle
+#Library : CarSim Run Control
+#DataSet : EPA Urban Cycle
+#Category: Electric Midsize Pickup
+#FileID  : Run_281b00d2-a67b-43b6-84b5-d9a34fd3280c
+#Modified: 11-09-2021 13:37:26
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

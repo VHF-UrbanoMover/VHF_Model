@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Hitch: Joint Assembly`Ball Hitch`
+#CheckBox2 0    
+
+OPT_HITCH_TYPE 2
+WRITE_ADD_REFERENCE_FRAME_HITCH
+PARSFILE Animator\STL\Shape_e3c02393-8f44-4874-8958-6b724fbef25a.par
+#BlueLink3 Animator: Shape File Link`Hitches: Ball Hitch` Common Vehicle Assets` , Hitch Shape`Shape_e3c02393-8f44-4874-8958-6b724fbef25a
+
+SET_OFFSET_X <<hitch_x>>
+SET_OFFSET_Y <<hitch_y>>
+SET_OFFSET_Z <<hitch_z>>
+
+LOG_ENTRY Used Dataset: Hitch: Joint Assembly; Ball Hitch
+#Library : Hitch: Joint Assembly
+#DataSet : Ball Hitch
+#Category: 
+#FileID  : Hitch_bcedf949-8612-4e6e-98e0-21c4f8e1c879
+#Modified: 12-06-2021 21:08:09
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Hitch
+
+END

@@ -1,0 +1,79 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`Artic Bus Lead, w/o damping, no pwrtrn`Articulated Bus
+#VehCode Ind_SA
+IUNIT_INCREMENT
+IVEHICLE = IVEHICLE + 1
+NAXLES 2
+IOBJECT_SAVE
+symbol_add  <<vehicle>> 1
+symbol_add  <<unit>> 1
+#CheckBox0 0    
+#CheckBox1 0    
+#CheckBox2 1    
+INSTALL_SPEED_CONTROLLER
+
+#RingCtrl0 -1
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 3
+PARSFILE Steering\System2\StrSys2_0ce81067-71b7-4807-b9b3-caeaf04015bb.par
+#BlueLink7 Steering`Artic Bus` ` , Steering System`StrSys2_0ce81067-71b7-4807-b9b3-caeaf04015bb
+
+
+* Front components
+iaxle 1
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_60b51ee1-1d86-4d22-ad99-20db60f551af.par
+#BlueLink19 Suspension: Independent System Kinematics`Articulated Bus - Steer Axle` Artic Bus` , Kinematics`KinInd_60b51ee1-1d86-4d22-ad99-20db60f551af
+
+PARSFILE Suspensions\Compliance\CmpInd_c403e224-eb83-4559-ae99-cce13dcda4ee.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`Tour Bus - Steer Axle` Artic Bus` , Compliance`CmpInd_c403e224-eb83-4559-ae99-cce13dcda4ee
+
+PARSFILE Tires\Group_2a\Tire2a_ce7613fd-1353-498c-a681-66afad847a9c.par
+#BlueLink33 Tires for Any Vehicle Unit`3000 kg Steer, 3000 kg Drive (510 mm)` Artic Bus` , Duals`Tire2a_ce7613fd-1353-498c-a681-66afad847a9c
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+PARSFILE Suspensions\Kin_Solid\KinSA_3b8fbaec-cc26-4e27-91bc-8954cbec560a.par
+#BlueLink23 Suspension: Solid Axle System Kinematics`10t Drive, Dual Wheels` Artic Bus` , Kinematics`KinSA_3b8fbaec-cc26-4e27-91bc-8954cbec560a
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_077f68e4-faa3-4c34-bb07-d2ab6cde4d87.par
+#BlueLink22 Suspension: Solid Axle Compliance, Springs, and Dampers`10t Air: +60 mm, -60 mm Travel` Artic Bus` , Compliance`CmpSA_077f68e4-faa3-4c34-bb07-d2ab6cde4d87
+
+symbol_add  <<axle>> -1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_34ec50cd-373e-4ca6-a4db-15724255cb74.par
+#BlueLink0 Vehicle: Sprung Mass`Articulated Bus` Artic Bus` , Sprung Mass`SprMass_34ec50cd-373e-4ca6-a4db-15724255cb74
+
+PARSFILE Aerodynamics\Aero_Main\Aero_7661bcf0-b4ff-4159-b99c-280191d22089.par
+#BlueLink1 Aerodynamics: Basic`Tour Bus, 4.5 m Ref.` Artic Bus` , Aerodynamics`Aero_7661bcf0-b4ff-4159-b99c-280191d22089
+
+PARSFILE Brakes\4W_System\Brk4W_957a1d4b-880a-4c97-af91-ab317a0f98df.par
+#BlueLink6 Brakes: Four-Wheel System`Artic Bus` ` , Brake System`Brk4W_957a1d4b-880a-4c97-af91-ab317a0f98df
+
+symbol_add  <<axle>> 1
+PARSFILE Animator\Vehicles\AniVeh_88b77c52-5040-4138-b24d-cca2830b08d7.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`2A Articulated Bus - Front` Artic Bus` , Vehicle 3D Shape`AniVeh_88b77c52-5040-4138-b24d-cca2830b08d7
+
+IOBJECT_RESTORE
+*IMAGE_TYPE CUSTOM
+*IMAGE_FILE Vehicles\Assembly\Vehicle_472c77e5-6f7c-49fb-8c4b-cbdbcddcf358.png
+
+#EMBEDDED_NOTES
+#This assembly includes damping on the articulation joint.  The hitch part of the articulation joint can be accessed by clicking on the Rigid sprung mass blue link at the right.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { Articulated Bus } Artic Bus Lead, w/o damping, no pwrtrn
+#Library : Vehicle: Assembly
+#DataSet : Artic Bus Lead, w/o damping, no pwrtrn
+#Category: Articulated Bus
+#FileID  : Vehicle_11d57d82-f7e7-43ea-a5e4-5dd3e91ee26c
+#Created : 12-10-2021 16:10:54
+#Modified: 12-10-2021 16:11:42
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Ind_SA
+
+END

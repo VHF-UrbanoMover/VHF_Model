@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Generic Table`Driver Demand Power: Full Load 22 kW`Powertrain VHF
+#RingCtrl0 COEFFICIENT
+#CheckBox0 0    
+
+PWR_DRV_THROTTLE_COEFFICIENT 20
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD PWR_DRV_THROTTLE
+*X_LABEL Throttle pedal position (-)
+*Y_LABEL Driving power (kW)
+*SCALAR 20
+*X_LABEL_2 Temperature (C)
+
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain VHF } Driver Demand Power: Full Load 22 kW
+#Library : Generic Table
+#DataSet : Driver Demand Power: Full Load 22 kW
+#Category: Powertrain VHF
+#FileID  : GenTab_e86f418f-e56a-4cb1-9940-d256c2b057bb
+#Created : 10-21-2022 19:01:02
+#Modified: 12-23-2022 09:44:03
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode table
+
+END

@@ -1,0 +1,94 @@
+PARSFILE
+#FullDataName CarSim Run Control`Kinematics: Roll (OPT_IND_KIN = 1)`* Independent Suspension Kinematics
+#VEHICLECODE Ind_Ind
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_ba397af5-7396-4a02-8660-a17c9a69b995
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_67e6fc78-b140-44ed-b9b4-dcf887d1ed0a.par
+#BlueLink0 Animator: Camera Setup`K & C View (Rear)` K & C` , Animator camera`Camera_67e6fc78-b140-44ed-b9b4-dcf887d1ed0a
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 6
+#RingCtrl7 -1
+*RUN_COLOR 1 0 0
+SET_RUN_COLOR 1 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_6f54e4e7-bc2b-425e-bd1a-fabd8d1cd76e.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`D-Class, Sedan (Twist-Beam): K Test` D-Class` , Math Model`VehLoad_6f54e4e7-bc2b-425e-bd1a-fabd8d1cd76e
+
+PARSFILE Procedures\Proc_6e939c22-eb19-4ef1-9926-c14f8d6abcc0.par
+#BlueLink28 Procedures`K & C Roll Test (+- 8 deg)` K&C Individual Tests` , Procedure`Proc_6e939c22-eb19-4ef1-9926-c14f8d6abcc0
+
+PARSFILE Generic\VS_commands\GenVS_f36049a2-6e40-4792-b703-651870dfc55d.par
+#BlueLink9 Generic VS Commands`Set Static Camber/Toe` Ind. Susp. Kinematics` , Miscellaneous`GenVS_f36049a2-6e40-4792-b703-651870dfc55d
+
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Generic\Group\GenGrp_ae530e6b-8480-4b5a-97a8-5ad11a6053a1.par
+#BlueLink20 Generic Data Group`Ind. Kinematics Outputs` Suspension Extensions` , Plot`GenGrp_ae530e6b-8480-4b5a-97a8-5ad11a6053a1
+
+
+*IMAGE_TYPE DEFAULT
+WRITE_SENSOR_DETECT
+Title Kinematics: Roll (OPT_IND_KIN = 1) <* Independent Suspension Kinematics>
+CATEGORY * Independent Suspension Kinematics 
+DATASET_TITLE Kinematics: Roll (OPT_IND_KIN = 1)
+#MiscYellow0
+OPT_IND_KIN(1) 1
+OPT_IND_KIN(2) 1
+! You can also activate with a checkbox on
+! the independent suspension kinematics
+! screen.
+#ENDMYellow
+
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#For CarSim 2022.0, there is a new independent suspension option which offers an alternate definition of the wheel kinematics input tables. The effect is that the kinematics tables define the position and orientation of the steered, non-spinning wheel hub rather than the position and orientation of the kingpin axis.
+#
+#In this example, the new option is ON, and the independent suspension inputs are equivalent to the generic suspension outputs.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * Independent Suspension Kinematics } Kinematics: Roll (OPT_IND_KIN = 1)
+#Library : CarSim Run Control
+#DataSet : Kinematics: Roll (OPT_IND_KIN = 1)
+#Category: * Independent Suspension Kinematics
+#FileID  : Run_ba397af5-7396-4a02-8660-a17c9a69b995
+#Created : 11-16-2021 10:13:20
+#Modified: 11-19-2021 09:42:12
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Payload: Custom`Artic Bus: Passengers - Unit 2`
+DEFINE_PAYLOADS 1
+ILOAD = NLOAD
+OPT_PL_BODY_ID = IUNIT
+IOBJECT_SAVE
+SET_DESCRIPTION PAYLOAD_NAME Artic Bus: Passengers - Unit 2
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Animator\STL\Shape_21450d76-8034-44b1-8e3c-5466db4e1b81.par
+#BlueLink0 Animator: Shape File Link`Unit 2 Passengers` Artic Bus` , Animator`Shape_21450d76-8034-44b1-8e3c-5466db4e1b81
+
+SET_OFFSET_X -4.60000021849
+SET_OFFSET_Y 0
+SET_OFFSET_Z 2.00000009499
+Z_CG_PL 2000
+LX_CG_PL 4600
+Y_CG_PL 0
+M_PL 3300
+IXX_PL 1942
+IYY_PL 14317
+IZZ_PL 14575
+*RX 0.767
+*RY 2.083
+*RZ 2.102
+
+IOBJECT_RESTORE
+
+LOG_ENTRY Used Dataset: Payload: Custom; Artic Bus: Passengers - Unit 2
+#Library : Payload: Custom
+#DataSet : Artic Bus: Passengers - Unit 2
+#Category: 
+#FileID  : Custom_03cd2798-99e7-4fa1-96ee-f4326cc3f5ec
+#Created : 12-09-2021 03:42:00
+#Modified: 12-10-2021 15:20:01
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Payload: Custom
+
+END

@@ -1,0 +1,52 @@
+PARSFILE
+#FullDataName Powertrain: Hybrid/Electric System`Range-Ext. Electric Powertrain Assembly`
+#RingCtrl0 3
+OPT_HEV 3
+#CheckBox1 0    
+OPT_MOTOR_ON_AXLE 0 
+IDIFF 1
+ISIDE 1
+N_BATTERY 40
+T_BATTERY_INIT 40
+BATTERY_CHARGE_INIT 0.6
+V_MOTOR_MIN 60
+V_BATTERY_MIN 6
+V_BATTERY_MAX 9
+
+INSTALL_ELECTRIC_DRIVE_MOTORS 
+
+PARSFILE Powertrain\Motor\MMotor_9c4019ad-c573-405a-aa24-20a17ddaef20.par
+#BlueLink0 Powertrain: Electric Motor Torque`Max. Output 305 N-m` Electric Motor` , Electric Motor`MMotor_9c4019ad-c573-405a-aa24-20a17ddaef20
+
+PARSFILE Generic\Links\GenLink_f8f61e0a-6b97-487c-b705-2e660147b8a2.par
+#BlueLink1 Generic Group of Links`Electric Generator: Max. Load 132 N-m` Powertrain (REEV)` , Electric Generator`GenLink_f8f61e0a-6b97-487c-b705-2e660147b8a2
+
+PARSFILE Generic\tables\GenTab_294dace0-f5f6-48d8-888a-800fd02998df.par
+#BlueLink2 Generic Table`Battery charged resis. (range-extender)` Powertrain (REEV)` , Charging resistance`GenTab_294dace0-f5f6-48d8-888a-800fd02998df
+
+PARSFILE Generic\tables\GenTab_0ff6ee23-e7f0-4216-9cfd-82fb28b84515.par
+#BlueLink3 Generic Table`Batt. discharged resis. (range-extender)` Powertrain (REEV)` , Discharging resistance`GenTab_0ff6ee23-e7f0-4216-9cfd-82fb28b84515
+
+PARSFILE Generic\tables\GenTab_366b8224-2bfb-41c4-918b-7474b312a5e7.par
+#BlueLink4 Generic Table`Battery Open-Circuit Voltage` Powertrain (HEV)` , Open-circuit voltage`GenTab_366b8224-2bfb-41c4-918b-7474b312a5e7
+
+PARSFILE Generic\tables\GenTab_3c330519-3554-4bdd-89d8-5b63d61c667e.par
+#BlueLink5 Generic Table`Battery Max Capacity (Hybrid)` Powertrain (HEV)` , Max. capacity`GenTab_3c330519-3554-4bdd-89d8-5b63d61c667e
+
+
+#EMBEDDED_NOTES
+#Generic a 40 kW electric motor is equipped for series hybrid (range-extended electric) powertrain.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Range-Ext. Electric Powertrain Assembly
+#Library : Powertrain: Hybrid/Electric System
+#DataSet : Range-Ext. Electric Powertrain Assembly
+#Category: 
+#FileID  : HEV_abdb2392-8cc5-4466-a8c9-f8c61073ae91
+#Created : 09-13-2021 15:42:54
+#Modified: 11-23-2021 19:11:09
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode HEV
+
+END

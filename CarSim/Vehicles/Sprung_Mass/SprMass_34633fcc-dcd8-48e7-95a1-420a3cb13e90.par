@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`Articulated Bus w damping`Artic Bus
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+#CheckBox2 1    
+X_LENGTH 5375
+Y_LENGTH 1500
+iaxle 2
+iside 1
+symbol_push_or_set <<hitch_x>> -6.305
+symbol_push_or_set <<hitch_y>> 0
+symbol_push_or_set <<hitch_z>> 0.625
+PARSFILE Hitches\Joint\Hitch_2fde9a98-9403-40ab-ac7c-ab4756bb53ba.par
+#BlueLink1 Hitch: Joint Assembly`Turntable Art Bus w damping` ` , Hitch`Hitch_2fde9a98-9403-40ab-ac7c-ab4756bb53ba
+
+LX_H 6305
+H_H 625
+Y_H 0
+LX_AXLE 5375
+LX_CG_SU 2400
+M_SU 9628.5
+IXX_SU 11650.5
+IYY_SU 46601.9
+IZZ_SU 46601.9
+IXZ_SU 0
+*RX 1.100
+*RY 2.200
+*RZ 2.200
+Y_CG_SU 0
+H_CG_SU 1200
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 2973
+Y_LENGTH 2632
+*HWC_LF 510
+*HWC_RF 510
+*HWC_LR 530
+*HWC_RR 530
+LEN_SM 10940
+H_WC 530
+iside 2
+H_WC 530
+iaxle 1
+iside 1
+H_WC 510
+iside 2
+H_WC 510
+iaxle 2
+iside 1
+HT_SM 2973
+WID_SM 2632
+
+#EMBEDDED_NOTES
+#The hitch properties can be modified by clicking on the Hitch bluelink in the upper right corner.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Artic Bus } Articulated Bus w damping
+#Library : Vehicle: Sprung Mass
+#DataSet : Articulated Bus w damping
+#Category: Artic Bus
+#FileID  : SprMass_34633fcc-dcd8-48e7-95a1-420a3cb13e90
+#Created : 12-10-2021 14:35:22
+#Modified: 12-13-2021 09:10:27
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Rigid sprung mass
+
+END

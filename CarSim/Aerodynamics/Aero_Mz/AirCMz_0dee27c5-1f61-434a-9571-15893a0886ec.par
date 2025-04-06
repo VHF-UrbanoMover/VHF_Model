@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip`Linear: 0.012 1/deg.`Artic Bus
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+MZ_AERO_SHAPING_TABLE LINEAR_FLAT
+-25, -0.3
+25, 0.3
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; { Artic Bus } Linear: 0.012 1/deg.
+#Library : Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip
+#DataSet : Linear: 0.012 1/deg.
+#Category: Artic Bus
+#FileID  : AirCMz_0dee27c5-1f61-434a-9571-15893a0886ec
+#Modified: 11-11-2021 13:48:18
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Mz vs. Aero Slip
+
+END

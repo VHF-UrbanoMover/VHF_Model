@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Export: Update Path Poly`ADAS and Active Safety
+#RingCtrl1 1
+
+
+EXPORT Vxz_Fwd
+EXPORT UpdatePathSwitch
+EXPORT drvModelPrevTime
+EXPORT vehWidth
+EXPORT objWidth
+EXPORT Lat_Targ
+EXPORT Station
+EXPORT DsLS1_1
+EXPORT BrCS1_1
+#MiscYellow0
+#Number of Selected Channels: 9
+#CHN_NAME: Vxz_Fwd
+#CHN_NAME: UpdatePathSwitch
+#CHN_NAME: drvModelPrevTime
+#CHN_NAME: vehWidth
+#CHN_NAME: objWidth
+#CHN_NAME: Lat_Targ
+#CHN_NAME: Station
+#CHN_NAME: DsLS1_1
+#CHN_NAME: BrCS1_1
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { ADAS and Active Safety } Export: Update Path Poly
+#Library : I/O Channels: Export
+#DataSet : Export: Update Path Poly
+#Category: ADAS and Active Safety
+#FileID  : Export_a7b21637-daca-49a0-a10e-6d5b62387f09
+#Created : 02-26-2021 17:41:44
+#Modified: 05-28-2021 15:02:23
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Export Channels
+
+END

@@ -1,0 +1,88 @@
+PARSFILE
+#FullDataName Tires for Any Vehicle Unit`3000 kg Steer, 3000 kg Drive (510 mm)`Artic Bus
+#RingCtrl0 2
+#CheckBox0 0    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 1    
+ADD_SIMFILE_ENTRY SET_DUALS 1
+SET_DUALS 1
+*LDUAL_2 310
+
+symbol_add  <<axle>> 1
+
+iaxle 1
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 0
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_72d731fb-e58f-4aa6-b7e8-d8d67953251e.par
+#BlueLink1 Tire`510 mm Radius (Steer)` Artic Bus` , Tires`Tire_72d731fb-e58f-4aa6-b7e8-d8d67953251e
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_72d731fb-e58f-4aa6-b7e8-d8d67953251e.par
+#BlueLink999 Tire`510 mm Radius (Steer)` Artic Bus` , Tires`Tire_72d731fb-e58f-4aa6-b7e8-d8d67953251e
+
+symbol_add  <<axle>> 1
+
+iaxle 2
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 310
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.155000
+PARSFILE Tires\Tire\Tire_4f5e92d7-53cb-4d9d-a75d-19793d3b50e6.par
+#BlueLink5 Tire`510 mm Radius (Drive)` Artic Bus` , Tires`Tire_4f5e92d7-53cb-4d9d-a75d-19793d3b50e6
+
+itire 2
+symbol_push  <<tire>> R<<axle>>o
+STORE_WHEEL_OFFSET 0.155000
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+PARSFILE Tires\Tire\Tire_4f5e92d7-53cb-4d9d-a75d-19793d3b50e6.par
+#BlueLink999 Tire`510 mm Radius (Drive)` Artic Bus` , Tires`Tire_4f5e92d7-53cb-4d9d-a75d-19793d3b50e6
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.155000
+PARSFILE Tires\Tire\Tire_4f5e92d7-53cb-4d9d-a75d-19793d3b50e6.par
+#BlueLink999 Tire`510 mm Radius (Drive)` Artic Bus` , Tires`Tire_4f5e92d7-53cb-4d9d-a75d-19793d3b50e6
+
+itire 2
+symbol_push  <<tire>> L<<axle>>o
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+STORE_WHEEL_OFFSET 0.155000
+PARSFILE Tires\Tire\Tire_4f5e92d7-53cb-4d9d-a75d-19793d3b50e6.par
+#BlueLink999 Tire`510 mm Radius (Drive)` Artic Bus` , Tires`Tire_4f5e92d7-53cb-4d9d-a75d-19793d3b50e6
+
+
+LOG_ENTRY Used Dataset: Tires for Any Vehicle Unit; { Artic Bus } 3000 kg Steer, 3000 kg Drive (510 mm)
+#Library : Tires for Any Vehicle Unit
+#DataSet : 3000 kg Steer, 3000 kg Drive (510 mm)
+#Category: Artic Bus
+#FileID  : Tire2a_ce7613fd-1353-498c-a681-66afad847a9c
+#Modified: 12-01-2021 09:18:56
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Tire Group
+
+END

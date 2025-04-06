@@ -1,0 +1,19 @@
+PARSFILE
+#FullDataName Powertrain: Transmission (External)`External Transmission`External
+#RingCtrl0 0
+OPT_SHIFT_INTERNAL 0
+#CheckBox0 0    
+
+
+LOG_ENTRY Used Dataset: Powertrain: Transmission (External); { External } External Transmission
+#Library : Powertrain: Transmission (External)
+#DataSet : External Transmission
+#Category: External
+#FileID  : TransExt_74463034-a96c-4ef5-b124-a291ee56a705
+#Created : 04-06-2025 11:13:02
+#Modified: 04-06-2025 11:13:28
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Transmission (External)
+
+END

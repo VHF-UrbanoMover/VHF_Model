@@ -1,0 +1,145 @@
+PARSFILE
+#FullDataName Powertrain: Transmission (18 Gears or CVT)`7-Speed (Exotic Sports Car)`7-Speed Transmissions
+#RingCtrl0 7
+NGEARS 7
+#RingCtrl1 1
+OPT_SHIFT_INTERNAL 1
+#RingCtrl2 1
+OPT_TR_GEAR_INTERNAL 1
+#CheckBox0 0    
+R_GEAR_TR_REVERSE -2.86
+IGEAR 1
+R_GEAR_TR 3.713
+*R_GEAR_TR(1) 3.713
+IGEAR 2
+R_GEAR_TR 2.856
+*R_GEAR_TR(2) 2.856
+IGEAR 3
+R_GEAR_TR 2.197
+*R_GEAR_TR(3) 2.197
+IGEAR 4
+R_GEAR_TR 1.69
+*R_GEAR_TR(4) 1.69
+IGEAR 5
+R_GEAR_TR 1.3
+*R_GEAR_TR(5) 1.3
+IGEAR 6
+R_GEAR_TR 1.0
+*R_GEAR_TR(6) 1.0
+IGEAR 7
+R_GEAR_TR 0.76
+*R_GEAR_TR(7) 0.76
+ITR_REVERSE 0.034
+ITR_NEUTRAL 0.034
+IGEAR 1
+ITR 0.037
+*ITR(1) 0.037
+IGEAR 2
+ITR 0.034
+*ITR(2) 0.034
+IGEAR 3
+ITR 0.042
+*ITR(3) 0.042
+IGEAR 4
+ITR 0.04
+*ITR(4) 0.04
+IGEAR 5
+ITR 0.04
+*ITR(5) 0.04
+IGEAR 6
+ITR 0.04
+*ITR(6) 0.04
+IGEAR 7
+ITR 0.04
+*ITR(7) 0.04
+R_EFF_TR_F_REVERSE 0.9
+IGEAR 1
+R_EFF_TR_F 0.92
+*R_EFF_TR_F(1) 0.92
+IGEAR 2
+R_EFF_TR_F 0.92
+*R_EFF_TR_F(2) 0.92
+IGEAR 3
+R_EFF_TR_F 0.95
+*R_EFF_TR_F(3) 0.95
+IGEAR 4
+R_EFF_TR_F 0.95
+*R_EFF_TR_F(4) 0.95
+IGEAR 5
+R_EFF_TR_F 0.98
+*R_EFF_TR_F(5) 0.98
+IGEAR 6
+R_EFF_TR_F 0.99
+*R_EFF_TR_F(6) 0.99
+IGEAR 7
+R_EFF_TR_F 0.99
+*R_EFF_TR_F(7) 0.99
+R_EFF_TR_R_REVERSE 0.9
+IGEAR 1
+R_EFF_TR_R 0.92
+*R_EFF_TR_R(1) 0.92
+IGEAR 2
+R_EFF_TR_R 0.92
+*R_EFF_TR_R(2) 0.92
+IGEAR 3
+R_EFF_TR_R 0.95
+*R_EFF_TR_R(3) 0.95
+IGEAR 4
+R_EFF_TR_R 0.95
+*R_EFF_TR_R(4) 0.95
+IGEAR 5
+R_EFF_TR_R 0.98
+*R_EFF_TR_R(5) 0.98
+IGEAR 6
+R_EFF_TR_R 0.99
+*R_EFF_TR_R(6) 0.99
+IGEAR 7
+R_EFF_TR_R 0.99
+*R_EFF_TR_R(7) 0.99
+T_SHIFT 0.25
+
+
+igear 1
+PARSFILE Powertrain\Shift\Shift_a612dc38-17f2-4ece-822c-1e0611dcb8d8.par
+#BlueLink0 Powertrain: Shift Schedule`7-speed, 1-2 Shift (MT)` 7-speed (Exotic Sports Car)` , Shift schedule`Shift_a612dc38-17f2-4ece-822c-1e0611dcb8d8
+
+
+igear 2
+PARSFILE Powertrain\Shift\Shift_1221d824-f549-4ce4-8531-06dd4ead7337.par
+#BlueLink1 Powertrain: Shift Schedule`7-speed, 2-3 Shift (MT)` 7-speed (Exotic Sports Car)` , Shift schedule`Shift_1221d824-f549-4ce4-8531-06dd4ead7337
+
+
+igear 3
+PARSFILE Powertrain\Shift\Shift_01e66f2c-414e-4186-b176-284fc58d8d02.par
+#BlueLink2 Powertrain: Shift Schedule`7-speed, 3-4 Shift (MT)` 7-speed (Exotic Sports Car)` , Shift schedule`Shift_01e66f2c-414e-4186-b176-284fc58d8d02
+
+
+igear 4
+PARSFILE Powertrain\Shift\Shift_e6b69f28-f21d-4f6b-9e62-d834211748ee.par
+#BlueLink3 Powertrain: Shift Schedule`7-speed, 4-5 Shift (MT)` 7-speed (Exotic Sports Car)` , Shift schedule`Shift_e6b69f28-f21d-4f6b-9e62-d834211748ee
+
+
+igear 5
+PARSFILE Powertrain\Shift\Shift_96f78661-96bf-4e41-b27f-2d3cadda81f6.par
+#BlueLink4 Powertrain: Shift Schedule`7-speed, 5-6 Shift (MT)` 7-speed (Exotic Sports Car)` , Shift schedule`Shift_96f78661-96bf-4e41-b27f-2d3cadda81f6
+
+
+igear 6
+PARSFILE Powertrain\Shift\Shift_82577cab-fa81-43c3-9c83-e1ef37201862.par
+#BlueLink5 Powertrain: Shift Schedule`7-speed, 6-7 Shift (MT)` 7-speed (Exotic Sports Car)` , Shift schedule`Shift_82577cab-fa81-43c3-9c83-e1ef37201862
+
+
+igear 7
+
+LOG_ENTRY Used Dataset: Powertrain: Transmission (18 Gears or CVT); { 7-Speed Transmissions } 7-Speed (Exotic Sports Car)
+#Library : Powertrain: Transmission (18 Gears or CVT)
+#DataSet : 7-Speed (Exotic Sports Car)
+#Category: 7-Speed Transmissions
+#FileID  : Trans18_4dfb5d8a-94a1-4f31-b6ac-807129b2cc8a
+#Created : 04-14-2021 08:22:35
+#Modified: 05-28-2021 14:59:35
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Transmission
+
+END

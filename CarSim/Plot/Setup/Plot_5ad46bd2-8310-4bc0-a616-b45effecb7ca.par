@@ -1,0 +1,51 @@
+PARSFILE
+#FullDataName Plot: Setup`Powers in VHF Powertrain`Powertrain (Series Hybrid VHF)
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS PwrEngIn, Time
+PLOTCHANNELS PwrEngRq, Time
+PLOTCHANNELS PwrGnrtr, Time
+PLOTCHANNELS PwrMotor, Time
+PLOTCHANNELS PwrBttry, Time
+PLOTCHANNELS PwrDrHEV, Time
+PLOTCHANNELS PwrMt_D2_L, Time
+PLOTCHANNELS PwMtC_D2_L, Time
+PLOTCHANNELS PwrMt_D2_R, Time
+PLOTCHANNELS PwMtC_D2_R, Time
+
+#ENDMYellow
+
+YAXISLABEL kW
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Powers in VHF Powertrain
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Series Hybrid VHF) } Powers in VHF Powertrain
+#Library : Plot: Setup
+#DataSet : Powers in VHF Powertrain
+#Category: Powertrain (Series Hybrid VHF)
+#FileID  : Plot_5ad46bd2-8310-4bc0-a616-b45effecb7ca
+#Created : 07-29-2022 10:06:55
+#Modified: 08-03-2022 15:19:11
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

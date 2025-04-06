@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Tire: Camber Thrust Coefficient`Linear Coefficient: -0.01`Artic Bus
+#CheckBox0 0    
+
+#RingCtrl0 COEFFICIENT
+#RadioCtrl0 1    
+
+KGAMMA_COEFFICIENT -0.01
+*SCALAR -0.01
+
+
+#EMBEDDED_NOTES
+#A camber coefficient of 0.01 is typical of radial ply tires at small camber angles
+#
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Coefficient: -0.01
+#Library : Tire: Camber Thrust Coefficient
+#DataSet : Linear Coefficient: -0.01
+#Category: Artic Bus
+#FileID  : CamStiff_19be01c9-f5e6-4c3c-b654-08f75cf1c7e8
+#Modified: 11-11-2021 13:48:15
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Camber Thrust
+
+END

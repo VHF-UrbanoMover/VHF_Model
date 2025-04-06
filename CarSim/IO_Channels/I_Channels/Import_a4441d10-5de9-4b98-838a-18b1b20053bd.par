@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Import: Update Path`ADAS and Active Safety
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_ea53bb91-f636-4b09-a400-9dbe2d1f05fa\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_LTARG_OBS_AVD Add 0.0! 0
+#ENDMYellow
+
+#MiscYellow1
+! used to create an update for x-coordinate of the driver model preview point
+DEFINE_IMPORT IMP_LTARG_OBS_AVD; m;
+!create output that can be plotted
+define_output LTARG_ObsAvoid =  IMP_LTARG_OBS_AVD; m ; updated path
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`Path Update DLC: Simulink, Spline` Obstacle Avoidance` , example run`Run_ea53bb91-f636-4b09-a400-9dbe2d1f05fa
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { ADAS and Active Safety } Import: Update Path
+#Library : I/O Channels: Import
+#DataSet : Import: Update Path
+#Category: ADAS and Active Safety
+#FileID  : Import_a4441d10-5de9-4b98-838a-18b1b20053bd
+#Modified: 05-28-2021 15:02:22
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Import Channels
+
+END

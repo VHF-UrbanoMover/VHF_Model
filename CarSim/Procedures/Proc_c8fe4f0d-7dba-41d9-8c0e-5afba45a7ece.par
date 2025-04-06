@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Procedures`Part-Throttle Accel: 1.0 Thr, Split-Mu`Accel. and Brake Testing
+#CheckBox1 1    
+OPT_INIT_PATH 1
+
+#RingCtrl0 0
+#RingCtrl1 0
+#RingCtrl2 0
+OPT_STOP 0
+SSTART 5
+TSTART 0
+TSTART_WRITE = 0;
+TSTOP 15
+SSTOP = SSTART + 1 ;
+OPT_DIRECTION 1
+*SPEED 0
+*TSTOP 15
+*TSTART 0
+*SSTART 5
+
+OPT_SC 0
+SV_VXS 0
+PARSFILE Control\Driver\StrDM_b1b717a4-04d9-461d-8975-e1ef0b12d822.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`0.75s Single Preview` Constant Position: No Offset` , Steering`StrDM_b1b717a4-04d9-461d-8975-e1ef0b12d822
+
+PARSFILE Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par
+#BlueLink28 Control: Braking MC Pressure (Open Loop)`Constant: 0 MPa` Constant` , Braking`PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f
+
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink30 Control: Shifting (Closed Loop)`AT (All Available Gears)` Closed-Loop Shifting` , Shifting Control`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+PARSFILE Control\Throttle\Throttle_3da12db1-5dff-46bc-992e-e7a512c8c045.par
+#BlueLink29 Control: Throttle (Open Loop)`Constant: 1.0` Constant` , Speed vs. time`Throttle_3da12db1-5dff-46bc-992e-e7a512c8c045
+
+PARSFILE Roads\3D_Road\Road_85c33d04-5227-49b8-97ae-4dcabc5720b6.par
+#BlueLink0 Road: 3D Surface (All Properties)`Split Mu 10m` Straight` , Miscellaneous`Road_85c33d04-5227-49b8-97ae-4dcabc5720b6
+
+PARSFILE Plot\Setup\Plot_881b430b-dfba-4afc-a6ce-ff0d76b1c26c.par
+#BlueLink8 Plot: Setup`Pitch Angle of Sprung Masses vs. Time` Vehicle Motion` , Plot`Plot_881b430b-dfba-4afc-a6ce-ff0d76b1c26c
+
+PARSFILE Plot\Setup\Plot_c4bdb93b-47a3-4cbc-b25d-a177bdb75823.par
+#BlueLink9 Plot: Setup`Spin Rates in Powertrain` Powertrain` , Plot`Plot_c4bdb93b-47a3-4cbc-b25d-a177bdb75823
+
+PARSFILE Plot\Setup\Plot_2cd77a14-4a29-44d1-a8e0-03a81f9c74cf.par
+#BlueLink10 Plot: Setup`Torques in Powertrain` Powertrain` , Plot`Plot_2cd77a14-4a29-44d1-a8e0-03a81f9c74cf
+
+PARSFILE Plot\Setup\Plot_b3ef8646-beef-4024-9925-3f874e91a76b.par
+#BlueLink11 Plot: Setup`Wheel Speeds` Braking` , Plot`Plot_b3ef8646-beef-4024-9925-3f874e91a76b
+
+PARSFILE Plot\Setup\Plot_8077fc50-941c-45ed-a470-23f6069121a5.par
+#BlueLink12 Plot: Setup`Wheel Drive Torques` Powertrain` , Plot`Plot_8077fc50-941c-45ed-a470-23f6069121a5
+
+PARSFILE Plot\Setup\Plot_4f67d5b7-0627-47d3-baf7-12fe88008d68.par
+#BlueLink13 Plot: Setup`Gear Selection` Powertrain` , Plot`Plot_4f67d5b7-0627-47d3-baf7-12fe88008d68
+
+
+LOG_ENTRY Used Dataset: Procedures; { Accel. and Brake Testing } Part-Throttle Accel: 1.0 Thr, Split-Mu
+#Library : Procedures
+#DataSet : Part-Throttle Accel: 1.0 Thr, Split-Mu
+#Category: Accel. and Brake Testing
+#FileID  : Proc_c8fe4f0d-7dba-41d9-8c0e-5afba45a7ece
+#Created : 08-17-2023 16:24:27
+#Modified: 08-17-2023 17:06:27
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Procedure
+
+END

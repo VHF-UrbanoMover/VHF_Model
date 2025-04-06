@@ -1,0 +1,51 @@
+PARSFILE
+#FullDataName Plot: Setup`Powers in Series Hybrid Powertrain`VHF Plots
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS PwrEngIn, Time
+PLOTCHANNELS PwrEngRq, Time
+PLOTCHANNELS PwrGnrtr, Time
+PLOTCHANNELS PwrMotor, Time
+PLOTCHANNELS PwrBttry, Time
+PLOTCHANNELS PwrDrHEV, Time
+PLOTCHANNELS PwrMt_D2_L, Time
+PLOTCHANNELS PwMtC_D2_L, Time
+PLOTCHANNELS PwrMt_D2_R, Time
+PLOTCHANNELS PwMtC_D2_R, Time
+
+#ENDMYellow
+
+YAXISLABEL kW
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Powers in Series Hybrid Powertrain
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { VHF Plots } Powers in Series Hybrid Powertrain
+#Library : Plot: Setup
+#DataSet : Powers in Series Hybrid Powertrain
+#Category: VHF Plots
+#FileID  : Plot_243197da-07ae-44f7-b559-e70dedafb1c4
+#Created : 11-07-2022 11:19:51
+#Modified: 11-07-2022 11:26:40
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

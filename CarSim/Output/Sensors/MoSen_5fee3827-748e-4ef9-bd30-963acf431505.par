@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Positions, Velocities, and Accelerations`Hitch Point (Lead)`
+#RingCtrl0 0
+#RingCtrl2 1
+#RingCtrl3 1
+#RingCtrl4 1
+#RingCtrl5 1
+*BODY_ID_1 1
+*X_S1 -6305
+*Y_S1 0
+*Z_S1 625
+
+ISENSOR_M = 1
+DEFINE_MOTION_SENSORS 1 + ISENSOR_M -1 -NSENSOR_M
+
+OPT_S_BODY_TYPE 1
+OPT_S_OUTPUT 1
+OPT_S_BODY_ID 1
+X_S -6305
+Y_S 0
+Z_S 625
+SET_DESCRIPTION MOTION_SENSOR_NAME Hitch Point (Lead)
+
+MAKE_MOTION_SENSOR_OUTPUTS
+
+LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; Hitch Point (Lead)
+#Library : Positions, Velocities, and Accelerations
+#DataSet : Hitch Point (Lead)
+#Category: 
+#FileID  : MoSen_5fee3827-748e-4ef9-bd30-963acf431505
+#Created : 11-18-2021 17:07:06
+#Modified: 11-18-2021 17:29:10
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Motion Sensors
+
+END

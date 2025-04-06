@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`K & C Machine: Base`K & C Machine
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Environment\Props\K_and_C_Machine_Car_Truck\k_and_c_machine_base.obj
+#ENDMYellow
+
+SET_COLOR 0.753 0.753 0.753
+*SPECULAR 0.4
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0.4 0.4 0.4
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_614e20f4-a550-401b-86b4-f904a05376d4.par
+#BlueLink2 Animator: Camera Setup`Isometric View - Large Objects` Shape Preview` , Video Camera`Camera_614e20f4-a550-401b-86b4-f904a05376d4
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_23823b71-efc1-4e3d-a046-654ca9dd5b04.png
+
+#EMBEDDED_NOTES
+#K&C Machine Base
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { K & C Machine } K & C Machine: Base
+#Library : Animator: Shape File Link
+#DataSet : K & C Machine: Base
+#Category: K & C Machine
+#FileID  : Shape_23823b71-efc1-4e3d-a046-654ca9dd5b04
+#Modified: 05-28-2021 15:03:17
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape File
+
+END

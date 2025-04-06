@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Control: Clutch Shifting Timelines (Closed Loop)`Clutch Actuation: 0.5s, Gear Change: 0.1s`
+
+opt_clutch_mode 1
+T_CL_DISENGAGE 0.1
+T_CL_PRESS_TOTAL 0.3
+T_CL_HALF_HOLD 0.1
+T_CL_RE_ENGAGE 0.5
+T_TH_ZERO 0.1
+T_TH_ZERO_TOTAL 0.3
+T_TH_RETURNED 0.4
+T_GEAR_LAG 0.1
+VLOW_CLUTCH 5
+
+*T_TH_ZERO_HOLD 0.3 - 0.1
+*T_TH_RETURN 0.4 - 0.3
+*T_CL_PRESS_HOLD 0.3 - 0.1
+*T_CL_HALF_TOTAL 0.5 - 0.3
+
+LOG_ENTRY Used Dataset: Control: Clutch Shifting Timelines (Closed Loop); Clutch Actuation: 0.5s, Gear Change: 0.1s
+#Library : Control: Clutch Shifting Timelines (Closed Loop)
+#DataSet : Clutch Actuation: 0.5s, Gear Change: 0.1s
+#Category: 
+#FileID  : ClTime_7a6dd3f6-fcb6-4af6-939e-9f2c45956440
+#Created : 04-14-2021 08:51:51
+#Modified: 05-28-2021 15:02:39
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shifting Times (Alt)
+
+END

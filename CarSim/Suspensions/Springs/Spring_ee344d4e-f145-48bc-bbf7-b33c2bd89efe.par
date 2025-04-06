@@ -1,0 +1,61 @@
+PARSFILE
+#FullDataName Suspension: Spring`Pickup - Rear (HD DRW)`Pickup
+#RingCtrl0 SPLINE
+#DiagramOne0
+FS_COMP_TABLE SPLINE
+-150, -3892.56
+-135, -2486.52
+-120, -1038.05
+-105, 456.366
+-90, 1996.21
+-75, 3580.1
+-60, 5207.64
+-45, 6880.58
+-30, 8603.86
+-15, 10386.6
+0, 12243.5
+15, 14196
+30, 16275.3
+45, 18526
+60, 21013.2
+75, 24800
+90, 28800
+105, 33000
+120, 37500
+135, 44000
+150, 53748.6
+ENDTABLE
+#DiagramOne1
+FS_EXT_TABLE SPLINE
+-150, -9517
+0, 9794.8
+15, 11356.8
+30, 13020.2
+45, 14820.8
+60, 16810.6
+75, 20033.1
+90, 23371.5
+105, 26762.2
+120, 30218.8
+135, 35291.5
+150, 42998.9
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+SPRING_COMP_BETA 2
+SPRING_EXT_BETA 2
+
+
+LOG_ENTRY Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear (HD DRW)
+#Library : Suspension: Spring
+#DataSet : Pickup - Rear (HD DRW)
+#Category: Pickup
+#FileID  : Spring_ee344d4e-f145-48bc-bbf7-b33c2bd89efe
+#Created : 08-03-2021 11:51:10
+#Modified: 08-03-2021 11:55:14
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Spring Alone
+
+END

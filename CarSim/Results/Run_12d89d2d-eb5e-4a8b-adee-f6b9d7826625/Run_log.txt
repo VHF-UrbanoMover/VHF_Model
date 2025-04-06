@@ -1,0 +1,309 @@
+Run made by CarSim 2022.0 at 15:44 on August 18, 2023.
+
+Started with simfile: Extensions\Simulink\tc_vhf\simfile.sim
+
+Include PARSFILE "Results\Run_12d89d2d-eb5e-4a8b-adee-f6b9d7826625\Run_all.par"
+Installed keywords into VS Solver for MODEL_LAYOUT I_I
+Used Dataset: I/O Channels: Import; { VHF Controls } ESC/TCS: Eng. Torque
+Used Dataset: I/O Channels: Import; { VHF Controls } ESC/TCS: Torque Cmd
+Used Dataset: I/O Channels: Export; { VHF Controls } Vehicle Body Velocity
+Used Dataset: I/O Channels: Export; { VHF Controls } Wheels Speeds
+Used Dataset: I/O Channels: Export; { VHF Controls } Longitudinal rear tires forces
+Used Dataset: I/O Channels: Export; { VHF Controls } Driver Desired Power
+Used Dataset: I/O Channels: Export; { VHF Controls } Reference slip
+Used Dataset: I/O Channels: Export; { VHF Controls } Slip ratio
+Used Dataset: I/O Channels: Export; { VHF Controls } Adhesion coefficients
+Used Dataset: I/O Channels: Ports; { VHF Controls } MF const ASR Controllers: Multi-port
+Used Dataset: Models: Simulink; { Traction Control for TCS and ESC } VHF TCS Model Free Const Torque
+Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Vehicle X-Y-Z
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 13 Azm, 9 El, 18 m, No Yaw
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Rack & Pinion); { CS A-Class } A-Class, Hatchback
+Used Dataset: Steering System: Compliance; { Linear } 0.001 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; { A-Class } A-Class Hatchback
+Used Dataset: Steering; { CS A-Class } A-Class, Hbk: Manual, R&P
+Used Dataset: Suspension: Dive Angle (Caster Change); { Strut } Front Strut - Dive Angle
+Used Dataset: Suspension: Longitudinal Movement; { Strut } Front Strut -  Longitudinal Movement
+Used Dataset: Suspension: Camber Angle; { Strut } Front Strut - Camber Change
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Strut } Front Strut - Lateral Movement
+Used Dataset: Suspension: Toe Angle; { Strut } Front Strut - Toe Angle
+Used Dataset: Suspension: Dive Angle (Caster Change); { Strut } Front Strut - Dive Angle
+Used Dataset: Suspension: Longitudinal Movement; { Strut } Front Strut -  Longitudinal Movement
+Used Dataset: Suspension: Camber Angle; { Strut } Front Strut - Camber Change
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Strut } Front Strut - Lateral Movement
+Used Dataset: Suspension: Toe Angle; { Strut } Front Strut - Toe Angle
+Used Dataset: Suspension: Independent System Kinematics; { VHF } VHF, Hatchback - Front
+Used Dataset: Suspension: Shock Absorber; { Passenger Car } Small Car
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -40 mm
+Used Dataset: Suspension: Shock Absorber; { Passenger Car } Small Car
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -40 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 205 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { A-Class } A-Class, Hatchback - Front
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } 145/80 R13
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 175/65 R14 (SAE)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 175/65 R14
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 175/65 R14
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 175/65 R14
+Used Dataset: Tire; { Touring Tires } 175/65 R14
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } 145/80 R13
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 175/65 R14 (SAE)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 175/65 R14
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 175/65 R14
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 175/65 R14
+Used Dataset: Tire; { Touring Tires } 175/65 R14
+Used Dataset: Suspension: Longitudinal Movement; { Tri-Link Strut } Rr. TLS: Longitudinal Movement
+Used Dataset: Suspension: Camber Angle; { Tri-Link Strut } Rear Tri-Link Strut - Camber Change
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Tri-Link Strut } Rear Tri-Link Strut - Lateral Movement
+Used Dataset: Suspension: Toe Angle; { Tri-Link Strut } Rear Tri-Link Strut - Toe Change
+Used Dataset: Suspension: Longitudinal Movement; { Tri-Link Strut } Rr. TLS: Longitudinal Movement
+Used Dataset: Suspension: Camber Angle; { Tri-Link Strut } Rear Tri-Link Strut - Camber Change
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Tri-Link Strut } Rear Tri-Link Strut - Lateral Movement
+Used Dataset: Suspension: Toe Angle; { Tri-Link Strut } Rear Tri-Link Strut - Toe Change
+Used Dataset: Suspension: Independent System Kinematics; { VHF } VHF, Hatchback - Rear
+Used Dataset: Suspension: Shock Absorber; { Passenger Car } Small Car
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -40 mm
+Used Dataset: Suspension: Shock Absorber; { Passenger Car } Small Car
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -40 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 184 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { A-Class } A-Class, Hatchback - Rear
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } 145/80 R13
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 175/65 R14 (SAE)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 175/65 R14
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 175/65 R14
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 175/65 R14
+Used Dataset: Tire; { Touring Tires } 175/65 R14
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 145/80 R13: Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } 145/80 R13
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 175/65 R14 (SAE)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 175/65 R14
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 175/65 R14
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 175/65 R14
+Used Dataset: Tire; { Touring Tires } 175/65 R14
+Used Dataset: Vehicle: Sprung Mass; { Meu Veiculo } VHF, Hatchback
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 0.30 at 0 deg.
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 2 at 90 deg.
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 0.18 at 0 deg.
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 0.3 at 90 deg.
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 0.15 at 0 deg.
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 0.2 at 35 deg.
+Used Dataset: Aerodynamics: Basic; { A-Class } A-Class, Hatchback Aero
+Used Dataset: Powertrain: Fuel Consumption Rate; 250cc
+Used Dataset: Powertrain: Engine; { 250cc } Honda CB250F Twister Engine
+Used Dataset: Generic Table; { Powertrain (HEV) } Electric Generator Max Load 66 N-m
+Used Dataset: Generic Table; { Powertrain (HEV) } Generator efficiency
+Used Dataset: Generic Group of Links; { Powertrain (HEV) } Electric Generator: Max. Load 66 N-m
+Used Dataset: Generic Table; { Powertrain VHF } Battery charged resistance
+Used Dataset: Generic Table; { Powertrain VHF } Batt. discharged resistance
+Used Dataset: Generic Table; { Powertrain VHF } Battery Open-Circuit Voltage
+Used Dataset: Generic Table; { Powertrain VHF } Battery Max Capacity VHF
+Used Dataset: Powertrain: Hybrid/Electric System; Range-Ext. VHF Powertrain Assembly
+Used Dataset: Generic Table; { Powertrain VHF } Driver Demand Power: Full Load 22 kW
+Used Dataset: Generic Table; { Powertrain VHF } Optimal CB250F Twister engine speed
+Used Dataset: Powertrain: Hybrid/Electric Power Management Control; VHF Power Mgmt: Full Load 22kW
+Used Dataset: Generic Table; { Powertrain (HEV) } Motor efficiency at wheel
+Used Dataset: Powertrain: Electric Motor Torque; { Electric Motor } Constant 500 N-m
+Used Dataset: Generic Table; { Powertrain (HEV) } Motor efficiency at wheel
+Used Dataset: Powertrain: Electric Motor Torque; { Electric Motor } Constant 500 N-m
+Used Dataset: Powertrain: Rear Differential; { VHF Electric Motor Drive (30 kW) } VHF Twin-Motor 500 N-m w/ 2.65:1 ratio
+Used Dataset: Powertrain: Rear-Wheel Drive; { VHF Hibrido (Engine + Dual Rear Motor) } Hibrido Serie 250cc 2RWD 500 N-m
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0 MPa then 30%
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0 MPa then 30%
+Used Dataset: Brakes: Four-Wheel System; { A-Class } Hatchback: M/C Press, No ABS
+Used Dataset: Animator: Shape File Link; { Cars: A-Class } Hatchback
+Used Dataset: Animator: Shape File Link; { Cars: A-Class } Hatchback: Driver (Asian Female)
+Used Dataset: Animator: Shape Assembly; { Passenger Cars } A-Class Sub Compact
+Used Dataset: Animator: Shape File Link; { Cars: A-Class } Hatchback: Brake Lights
+Used Dataset: Animator: Shape File Link; { Cars: A-Class } Subcompact: Reverse Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Meu Veiculo } VHF,A-Class, Subcompact
+Used Dataset: Positions, Velocities, and Accelerations; { SM and USM CGs } Accelerometer at SM CG
+Used Dataset: Vehicle: Assembly; { Meus Veiculos } VHF Urbano, eRWD 500 Hibrido Serie
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position: No Offset } 0.15s Preview
+Used Dataset: Control: Throttle (Open Loop); { Ramp } Ramp To Full Throttle in 0.5 sec.
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Used Dataset: Road: Reference Line Elevation; { Hills and Valleys } 1.5 km with Hills
+Used Dataset: Road: Friction Map, S-L Grid; { Straight Variable Mu } Variable 0.3 to 0.85 to 0.5 to 0.85 to 0.3
+Used Dataset: Road: Animator Surface Shapes; { Variable friction } Low Mu (Wet Tile) at -5m
+Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Skybox (Vehicle X-Y-Z)
+Used Dataset: Animator: Shape File Link; { Environment: Sky Boxes } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Environment: Land Bowls } Light Grass
+Used Dataset: Animator: Group; { Environment Spheres } Partly Cloudy Sky with Light Grass
+Used Dataset: Road: Animator Repeated Object; { Trees } Trees (0, 1000)
+Used Dataset: Road: Animator Repeated Object; { Cones } Straight Course Cones
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Trees } Oak: Summer
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Environment: Props (2 of 2) } Traffic Cone
+Used Dataset: Road: 3D Surface (All Properties); { Straight VHF Courses } 1200 m, One Lane, Mu Variation
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fx Tire Force Arrows 500N reference
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fy Tire Force Arrows custom reference
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fz Tire Force Arrows
+Used Dataset: Generic Data Group; { Tire Force Arrows } 2 Axle - Fx, Fy, Fz custom reference
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Tire Mark (Run Color)
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Tire Mark (Run Color)
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Tire Mark (Run Color)
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Tire Mark (Run Color)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Skid Marks } Tire Skid Marks (2 Axles)
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed (Vxz_Fwd) vs. Time
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Controls: Driver } Throttle: Control Input
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain } Engine RPM
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { VHF Plots } Slip Ratios w/ Ref: Lagged (Axle 2)
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Powertrain } Wheel Drive Torques - Rear
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tire Forces and Moments } Longitudinal Forces
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tire Forces and Moments } Fx vs. Slip
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Braking } Wheel Speeds
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tire Kinematics } Slip Ratios: Lagged
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Battery power limit
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Battery voltage
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Motor efficiency
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Battery current
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Hybrid powertrain mode
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Torques in Hybrid Powertrain
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Powertrain (Series Hybrid VHF) } Powers in VHF Powertrain
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Battery remaining level
+Used Dataset: Procedures; { Meus procedimentos } Full Throttle Accel. w/ Events and Mu variation
+Used Dataset: Animator: HUD; { Vehicle Status Indicators } Acceleration Text
+ Full_acc_TC Simulink (Model Free Const My) <VHF Urbano>
+Used Dataset: CarSim Run Control; { VHF Urbano } Full_acc_TC Simulink (Model Free Const My)
+
+Time to read input = 0.0911796

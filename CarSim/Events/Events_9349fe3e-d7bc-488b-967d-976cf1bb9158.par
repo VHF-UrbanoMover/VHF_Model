@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Events`Update Path Simulink Poly`Embedded Python: Obstacle Detection
+#CheckBox1 1    
+*CLEAR
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+RESET_EVENTS
+*NAME1 t
+*VALUE1 det_time
+#MiscYellow0
+BEGIN_PATH_UPDATE = 1
+#ENDMYellow
+
+MAKE_EVENT t > det_time ; Events\Events_0868cf8c-8a41-4c7c-96bb-cbb71b7644f7.par
+#BlueLink0 Events`Path Return Complete: Check` Embedded Python: Obstacle Detection` , Events`Events_0868cf8c-8a41-4c7c-96bb-cbb71b7644f7
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#Change the path update flag to trigger creation of the updated path to avoid the obstacle, in Simulink
+#
+#Wait for a period of time to complete the maneuver before returning to look for more obstructions.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Embedded Python: Obstacle Detection } Update Path Simulink Poly
+#Library : Events
+#DataSet : Update Path Simulink Poly
+#Category: Embedded Python: Obstacle Detection
+#FileID  : Events_9349fe3e-d7bc-488b-967d-976cf1bb9158
+#Created : 03-10-2021 08:32:46
+#Modified: 05-28-2021 14:59:25
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Events
+
+END

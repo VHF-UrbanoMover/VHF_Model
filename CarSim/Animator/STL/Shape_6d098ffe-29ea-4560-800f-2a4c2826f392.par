@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Target Point (Red)`Auxiliary Steer Controller
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Geometric_Shapes\Spheres\sphere_1m_radius.obj
+#ENDMYellow
+
+SET_COLOR 1 0 0
+SET_SCALE_X 0.1
+SET_SCALE_Y 0.1
+SET_SCALE_Z 0.1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Auxiliary Steer Controller } Target Point (Red)
+#Library : Animator: Shape File Link
+#DataSet : Target Point (Red)
+#Category: Auxiliary Steer Controller
+#FileID  : Shape_6d098ffe-29ea-4560-800f-2a4c2826f392
+#Created : 11-12-2021 09:23:39
+#Modified: 11-12-2021 09:35:23
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape File
+
+END

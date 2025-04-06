@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Articulated Bus Rear Cube`
+ADD_REFERENCE_FRAME Frame_3d824e71-ea49-4a32-8a7f-43456e13298b
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME xo_art_2
+SET_Y_NAME yo_art_2
+SET_Z_NAME zo_art_2
+SET_ROLL_NAME roll_2
+SET_PITCH_NAME pitch_2
+SET_YAW_NAME yaw_2
+
+PARSFILE Animator\STL\Shape_cf264102-4b84-4838-8d9f-70451f2edd50.par
+#BlueLink0 Animator: Shape File Link`Cube: 1m (Transparency=0.5) Ref = 1000` Geometric Shapes` , Animator Data`Shape_cf264102-4b84-4838-8d9f-70451f2edd50
+
+#MiscYellow0
+set_offset_z -0.6
+x_length 6000
+#ENDMYellow
+
+WRT_xo_art_2
+ANI_xo_art_2
+WRT_yo_art_2
+ANI_yo_art_2
+WRT_zo_art_2
+ANI_zo_art_2
+WRT_roll_2
+ANI_roll_2
+WRT_pitch_2
+ANI_pitch_2
+WRT_yaw_2
+ANI_yaw_2
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; Articulated Bus Rear Cube
+#Library : Animator: Reference Frame
+#DataSet : Articulated Bus Rear Cube
+#Category: 
+#FileID  : Frame_3d824e71-ea49-4a32-8a7f-43456e13298b
+#Created : 12-09-2021 16:57:59
+#Modified: 12-09-2021 17:04:59
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Reference Frame
+
+END

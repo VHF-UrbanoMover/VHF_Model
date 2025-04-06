@@ -1,0 +1,59 @@
+PARSFILE
+#FullDataName Plot: Setup`Spring: Force vs. Time`Artic Bus
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_e1ca8356-b0e5-44e5-837e-d58fe5c50236.par
+#BlueLink0 Plot: Format`Default Plot Settings` Artic Bus` , Plot format`PlotFmt_e1ca8356-b0e5-44e5-837e-d58fe5c50236
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Fs_L1, Time
+PLOTCHANNELS Fs_R1, Time
+PLOTCHANNELS Fs_L2, Time
+PLOTCHANNELS Fs_R2, Time
+PLOTCHANNELS Fs_L3, Time
+PLOTCHANNELS Fs_R3, Time
+PLOTCHANNELS Fs_L4, Time
+PLOTCHANNELS Fs_R4, Time
+PLOTCHANNELS Fs_L5, Time
+PLOTCHANNELS Fs_R5, Time
+PLOTCHANNELS Fs_L6, Time
+PLOTCHANNELS Fs_R6, Time
+PLOTCHANNELS Fs_L7, Time
+PLOTCHANNELS Fs_R7, Time
+PLOTCHANNELS Fs_L8, Time
+PLOTCHANNELS Fs_R8, Time
+PLOTCHANNELS Fs_L9, Time
+PLOTCHANNELS Fs_R9, Time
+PLOTCHANNELS Fs_L10, Time
+PLOTCHANNELS Fs_R10, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Spring: Force vs. Time
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Artic Bus } Spring: Force vs. Time
+#Library : Plot: Setup
+#DataSet : Spring: Force vs. Time
+#Category: Artic Bus
+#FileID  : Plot_80c4ab96-85b7-40b9-a983-1d6470edbe60
+#Modified: 11-11-2021 13:48:26
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

@@ -1,0 +1,78 @@
+PARSFILE
+#FullDataName Tire`235/80 R16 - Trailer Duals`Trailer and Light Truck Tires
+FZ_REF 16000
+X_LENGTH 391
+Z_LENGTH 391
+Y_LENGTH 235
+#CheckBox2 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+
+#RingCtrl0 1
+#RingCtrl5 2
+#RingCtrl6 2
+#RingCtrl7 1
+#RingCtrl8 1
+#RingCtrl9 2
+OPT_TIRE_LAG_KAPPA 2
+#RingCtrl10 1
+OPT_TIRE_LAG_ALPHA 1
+OPT_TIRE_MODEL 1
+
+PARSFILE Animator\STL_Groups\ShpGrp_659d470f-31c5-4b96-a28d-8c794617a2c3.par
+#BlueLink4 Animator: Shape Assembly`280/75 R24 Dual` Tires` , Animator`ShpGrp_659d470f-31c5-4b96-a28d-8c794617a2c3
+
+WRITE_WHEEL_OFFSET
+*SET_THICKNESS 235
+RRE 367
+R0 391
+FZ_TIRE_COEFFICIENT 420
+FZ_MAX 100000
+M_TIRE 26
+IT 2.4
+IT_XXZZ 1.3
+PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
+#BlueLink14 Generic Table`Lx Variable, Scaled to Tire` Tire Relaxation Length` , Longitudinal relaxation length`GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068
+
+PARSFILE Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par
+#BlueLink15 Generic Table`Ly Variable, Scaled to Tire` Tire Relaxation Length` , Longitudinal relaxation length`GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d
+
+VLOW_KAPPA 2
+VLOW_ALPHA 2
+RR_C 0.0045
+RR_V 0.000028
+L_CONTACT_X_CONSTANT 150
+L_CONTACT_Y_CONSTANT 235
+RR_FX 1
+OPT_TIRE_COMB 0
+PARSFILE Tires\Mz\TireMz_8435afbb-6031-4c72-be74-71afd4e121e3.par
+#BlueLink0 Tire: Aligning Moment`235/80 R16 - Trailer` Trailer and Light Truck Tires` , Aligning Moment`TireMz_8435afbb-6031-4c72-be74-71afd4e121e3
+
+PARSFILE Tires\Fy\TireFy_aa7e12c1-f75b-4d6b-b80d-d9095bbcbd38.par
+#BlueLink1 Tire: Lateral Force`235/80 R16 - Trailer` Trailer and Light Truck Tires` , Lateral Force`TireFy_aa7e12c1-f75b-4d6b-b80d-d9095bbcbd38
+
+PARSFILE Tires\Fx\TireFx_20576817-0621-4851-bdac-e5ab71913d96.par
+#BlueLink2 Tire: Longitudinal Force`235/80  R16 - Trailer` Trailers and Light Truck Tires` , Longitudinal Force`TireFx_20576817-0621-4851-bdac-e5ab71913d96
+
+PARSFILE Tires\Camber_Thrust\CamStiff_6ed9cd4d-ffa9-4c48-81e3-9923acdeca6a.par
+#BlueLink3 Tire: Camber Thrust Coefficient`235/80 R16 - Trailer` Trailers and Light Trucks` , Overturning moment`CamStiff_6ed9cd4d-ffa9-4c48-81e3-9923acdeca6a
+
+
+
+#EMBEDDED_NOTES
+#References 205/75 R14 Animator Shape Data. but actual tire data are from 235/80 R16
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Tire; { Trailer and Light Truck Tires } 235/80 R16 - Trailer Duals
+#Library : Tire
+#DataSet : 235/80 R16 - Trailer Duals
+#Category: Trailer and Light Truck Tires
+#FileID  : Tire_77fb7122-b7ab-4d33-a462-9756a920fd65
+#Created : 08-03-2021 13:19:52
+#Modified: 08-03-2021 13:21:31
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Tire
+
+END

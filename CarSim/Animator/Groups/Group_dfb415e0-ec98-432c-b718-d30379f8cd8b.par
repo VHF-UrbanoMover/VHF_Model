@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Animator: Group`Aux Steer Target Point (Red)`Auxiliary Steer Controller
+PARSFILE Animator\Frames\Frame_02e1b116-38f2-44db-b0dc-11222c391930.par
+#BlueLink0 Animator: Reference Frame`Aux Steer Controller Target` Auxiliary Steer Controller` , Miscellaneous`Frame_02e1b116-38f2-44db-b0dc-11222c391930
+
+PARSFILE Animator\STL\Shape_6d098ffe-29ea-4560-800f-2a4c2826f392.par
+#BlueLink1 Animator: Shape File Link`Target Point (Red)` Auxiliary Steer Controller` , Miscellaneous`Shape_6d098ffe-29ea-4560-800f-2a4c2826f392
+
+
+#CheckBox0 0    
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { Auxiliary Steer Controller } Aux Steer Target Point (Red)
+#Library : Animator: Group
+#DataSet : Aux Steer Target Point (Red)
+#Category: Auxiliary Steer Controller
+#FileID  : Group_dfb415e0-ec98-432c-b718-d30379f8cd8b
+#Created : 11-12-2021 09:17:52
+#Modified: 11-12-2021 09:23:40
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Animator Group
+
+END

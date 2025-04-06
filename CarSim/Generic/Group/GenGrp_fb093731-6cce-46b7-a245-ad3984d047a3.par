@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Generic Data Group`2 Axle - Fx, Fy, Fz custom reference`Tire Force Arrows
+#VehCode Generic Group
+PARSFILE Animator\Arrows\Arrows_f8030952-3c18-4226-b2f7-713e534a2c60.par
+#BlueLink0 Animator: Wheel Arrows and Other Indicators`2A - Fx Tire Force Arrows 500N reference` Tire Force Arrows (2 Axles)` , Link 1`Arrows_f8030952-3c18-4226-b2f7-713e534a2c60
+
+
+PARSFILE Animator\Arrows\Arrows_8060e1fd-0c11-4d4b-81f2-285f164eec6d.par
+#BlueLink1 Animator: Wheel Arrows and Other Indicators`2A - Fy Tire Force Arrows custom reference` Tire Force Arrows (2 Axles)` , Link 2`Arrows_8060e1fd-0c11-4d4b-81f2-285f164eec6d
+
+
+PARSFILE Animator\Arrows\Arrows_f2c29d4b-df79-4c67-b153-729d3f552770.par
+#BlueLink2 Animator: Wheel Arrows and Other Indicators`2A - Fz Tire Force Arrows` Tire Force Arrows (2 Axles)` , Link 3`Arrows_f2c29d4b-df79-4c67-b153-729d3f552770
+
+
+
+
+
+
+
+
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Tire Force Arrows } 2 Axle - Fx, Fy, Fz custom reference
+#Library : Generic Data Group
+#DataSet : 2 Axle - Fx, Fy, Fz custom reference
+#Category: Tire Force Arrows
+#FileID  : GenGrp_fb093731-6cce-46b7-a245-ad3984d047a3
+#Created : 08-08-2022 11:41:43
+#Modified: 08-08-2022 11:43:57
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Generic Group
+
+END

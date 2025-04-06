@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Plot: Setup`Motor efficiency`Powertrain (Hybrid)
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS EffMotor, Time
+PLOTCHANNELS EffMt_D1, Time
+PLOTCHANNELS EffMt_D2, Time
+PLOTCHANNELS EffMt_D1_L, Time
+PLOTCHANNELS EffMt_D1_R, Time
+PLOTCHANNELS EffMt_D2_L, Time
+PLOTCHANNELS EffMt_D2_R, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Motor efficiency
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Motor efficiency
+#Library : Plot: Setup
+#DataSet : Motor efficiency
+#Category: Powertrain (Hybrid)
+#FileID  : Plot_55af1489-6b5d-4c72-9db8-6018c686d9fc
+#Modified: 05-28-2021 14:59:43
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

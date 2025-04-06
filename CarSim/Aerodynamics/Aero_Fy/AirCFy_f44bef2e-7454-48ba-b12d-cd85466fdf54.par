@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip`Linear: 0.082 1/deg.`Artic Bus
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+FY_AERO_SHAPING_TABLE LINEAR_FLAT
+-25, -2.05
+0, 0
+25, 2.05
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; { Artic Bus } Linear: 0.082 1/deg.
+#Library : Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip
+#DataSet : Linear: 0.082 1/deg.
+#Category: Artic Bus
+#FileID  : AirCFy_f44bef2e-7454-48ba-b12d-cd85466fdf54
+#Modified: 11-11-2021 13:48:18
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Fy vs. Aero Slip
+
+END

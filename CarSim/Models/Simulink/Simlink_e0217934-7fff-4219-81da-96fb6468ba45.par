@@ -1,0 +1,57 @@
+PARSFILE
+#FullDataName Models: Simulink`VHF TCS Controller`Traction Control for TCS and ESC
+#RunMdlFile Extensions\Simulink\tc_vhf\tcs_VHF_PI_1.slx
+SIMULINK_MODEL_FILE Extensions\Simulink\tc_vhf\tcs_VHF_PI_1.slx
+#RingCtrl0 -1
+#CheckBox0 1    
+*USE_ALT_DIR 1
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 1    
+#CheckBox4 1    
+OPT_IO_SYNC_FM 1
+#RingCtrl1 0
+OPT_INT_METHOD 0
+#CheckBox2 1    
+OPT_IO_UPDATE 1
+#CheckBox4 1    
+OPT_IO_SYNC_FM 1
+*TSTEP 0.0005
+*FREQ_MODEL 2000
+*TSTEP_OUT 0.005
+*FREQ_OUT 200
+tstep 0.0005
+iprint 10
+#CheckBox5 0    
+*MULTI_SOLVERS 0
+#AltPath Extensions\Simulink\tc_vhf
+*ALTERNATE_PATH Extensions\Simulink\tc_vhf
+PARSFILE IO_Channels\Ports\Port_beabe2d7-45c2-4437-8d9a-2059d70d598e.par
+#BlueLink0 I/O Channels: Ports`MF const ASR Controllers: Multi-port` VHF Controls` , Import`Port_beabe2d7-45c2-4437-8d9a-2059d70d598e
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This “Models: Simulink” dataset links to a Simulink model of a Traction Control System (TCS), which controls excessive wheel spin with modulated brake pressures and engine torque management.
+#
+#The time step is set to 0.0005 sec. (2000 Hz), the method is AB-2, and the option is checked to synchronize the CarSim kinematical exports with force imports.
+#
+#The Simulink model is set to use "variable step" numerical integration, which means it will inherit the time step from CarSim.
+#
+#
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { Traction Control for TCS and ESC } VHF TCS Controller
+#Library : Models: Simulink
+#DataSet : VHF TCS Controller
+#Category: Traction Control for TCS and ESC
+#FileID  : Simlink_e0217934-7fff-4219-81da-96fb6468ba45
+#Created : 07-05-2022 09:45:49
+#Modified: 08-18-2023 10:50:36
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode 
+
+END

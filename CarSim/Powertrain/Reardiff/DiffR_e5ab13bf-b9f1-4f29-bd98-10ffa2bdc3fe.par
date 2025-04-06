@@ -1,0 +1,127 @@
+PARSFILE
+#FullDataName Powertrain: Rear Differential`VHF Twin-Motor w/ 2.65:1 ratio`VHF Electric Motor Drive (30 kW)
+#CheckBox0 0    
+LOCKED_RD_OPT 0
+
+#RingCtrl0 SPLINE
+#RingCtrl1 1
+*EV_CONTROL 1
+OPT_LOCKED_DIFF 0
+#DiagramOne0
+M_DIFF_VISC_TABLE SPLINE
+-1200, 402.88
+-1080, 382.21
+-960, 360.35
+-840, 337.07
+-720, 312.07
+-600, 284.88
+-540, 270.26
+-480, 254.8
+-420, 238.35
+-360, 220.67
+-300, 201.44
+-240, 180.17
+-180, 156.03
+-120, 127.4
+-60, 90.09
+0, 0
+60, -90.09
+120, -127.4
+180, -156.03
+240, -180.17
+300, -201.44
+360, -220.67
+420, -238.35
+480, -254.8
+540, -270.26
+600, -284.88
+720, -312.07
+840, -337.07
+960, -360.35
+1080, -382.21
+1200, -402.88
+ENDTABLE
+#RadioCtrl0 1    
+
+M_DIFF_RD_TABLE SPLINE
+-1200, 402.88
+-1080, 382.21
+-960, 360.35
+-840, 337.07
+-720, 312.07
+-600, 284.88
+-540, 270.26
+-480, 254.8
+-420, 238.35
+-360, 220.67
+-300, 201.44
+-240, 180.17
+-180, 156.03
+-120, 127.4
+-60, 90.09
+0, 0
+60, -90.09
+120, -127.4
+180, -156.03
+240, -180.17
+300, -201.44
+360, -220.67
+420, -238.35
+480, -254.8
+540, -270.26
+600, -284.88
+720, -312.07
+840, -337.07
+960, -360.35
+1080, -382.21
+1200, -402.88
+ENDTABLE
+R_GEAR_RD 1
+R_EFF_F_RD 0.99
+R_EFF_R_RD 0.99
+LOCKED_RD_DAMP 0.8
+LOCKED_RD_K 80
+IDS_R 0
+IHS_LR 0
+IHS_RR 0
+
+OPT_MOTOR_ON_WHEEL 1
+
+#CheckBox1 1    
+OPT_WHEEL_MOTOR_REACTION 1
+
+ISIDE 1
+PARSFILE Powertrain\Motor\MMotor_692c9cc2-40eb-4345-a5ae-b769de99eea5.par
+#BlueLink1 Powertrain: Electric Motor Torque`Max. Output 350 N-m` Electric Motor` , Electric Motor Center/Left`MMotor_692c9cc2-40eb-4345-a5ae-b769de99eea5
+
+ISIDE 2
+PARSFILE Powertrain\Motor\MMotor_692c9cc2-40eb-4345-a5ae-b769de99eea5.par
+#BlueLink2 Powertrain: Electric Motor Torque`Max. Output 350 N-m` Electric Motor` , Electric Motor Right`MMotor_692c9cc2-40eb-4345-a5ae-b769de99eea5
+
+ISIDE 1
+R_GEAR_DIFF 1
+R_EFF_F_DIFF 0.99
+R_EFF_R_DIFF 0.99
+LOCKED_DIFF_DAMP 0.8
+LOCKED_DIFF_K 80
+IDS 0
+IHS_L 0
+IHS_R 0
+
+#EMBEDDED_NOTES
+#Diferencial eletrônico genérico.
+#Dois motores elétricos de 10 kW são equipados em cada roda.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Rear Differential; { VHF Electric Motor Drive (30 kW) } VHF Twin-Motor w/ 2.65:1 ratio
+#Library : Powertrain: Rear Differential
+#DataSet : VHF Twin-Motor w/ 2.65:1 ratio
+#Category: VHF Electric Motor Drive (30 kW)
+#FileID  : DiffR_e5ab13bf-b9f1-4f29-bd98-10ffa2bdc3fe
+#Created : 11-07-2022 14:01:08
+#Modified: 08-16-2023 17:13:37
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Rear Differential
+
+END

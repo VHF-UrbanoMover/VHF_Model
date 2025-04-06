@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Plot: Setup`Electric traction motors Torque`VHF Plots
+
+ADD_ENTITY Plot
+
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS M_MtC_D2_L, Time
+PLOTCHANNELS M_MtC_D2_R, Time
+PLOTCHANNELS M_Mtr_D2_L, Time
+PLOTCHANNELS M_Mtr_D2_R, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl4 0
+#RingCtrl6 4
+#RingCtrl8 1
+
+
+PTITLE Electric traction motors Torque
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { VHF Plots } Electric traction motors Torque
+#Library : Plot: Setup
+#DataSet : Electric traction motors Torque
+#Category: VHF Plots
+#FileID  : Plot_1f907f02-54f4-41b3-b001-1025d2df75c3
+#Created : 11-07-2022 10:19:04
+#Modified: 11-07-2022 10:20:11
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

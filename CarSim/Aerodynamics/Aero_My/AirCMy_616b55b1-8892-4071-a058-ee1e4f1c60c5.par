@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip`Spline: 0.2 at 0 deg., 0.38 at 25 deg.`Artic Bus
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+MY_AERO_SHAPING_TABLE SPLINE_FLAT
+-25, 0.38
+0, 0.2
+25, 0.38
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; { Artic Bus } Spline: 0.2 at 0 deg., 0.38 at 25 deg.
+#Library : Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip
+#DataSet : Spline: 0.2 at 0 deg., 0.38 at 25 deg.
+#Category: Artic Bus
+#FileID  : AirCMy_616b55b1-8892-4071-a058-ee1e4f1c60c5
+#Modified: 11-11-2021 13:48:18
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode My vs. Aero Slip
+
+END

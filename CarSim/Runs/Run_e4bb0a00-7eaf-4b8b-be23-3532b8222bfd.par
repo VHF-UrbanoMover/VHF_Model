@@ -1,0 +1,82 @@
+PARSFILE
+#FullDataName CarSim Run Control`04 - Using the Auxiliary Steer Output`* Auxiliary Steer Control
+#VEHICLECODE Ind_Ind
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_e4bb0a00-7eaf-4b8b-be23-3532b8222bfd
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_dc48416e-5207-488c-ac1e-befb81183b3f.par
+#BlueLink0 Animator: Camera Setup`180 Azm, 15 El, 30 m` Vehicle Reference` , Animator camera`Camera_dc48416e-5207-488c-ac1e-befb81183b3f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 0
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 1 1 0.988
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_9db9b98a-6725-424b-9635-e1ca6e15979d.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback` C-Class` , Math Model`Vehicle_9db9b98a-6725-424b-9635-e1ca6e15979d
+
+PARSFILE Procedures\Proc_63dfbf2a-4e86-4ce7-a677-26a53974a5fd.par
+#BlueLink28 Procedures`Auxiliary Steer Control Changes Lanes` Auxiliary Steer Controller` , Procedure`Proc_63dfbf2a-4e86-4ce7-a677-26a53974a5fd
+
+#BlueLink23 CarSim Run Control`01 - Enable Aux Steer Control` * Auxiliary Steer Control` , Overlay run or ERD file`Run_2e6d62a6-3a09-4bd0-8e35-2dd96dd50efa
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_9db9b98a-6725-424b-9635-e1ca6e15979d.png
+WRITE_SENSOR_DETECT
+Title 04 - Using the Auxiliary Steer Output <* Auxiliary Steer Control>
+CATEGORY * Auxiliary Steer Control 
+DATASET_TITLE 04 - Using the Auxiliary Steer Output
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#The Auxiliary Steer Controller is used here to simulate autonomous driving by applying force to the steering rack as a modification to the power steering boost force.
+#
+#This shows a way to make use of the information provided by Auxiliary Steer Controller to simulate autonomous driving.
+#
+#Here the vehicle executes 2 lane changes on a divided highway. These are low-intensity maneuvers at highway speed typical of overtaking.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * Auxiliary Steer Control } 04 - Using the Auxiliary Steer Output
+#Library : CarSim Run Control
+#DataSet : 04 - Using the Auxiliary Steer Output
+#Category: * Auxiliary Steer Control
+#FileID  : Run_e4bb0a00-7eaf-4b8b-be23-3532b8222bfd
+#Created : 11-11-2021 07:04:26
+#Modified: 11-17-2021 10:31:15
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

@@ -1,0 +1,52 @@
+PARSFILE
+#FullDataName Events`B2. Wait 0.5s and reset speed`VHF Acceleration
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 1    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 0
+*NAME1 t_event
+*VALUE1 0.5
+*SPEED 0
+OPT_SC 0
+SV_VXS 0
+PARSFILE Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par
+#BlueLink18 Control: Throttle (Open Loop)`Constant: 0` Constant` , Speed link`Throttle_768d3744-c109-4ff7-a65b-3b0bea560117
+
+OPT_INIT_CONFIG 0
+OPT_INIT_PATH 0
+OPT_INIT_SPEED 1
+#MiscYellow0
+TSTART_BRAKES = T
+TSTART_THROTTLE = T
+TSTART_T_EVENT = T
+#ENDMYellow
+
+PARSFILE Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par
+#BlueLink10 Control: Braking MC Pressure (Open Loop)`Constant: 0 MPa` Constant` , Miscellaneous`PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f
+
+MAKE_EVENT t_event > 0.5 ; Events\Events_7e4e2cc1-a49f-4a6b-b5fe-a90fc3d2ed9a.par
+#BlueLink0 Events`B. Wait 0.5s and reset speed` VHF Acceleration` , Events`Events_7e4e2cc1-a49f-4a6b-b5fe-a90fc3d2ed9a
+
+SET_EVENT_ID 0 ! reset to default
+
+LOG_ENTRY Used Dataset: Events; { VHF Acceleration } B2. Wait 0.5s and reset speed
+#Library : Events
+#DataSet : B2. Wait 0.5s and reset speed
+#Category: VHF Acceleration
+#FileID  : Events_87ece221-9eca-4797-8340-5f89e544460a
+#Created : 02-29-2024 16:15:19
+#Modified: 02-29-2024 16:15:41
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Events
+
+END

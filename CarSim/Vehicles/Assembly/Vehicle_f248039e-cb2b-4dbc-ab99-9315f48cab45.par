@@ -1,0 +1,116 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`Pickup, Midsize: Electric`Pickup Trucks
+#VehCode Ind_SA
+IUNIT_INCREMENT
+IVEHICLE = IVEHICLE + 1
+NAXLES 2
+IOBJECT_SAVE
+symbol_add  <<vehicle>> 1
+symbol_add  <<unit>> 1
+#CheckBox0 0    
+#CheckBox1 0    
+#CheckBox2 1    
+INSTALL_SPEED_CONTROLLER
+
+#RingCtrl0 3
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+PARSFILE Steering\System2\StrSys2_13379a4a-c670-4950-9a64-cab93afc8eab.par
+#BlueLink7 Steering`Pickup, Mid: Power, R&P` Pickup Trucks` , Steering System`StrSys2_13379a4a-c670-4950-9a64-cab93afc8eab
+
+
+* Front components
+iaxle 1
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_7eb894a6-45e7-462b-946d-98172e6ad5af.par
+#BlueLink19 Suspension: Independent System Kinematics`Pickup, Midsize - Front` Pickup Trucks` , Kinematics`KinInd_7eb894a6-45e7-462b-946d-98172e6ad5af
+
+PARSFILE Suspensions\Compliance\CmpInd_a34b2265-f23e-40be-a7d6-c1e225f3fe24.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`Pickup, Compact - Front` Pickup Trucks` , Compliance`CmpInd_a34b2265-f23e-40be-a7d6-c1e225f3fe24
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+itire 1 ! just in case
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_1e012516-ec35-487a-ae8c-32bd0b3bea42.par
+#BlueLink999 Tire`265/75 R16 Off-Road` Touring Tires` , Tire`Tire_1e012516-ec35-487a-ae8c-32bd0b3bea42
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_1e012516-ec35-487a-ae8c-32bd0b3bea42.par
+#BlueLink10 Tire`265/75 R16 Off-Road` Touring Tires` , Tire`Tire_1e012516-ec35-487a-ae8c-32bd0b3bea42
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+PARSFILE Suspensions\Kin_Solid\KinSA_30900f3a-b9d6-42bd-be6f-66d6956c42bb.par
+#BlueLink23 Suspension: Solid Axle System Kinematics`Pickup, Midsize, Electric - Rear` Pickup Trucks` , Kinematics`KinSA_30900f3a-b9d6-42bd-be6f-66d6956c42bb
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_c0aa1f0c-9713-40f3-8f7c-eb456f78ab5a.par
+#BlueLink22 Suspension: Solid Axle Compliance, Springs, and Dampers`Pickup, Midsize, Electric - Rear` Pickup Trucks` , Compliance`CmpSA_c0aa1f0c-9713-40f3-8f7c-eb456f78ab5a
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_1e012516-ec35-487a-ae8c-32bd0b3bea42.par
+#BlueLink999 Tire`265/75 R16 Off-Road` Touring Tires` , Tire`Tire_1e012516-ec35-487a-ae8c-32bd0b3bea42
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_1e012516-ec35-487a-ae8c-32bd0b3bea42.par
+#BlueLink999 Tire`265/75 R16 Off-Road` Touring Tires` , Tire`Tire_1e012516-ec35-487a-ae8c-32bd0b3bea42
+
+symbol_add  <<axle>> -1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_77290b73-31b6-4f27-8a78-074c47679343.par
+#BlueLink0 Vehicle: Sprung Mass`Pickup, Midsize, Electric` Pickup Trucks` , Sprung Mass`SprMass_77290b73-31b6-4f27-8a78-074c47679343
+
+PARSFILE Aerodynamics\Aero_Main\Aero_f2c5b86f-1432-4de1-8afe-47fce77912fe.par
+#BlueLink1 Aerodynamics: Basic`Mid-Size Pickup (3261 mm wheelbase)` Pickup Trucks` , Aerodynamics`Aero_f2c5b86f-1432-4de1-8afe-47fce77912fe
+
+PARSFILE Powertrain\4wd\4WD_521b50b4-2caf-40dc-8831-f47104baecc9.par
+#BlueLink5 Powertrain: 4-Wheel Drive`300 kW Electric Dual-Motor AWD` 300 kW Powertrains` , Powertrain`4WD_521b50b4-2caf-40dc-8831-f47104baecc9
+
+PARSFILE Brakes\4W_System\Brk4W_1cac803a-e36c-431b-b18e-ee34e2087187.par
+#BlueLink6 Brakes: Four-Wheel System`Pickup (Full): MC Press, ABS` Pickup Trucks` , Brake System`Brk4W_1cac803a-e36c-431b-b18e-ee34e2087187
+
+symbol_add  <<axle>> 1
+PARSFILE Animator\Vehicles\AniVeh_8c1ef862-f575-48ef-bc5c-245201b31c42.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`Pickup, Midsize: Regular Cab` Pickup Trucks` , Vehicle 3D Shape`AniVeh_8c1ef862-f575-48ef-bc5c-245201b31c42
+
+IOBJECT_RESTORE
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Vehicles\Assembly\Vehicle_f248039e-cb2b-4dbc-ab99-9315f48cab45.png
+
+#EMBEDDED_NOTES
+#Identical in size to the standard midsize pickup, the electric version has different mass and suspension properties to account for the electric powertrain. It also has stronger brakes taken from the full size truck examples.
+#
+#The truck also uses larger tires than the standard midsize, giving it a slightly more aggressive stance.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { Pickup Trucks } Pickup, Midsize: Electric
+#Library : Vehicle: Assembly
+#DataSet : Pickup, Midsize: Electric
+#Category: Pickup Trucks
+#FileID  : Vehicle_f248039e-cb2b-4dbc-ab99-9315f48cab45
+#Created : 05-18-2021 12:06:55
+#Modified: 09-01-2021 12:45:26
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Ind_SA
+
+END

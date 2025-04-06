@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Generic Data Group`3 Axle - Fx, Fy, Fz (duals)`Tire Force Arrows
+#VehCode Generic Group
+PARSFILE Animator\Arrows\Arrows_349be714-77f4-4620-a6b2-c02c9707aff2.par
+#BlueLink0 Animator: Wheel Arrows and Other Indicators`3A - Fx Tire Force Arrows (duals)` Tire Force Arrows (3 Axles)` , Link 1`Arrows_349be714-77f4-4620-a6b2-c02c9707aff2
+
+
+PARSFILE Animator\Arrows\Arrows_36744b57-49f8-47af-90c5-77aa87de326e.par
+#BlueLink1 Animator: Wheel Arrows and Other Indicators`3A - Fy Tire Force Arrows (duals)` Tire Force Arrows (3 Axles)` , Link 2`Arrows_36744b57-49f8-47af-90c5-77aa87de326e
+
+
+PARSFILE Animator\Arrows\Arrows_e924a5f4-356e-420e-964c-dc64937b3953.par
+#BlueLink2 Animator: Wheel Arrows and Other Indicators`3A - Fz Tire Force Arrows (duals)` Tire Force Arrows (3 Axles)` , Link 3`Arrows_e924a5f4-356e-420e-964c-dc64937b3953
+
+
+
+
+
+
+
+
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Tire Force Arrows } 3 Axle - Fx, Fy, Fz (duals)
+#Library : Generic Data Group
+#DataSet : 3 Axle - Fx, Fy, Fz (duals)
+#Category: Tire Force Arrows
+#FileID  : GenGrp_e211cc58-bbd0-4acb-8c6b-ccfcc035e310
+#Created : 11-24-2021 16:43:04
+#Modified: 11-24-2021 16:44:14
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Generic Group
+
+END

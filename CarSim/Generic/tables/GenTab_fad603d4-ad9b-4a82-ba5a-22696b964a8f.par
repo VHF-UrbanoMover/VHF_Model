@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Generic Table`Batt. discharged resis. (Hi-Power)`Powertrain (HEV)
+#RingCtrl0 CARPET
+#CheckBox0 1    
+
+*3D_XLabel Temperature (C)
+*3D_YLabel State of charged (-)
+*3D_ZLabel Resistance (V2/W)
+
+#DiagramTwo0
+*3D_DATA 2, 11 ! columns x rows
+R_DIS_BATTERY_CARPET 2D_LINEAR
+0, 0, 25
+0, 0.00754, 0.00754
+0.1, 0.00676, 0.00676
+0.2, 0.006, 0.006
+0.3, 0.0056, 0.0056
+0.4, 0.0055, 0.0055
+0.5, 0.00536, 0.00536
+0.6, 0.00538, 0.00538
+0.7, 0.00546, 0.00546
+0.8, 0.00566, 0.00566
+0.9, 0.00596, 0.00596
+1, 0.00624, 0.00624
+ENDTABLE
+
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD R_DIS_BATTERY
+*X_LABEL State of charged (-)
+*Y_LABEL Resistance (V2/W)
+*X_LABEL_2 Temperature (C)
+
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Batt. discharged resis. (Hi-Power)
+#Library : Generic Table
+#DataSet : Batt. discharged resis. (Hi-Power)
+#Category: Powertrain (HEV)
+#FileID  : GenTab_fad603d4-ad9b-4a82-ba5a-22696b964a8f
+#Created : 11-19-2021 18:58:52
+#Modified: 11-19-2021 19:40:55
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode table
+
+END

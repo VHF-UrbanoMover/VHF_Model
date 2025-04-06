@@ -1,0 +1,89 @@
+PARSFILE
+#FullDataName Generic Table`Opt. engine speed (Parallel hybrid)`Powertrain (HEV)
+#RingCtrl0 LINEAR
+#CheckBox0 0    
+
+#DiagramOne0
+VENGINE_OPTIMAL_TABLE LINEAR
+14.574, 999.81
+15.484, 1050.4
+16.396, 1100.1
+17.325, 1149.7
+18.284, 1200.3
+19.245, 1250
+20.174, 1299.7
+21.086, 1350.3
+21.994, 1399.9
+22.912, 1449.6
+23.852, 1500.2
+24.782, 1549.9
+25.704, 1600.5
+26.618, 1650.1
+27.538, 1699.8
+28.48, 1750.4
+29.418, 1800
+30.378, 1849.7
+31.378, 1900.3
+32.374, 1950
+33.376, 1999.6
+34.402, 2050.2
+35.414, 2099.9
+36.382, 2149.5
+37.37, 2200.2
+38.35, 2249.8
+39.356, 2300.4
+40.346, 2350.1
+41.344, 2399.7
+42.368, 2450.3
+43.378, 2500
+44.398, 2549.7
+45.436, 2600.3
+46.468, 2649.9
+47.502, 2699.6
+48.558, 2750.2
+49.604, 2799.9
+50.678, 2850.5
+51.736, 2900.1
+52.8, 2949.8
+53.892, 3000.4
+54.968, 3050
+56.05, 3099.7
+57.162, 3150.3
+58.256, 3200
+59.356, 3249.6
+60.478, 3300.2
+61.596, 3349.9
+62.716, 3399.5
+63.856, 3450.2
+64.994, 3499.8
+66.148, 3550.4
+67.296, 3600.1
+68.446, 3649.7
+69.618, 3700.4
+70.828, 3750
+71.98, 3799.7
+73.23, 3850.3
+74.468, 3899.9
+75.714, 3949.6
+76.91, 4000.2
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD VENGINE_OPTIMAL
+*X_LABEL Power demand (kW)
+*Y_LABEL Engine speed (RPM)
+
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Opt. engine speed (Parallel hybrid)
+#Library : Generic Table
+#DataSet : Opt. engine speed (Parallel hybrid)
+#Category: Powertrain (HEV)
+#FileID  : GenTab_bb6801a5-dd10-4a8d-af64-f21870709025
+#Created : 11-17-2021 14:23:40
+#Modified: 11-17-2021 14:24:00
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode table
+
+END

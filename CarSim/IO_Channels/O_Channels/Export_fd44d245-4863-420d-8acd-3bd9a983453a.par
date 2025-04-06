@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Adhesion coefficients`VHF Controls
+#RingCtrl0 1
+#RingCtrl1 1
+
+
+EXPORT MuX_R1
+EXPORT MuX_L2
+#MiscYellow0
+#Number of Selected Channels: 2
+#CHN_NAME: MuX_R1
+#CHN_NAME: MuX_L2
+#ENDMYellow
+
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Adhesion coefficients
+#Library : I/O Channels: Export
+#DataSet : Adhesion coefficients
+#Category: VHF Controls
+#FileID  : Export_fd44d245-4863-420d-8acd-3bd9a983453a
+#Created : 08-18-2023 09:21:05
+#Modified: 02-29-2024 11:58:47
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Export Channels
+
+END

@@ -1,0 +1,63 @@
+PARSFILE
+#FullDataName Generic VS Commands`Enable Aux Steer Control`Auxiliary Steer Control
+#VehCode VS Commands
+
+#MiscYellow0
+OPT_DM_AUX 1
+LTARG_ID_AUX 1
+
+! The Auxiliary Steer Control is provided for advanced users studying ADAS or
+! Autonomous systems. By itself, it does very little. It provides information
+! about how the CarSim driver model would steer if it were using a different
+! target LTARG. Other than the listed paramters it uses information from the
+! current Driver Path Follower dataset.
+
+!Parameters:
+! OPT_DM_AUX
+! LTARG_ID_AUX
+!  XREF_AUX
+! XREF_AUX_F
+! YREF_AUX
+!Associated outputs:
+! LatTgAux
+! LatVehAux
+! LtgIdAux
+! StrCtlAux
+! X_TargAux
+! Y_TargAux
+
+! The outputs always exist. They don't require
+! INSTALL_DM_OUTPUTS or OPT_DM_AUX = 1
+
+! Setting OPT_DM_AUX = 1 enables the controller. If OPT_DM_AUX is set to zero,
+! all outputs are zero. If the control is enabled, its output depends on the
+! value of LTARG_ID_AUX, plus the location of the vehicle and the properties
+! of the primary steer control (Driver Model).
+! If LTARG_ID_AUX = LTARG_ID_DM, the axiliary steer controller uses the same
+! target as the primary steering control, and the values of StrCtlAux and
+! StrCtlDM are identical.
+
+
+
+!Aux steer controller is disabled when driving in reverse.
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This dataset decribes the Auxiliary Steer Control, how to enable it, its parameters and its outputs.
+#
+#Note that only the first 2 lines are used. The rest is comments describing the control option.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Auxiliary Steer Control } Enable Aux Steer Control
+#Library : Generic VS Commands
+#DataSet : Enable Aux Steer Control
+#Category: Auxiliary Steer Control
+#FileID  : GenVS_c29f0559-f6d7-4308-8979-a3762828bae0
+#Created : 11-05-2021 13:15:29
+#Modified: 11-08-2021 08:04:38
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode VS Commands
+
+END

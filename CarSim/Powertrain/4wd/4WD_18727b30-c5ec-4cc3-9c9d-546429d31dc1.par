@@ -1,0 +1,75 @@
+PARSFILE
+#FullDataName Powertrain: 4-Wheel Drive`43kW/40kW, A.Split Hybrid Hi-Pw`A.Split Hybrid: 43kW/40kW (Engine+Motor)
+INSTALL_POWERTRAIN 3
+INSTALL_ENGINE
+
+R_REAR_DRIVE_SC 0.5
+
+OPT_ENGINE_PITCH_REACTION(1) 0
+OPT_ENGINE_PITCH_REACTION(2) 0
+
+#RingCtrl0 1
+R_MDRIVE 1
+#RingCtrl4 1
+#RingCtrl5 1
+#RingCtrl6 1
+#RingCtrl7 1
+#CheckBox0 0    
+#CheckBox1 0    
+
+OPT_ENGINE_INTERNAL 1
+OPT_PWR_CPL_INTERNAL 0
+OPT_TRANS_INTERNAL 0
+OPT_SHIFT_INTERNAL 0
+OPT_TR_GEAR_INTERNAL 0
+IDIFF 1
+OPT_DIFF_INTERNAL 1
+IDIFF 2
+OPT_DIFF_INTERNAL 1
+IDIFF 3
+OPT_DIFF_INTERNAL 1
+
+PARSFILE Powertrain\Engine\Engine_e10a2855-e13c-4e65-bf71-c813ed38a5fb.par
+#BlueLink0 Powertrain: Engine`1.5L, 43 kW  Engine` 43 kW - 125 kW Engines` , Engine`Engine_e10a2855-e13c-4e65-bf71-c813ed38a5fb
+
+PARSFILE Powertrain\HEV\HEV_8c94ed0b-8fca-4d9a-bf80-169ce86c07ab.par
+#BlueLink11 Powertrain: Hybrid/Electric System`Parallel Hybrid, Motor on Axle` ` , Hybrid system`HEV_8c94ed0b-8fca-4d9a-bf80-169ce86c07ab
+
+PARSFILE Powertrain\HEV_PMC\PMC_a1b82af4-f6da-494b-b1e8-74f6a1a4b92c.par
+#BlueLink12 Powertrain: Hybrid/Electric Power Management Control`PL-HEV Pwr Mgmt: Full Load 165kW` ` , Transmission`PMC_a1b82af4-f6da-494b-b1e8-74f6a1a4b92c
+
+
+IDIFF 3
+PARSFILE Powertrain\Centerdiff\XC_934b2147-0838-4ed2-8068-8304af5a0278.par
+#BlueLink3 Powertrain: Transfer Case`A.Split HEV: Fr ICE; Rr EM, Gr. 1.0` Electric Motor Drive` , Transfer case`XC_934b2147-0838-4ed2-8068-8304af5a0278
+
+
+IDIFF 1
+PARSFILE Powertrain\Frontdiff\DiffF_c22e7365-d733-4562-8c5b-f5f5be93e62b.par
+#BlueLink4 Powertrain: Front Differential`Open Differential: Gear Ratio 3.905:1` Open` , Differential front`DiffF_c22e7365-d733-4562-8c5b-f5f5be93e62b
+
+
+IDIFF 2
+PARSFILE Powertrain\Reardiff\DiffR_37dc8136-1ee7-4465-9c66-a2cd4d80656a.par
+#BlueLink5 Powertrain: Rear Differential`EV (40kW) Open Diff.: Ratio 3.905:1` Electric Motor Drive (40 kW)` , Differential rear`DiffR_37dc8136-1ee7-4465-9c66-a2cd4d80656a
+
+
+#EMBEDDED_NOTES
+#In this powertrain setting, ICE + transmission drives front wheels (see the transfer case screen, mechanical fraction torque on rear shaft is set to 0% ); while a generic independent 40 kW electric motor is equipped on rear axle (see also the transfer case screen, electrical torque distribution to rear is set to 100%).
+#
+#Power management range is 165kW with full loaded throttle pedal.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { A.Split Hybrid: 43kW/40kW (Engine+Motor) } 43kW/40kW, A.Split Hybrid Hi-Pw
+#Library : Powertrain: 4-Wheel Drive
+#DataSet : 43kW/40kW, A.Split Hybrid Hi-Pw
+#Category: A.Split Hybrid: 43kW/40kW (Engine+Motor)
+#FileID  : 4WD_18727b30-c5ec-4cc3-9c9d-546429d31dc1
+#Created : 11-18-2021 13:44:11
+#Modified: 11-24-2021 14:03:13
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode 4WD
+
+END

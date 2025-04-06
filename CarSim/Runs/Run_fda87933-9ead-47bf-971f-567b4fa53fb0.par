@@ -1,0 +1,87 @@
+PARSFILE
+#FullDataName CarSim Run Control`Path Update SLC: Simulink, Poly.`Obstacle Avoidance
+#VEHICLECODE Ind_Ind
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_fda87933-9ead-47bf-971f-567b4fa53fb0
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Models\Simulink\Simlink_9a3f2109-aea2-4a28-9aa2-758c3d353462.par
+#BlueLink12 Models: Simulink`Update Path: Obs. Avoid Poly` ` , Models`Simlink_9a3f2109-aea2-4a28-9aa2-758c3d353462
+
+PARSFILE Animator\Cameras\Camera_7fd93935-5e80-4d39-bf60-d7ff5dbaa0af.par
+#BlueLink0 Animator: Camera Setup`180 Azm, 10 El, 36 m` Vehicle Reference` , Animator camera`Camera_7fd93935-5e80-4d39-bf60-d7ff5dbaa0af
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 17
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+SET_RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_f9b83dc4-2a9d-4717-9279-b5b71ae7fd84.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`C-Class for Update Path Example` C-Class` , Math Model`VehLoad_f9b83dc4-2a9d-4717-9279-b5b71ae7fd84
+
+PARSFILE Procedures\Proc_6cc530c5-6f96-47c2-88b8-e5886262ca41.par
+#BlueLink28 Procedures`Update Path: Simulink Obs. Avoid: Poly` Driver Controls` , Procedure`Proc_6cc530c5-6f96-47c2-88b8-e5886262ca41
+
+#BlueLink23 CarSim Run Control`Update Path with Embedded Python` Embedded Python` , Overlay run or ERD file`Run_e34d1655-7217-4e5c-b6b3-b9aec0a0afc5
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_9db9b98a-6725-424b-9635-e1ca6e15979d.png
+WRITE_SENSOR_DETECT
+Title Path Update SLC: Simulink, Poly. <Obstacle Avoidance>
+CATEGORY Obstacle Avoidance 
+DATASET_TITLE Path Update SLC: Simulink, Poly.
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#This example utilizes a normal vehicle on a path that become obstructed with an obstacle, then uses an onboard autonomous path update procedure to avoid the obstacle, and return to the original path.
+#
+#Simulink is used in this example, to create an updated path, and provide updated driver model preview point coordinates, such that the steering controller adjusts the steering to avoid the obstacle.
+#- This example is different from the double lane change (DLC) obstacle avoidance examples, because it instead performs a single lane change (SLC), and then switch the path update control off, to allow the CarSim steering controller to bring the car back the original path
+#
+#This example is on a straight, flat road
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Obstacle Avoidance } Path Update SLC: Simulink, Poly.
+#Library : CarSim Run Control
+#DataSet : Path Update SLC: Simulink, Poly.
+#Category: Obstacle Avoidance
+#FileID  : Run_fda87933-9ead-47bf-971f-567b4fa53fb0
+#Modified: 12-13-2021 15:23:46
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

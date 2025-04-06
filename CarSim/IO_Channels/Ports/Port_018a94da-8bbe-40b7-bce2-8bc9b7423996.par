@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName I/O Channels: Ports`XiL External Powertrain`XiL IO setup
+#RingCtrl0 1
+#RingCtrl1 8
+#CheckBox0 0    
+
+IPORT_IMP 1
+PARSFILE IO_Channels\I_Channels\Import_ad263a9c-9090-4135-878a-d5831c7f834d.par
+#BlueLink0 I/O Channels: Import`Rear Axle Motors Torque` Powertrain` , Library for factor A`Import_ad263a9c-9090-4135-878a-d5831c7f834d
+
+IPORT_EXP 1
+PARSFILE IO_Channels\O_Channels\Export_20dd4c4b-df73-484e-98e2-a42ea5941651.par
+#BlueLink20 I/O Channels: Export`Vehicle Body Velocity` VHF Controls` , Library for factor B`Export_20dd4c4b-df73-484e-98e2-a42ea5941651
+
+IPORT_EXP 2
+PARSFILE IO_Channels\O_Channels\Export_b957dd9a-8145-4991-b888-690f3b334001.par
+#BlueLink21 I/O Channels: Export`Wheels Speeds` VHF Controls` , Baseline run`Export_b957dd9a-8145-4991-b888-690f3b334001
+
+IPORT_EXP 3
+PARSFILE IO_Channels\O_Channels\Export_0b7c1e7a-3746-4138-9a61-1261f5ec2d3c.par
+#BlueLink22 I/O Channels: Export`Tires forces` VHF Controls` , Baseline run`Export_0b7c1e7a-3746-4138-9a61-1261f5ec2d3c
+
+IPORT_EXP 4
+PARSFILE IO_Channels\O_Channels\Export_feec646d-0bdf-4e4b-8ee3-1a2b9df3cfb1.par
+#BlueLink23 I/O Channels: Export`powertrain` VHF Controls` , Baseline run`Export_feec646d-0bdf-4e4b-8ee3-1a2b9df3cfb1
+
+IPORT_EXP 5
+PARSFILE IO_Channels\O_Channels\Export_7be51743-cd55-4240-a6f3-b42eb3e039f6.par
+#BlueLink24 I/O Channels: Export`Accelerations, angular velocitys and orientation` VHF Controls` , Baseline run`Export_7be51743-cd55-4240-a6f3-b42eb3e039f6
+
+IPORT_EXP 6
+PARSFILE IO_Channels\O_Channels\Export_f836abb4-3628-4b73-aaab-0b862af8cd95.par
+#BlueLink25 I/O Channels: Export`Slip ratio` VHF Controls` , Baseline run`Export_f836abb4-3628-4b73-aaab-0b862af8cd95
+
+IPORT_EXP 7
+PARSFILE IO_Channels\O_Channels\Export_fd44d245-4863-420d-8acd-3bd9a983453a.par
+#BlueLink26 I/O Channels: Export`Adhesion coefficients` VHF Controls` , Baseline run`Export_fd44d245-4863-420d-8acd-3bd9a983453a
+
+IPORT_EXP 8
+PARSFILE IO_Channels\O_Channels\Export_0f0b649e-29e2-44d7-afd6-f8aaf80cfc65.par
+#BlueLink27 I/O Channels: Export`Lagged Slip Ratio` VHF Controls` , Baseline run`Export_0f0b649e-29e2-44d7-afd6-f8aaf80cfc65
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Ports; { XiL IO setup } XiL External Powertrain
+#Library : I/O Channels: Ports
+#DataSet : XiL External Powertrain
+#Category: XiL IO setup
+#FileID  : Port_018a94da-8bbe-40b7-bce2-8bc9b7423996
+#Created : 04-06-2025 11:24:41
+#Modified: 04-06-2025 11:30:13
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode I/O Ports
+
+END

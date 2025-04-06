@@ -1,0 +1,124 @@
+PARSFILE
+#FullDataName Generic VS Commands`Control by rack force (P-I-D control)`Auxiliary Steer Control
+#VehCode VS Commands
+
+#MiscYellow0
+! NOTE: In this dataset the suffix "_a" indicates "autonomous mode"
+! Autonomous mode controls steering by applying force to the steering rack
+DEFINE_UNITS deg-s 180/PI
+DEFINE_UNITS N/deg PI/180
+DEFINE_UNITS N-s/deg PI/180
+DEFINE_UNITS N/deg-s PI/180
+! ------------------------------------------------------------------------------
+! Set steer control to single point
+OPT_DM 3
+! Set steer control to calculate but not apply steering
+OPT_DRIVER_ACTION 0
+! be sure power steering is on
+OPT_POWER 1
+! Set steering to be controlled by torque in case it isn't. Setting steer by
+! torque adds a DOF for the column on the end of the t-bar. If it were
+! controlled by angle, the position of the handwheel would be fixed,
+! producing unreasonable rack forces, t-bar deflection, and internal power
+! steering boost
+OPT_STR_BY_TRQ 1
+! enable auxiliary steer control
+OPT_DM_AUX 1
+! set aux controller ltarg to same as primary controller
+LTARG_ID_AUX LTARG_ID_DM
+
+! ------------------------------------------------------------------------------
+! In vehicles with part-time autonomy, there are 2 drivers: the human and the
+! autonomous system. Each driver needs a path and a target lateral offset.
+! The CarSim Auxiliary Steer Controller supports a second target leteral ofsset
+! to the path the driver model is using. Defining and managing the use of
+! ltarg_id_dm and ltarg_id_aux allows switching between human and autonomous
+! control.
+
+! The Auxiliary Steer Controller uses other parameters from the driver model
+! such as preview time. It always uses a single target point.
+
+! ------------------------------------------------------------------------------
+! Parameter for the target point distance ahead (defined by lead time)
+ DEFINE_OUTPUT Lead_Time = TPREV(0, Vxz_Fwd, 1); s; Target lead time;
+ DEFINE_OUTPUT Target_Lead = MAX(Vxz_Fwd * Lead_Time, 0.1); m; Target lead distance;
+
+! ------------------------------------------------------------------------------
+! Get the coordinates of the target point for the autonomous control so it can be
+! animated
+! This block could be replaced by anything that obatains a target point, such
+! as user-created import variables.
+DEFINE_OUTPUT Target_S_A = STATION + Target_Lead; m; Target station;
+DEFINE_OUTPUT Target_L_A = LTARG(0, Target_S_A, LTARG_ID_AUX); m; Target lateral offset;
+
+! X and Y coordinates of target
+DEFINE_OUTPUT Target_X_A = PATH_X_ID(Target_S_A, Target_L_A, PATH_ID_DM, 1); m; Target X;
+DEFINE_OUTPUT Target_Y_A = PATH_Y_ID(Target_S_A, Target_L_A, PATH_ID_DM, 1); m; Target Y;
+
+! get information about the path in road coordinates for animation
+DEFINE_OUTPUT Target_S_A_Road = ROAD_S_ID(Target_X_A, ...
+                                          Target_Y_A, ...
+                                          CURRENT_ROAD_ID, 1); m; Target S for animation;
+DEFINE_OUTPUT Target_L_A_Road = ROAD_L_ID(Target_X_A, ...
+                                          Target_Y_A, ...
+                                          CURRENT_ROAD_ID, 1); m; Target L for animation;
+! Z coordinate of target on road
+DEFINE_OUTPUT Target_Z_A_Road = ROAD_Z_ID(Target_S_A_Road, ...
+                                          Target_L_A_Road, ...
+                                          CURRENT_ROAD_ID, 1); m; Target Z for animation;
+
+! ------------------------------------------------------------------------------
+! This is the actual autonomous controller. Many methods might be used to control the
+! rack position. This is just one simple method that uses the average road wheel steer
+! and the Auxiliary Steer Controller target (StrCtlAux) to get a steer error. It then
+! applies a force proportional to the error to move the rack. A force proportional
+! to the integral of the error provides convergence at steady state.
+
+! Steer angle error for Auxiliary Steer Controller
+DEFINE_OUTPUT Str_Err_A = (Steer_L1 + Steer_R1)/2 - StrCtlAux; deg;
+! Derivative of steer error
+DEFINE_OUTPUT Str_Err_A_Last = 0; deg;
+EQ_SAVE Str_Err_A_Last = Str_Err_A; deg; ! error at previous timestep
+! Derivative by backwards difference
+DEFINE_OUTPUT Str_DErr_A = (Str_Err_A - Str_Err_A_Last) / T_DT; deg/s;
+! Integral of steer error
+DEFINE_OUTPUT Str_IErr_A = 0; deg-s;
+EQ_DIFFERENTIAL Str_IErr_A = Str_Err_A;
+
+! Gains for controller
+DEFINE_PARAMETER P_STR_GAIN = 8000; N/deg; Control P gain;
+DEFINE_PARAMETER I_STR_GAIN_A = 1000; N/deg-s; Control I gain;
+DEFINE_PARAMETER D_STR_GAIN_A = 50; N-s/deg; Control D gain;
+
+! If rack position error is positive, actual position is greater than target,
+! so reduce force.
+! If rack speed error is positive, actual speed is greater than target,
+! so reduce force
+! If integral of error is positive, reduce force
+DEFINE_OUTPUT F_Rack_A = 0; N;
+EQ_IN F_Rack_A = (Str_Err_A * -P_STR_GAIN + ...
+                  Str_IErr_A * -I_STR_GAIN_A + ...
+                  Str_DErr_A * -D_STR_GAIN_A);
+EQ_IN IMP_F_BOOST_EXT = F_Rack_A;
+! Import mode is ADD because the free motion of the steering column causes some boost
+IMPORT IMP_F_BOOST_EXT VS_ADD
+
+!
+#ENDMYellow
+
+PARSFILE Animator\Groups\Group_dfb415e0-ec98-432c-b718-d30379f8cd8b.par
+#BlueLink0 Animator: Group`Aux Steer Target Point (Red)` Auxiliary Steer Controller` , Miscellaneous`Group_dfb415e0-ec98-432c-b718-d30379f8cd8b
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Auxiliary Steer Control } Control by rack force (P-I-D control)
+#Library : Generic VS Commands
+#DataSet : Control by rack force (P-I-D control)
+#Category: Auxiliary Steer Control
+#FileID  : GenVS_c901936c-b51c-4832-91b7-a9e200d4f516
+#Created : 11-12-2021 08:26:23
+#Modified: 11-16-2021 08:34:40
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode VS Commands
+
+END

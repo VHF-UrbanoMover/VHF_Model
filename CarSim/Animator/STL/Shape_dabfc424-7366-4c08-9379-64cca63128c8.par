@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Solid Axles: Trailer Axle`Common Vehicle Assets
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Common_Vehicle_Assets\Solid_Axles\Trailer_Axle\TrailerAxle.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+Y_REF_LENGTH 2500
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_dabfc424-7366-4c08-9379-64cca63128c8.png
+
+#EMBEDDED_NOTES
+#This screen creates a shape to represent a solid axle using a simple cylindrical primitve.
+#
+#The dimensions of the native data in the .obj file are 1 unit length and 1 unit radius. The axis of the cylinder is aligned with the X axis and the base is in the Y-Z plane at X = 0.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Solid Axles: Trailer Axle
+#Library : Animator: Shape File Link
+#DataSet : Solid Axles: Trailer Axle
+#Category: Common Vehicle Assets
+#FileID  : Shape_dabfc424-7366-4c08-9379-64cca63128c8
+#Modified: 12-09-2021 02:42:49
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape File
+
+END

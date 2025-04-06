@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Generic Table`Battery Open-Circuit Voltage`Powertrain VHF
+#RingCtrl0 CARPET
+#CheckBox0 1    
+
+*3D_XLabel Temperature (C)
+*3D_YLabel State of charged (-)
+*3D_ZLabel Voltage (V)
+
+#DiagramTwo0
+*3D_DATA 2, 11 ! columns x rows
+VOC_BATTERY_CARPET 2D_LINEAR
+0, 0, 25
+0, 45.936, 45.936
+0.1, 51.296, 51.296
+0.2, 51.92, 51.92
+0.3, 52.432, 52.432
+0.4, 52.56, 52.56
+0.5, 52.576, 52.576
+0.6, 52.64, 52.64
+0.7, 53.008, 53.008
+0.8, 53.152, 53.152
+0.9, 53.168, 53.168
+1, 55.296, 55.296
+ENDTABLE
+
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD VOC_BATTERY
+*X_LABEL State of charged (-)
+*Y_LABEL Voltage (V)
+*X_LABEL_2 Temperature (C)
+
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain VHF } Battery Open-Circuit Voltage
+#Library : Generic Table
+#DataSet : Battery Open-Circuit Voltage
+#Category: Powertrain VHF
+#FileID  : GenTab_fd0240fc-edc6-46dc-9279-278e991cfa22
+#Created : 07-01-2022 17:32:08
+#Modified: 07-01-2022 17:34:42
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode table
+
+END

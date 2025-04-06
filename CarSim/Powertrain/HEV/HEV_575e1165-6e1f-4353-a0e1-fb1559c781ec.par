@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Powertrain: Hybrid/Electric System`Parallel Hyb. Motor on Axle, Hi-Gr`
+#RingCtrl0 4
+OPT_HEV 4
+INSTALL_TORQUE_TRANSFER_DEVICE
+INSTALL_TRANSMISSION
+OPT_PWR_CPL_INTERNAL 1
+OPT_TRANS_INTERNAL 1
+OPT_SHIFT_INTERNAL 1
+OPT_TR_GEAR_INTERNAL 1
+OPT_PRE_TRANS_PARALLEL_HYBRID 0 
+#CheckBox1 1    
+#CheckBox2 1    
+OPT_HEV_CLUTCH_DELAY 1
+OPT_MOTOR_ON_AXLE 1 
+N_BATTERY 40
+T_BATTERY_INIT 40
+BATTERY_CHARGE_INIT 0.6
+V_MOTOR_MIN 60
+V_BATTERY_MIN 6
+V_BATTERY_MAX 9
+TC_HEV_CLUTCH_ENGAGE 0.3
+TC_HEV_CLUTCH_DISENGAGE 0.15
+M_HEV_CLUTCH_CAP 700
+DRIVELINE_FREQ 9
+DRIVELINE_ZETA 0.9
+
+INSTALL_ELECTRIC_DRIVE_MOTORS 
+
+PARSFILE Generic\Links\GenLink_1e61da3e-2c03-4189-9e05-76481bfea320.par
+#BlueLink1 Generic Group of Links`Electric Generator: Max. Load 66 N-m` Powertrain (HEV)` , Electric Generator`GenLink_1e61da3e-2c03-4189-9e05-76481bfea320
+
+PARSFILE Powertrain\TransExt\Trans18_4dfb5d8a-94a1-4f31-b6ac-807129b2cc8a.par
+#BlueLink6 Powertrain: Transmission (18 Gears or CVT)`7-Speed (Exotic Sports Car)` 7-Speed Transmissions` , Transmission`Trans18_4dfb5d8a-94a1-4f31-b6ac-807129b2cc8a
+
+PARSFILE Generic\tables\GenTab_60ca8cbc-3ae7-440f-a05f-45f86d090003.par
+#BlueLink2 Generic Table`Battery charged resis. (Hi-Power)` Powertrain (HEV)` , Charging resistance`GenTab_60ca8cbc-3ae7-440f-a05f-45f86d090003
+
+PARSFILE Generic\tables\GenTab_fad603d4-ad9b-4a82-ba5a-22696b964a8f.par
+#BlueLink3 Generic Table`Batt. discharged resis. (Hi-Power)` Powertrain (HEV)` , Discharging resistance`GenTab_fad603d4-ad9b-4a82-ba5a-22696b964a8f
+
+PARSFILE Generic\tables\GenTab_366b8224-2bfb-41c4-918b-7474b312a5e7.par
+#BlueLink4 Generic Table`Battery Open-Circuit Voltage` Powertrain (HEV)` , Open-circuit voltage`GenTab_366b8224-2bfb-41c4-918b-7474b312a5e7
+
+PARSFILE Generic\tables\GenTab_3c330519-3554-4bdd-89d8-5b63d61c667e.par
+#BlueLink5 Generic Table`Battery Max Capacity (Hybrid)` Powertrain (HEV)` , Max. capacity`GenTab_3c330519-3554-4bdd-89d8-5b63d61c667e
+
+
+#EMBEDDED_NOTES
+#Parallel hybrid with 7-speed transmission.
+#
+#Motor(s) is/are specified on the differential gear screen on each driven axle.
+#
+#This particular parallel hybrid setting involves hi-power battery charge/discharge resistences and hi-torque capacity of clutch which switches between engine and/or motor driving.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Parallel Hyb. Motor on Axle, Hi-Gr
+#Library : Powertrain: Hybrid/Electric System
+#DataSet : Parallel Hyb. Motor on Axle, Hi-Gr
+#Category: 
+#FileID  : HEV_575e1165-6e1f-4353-a0e1-fb1559c781ec
+#Created : 11-18-2021 15:44:04
+#Modified: 11-24-2021 14:04:29
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode HEV
+
+END

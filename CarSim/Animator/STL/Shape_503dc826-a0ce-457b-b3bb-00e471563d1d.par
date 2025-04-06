@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Solid Axles: Heavy Duty (Driven)`Common Vehicle Assets
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Common_Vehicle_Assets\Solid_Axles\HD_Axle_Driven\RearDriveAxle.obj
+#ENDMYellow
+
+SET_COLOR 0.188 0.188 0.188
+Y_REF_LENGTH 1800
+*SPECULAR 0.1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0.1 0.1 0.1
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_7117989f-e693-4984-a206-5a1b1be90223.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_7117989f-e693-4984-a206-5a1b1be90223
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_503dc826-a0ce-457b-b3bb-00e471563d1d.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Solid Axles: Heavy Duty (Driven)
+#Library : Animator: Shape File Link
+#DataSet : Solid Axles: Heavy Duty (Driven)
+#Category: Common Vehicle Assets
+#FileID  : Shape_503dc826-a0ce-457b-b3bb-00e471563d1d
+#Modified: 12-09-2021 02:15:02
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape File
+
+END

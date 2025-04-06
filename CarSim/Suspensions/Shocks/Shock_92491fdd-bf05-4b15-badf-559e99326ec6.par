@@ -1,0 +1,22 @@
+PARSFILE
+#FullDataName Suspension: Shock Absorber`Linear: 50 kN-s/m`Linear
+#CheckBox0 0    
+
+#RingCtrl0 COEFFICIENT
+#RadioCtrl0 1    
+
+FD_COEFFICIENT 50
+*SCALAR 50
+
+
+LOG_ENTRY Used Dataset: Suspension: Shock Absorber; { Linear } Linear: 50 kN-s/m
+#Library : Suspension: Shock Absorber
+#DataSet : Linear: 50 kN-s/m
+#Category: Linear
+#FileID  : Shock_92491fdd-bf05-4b15-badf-559e99326ec6
+#Modified: 12-09-2021 02:25:30
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shock Absorber
+
+END

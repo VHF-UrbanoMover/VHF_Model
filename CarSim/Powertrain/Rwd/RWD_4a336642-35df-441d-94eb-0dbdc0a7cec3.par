@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Powertrain: Rear-Wheel Drive`Hibrido Serie 250cc 2RWD w/o Reg. Brake`VHF Hibrido (Engine + Dual Rear Motor)
+INSTALL_POWERTRAIN 2
+R_REAR_DRIVE_SC 1
+
+OPT_ENGINE_PITCH_REACTION(2) 0
+
+INSTALL_ENGINE
+#RingCtrl0 1
+R_MDRIVE 1
+#RingCtrl4 1
+#RingCtrl5 1
+#CheckBox0 0    
+
+OPT_ENGINE_INTERNAL 1
+OPT_PWR_CPL_INTERNAL 0
+OPT_TRANS_INTERNAL 0
+OPT_SHIFT_INTERNAL 0
+OPT_TR_GEAR_INTERNAL 0
+IDIFF 2
+OPT_DIFF_INTERNAL 1
+
+PARSFILE Powertrain\Engine\Engine_048f8c67-137e-4b23-acf2-378ad7c7802f.par
+#BlueLink0 Powertrain: Engine`Honda CB250F Twister Engine` 250cc` , Engine`Engine_048f8c67-137e-4b23-acf2-378ad7c7802f
+
+PARSFILE Powertrain\HEV\HEV_d0569582-c5ef-4e39-8c1a-3a48a0c5384e.par
+#BlueLink10 Powertrain: Hybrid/Electric System`Range-Ext. VHF Powertrain Assembly` ` , Hybrid system`HEV_d0569582-c5ef-4e39-8c1a-3a48a0c5384e
+
+PARSFILE Powertrain\HEV_PMC\PMC_709eccd2-a6d7-4afb-9773-9ebf40d7145c.par
+#BlueLink11 Powertrain: Hybrid/Electric Power Management Control`VHF Power Mgmt: Full Load 20kW w/o Reg. Brake` ` , Transmission`PMC_709eccd2-a6d7-4afb-9773-9ebf40d7145c
+
+
+IDIFF 2
+PARSFILE Powertrain\Reardiff\DiffR_e5ab13bf-b9f1-4f29-bd98-10ffa2bdc3fe.par
+#BlueLink5 Powertrain: Rear Differential`VHF Twin-Motor w/ 2.65:1 ratio` VHF Electric Motor Drive (30 kW)` , Differential`DiffR_e5ab13bf-b9f1-4f29-bd98-10ffa2bdc3fe
+
+
+#EMBEDDED_NOTES
+#Motor genérico de 250cc e 24kW com dois motores elétricos híbrido série.
+#
+#A escala do gerenciamento de energia é de 16kW quando o pedal esta inteiramente acionado.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Rear-Wheel Drive; { VHF Hibrido (Engine + Dual Rear Motor) } Hibrido Serie 250cc 2RWD w/o Reg. Brake
+#Library : Powertrain: Rear-Wheel Drive
+#DataSet : Hibrido Serie 250cc 2RWD w/o Reg. Brake
+#Category: VHF Hibrido (Engine + Dual Rear Motor)
+#FileID  : RWD_4a336642-35df-441d-94eb-0dbdc0a7cec3
+#Created : 01-03-2023 09:28:47
+#Modified: 01-03-2023 09:29:08
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode RWD
+
+END

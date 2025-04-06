@@ -1,0 +1,96 @@
+PARSFILE
+#FullDataName CarSim Run Control`Live Animation Wrapper`* VS Connect Live Animation
+#VEHICLECODE Ind_Ind
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_da891aaf-e4ff-4eaf-8f5a-59ef2a0c5e0c
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Models\External\Extern_58ae5add-6e3a-4ad8-98d3-b3f1902fef08.par
+#BlueLink12 Models: Self-Contained Solvers`Live Animation Wrapper, 64-bit` Wrappers: Custom` , Models`Extern_58ae5add-6e3a-4ad8-98d3-b3f1902fef08
+
+PARSFILE Animator\Cameras\Camera_ecdefc4d-7cad-4145-8e71-fe30ae738fd5.par
+#BlueLink0 Animator: Camera Setup`254 Azm, 8 El, 15 m, No Yaw` Vehicle Reference` , Animator camera`Camera_ecdefc4d-7cad-4145-8e71-fe30ae738fd5
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+ANI_T_STAMP
+TIME_CHANNEL T_STAMP
+
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0 1
+OPT_BUFFER_WRITE 1
+AUTOSIZE OFF
+BLOCKING_RT_READ ON
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 1
+LIVE_SERVER_MAX_CONNECTIONS 1
+PARSFILE Vehicles\Assembly\Vehicle_b976c570-0e0b-4b78-827d-fa6a24ef9fb3.par
+#BlueLink2 Vehicle: Assembly`B-Class, Sports Car (6-speed AT)` B-Class` , Math Model`Vehicle_b976c570-0e0b-4b78-827d-fa6a24ef9fb3
+
+PARSFILE Procedures\Proc_af43bb98-3e16-4690-8819-c0be27f541b8.par
+#BlueLink28 Procedures`Handling Course, Aggressive Driving` Driver Controls` , Procedure`Proc_af43bb98-3e16-4690-8819-c0be27f541b8
+
+PARSFILE Animator\Arrows\Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887.par
+#BlueLink10 Animator: Wheel Arrows and Other Indicators`Tire Skid Marks (2 Axles)` Skid Marks` , Miscellaneous`Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887
+
+PARSFILE Animator\HUD\HUD_131f745a-8906-43fd-92f8-417ed1b36950.par
+#BlueLink11 Animator: HUD`Simulation Time` Vehicle Status Indicators` , Miscellaneous`HUD_131f745a-8906-43fd-92f8-417ed1b36950
+
+*TSTOP -1
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4986d2bf-e6a5-4076-b5cc-94a288fa5a6d.png
+WRITE_SENSOR_DETECT
+Title Live Animation Wrapper <* VS Connect Live Animation>
+CATEGORY * VS Connect Live Animation 
+DATASET_TITLE Live Animation Wrapper
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#Demonstrates use of external Live Animation Wrapper.
+#
+#Note that VS Visualizer may take up to 30 seconds to connect.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * VS Connect Live Animation } Live Animation Wrapper
+#Library : CarSim Run Control
+#DataSet : Live Animation Wrapper
+#Category: * VS Connect Live Animation
+#FileID  : Run_da891aaf-e4ff-4eaf-8f5a-59ef2a0c5e0c
+#Created : 12-09-2021 10:11:05
+#Modified: 12-10-2021 19:23:53
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

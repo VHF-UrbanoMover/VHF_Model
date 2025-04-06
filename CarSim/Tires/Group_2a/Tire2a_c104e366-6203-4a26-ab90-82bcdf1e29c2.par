@@ -1,0 +1,67 @@
+PARSFILE
+#FullDataName Tires for Any Vehicle Unit`510 mm, Trailer, Dual`Artic Bus
+#RingCtrl0 1
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 1    
+ADD_SIMFILE_ENTRY SET_DUALS 1
+SET_DUALS 1
+*LDUAL_1 310
+*LDUAL_2 310
+
+symbol_add  <<axle>> 1
+
+iaxle 1
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 310
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.155000
+PARSFILE Tires\Tire\Tire_27c5e7d4-1710-49c6-b0d2-4b36bc4b3ab5.par
+#BlueLink1 Tire`510 mm Radius (Trailer)` Artic Bus` , Tires`Tire_27c5e7d4-1710-49c6-b0d2-4b36bc4b3ab5
+
+itire 2
+symbol_push  <<tire>> R<<axle>>o
+STORE_WHEEL_OFFSET 0.155000
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+PARSFILE Tires\Tire\Tire_27c5e7d4-1710-49c6-b0d2-4b36bc4b3ab5.par
+#BlueLink999 Tire`510 mm Radius (Trailer)` Artic Bus` , Tires`Tire_27c5e7d4-1710-49c6-b0d2-4b36bc4b3ab5
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.155000
+PARSFILE Tires\Tire\Tire_27c5e7d4-1710-49c6-b0d2-4b36bc4b3ab5.par
+#BlueLink999 Tire`510 mm Radius (Trailer)` Artic Bus` , Tires`Tire_27c5e7d4-1710-49c6-b0d2-4b36bc4b3ab5
+
+itire 2
+symbol_push  <<tire>> L<<axle>>o
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+STORE_WHEEL_OFFSET 0.155000
+PARSFILE Tires\Tire\Tire_27c5e7d4-1710-49c6-b0d2-4b36bc4b3ab5.par
+#BlueLink999 Tire`510 mm Radius (Trailer)` Artic Bus` , Tires`Tire_27c5e7d4-1710-49c6-b0d2-4b36bc4b3ab5
+
+
+LOG_ENTRY Used Dataset: Tires for Any Vehicle Unit; { Artic Bus } 510 mm, Trailer, Dual
+#Library : Tires for Any Vehicle Unit
+#DataSet : 510 mm, Trailer, Dual
+#Category: Artic Bus
+#FileID  : Tire2a_c104e366-6203-4a26-ab90-82bcdf1e29c2
+#Created : 11-24-2021 12:21:34
+#Modified: 12-09-2021 02:38:24
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Tire Group
+
+END

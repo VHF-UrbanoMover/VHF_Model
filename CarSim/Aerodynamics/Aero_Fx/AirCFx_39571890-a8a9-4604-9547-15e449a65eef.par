@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Aerodynamics: Fx (Drag) Coef. vs. Aero Slip`Cab-Over-Engine`Artic Bus
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+FX_AERO_SHAPING_TABLE SPLINE_FLAT
+-20, 1.26
+-15, 1.17
+-10, 0.97
+-5, 0.82
+0, 0.69
+5, 0.82
+10, 0.97
+15, 1.17
+20, 1.26
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; { Artic Bus } Cab-Over-Engine
+#Library : Aerodynamics: Fx (Drag) Coef. vs. Aero Slip
+#DataSet : Cab-Over-Engine
+#Category: Artic Bus
+#FileID  : AirCFx_39571890-a8a9-4604-9547-15e449a65eef
+#Modified: 11-11-2021 13:48:18
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Drag vs. Aero Slip
+
+END

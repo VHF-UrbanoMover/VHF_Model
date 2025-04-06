@@ -1,0 +1,714 @@
+2025-04-06T11:00:31 Logfile initialized.
+2025-04-06T11:00:31 (Info):    CarSim 2022.0
+2025-04-06T11:00:31 (Info):    -
+2025-04-06T11:00:31 (Info):    command-line: 
+2025-04-06T11:00:31 (Info):    -
+2025-04-06T11:00:31 (Info):    Working Dir: E:\Henrique\Poli\Pos-Mestrado2025\VCU HiL\VHF_Model\CarSim\
+2025-04-06T11:00:31 (Info):    Program Dir: C:\Program Files (x86)\CarSim2022.0_Prog\
+2025-04-06T11:00:31 (Info):    -
+2025-04-06T11:00:31 (Info):    OS Version:        6.2 (build 9200)
+2025-04-06T11:00:31 (Info):    CPU Architecture:  x64
+2025-04-06T11:00:31 (Info):    CPU Count:         8
+2025-04-06T11:00:31 (Info):    CPU Level/Rev:     6/36364
+2025-04-06T11:00:31 (Info):    Start Mem Total:   16235 MB
+2025-04-06T11:00:31 (Info):    Start Mem Used:    64%
+2025-04-06T11:00:31 (Info):    -
+2025-04-06T11:00:31 (Info):    Could not load dataset index cache "Configuration\index.cache"
+2025-04-06T11:00:32 (Info):    Warning: carsimspdgtus is not available in your region: br
+2025-04-06T11:00:32 (Info):    Feature                  Source                       Version  Acquired  Count
+2025-04-06T11:00:32 (Info):    -----------------        -----------------            -------  --------  -----
+2025-04-06T11:00:32 (Info):    carsimbr                 @carsim                      2022     [   ]          
+2025-04-06T11:00:32 (Info):    carsimsguibr             @carsim                      2022     [   ]          
+2025-04-06T11:00:32 (Info):    carsimsmobr              @carsim                      2022     [   ]          
+2025-04-06T11:00:32 (Info):    carsimbr                 @carsimrt                    2024     [   ]          
+2025-04-06T11:00:32 (Info):    carsimsguibr             @carsimrt                    2024     [   ]          
+2025-04-06T11:00:32 (Info):    carsimsmobr              @carsimrt                    2024     [   ]          
+2025-04-06T11:00:32 (Info):    trucksimbr               @carsimrt                    2024     [   ]          
+2025-04-06T11:00:32 (Info):    trucksimsguibr           @carsimrt                    2024     [   ]          
+2025-04-06T11:00:32 (Info):    trucksimsmobr            @carsimrt                    2024     [   ]          
+2025-04-06T11:00:32 (Info):    carsimbr                 @carsimrt2                   2024     [   ]          
+2025-04-06T11:00:32 (Info):    carsimanibr              @carsimrt2                   2024     [   ]          
+2025-04-06T11:00:32 (Info):    carsimlabcarbr           @carsimrt2                   2024     [   ]          
+2025-04-06T11:00:32 (Info):    carsimsguibr             @carsimrt2                   2024     [   ]          
+2025-04-06T11:00:32 (Info):    carsimsmobr              @carsimrt2                   2024     [   ]          
+2025-04-06T11:00:32 (Info):    carsimsmortbr            @carsimrt2                   2024     [   ]          
+2025-04-06T11:00:32 (Info):    Warning: carsimspdgtus is not available in your region: br
+2025-04-06T11:00:58 (Info):    Warning: carsimspdgtus is not available in your region: br
+2025-04-06T11:00:58 (Info):    Acquired [1] license for carsimsguibr
+2025-04-06T11:00:58 (Info):    Acquired [1] license for carsimbr
+2025-04-06T11:00:58 (Info):    Acquired [1] license for carsimsmobr
+2025-04-06T11:00:59 (Info):    License check took 27.73 seconds.
+2025-04-06T11:00:59 (Info):    Indexed whole database in 0.22s
+2025-04-06T11:01:00 (Info):    Initial setup took 0.95 seconds.
+2025-04-06T11:01:02 (Info):    Indexed whole database in 0.23s
+2025-04-06T11:01:03 (Info):    Auto updates took 2.72 seconds.
+2025-04-06T11:01:03 (Info):    Loaded last screen in 0.67 seconds.
+2025-04-06T11:01:03 (Info):    Total init time 32.94 seconds.
+2025-04-06T11:01:52 (Info):    Created temp directory: C:\Users\HENRIQ~1\AppData\Local\Temp\CarSim_SaveAs\cada6dfe-db7e-4509-bda3-0f0f555284bd
+2025-04-06T11:02:13 (Info):    ----------------------------------
+2025-04-06T11:02:13 (Info):    Starting import preview...
+2025-04-06T11:02:13 (Info):    Import (By UUID), Preferences\pref_a9da94e2-90cd-46fc-a780-bb613a55ea92.par, Blocked, Preferences, , Default Settings
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_ffde6a6e-9bc3-443d-aa0f-d77d45f3a041.par, Open, CarSim Run Control, VHF Urbano, Accel: Full Thr, Split-Mu (Model Free)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_b6e8b1b1-8bb5-45a4-a854-d3ebd04fe6db.par, Open, CarSim Run Control, VHF Urbano, Accel: Full Thr, Split-Mu (No Control)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_2ed1be0e-aded-40ad-a216-7a478220512c.par, Open, CarSim Run Control, VHF Urbano, Full_acc_Optimal_TC Simulink (Model Free)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_12d89d2d-eb5e-4a8b-adee-f6b9d7826625.par, Open, CarSim Run Control, VHF Urbano, Full_acc_TC Simulink (Model Free Const My)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_9fe35bc6-59fb-4f26-a807-019b125ff5c0.par, Open, CarSim Run Control, VHF Urbano, Full_acc_TC Simulink (Model Free)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_7e663c60-7e8a-4205-8bce-2b601611d568.par, Open, CarSim Run Control, VHF Urbano, Full_acc_TC Simulink (PI)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_6d696624-fd65-4a9a-bda8-ebbc093b0e96.par, Open, CarSim Run Control, VHF Urbano, Growing Speed (Step)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_9613d181-6f75-4048-a6c1-a9a0bb5f54d2.par, Open, CarSim Run Control, VHF Urbano, Modelo principal (Full_acc)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_5861cd19-99cc-4f9d-b1f5-f0e13e4c1e4d.par, Open, CarSim Run Control, VHF Urbano, Multiple tests Dataset (change this as u want)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_490bfdc0-b5a4-4267-86c4-f678aeaf9588.par, Open, CarSim Run Control, VHF Urbano, Percurso Urbano #1
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_9bc1aea5-9ee6-4df9-b097-09948315df94.par, Open, CarSim Run Control, VHF Urbano, Percurso Urbano w/o regenerative brake
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_f3b00011-0750-4ed5-aa0c-30f59858fe26.par, Open, CarSim Run Control, VHF Urbano, TCS_HiL_Control
+2025-04-06T11:02:13 (Info):    Import (By UUID), Runs\Run_dbc53c6c-2889-4564-9b27-ed44de9c5998.par, Open, CarSim Run Control, VHF Urbano, TCS_HiL_Simulink_Model
+2025-04-06T11:02:13 (Info):    Import (By UUID), Models\Simulink\Simlink_49569927-7d66-45ae-873a-f3c1beadd0d5.par, Open, Models: Simulink, Traction Control for TCS and ESC, VHF TCS Model Free
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\Cameras\Camera_27cfa3aa-bcd7-4b05-b522-6516bf0a17ae.par, Open, Animator: Camera Setup, Vehicle Reference, 200 Azm, 10 El, 25 m, No Yaw
+2025-04-06T11:02:13 (Info):    Import (By UUID), Vehicles\Assembly\Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea.par, Open, Vehicle: Assembly, Meus Veiculos, VHF Urbano, eRWD Hibrido Serie com controle Vx
+2025-04-06T11:02:13 (Info):    Import (By UUID), Procedures\Proc_c8fe4f0d-7dba-41d9-8c0e-5afba45a7ece.par, Open, Procedures, Accel. and Brake Testing, Part-Throttle Accel: 1.0 Thr, Split-Mu
+2025-04-06T11:02:13 (Info):    Import (By UUID), Generic\Group\GenGrp_fb093731-6cce-46b7-a245-ad3984d047a3.par, Open, Generic Data Group, Tire Force Arrows, 2 Axle - Fx, Fy, Fz custom reference
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_ac871e31-3a2e-4f60-b6cb-3284aa167ea9.par, Open, Plot: Setup, Speed Controller, Speed Target and Actual
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_757f72ed-4f5c-43eb-8e7e-7788378ee0bf.par, Open, Plot: Setup, Powertrain, Fuel Consumed
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f.par, Blocked, Plot: Setup, Tracking, Station vs. Time
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_1f907f02-54f4-41b3-b001-1025d2df75c3.par, Open, Plot: Setup, VHF Plots, Electric traction motors Torque
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_0e77b12b-234b-4637-9ff0-9b41b1d40bd1.par, Open, Plot: Setup, VHF Plots, Rear Wheels laged Slip Rate
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_243197da-07ae-44f7-b559-e70dedafb1c4.par, Open, Plot: Setup, VHF Plots, Powers in Series Hybrid Powertrain
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\Cameras\Camera_7be907ce-b756-4a83-a868-96cbbb671348.par, Open, Animator: Camera Setup, Vehicle Fixed Camera, Custom Fender View
+2025-04-06T11:02:13 (Info):    Import (By UUID), Models\Simulink\Simlink_1800cc56-03cc-4044-b6ad-f75a76322ff4.par, Open, Models: Simulink, Traction Control for TCS and ESC, VHF Optimal TCS Model Free
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par, Blocked, Animator: Camera Setup, Vehicle Reference, 13 Azm, 9 El, 18 m, No Yaw
+2025-04-06T11:02:13 (Info):    Import (By UUID), Vehicles\Assembly\Vehicle_f933babc-9fe3-4fef-b404-522ab1cfc5f0.par, Open, Vehicle: Assembly, Meus Veiculos, VHF Urbano, eRWD Hibrido Serie
+2025-04-06T11:02:13 (Info):    Import (By UUID), Procedures\Proc_d09d4d83-fe61-42cd-b5b5-55178f726641.par, Open, Procedures, Meus procedimentos, Full Throttle Accel. and Mu constant
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\HUD\HUD_9d0084f1-a433-4611-bf43-5b880b3962d4.par, Open, Animator: HUD, Vehicle Status Indicators, Acceleration Text
+2025-04-06T11:02:13 (Info):    Import (By UUID), Roads\Profiles\Profile_26561b5c-2b57-4c52-9487-718b00d84997.par, Open, Surface: Roughness Profiles, Rough Road - Sample Data Edited, Rough Road 04 - 55 in/mi (0.87 m/km)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_7f5b891d-1f1e-41be-ae5a-9a8a00cf48c6.par, Open, Plot: Setup, Tire Kinematics, Slip Ratios: Instant
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\W_Channels\Write_d0c3b391-b7bd-4d14-b429-cb98f6f9ac45.par, Open, I/O Channels: Write, , Optimal_ASR Analisys (MAT File)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Models\Simulink\Simlink_ee36557c-aca6-402e-acb8-4e352d61f7fa.par, Open, Models: Simulink, Traction Control for TCS and ESC, VHF TCS Model Free Const Torque
+2025-04-06T11:02:13 (Info):    Import (By UUID), Roads\Profiles\Profile_3bff0c88-84c1-408a-843d-956a1e2abe43.par, Open, Surface: Roughness Profiles, , Example Road Roughness
+2025-04-06T11:02:13 (Info):    Import (By UUID), Vehicles\Assembly\Vehicle_bd699e8e-e4d6-4c7c-bfd8-5185f1131fcd.par, Open, Vehicle: Assembly, Meus Veiculos, VHF Urbano, eRWD 500 Hibrido Serie
+2025-04-06T11:02:13 (Info):    Import (By UUID), Procedures\Proc_6f8260cf-3e12-4c75-aebd-3940323949a7.par, Open, Procedures, Meus procedimentos, Full Throttle Accel. w/ Events and Mu variation
+2025-04-06T11:02:13 (Info):    Import (By UUID), Models\Simulink\Simlink_e0217934-7fff-4219-81da-96fb6468ba45.par, Open, Models: Simulink, Traction Control for TCS and ESC, VHF TCS Controller
+2025-04-06T11:02:13 (Info):    Import (By UUID), Procedures\Proc_213c8ac9-64ab-45f8-825c-ba6320d2f7ed.par, Open, Procedures, Meus procedimentos, Growing Speed -S tep 9km/h
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\HUD\HUD_28cddbb9-94c6-4e76-a06f-7737ba30c08f.par, Open, Animator: HUD, Vehicle Status Indicators, Throttle and Speed, L. Side, 19% Up
+2025-04-06T11:02:13 (Info):    Import (By UUID), Procedures\Proc_94f3d353-1fa8-47b3-a6e6-2be2e05152cd.par, Open, Procedures, Driver Controls, Lane Keeping, Normal Driving
+2025-04-06T11:02:13 (Info):    Import (By UUID), Procedures\Proc_f0822b2b-95c6-42c6-a339-b8b12f3607a5.par, Open, Procedures, Meus procedimentos, Hybrid/Electric: EPA Urban Cycle #1
+2025-04-06T11:02:13 (Info):    Import (By UUID), Vehicles\Assembly\Vehicle_5b19b8bf-0edc-48c8-b1d4-dde4c5f35d7d.par, Open, Vehicle: Assembly, Meus Veiculos, VHF Urbano, eRWD Hibrido Serie w/o Reg. Brake
+2025-04-06T11:02:13 (Info):    Import (By UUID), Models\Simulink\Simlink_8adddf78-e368-4406-8142-186c454b714d.par, Open, Models: Simulink, TCS/ABS HiL, VHF HiL Model IO
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\Ports\Port_beabe2d7-45c2-4437-8d9a-2059d70d598e.par, Open, I/O Channels: Ports, VHF Controls, MF const ASR Controllers: Multi-port
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\Frames\Frame_d2b5165c-cec2-4d4b-a319-0d7cf12b8f0d.par, Blocked, Animator: Reference Frame, Tracking: Vehicle, Vehicle X-Y-Z
+2025-04-06T11:02:13 (Info):    Import (By UUID), Steering\System2\StrSys2_15589801-d4e7-488f-9884-031d53c5d85c.par, Open, Steering, CS A-Class, A-Class, Hbk: Manual, R&P
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Kin_Indy\KinInd_b73ffbd7-0eec-4cd9-995c-38f37d8c485d.par, Open, Suspension: Independent System Kinematics, VHF, VHF, Hatchback - Front
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Compliance\CmpInd_33af22ab-8d37-457c-81cc-2dd54103e211.par, Open, Suspension: Independent Compliance, Springs, and Dampers, A-Class, A-Class, Hatchback - Front
+2025-04-06T11:02:13 (Info):    Import (By UUID), Tires\Tire\Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f.par, Open, Tire, Touring Tires, 175/65 R14
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Kin_Indy\KinInd_4eb4cc23-cbe5-4ac6-8bc9-a553dd2d0df4.par, Open, Suspension: Independent System Kinematics, VHF, VHF, Hatchback - Rear
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Compliance\CmpInd_13763e89-46c0-4596-bfe8-3c54875493f7.par, Open, Suspension: Independent Compliance, Springs, and Dampers, A-Class, A-Class, Hatchback - Rear
+2025-04-06T11:02:13 (Info):    Import (By UUID), Vehicles\Sprung_Mass\SprMass_2505038c-0e1e-4b6b-8781-cb3ac91b93fd.par, Open, Vehicle: Sprung Mass, Meu Veiculo, VHF, Hatchback
+2025-04-06T11:02:13 (Info):    Import (By UUID), Aerodynamics\Aero_Main\Aero_48d30a48-3cc4-46fd-be0c-77e1d8b465f8.par, Open, Aerodynamics: Basic, A-Class, A-Class, Hatchback Aero
+2025-04-06T11:02:13 (Info):    Import (By UUID), Powertrain\Rwd\RWD_7b503ffc-4d73-4af0-9cd7-09a376cb83b8.par, Open, Powertrain: Rear-Wheel Drive, VHF Hibrido (Engine + Dual Rear Motor), Hibrido Serie 250cc 2RWD optimized
+2025-04-06T11:02:13 (Info):    Import (By UUID), Brakes\4W_System\Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da.par, Open, Brakes: Four-Wheel System, A-Class, Hatchback: M/C Press, No ABS
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\Vehicles\AniVeh_6dde9236-a061-4df5-abaa-f2af821aab84.par, Open, Animator: Vehicles and Sensor Targets, Meu Veiculo, VHF,A-Class, Subcompact
+2025-04-06T11:02:13 (Info):    Import (By UUID), Output\Sensors\MoSen_e040856c-b0ed-4021-99cb-3a0519cb1981.par, Open, Positions, Velocities, and Accelerations, SM and USM CGs, Accelerometer at SM CG
+2025-04-06T11:02:13 (Info):    Import (By UUID), Control\Driver\StrDM_b1b717a4-04d9-461d-8975-e1ef0b12d822.par, Blocked, Control: Steering by the Closed-loop Driver Model, Constant Position: No Offset, 0.75s Single Preview
+2025-04-06T11:02:13 (Info):    Import (By UUID), Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par, Blocked, Control: Braking MC Pressure (Open Loop), Constant, Constant: 0 MPa
+2025-04-06T11:02:13 (Info):    Import (By UUID), Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par, Blocked, Control: Shifting (Closed Loop), Closed-Loop Shifting, AT (All Available Gears)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Control\Throttle\Throttle_3da12db1-5dff-46bc-992e-e7a512c8c045.par, Open, Control: Throttle (Open Loop), Constant, Constant: 1.0
+2025-04-06T11:02:13 (Info):    Import (By UUID), Roads\3D_Road\Road_85c33d04-5227-49b8-97ae-4dcabc5720b6.par, Open, Road: 3D Surface (All Properties), Straight, Split Mu 10m
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_881b430b-dfba-4afc-a6ce-ff0d76b1c26c.par, Blocked, Plot: Setup, Vehicle Motion, Pitch Angle of Sprung Masses vs. Time
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_c4bdb93b-47a3-4cbc-b25d-a177bdb75823.par, Open, Plot: Setup, Powertrain, Spin Rates in Powertrain
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_2cd77a14-4a29-44d1-a8e0-03a81f9c74cf.par, Open, Plot: Setup, Powertrain, Torques in Powertrain
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_b3ef8646-beef-4024-9925-3f874e91a76b.par, Blocked, Plot: Setup, Braking, Wheel Speeds
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_8077fc50-941c-45ed-a470-23f6069121a5.par, Blocked, Plot: Setup, Powertrain, Wheel Drive Torques
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_4f67d5b7-0627-47d3-baf7-12fe88008d68.par, Blocked, Plot: Setup, Powertrain, Gear Selection
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\Arrows\Arrows_f8030952-3c18-4226-b2f7-713e534a2c60.par, Open, Animator: Wheel Arrows and Other Indicators, Tire Force Arrows (2 Axles), 2A - Fx Tire Force Arrows 500N reference
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\Arrows\Arrows_8060e1fd-0c11-4d4b-81f2-285f164eec6d.par, Open, Animator: Wheel Arrows and Other Indicators, Tire Force Arrows (2 Axles), 2A - Fy Tire Force Arrows custom reference
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\Arrows\Arrows_f2c29d4b-df79-4c67-b153-729d3f552770.par, Blocked, Animator: Wheel Arrows and Other Indicators, Tire Force Arrows (2 Axles), 2A - Fz Tire Force Arrows
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Format\PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862.par, Blocked, Plot: Format, , Default Plot Settings
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par, Blocked, Plot: Format, , Lines without Symbols
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\Ports\Port_761ffbab-47b8-4498-83ff-176c8a9c5bb3.par, Open, I/O Channels: Ports, VHF Controls, ASR Controllers: Multi-port w/ sensors
+2025-04-06T11:02:13 (Info):    Import (By UUID), Powertrain\Rwd\RWD_95533e6b-8b56-44cb-bc46-01fc9bfd0c85.par, Open, Powertrain: Rear-Wheel Drive, VHF Hibrido (Engine + Dual Rear Motor), Hibrido Serie 250cc 2RWD
+2025-04-06T11:02:13 (Info):    Import (By UUID), Control\Driver\StrDM_4b7043d6-a7bf-424e-8f01-c465639aa5f6.par, Open, Control: Steering by the Closed-loop Driver Model, Constant Position: No Offset, 0.15s Preview
+2025-04-06T11:02:13 (Info):    Import (By UUID), Roads\3D_Road\Road_96f62678-8d62-4db7-ba47-bb218cc8d7b2.par, Open, Road: 3D Surface (All Properties), Straight VHF Courses, 1200 m, One Lane, 0 Degree, Mu = 0.3
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\Arrows\Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887.par, Blocked, Animator: Wheel Arrows and Other Indicators, Skid Marks, Tire Skid Marks (2 Axles)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Events\Events_be6dad49-f4bc-4dd5-913f-1f67a1e87943.par, Open, Events, VHF Acceleration, A. Wait 3 seconds
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_a243fc1c-fc6b-4404-89ac-bc8209a293be.par, Blocked, Plot: Setup, Vehicle Motion, Longitudinal Speed (Vxz_Fwd) vs. Time
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_7251a722-18c9-43db-a324-bd380d275618.par, Blocked, Plot: Setup, Controls: Driver, Throttle: Control Input
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_92c3bffb-a766-4f7d-9f5e-73059542ee31.par, Blocked, Plot: Setup, Powertrain, Engine RPM
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_24a4846e-f402-4012-b77b-094555ca98d1.par, Open, Plot: Setup, VHF Plots, Slip Ratios w/ Ref: Lagged (Axle 2)
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_50f46a40-9207-462f-95eb-1f0a9f7660f8.par, Blocked, Plot: Setup, Powertrain, Wheel Drive Torques - Rear
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_c7306601-bee0-4edc-92fb-2c670cb34a1b.par, Blocked, Plot: Setup, Tire Forces and Moments, Longitudinal Forces
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_c6f23fbc-2707-41af-a3cd-715e42a84da4.par, Open, Plot: Setup, Tire Forces and Moments, Fx vs. Slip
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_71df6f9d-5f7f-43e1-a5d7-d556dc8678ab.par, Open, Plot: Setup, Tire Kinematics, Slip Ratios: Lagged
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_9e7c6a3f-7f4d-4388-b203-bc0555523537.par, Blocked, Plot: Setup, Powertrain (Hybrid), Battery power limit
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_b837ff0c-b61c-4741-af66-a50fa6d378da.par, Blocked, Plot: Setup, Powertrain (Hybrid), Battery voltage
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_55af1489-6b5d-4c72-9db8-6018c686d9fc.par, Blocked, Plot: Setup, Powertrain (Hybrid), Motor efficiency
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_4445b244-c3e7-43a0-a5f5-85a967aa04e4.par, Blocked, Plot: Setup, Powertrain (Hybrid), Battery current
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_f04a944d-07f4-45a4-b417-57ea1d7f7463.par, Blocked, Plot: Setup, Powertrain (Hybrid), Hybrid powertrain mode
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_096991e2-726a-4c37-b0ec-6bfbcc66e0c9.par, Blocked, Plot: Setup, Powertrain (Hybrid), Torques in Hybrid Powertrain
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_5ad46bd2-8310-4bc0-a616-b45effecb7ca.par, Open, Plot: Setup, Powertrain (Series Hybrid VHF), Powers in VHF Powertrain
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_57761f47-ff9c-4a69-b8d6-96910bb80979.par, Blocked, Plot: Setup, Powertrain (Hybrid), Battery remaining level
+2025-04-06T11:02:13 (Info):    Import (By UUID), Powertrain\Rwd\RWD_d5e643b4-d8a6-4985-9b51-98e8242f62b2.par, Open, Powertrain: Rear-Wheel Drive, VHF Hibrido (Engine + Dual Rear Motor), Hibrido Serie 250cc 2RWD 1000 N-m
+2025-04-06T11:02:13 (Info):    Import (By UUID), Output\Sensors\MoSen_372602c7-6b30-40f5-9017-977a02868a38.par, Blocked, Positions, Velocities, and Accelerations, SM and USM CGs, Accelerometers at SM and USM CGs
+2025-04-06T11:02:13 (Info):    Import (By UUID), Roads\3D_Road\Road_20a6755e-9c86-4a8a-8c5c-83be0704afe5.par, Open, Road: 3D Surface (All Properties), Straight VHF Courses, 1200 m, One Lane, Mu Variation
+2025-04-06T11:02:13 (Info):    Import (By UUID), Events\Events_6b3f4ba4-b58e-4c4b-b89b-f35141a4e3c1.par, Open, Events, VHF Acceleration, A. Wait 0.5 seconds
+2025-04-06T11:02:13 (Info):    Import (By UUID), Control\Driver\StrDM_6bec9717-49f4-4c9c-8644-b5e0a402a44d.par, Blocked, Control: Steering by the Closed-loop Driver Model, Constant Position: No Offset, 0.4 sec. Single Preview
+2025-04-06T11:02:13 (Info):    Import (By UUID), Control\Speed_t\SpdTime_0deaf3f0-6a18-404a-a7cb-f98bc69b4b6d.par, Open, Control: Speed (Closed Loop) Using Target Speed, Speed vs Time, Step: 0-9-90 km/h
+2025-04-06T11:02:13 (Info):    Import (By UUID), Events\Events_72d170af-7b13-45ad-aa79-7b9004596caa.par, Blocked, Events, Infinity road, Reset vehicle location when s = 1000
+2025-04-06T11:02:13 (Info):    Import (By UUID), Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1.par, Blocked, Road: 3D Surface (All Properties), Straight, 3km, Mu = 0.9, One Lane
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_dafae624-d48a-4548-93eb-fa73d080e21a.par, Blocked, Plot: Setup, Braking, Brake Control: M/C Pressure
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_77579fdf-3ebb-43be-9ef8-4418316c886a.par, Blocked, Plot: Setup, Powertrain (Hybrid), Spin Rates in Hybrid Powertrain
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_07737336-620f-4fa5-baca-5458abaf7d80.par, Blocked, Plot: Setup, Powertrain (Hybrid), Powers in Hybrid Powertrain
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_49162719-e05b-4946-b09a-e5f7b94d12ef.par, Blocked, Plot: Setup, Powertrain (Hybrid), Battery efficiency
+2025-04-06T11:02:13 (Info):    Import (By UUID), Control\Speed_path\SpdPath_65670824-831c-47e5-a0ce-1ce4d6dd8fa1.par, Open, Control: Speed (Closed Loop) Using Path Preview, Miscellaneous, Normal Driving on Road Course
+2025-04-06T11:02:13 (Info):    Import (By UUID), Roads\3D_Road\Road_2e2d68ea-3745-4439-97f8-47f23dcb3105.par, Blocked, Road: 3D Surface (All Properties), Self-Contained Scenes, Handling Course
+2025-04-06T11:02:13 (Info):    Import (By UUID), Events\Events_f69d433a-b23c-4fb6-b221-9dd0be417728.par, Open, Events, Speed Control with Path Preview, Stop After Number of Laps
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_f30c8f6e-f4c5-457d-9587-3baaad0f98b1.par, Blocked, Plot: Setup, Vehicle Motion, Longitudinal vs. Lateral Accel.
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_a4006ff0-aa52-4565-9c0d-3a634efcbe29.par, Blocked, Plot: Setup, Vehicle Motion, Lateral Accel. of CG's vs. Station
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_a883e5dc-fa62-4460-8b54-d60ead53be33.par, Blocked, Plot: Setup, Vehicle Motion, Longitudinal Accel. of CG's vs. Station
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_8158864c-cc8e-44ba-8dd8-e3af665dd87c.par, Blocked, Plot: Setup, Controls: Driver, Throttle: Control Input vs Station
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_2069b93a-8ce4-4265-a146-4941167b0a8c.par, Blocked, Plot: Setup, Braking, Brake Control: M/C Pressure vs Station
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_076736e1-2cdd-49d5-8a36-d55940b011f0.par, Blocked, Plot: Setup, Steering, Steering: Handwheel Angle
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_d40909f8-5ca3-4822-a9f3-7dfd1bdbb77f.par, Open, Plot: Setup, Controls: Driver, Speed Limit, Target, and Actual
+2025-04-06T11:02:13 (Info):    Import (By UUID), Plot\Setup\Plot_245215aa-0bc5-4a7b-9223-5244b6612748.par, Open, Plot: Setup, Tracking, Vehicle Path with Road Edges
+2025-04-06T11:02:13 (Info):    Import (By UUID), Control\Speed_t\SpdTime_c23749ac-3db3-4acd-a788-c6126fa08800.par, Open, Control: Speed (Closed Loop) Using Target Speed, EPA Cycles, EPA Urban Cycle: control modifications
+2025-04-06T11:02:13 (Info):    Import (By UUID), Powertrain\Rwd\RWD_4a336642-35df-441d-94eb-0dbdc0a7cec3.par, Open, Powertrain: Rear-Wheel Drive, VHF Hibrido (Engine + Dual Rear Motor), Hibrido Serie 250cc 2RWD w/o Reg. Brake
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\I_Channels\Import_72af32c3-4263-4650-82b8-cd84b72b192b.par, Open, I/O Channels: Import, VHF Controls, ESC/TCS: Eng. Torque
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\I_Channels\Import_f7d625d8-f7fb-445e-b8bc-5b4bfc12bfec.par, Open, I/O Channels: Import, VHF Controls, ESC/TCS: Torque Cmd
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_20dd4c4b-df73-484e-98e2-a42ea5941651.par, Open, I/O Channels: Export, VHF Controls, Vehicle Body Velocity
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_b957dd9a-8145-4991-b888-690f3b334001.par, Open, I/O Channels: Export, VHF Controls, Wheels Speeds
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_6604c6a5-5ead-4c38-a024-7f56c9c36051.par, Open, I/O Channels: Export, VHF Controls, Longitudinal rear tires forces
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_39f462ac-7bdb-466e-8a13-b43bf716e930.par, Open, I/O Channels: Export, VHF Controls, Driver Desired Power
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_bdebf396-b7ec-4434-b1f6-56a9def11867.par, Open, I/O Channels: Export, VHF Controls, Reference slip
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_f836abb4-3628-4b73-aaab-0b862af8cd95.par, Open, I/O Channels: Export, VHF Controls, Slip ratio
+2025-04-06T11:02:13 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_fd44d245-4863-420d-8acd-3bd9a983453a.par, Open, I/O Channels: Export, VHF Controls, Adhesion coefficients
+2025-04-06T11:02:13 (Info):    Import (By UUID), Steering\Compliance\StrCmp_17157a8e-5641-490c-8805-31fd0e8a37d2.par, Blocked, Steering System: Compliance, , Constant: Zero
+2025-04-06T11:02:13 (Info):    Import (By UUID), Steering\KinematicsRack2\RkKin2_922125be-bb14-4125-96e0-86ba7c500ae0.par, Open, Steering System: Kinematics for 2 Wheels (Rack & Pinion), CS A-Class, A-Class, Hatchback
+2025-04-06T11:02:13 (Info):    Import (By UUID), Steering\Compliance\StrCmp_04155b90-303f-4e9a-b97c-a2f522ed3d2a.par, Blocked, Steering System: Compliance, Linear, 0.001 deg/N-m
+2025-04-06T11:02:13 (Info):    Import (By UUID), Steering\Str_Park_Trq2\TqPark2_4ca7ff6a-f258-41a9-81d7-f253f593f7c5.par, Open, Steering: Parking Torque for 2 Wheels, A-Class, A-Class Hatchback
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Dive\Dive_36ccca6d-bb82-4b12-b31e-e1aaa482edaa.par, Blocked, Suspension: Dive Angle (Caster Change), Strut, Front Strut - Dive Angle
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Longitudinal\SusX_35125851-77f6-44c6-bcb0-732d9aa828f0.par, Blocked, Suspension: Longitudinal Movement, Strut, Front Strut -  Longitudinal Movement
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Camber\Camber_31c8e63a-6ec9-4a2b-9249-56e8917ff02b.par, Blocked, Suspension: Camber Angle, Strut, Front Strut - Camber Change
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Lateral\LatJnc_c53ecfc6-5914-4478-97c7-9423e28aec52.par, Blocked, Suspension: Lateral Movement Due to Jounce, Strut, Front Strut - Lateral Movement
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Toe\Toe_cc41a91b-7a42-4fa0-8a4b-cc010aca587f.par, Blocked, Suspension: Toe Angle, Strut, Front Strut - Toe Angle
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Shocks\Shock_970f98e3-0678-4435-8f8f-ba0016bef9c5.par, Open, Suspension: Shock Absorber, Passenger Car, Small Car
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Jounce_Rebound\JncReb_96afcc39-5188-4e82-aa5a-164ead34c04f.par, Blocked, Suspension: Jounce and Rebound Stops, Jounce Range: 50 mm to 99 mm, +60 mm / -40 mm
+2025-04-06T11:02:13 (Info):    Import (By UUID), Suspensions\Aux_Roll\AuxMx_9c8f9407-2193-4310-a403-343efd012f6b.par, Open, Suspension: Auxiliary Roll Moment, Linear, Linear: 205 N-m/deg
+2025-04-06T11:02:13 (Info):    Import (By UUID), Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par, Blocked, Animator: Shape Assembly, Tires, 145/80 R13
+2025-04-06T11:02:13 (Info):    Import (By UUID), Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par, Blocked, Generic Table, Tire Relaxation Length, Lx Variable, Scaled to Tire
+2025-04-06T11:02:13 (Info):    Import (By UUID), Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par, Blocked, Generic Table, Tire Relaxation Length, Ly Variable, Scaled to Tire
+2025-04-06T11:02:13 (Info):    Import (By UUID), Tires\Mz\TireMz_141f15f2-718f-4350-ab59-3e1ab4c044a0.par, Open, Tire: Aligning Moment, Touring Tires, 175/65 R14 (SAE)
+2025-04-06T11:02:14 (Info):    Import (By UUID), Tires\Fy\TireFy_9a15db7f-122e-4e13-b021-5738f1703457.par, Open, Tire: Lateral Force, Touring Tires, 175/65 R14
+2025-04-06T11:02:14 (Info):    Import (By UUID), Tires\Fx\TireFx_85022984-db32-4ff1-98e3-9d6b8f3429f2.par, Open, Tire: Longitudinal Force, Touring Tires, 175/65 R14
+2025-04-06T11:02:14 (Info):    Import (By UUID), Tires\Camber_Thrust\CamStiff_aefc96a5-44e9-4b04-b0f5-6c2a540c3595.par, Open, Tire: Camber Thrust Coefficient, Touring Tires, 175/65 R14
+2025-04-06T11:02:14 (Info):    Import (By UUID), Suspensions\Longitudinal\SusX_dd301e65-3ebf-409d-85f2-eefd1a6795d9.par, Blocked, Suspension: Longitudinal Movement, Tri-Link Strut, Rr. TLS: Longitudinal Movement
+2025-04-06T11:02:14 (Info):    Import (By UUID), Suspensions\Camber\Camber_d74dc4ba-9a45-49dd-9d91-b998a8358463.par, Blocked, Suspension: Camber Angle, Tri-Link Strut, Rear Tri-Link Strut - Camber Change
+2025-04-06T11:02:14 (Info):    Import (By UUID), Suspensions\Lateral\LatJnc_2d1706c3-ddcf-4177-9d5d-3259b29b38a2.par, Blocked, Suspension: Lateral Movement Due to Jounce, Tri-Link Strut, Rear Tri-Link Strut - Lateral Movement
+2025-04-06T11:02:14 (Info):    Import (By UUID), Suspensions\Toe\Toe_95f0644d-9d12-4e20-9ea8-22889a33d059.par, Blocked, Suspension: Toe Angle, Tri-Link Strut, Rear Tri-Link Strut - Toe Change
+2025-04-06T11:02:14 (Info):    Import (By UUID), Suspensions\Aux_Roll\AuxMx_79d58c9e-9915-4f59-8bf9-7576853043f3.par, Open, Suspension: Auxiliary Roll Moment, Linear, Linear: 184 N-m/deg
+2025-04-06T11:02:14 (Info):    Import (By UUID), Aerodynamics\Aero_Fx\AirCFx_67b7c1a5-2eb8-4548-b585-873fbb86b674.par, Blocked, Aerodynamics: Fx (Drag) Coef. vs. Aero Slip, Spline Interpolation, Spline: 0.30 at 0 deg.
+2025-04-06T11:02:14 (Info):    Import (By UUID), Aerodynamics\Aero_Fy\AirCFy_fdb1d5b6-475a-4d35-bfcc-b2b05bed2d67.par, Blocked, Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip, Spline Interpolation, Spline: 2 at 90 deg.
+2025-04-06T11:02:14 (Info):    Import (By UUID), Aerodynamics\Aero_Fz\AirCFz_181dc205-db9c-4a33-a480-7f8380b96502.par, Blocked, Aerodynamics: Fz (Lift) Coef. vs. Aero Slip, Spline Interpolation, Spline: 0.18 at 0 deg.
+2025-04-06T11:02:14 (Info):    Import (By UUID), Aerodynamics\Aero_Mx\AirCMx_3f02edea-099a-450e-bb38-0cab04c7d554.par, Blocked, Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip, Spline Interpolation, Spline: 0.3 at 90 deg.
+2025-04-06T11:02:14 (Info):    Import (By UUID), Aerodynamics\Aero_My\AirCMy_d0c39dc5-f1b1-477a-8422-5ef53720bcf1.par, Blocked, Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip, Spline Interpolation, Spline: 0.15 at 0 deg.
+2025-04-06T11:02:14 (Info):    Import (By UUID), Aerodynamics\Aero_Mz\AirCMz_8c859ffc-2eb2-44f3-8fa4-850e39efba8a.par, Blocked, Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip, Spline Interpolation, Spline: 0.2 at 35 deg.
+2025-04-06T11:02:14 (Info):    Import (By UUID), Powertrain\Engine\Engine_048f8c67-137e-4b23-acf2-378ad7c7802f.par, Open, Powertrain: Engine, 250cc, Honda CB250F Twister Engine
+2025-04-06T11:02:14 (Info):    Import (By UUID), Powertrain\HEV\HEV_d0569582-c5ef-4e39-8c1a-3a48a0c5384e.par, Open, Powertrain: Hybrid/Electric System, , Range-Ext. VHF Powertrain Assembly
+2025-04-06T11:02:14 (Info):    Import (By UUID), Powertrain\HEV_PMC\PMC_d0723c1e-b47e-4916-895f-466a00b4f20a.par, Open, Powertrain: Hybrid/Electric Power Management Control, , VHF Power Mgmt: Full Load 20kW optimized
+2025-04-06T11:02:14 (Info):    Import (By UUID), Powertrain\Reardiff\DiffR_e5ab13bf-b9f1-4f29-bd98-10ffa2bdc3fe.par, Open, Powertrain: Rear Differential, VHF Electric Motor Drive (30 kW), VHF Twin-Motor w/ 2.65:1 ratio
+2025-04-06T11:02:14 (Info):    Import (By UUID), Brakes\Proportioning\BrkProp_139de4eb-5c60-4501-a053-695e60ad9d1b.par, Blocked, Brakes: Proportioning / Limiting Valve, , Unity until 2.0 MPa then 30%
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_a58f97d5-1a89-45af-a23f-a5b72f431c48.par, Open, Animator: Shape File Link, Common Vehicle Assets: Tires, Blurred Tire: Car - Width 175 mm
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL_Groups\ShpGrp_3058e46b-5f58-4074-8f55-63f4eadadfc5.par, Open, Animator: Shape Assembly, Passenger Cars, A-Class Sub Compact
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_9dcd14c9-a5cd-4cd8-a500-026479d0a16e.par, Open, Animator: Shape File Link, Cars: A-Class, Hatchback: Brake Lights
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_067d569d-4bf4-4a98-9c51-6226f8668a3b.par, Open, Animator: Shape File Link, Cars: A-Class, Subcompact: Reverse Lights
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577.par, Blocked, Animator: Camera Setup, Shape Preview, Vehicles and Drivers - Cars
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\BuilderSegment\RoadSeg_299f5dd8-31b0-44f2-9251-eaaf215df33c.par, Blocked, Path: Segment Builder, Straight, Straight East
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Friction\RdMu_f0ef4b80-14f8-4aaf-8181-11d9129217ec.par, Open, Road: Friction Map, S-L Grid, Split Mu, Split Mu @ 10 m 0.2L/0.5R
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Shapes\RdShape_22356e54-d502-4482-8b1f-c32264f22202.par, Open, Road: Animator Surface Shapes, Variable friction, Split Mu at 3 m
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\AniGroup\AniRep_4b69659d-aaae-4afc-91ae-55d3fcd7a4bf.par, Open, Road: Animator Repeated Object, Trees, Snow Covered Trees (-500,500)
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Groups\Group_8784113f-5948-4ebc-8af1-67164da779e6.par, Open, Animator: Group, Environment Spheres, Overcast Sky with Snow
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_36b2ee7b-54ec-4c39-9781-51b289ab39c0.par, Blocked, Animator: Camera Setup, Road Reference, 180 Azm, 5 El, 49 m
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par, Open, Animator: Shape File Link, Environment: Trees, Pine: Winter
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_121d1f5b-e0e1-4397-b1a3-9459bdc4d022.par, Blocked, Animator: Shape File Link, Geometric Shapes: Arrows, 3D Pyramid: Tail Org (X-Axis)
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_adff5bc7-5cc6-40c6-8119-03dd91486a9c.par, Blocked, Animator: Shape File Link, Geometric Shapes: Arrows, 3D Pyramid: Tail Org (Y-Axis)
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_252e3627-824b-46c7-8ec4-f437c8cdcf34.par, Blocked, Animator: Shape File Link, Geometric Shapes: Arrows, 3D Pyramid: Tail Org (Z-Axis)
+2025-04-06T11:02:14 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_0b7c1e7a-3746-4138-9a61-1261f5ec2d3c.par, Open, I/O Channels: Export, VHF Controls, Tires forces
+2025-04-06T11:02:14 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_feec646d-0bdf-4e4b-8ee3-1a2b9df3cfb1.par, Open, I/O Channels: Export, VHF Controls, powertrain
+2025-04-06T11:02:14 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_7be51743-cd55-4240-a6f3-b42eb3e039f6.par, Open, I/O Channels: Export, VHF Controls, Accelerations, angular velocitys and orientation
+2025-04-06T11:02:14 (Info):    Import (By UUID), IO_Channels\O_Channels\Export_0f0b649e-29e2-44d7-afd6-f8aaf80cfc65.par, Open, I/O Channels: Export, VHF Controls, Lagged Slip Ratio
+2025-04-06T11:02:14 (Info):    Import (By UUID), Powertrain\HEV_PMC\PMC_490563fa-4dd6-4b70-ba97-07cb4605ae7a.par, Open, Powertrain: Hybrid/Electric Power Management Control, , VHF Power Mgmt: Full Load 22kW
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Center_Z\RdRefZ_598f8ea7-d2f1-4e0b-a828-7b8c7dfb136e.par, Open, Road: Reference Line Elevation, Uniform Grades, Flat
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Friction\RdMu_a8a49b3d-823d-4e15-aaed-78c2169bf1a0.par, Open, Road: Friction Map, S-L Grid, Constant, Constant: 0.3
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Shapes\RdShape_f53d6615-2d47-45da-814d-fb981b79354a.par, Open, Road: Animator Surface Shapes, Variable friction, Low Mu (Wet Tile) at -5m
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Groups\Group_4ccae742-4649-427a-8871-7b3629a730a2.par, Blocked, Animator: Group, Environment Spheres, Partly Cloudy Sky with Light Grass
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\AniGroup\AniRep_9e87b837-4bbe-4910-ab33-c5c61a43b20d.par, Open, Road: Animator Repeated Object, Trees, Trees (0, 1000)
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\AniGroup\AniRep_c8fe1a01-0c9d-4d47-b2a1-7ce6a443bd54.par, Open, Road: Animator Repeated Object, Cones, Straight Course Cones
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_b639c6f4-88ee-4c0a-b131-51a82e79064b.par, Blocked, Animator: Shape File Link, Environment: Trees, Oak: Summer
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par, Blocked, Animator: Shape File Link, Environment: Props (2 of 2), Traffic Cone
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_cbeb61e2-0787-4c7e-b4d8-b6e0b7f413d9.par, Blocked, Animator: Shape File Link, Common Vehicle Assets, Tire Mark (Run Color)
+2025-04-06T11:02:14 (Info):    Import (By UUID), Events\Events_87ece221-9eca-4797-8340-5f89e544460a.par, Open, Events, VHF Acceleration, B2. Wait 0.5s and reset speed
+2025-04-06T11:02:14 (Info):    Import (By UUID), Powertrain\Reardiff\DiffR_62efc512-75c6-44a6-b9c2-09a4c6f9d0f9.par, Open, Powertrain: Rear Differential, VHF Electric Motor Drive (30 kW), VHF Twin-Motor 1000 N-m w/ 2.65:1 ratio
+2025-04-06T11:02:14 (Info):    Import (By UUID), Plot\Setup\Plot_43d9b2ae-0bc8-4112-ad93-ef6e25eed1a4.par, Blocked, Plot: Setup, Position, Accel. and Rate Sensors, Sensor Vertical Acceleration w/ G
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Center_Z\RdRefZ_16e72c88-2feb-4bd2-bb8a-4a7746b0d925.par, Blocked, Road: Reference Line Elevation, Hills and Valleys, 1.5 km with Hills
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Friction\RdMu_3d48c076-58b0-4f08-8dc1-4a73b5ceb33e.par, Open, Road: Friction Map, S-L Grid, Straight Variable Mu, Variable 0.3 to 0.85 to 0.5 to 0.85 to 0.3
+2025-04-06T11:02:14 (Info):    Import (By UUID), Events\Events_e7bd4636-b5d2-4748-903a-59012cfd6412.par, Blocked, Events, Infinity road, Reset to S = 0
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Friction\RdMu_76157e0a-7f92-4d03-8249-7715bd43a5ba.par, Blocked, Road: Friction Map, S-L Grid, Constant, Constant: 0.9
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Shapes\RdShape_9a80db84-927c-4a13-b14d-454a87756c52.par, Blocked, Road: Animator Surface Shapes, Roads, 3km Road, 200m Grass, One Lane
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\AniGroup\AniRep_8e99d991-f185-48ca-83a5-275b91161cb3.par, Blocked, Road: Animator Repeated Object, Trees, Trees (0, 1200)
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_ad0ff622-c982-4151-ad8c-04baab43d318.par, Blocked, Animator: Shape File Link, Environment: Trees, Pine: Summer
+2025-04-06T11:02:14 (Info):    Import (By UUID), Control\Speed_t\SpdTime_6ee57edf-b277-48cb-9b79-bb9e9bcad9e1.par, Open, Control: Speed (Closed Loop) Using Target Speed, Handling and Performance Driving, Normal Driving on Road Course
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Center_XY\PathXY_c0142889-4f85-45a5-830f-de071137ef97.par, Blocked, Path: X-Y Coordinates, Handling Course, Handling Course Left Edge
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Center_Z\RdRefZ_253759f0-3b4a-4168-991e-98a6b5ae562a.par, Blocked, Road: Reference Line Elevation, Handling Course, Handling Course
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\dZ_Map\RdMapZ_446947b3-3c6d-4793-9ba1-61222ba31855.par, Blocked, Road: Off-Center Elevation Map, S-L Grid, Handling Course, Handling Course Camber
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Friction\RdMu_14d0d322-e529-4060-b63a-06992b038998.par, Blocked, Road: Friction Map, S-L Grid, Road Handling Course, Handling Course Variable Mu
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Shapes\RdShape_5a0d0496-c52b-465a-9469-50c21390f2b1.par, Blocked, Road: Animator Surface Shapes, , No Machine-Generated Shapes
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\dZ_Map\RdMapZ_87b25c4f-0087-433e-8ae8-d189ce4b11f7.par, Blocked, Road: Off-Center Elevation Map, S-L Grid, Handling Course, Handling Course Curbing
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\Boundaries\RdBnd_f658c7c3-6007-4ca2-ad16-6682a99f16e4.par, Blocked, Road: Boundaries, Road Boundary Stop Conditions, Handling Course Edges
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_aac5faa1-9cce-45a1-81d2-669b47d6af20.par, Blocked, Animator: Shape File Link, Self-Contained Scenes, Handling Course: Road
+2025-04-06T11:02:14 (Info):    Import (By UUID), Roads\AniGroup\AniRep_13e13ec7-cea3-4a96-a6ad-d28c56008d88.par, Blocked, Road: Animator Repeated Object, Cones, Handling Course Cones
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Groups\Group_1e7fec86-9ab4-4fab-8725-bc6e048790ae.par, Blocked, Animator: Group, Roads and Environment, Handling Course Extra Shapes
+2025-04-06T11:02:14 (Info):    Import (By UUID), Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par, Blocked, Events, , End Events
+2025-04-06T11:02:14 (Info):    Import (By UUID), Events\Events_e97ef8d2-743d-42d6-9143-44d5bf6d3028.par, Open, Events, Speed Control with Path Preview, Don't Calculate Edges After First Lap
+2025-04-06T11:02:14 (Info):    Import (By UUID), Powertrain\HEV_PMC\PMC_709eccd2-a6d7-4afb-9773-9ebf40d7145c.par, Open, Powertrain: Hybrid/Electric Power Management Control, , VHF Power Mgmt: Full Load 20kW w/o Reg. Brake
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par, Blocked, Animator: Shape File Link, Common Vehicle Assets: Tires, 145/80 R13: Tire
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par, Blocked, Animator: Shape File Link, Common Vehicle Assets: Tires, 145/80 R13: Wheel
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par, Blocked, Animator: Shape File Link, Common Vehicle Assets: Tires, 145/80 R13: Stripe
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par, Blocked, Animator: Camera Setup, Shape Preview, YZ-Plane, No Offsets (with Yaw)
+2025-04-06T11:02:14 (Info):    Import (By UUID), Powertrain\Fuel_Rate\FuelRate_2dc4400d-4ea3-4d4d-8de9-69abf61912b0.par, Open, Powertrain: Fuel Consumption Rate, , 250cc
+2025-04-06T11:02:14 (Info):    Import (By UUID), Generic\Links\GenLink_1e61da3e-2c03-4189-9e05-76481bfea320.par, Blocked, Generic Group of Links, Powertrain (HEV), Electric Generator: Max. Load 66 N-m
+2025-04-06T11:02:14 (Info):    Import (By UUID), Generic\tables\GenTab_6f47a0fa-dc8a-4808-b1d1-8e00dd3b9062.par, Open, Generic Table, Powertrain VHF, Battery charged resistance
+2025-04-06T11:02:14 (Info):    Import (By UUID), Generic\tables\GenTab_1b6d560e-1536-4add-8fa1-27ed2890bbaf.par, Open, Generic Table, Powertrain VHF, Batt. discharged resistance
+2025-04-06T11:02:14 (Info):    Import (By UUID), Generic\tables\GenTab_fd0240fc-edc6-46dc-9279-278e991cfa22.par, Open, Generic Table, Powertrain VHF, Battery Open-Circuit Voltage
+2025-04-06T11:02:14 (Info):    Import (By UUID), Generic\tables\GenTab_658e8cc0-338a-4933-af0c-930d2b39cccc.par, Open, Generic Table, Powertrain VHF, Battery Max Capacity VHF
+2025-04-06T11:02:14 (Info):    Import (By UUID), Generic\tables\GenTab_e86f418f-e56a-4cb1-9940-d256c2b057bb.par, Open, Generic Table, Powertrain VHF, Driver Demand Power: Full Load 22 kW
+2025-04-06T11:02:14 (Info):    Import (By UUID), Generic\tables\GenTab_5252d211-ca81-4595-9e9d-f8b51151910a.par, Open, Generic Table, Powertrain VHF, Optimal CB250F Twister engine speed
+2025-04-06T11:02:14 (Info):    Import (By UUID), Powertrain\Motor\MMotor_692c9cc2-40eb-4345-a5ae-b769de99eea5.par, Open, Powertrain: Electric Motor Torque, Electric Motor, Max. Output 350 N-m
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_af7c7c91-f09a-4493-9104-5b2725e3cf03.par, Blocked, Animator: Camera Setup, Shape Preview, Isometric View - Small Objects
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_e4ea9ba6-a657-4c2b-9f64-805450f1392a.par, Open, Animator: Shape File Link, Cars: A-Class, Hatchback
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_49fa3925-cfda-4de9-9711-6ccb0c7663a9.par, Open, Animator: Shape File Link, Cars: A-Class, Hatchback: Driver (Asian Female)
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_82b28084-790d-4ba6-a774-1d2cd5796fec.par, Blocked, Animator: Camera Setup, Shape Preview, Rear View
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Frames\Frame_02b47476-96e6-474b-919e-07d03b43f1ec.par, Blocked, Animator: Reference Frame, Shape Preview: Generic, Yaw for Shape Preview
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Frames\Frame_8761c9b6-c784-4d2d-b8bc-72683578e773.par, Blocked, Animator: Reference Frame, Tracking: Vehicle, Skybox (Vehicle X-Y-Z)
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_8e36e98b-3732-4378-bdd3-d579e6289bb4.par, Open, Animator: Shape File Link, Environment: Sky Boxes, Overcast Sky
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_dd12e90a-4567-4558-8474-f459594533b2.par, Open, Animator: Shape File Link, Environment: Land Bowls, Snow
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_2202fd2b-3326-4e17-98ee-a32b013c984a.par, Open, Animator: Shape File Link, Environment: Land Bowls, Horizon: Snowy Mountains
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Frames\Frame_0d19114f-a5d3-40a0-b63b-e67f85442aa7.par, Blocked, Animator: Reference Frame, Tracking: Road, Camera Rear Point w/ Yaw
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_614e20f4-a550-401b-86b4-f904a05376d4.par, Blocked, Animator: Camera Setup, Shape Preview, Isometric View - Large Objects
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_6d5f4980-0cdc-4aa2-841c-f127e1b02f97.par, Blocked, Animator: Shape File Link, Environment: Sky Boxes, Partly Cloudy Sky
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_8747e07e-81f8-4899-bd41-ca6921d43beb.par, Blocked, Animator: Shape File Link, Environment: Land Bowls, Light Grass
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_a09b6cf8-f7eb-4f79-b815-59182cd87d61.par, Blocked, Animator: Camera Setup, Shape Preview, Isometric View - Extra Large Objects
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_b22c9c83-52ff-415d-a48c-b080618e0e6d.par, Blocked, Animator: Camera Setup, Shape Preview, XY Plane, No Offsets - Small Objects
+2025-04-06T11:02:14 (Info):    Import (By UUID), Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par, Blocked, Control: Throttle (Open Loop), Constant, Constant: 0
+2025-04-06T11:02:14 (Info):    Import (By UUID), Events\Events_7e4e2cc1-a49f-4a6b-b5fe-a90fc3d2ed9a.par, Open, Events, VHF Acceleration, B. Wait 0.5s and reset speed
+2025-04-06T11:02:14 (Info):    Import (By UUID), Powertrain\Motor\MMotor_c4d32a8f-0cf8-482c-9103-d8c63dd3809d.par, Open, Powertrain: Electric Motor Torque, Electric Motor, Constant 1000 N-m
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_9080781f-cafb-4524-9f90-b976961c41a3.par, Blocked, Animator: Camera Setup, Shape Preview, Isometric View - Scene Objects
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_9f31fba3-29c8-4ad0-b4dc-048ff6466e5a.par, Blocked, Animator: Shape File Link, Self-Contained Scenes, Handling Course: Details
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\STL\Shape_e3cb9f93-d7c2-4c4f-8776-fb3f74e96c38.par, Blocked, Animator: Shape File Link, Self-Contained Scenes, Handling Course: Trees
+2025-04-06T11:02:14 (Info):    Import (By UUID), Generic\tables\GenTab_a0db5041-d4b4-45a8-b02b-253fd56e256c.par, Blocked, Generic Table, Powertrain (HEV), Electric Generator Max Load 66 N-m
+2025-04-06T11:02:14 (Info):    Import (By UUID), Generic\tables\GenTab_1a3ad104-4c12-4abe-9041-6f0e6fcd4440.par, Blocked, Generic Table, Powertrain (HEV), Generator efficiency
+2025-04-06T11:02:14 (Info):    Import (By UUID), Generic\tables\GenTab_c3554973-3d9a-4db9-9f7d-faae1dd09802.par, Blocked, Generic Table, Powertrain (HEV), Motor efficiency at wheel
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Frames\Frame_8d039c3c-753d-406b-9c28-9406943a988c.par, Blocked, Animator: Reference Frame, Shape Preview: Generic, Fixed
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_aa5fadc1-f7d8-4fcd-a8b2-947af476f20d.par, Blocked, Animator: Camera Setup, Shape Preview, XY Plane, No Offsets - Satellite View
+2025-04-06T11:02:14 (Info):    Import (By UUID), Animator\Cameras\Camera_9cc2ba49-3f6e-4c5c-9b44-55695dd364b5.par, Blocked, Animator: Camera Setup, Shape Preview, XZ Plane, No Offsets - Large Objects
+2025-04-06T11:02:14 (Info):    Import (By UUID), Events\Events_5c2c6bd7-13e2-4e94-8dae-2a1e3dee8acf.par, Open, Events, VHF Acceleration, C. Ramp throttle till 5s
+2025-04-06T11:02:14 (Info):    Import (By UUID), Control\Throttle\Throttle_f9fad1fe-0146-4ace-97c6-f3b8cbbf8f47.par, Open, Control: Throttle (Open Loop), Ramp, Ramp To Full Throttle in 1 sec.
+2025-04-06T11:02:14 (Info):    Indexed whole database in 0.22s
+2025-04-06T11:02:14 (Info):    Completed import preview, mapped 261 items. Would have:
+2025-04-06T11:02:14 (Info):        [Imported 261 files, skipped 0.]
+2025-04-06T11:02:14 (Info):        [It took 1.2 seconds.]
+2025-04-06T11:02:14 (Info):    ----------------------------------
+2025-04-06T11:02:22 (Info):    ----------------------------------
+2025-04-06T11:02:22 (Info):    Performing an import based on previously generated import preview...
+2025-04-06T11:02:25 (Info):    Making file writable per user request: "Preferences\pref_a9da94e2-90cd-46fc-a780-bb613a55ea92.par"."
+2025-04-06T11:02:25 (Info):    Imported: Import (By UUID), Preferences\pref_a9da94e2-90cd-46fc-a780-bb613a55ea92.par, UUID & Name, Preferences, , Default Settings
+2025-04-06T11:02:25 (Info):    Imported: Import (By UUID), Runs\Run_ffde6a6e-9bc3-443d-aa0f-d77d45f3a041.par, , CarSim Run Control, VHF Urbano, Accel: Full Thr, Split-Mu (Model Free)
+2025-04-06T11:02:26 (Info):    Imported: Import (By UUID), Runs\Run_b6e8b1b1-8bb5-45a4-a854-d3ebd04fe6db.par, , CarSim Run Control, VHF Urbano, Accel: Full Thr, Split-Mu (No Control)
+2025-04-06T11:02:26 (Info):    Imported: Import (By UUID), Runs\Run_2ed1be0e-aded-40ad-a216-7a478220512c.par, , CarSim Run Control, VHF Urbano, Full_acc_Optimal_TC Simulink (Model Free)
+2025-04-06T11:02:26 (Info):    Imported: Import (By UUID), Runs\Run_12d89d2d-eb5e-4a8b-adee-f6b9d7826625.par, , CarSim Run Control, VHF Urbano, Full_acc_TC Simulink (Model Free Const My)
+2025-04-06T11:02:26 (Info):    Imported: Import (By UUID), Runs\Run_9fe35bc6-59fb-4f26-a807-019b125ff5c0.par, , CarSim Run Control, VHF Urbano, Full_acc_TC Simulink (Model Free)
+2025-04-06T11:02:26 (Info):    Imported: Import (By UUID), Runs\Run_7e663c60-7e8a-4205-8bce-2b601611d568.par, , CarSim Run Control, VHF Urbano, Full_acc_TC Simulink (PI)
+2025-04-06T11:02:26 (Info):    Imported: Import (By UUID), Runs\Run_6d696624-fd65-4a9a-bda8-ebbc093b0e96.par, , CarSim Run Control, VHF Urbano, Growing Speed (Step)
+2025-04-06T11:02:26 (Info):    Imported: Import (By UUID), Runs\Run_9613d181-6f75-4048-a6c1-a9a0bb5f54d2.par, , CarSim Run Control, VHF Urbano, Modelo principal (Full_acc)
+2025-04-06T11:02:26 (Info):    Imported: Import (By UUID), Runs\Run_5861cd19-99cc-4f9d-b1f5-f0e13e4c1e4d.par, , CarSim Run Control, VHF Urbano, Multiple tests Dataset (change this as u want)
+2025-04-06T11:02:26 (Info):    Imported: Import (By UUID), Runs\Run_490bfdc0-b5a4-4267-86c4-f678aeaf9588.par, , CarSim Run Control, VHF Urbano, Percurso Urbano #1
+2025-04-06T11:02:27 (Info):    Imported: Import (By UUID), Runs\Run_9bc1aea5-9ee6-4df9-b097-09948315df94.par, , CarSim Run Control, VHF Urbano, Percurso Urbano w/o regenerative brake
+2025-04-06T11:02:27 (Info):    Imported: Import (By UUID), Runs\Run_f3b00011-0750-4ed5-aa0c-30f59858fe26.par, , CarSim Run Control, VHF Urbano, TCS_HiL_Control
+2025-04-06T11:02:27 (Info):    Imported: Import (By UUID), Runs\Run_dbc53c6c-2889-4564-9b27-ed44de9c5998.par, , CarSim Run Control, VHF Urbano, TCS_HiL_Simulink_Model
+2025-04-06T11:02:27 (Info):    Imported: Import (By UUID), Models\Simulink\Simlink_49569927-7d66-45ae-873a-f3c1beadd0d5.par, , Models: Simulink, Traction Control for TCS and ESC, VHF TCS Model Free
+2025-04-06T11:02:27 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_27cfa3aa-bcd7-4b05-b522-6516bf0a17ae.par, , Animator: Camera Setup, Vehicle Reference, 200 Azm, 10 El, 25 m, No Yaw
+2025-04-06T11:02:27 (Info):    Imported: Import (By UUID), Vehicles\Assembly\Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea.par, , Vehicle: Assembly, Meus Veiculos, VHF Urbano, eRWD Hibrido Serie com controle Vx
+2025-04-06T11:02:27 (Info):    Imported: Import (By UUID), Procedures\Proc_c8fe4f0d-7dba-41d9-8c0e-5afba45a7ece.par, , Procedures, Accel. and Brake Testing, Part-Throttle Accel: 1.0 Thr, Split-Mu
+2025-04-06T11:02:27 (Info):    Imported: Import (By UUID), Generic\Group\GenGrp_fb093731-6cce-46b7-a245-ad3984d047a3.par, , Generic Data Group, Tire Force Arrows, 2 Axle - Fx, Fy, Fz custom reference
+2025-04-06T11:02:28 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_ac871e31-3a2e-4f60-b6cb-3284aa167ea9.par, , Plot: Setup, Speed Controller, Speed Target and Actual
+2025-04-06T11:02:28 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_757f72ed-4f5c-43eb-8e7e-7788378ee0bf.par, , Plot: Setup, Powertrain, Fuel Consumed
+2025-04-06T11:02:29 (Info):    Making file writable per user request: "Plot\Setup\Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f.par"."
+2025-04-06T11:02:29 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f.par, UUID & Name, Plot: Setup, Tracking, Station vs. Time
+2025-04-06T11:02:29 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_1f907f02-54f4-41b3-b001-1025d2df75c3.par, , Plot: Setup, VHF Plots, Electric traction motors Torque
+2025-04-06T11:02:29 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_0e77b12b-234b-4637-9ff0-9b41b1d40bd1.par, , Plot: Setup, VHF Plots, Rear Wheels laged Slip Rate
+2025-04-06T11:02:29 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_243197da-07ae-44f7-b559-e70dedafb1c4.par, , Plot: Setup, VHF Plots, Powers in Series Hybrid Powertrain
+2025-04-06T11:02:29 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_7be907ce-b756-4a83-a868-96cbbb671348.par, , Animator: Camera Setup, Vehicle Fixed Camera, Custom Fender View
+2025-04-06T11:02:30 (Info):    Imported: Import (By UUID), Models\Simulink\Simlink_1800cc56-03cc-4044-b6ad-f75a76322ff4.par, , Models: Simulink, Traction Control for TCS and ESC, VHF Optimal TCS Model Free
+2025-04-06T11:02:31 (Info):    Making file writable per user request: "Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par"."
+2025-04-06T11:02:31 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par, UUID & Name, Animator: Camera Setup, Vehicle Reference, 13 Azm, 9 El, 18 m, No Yaw
+2025-04-06T11:02:31 (Info):    Imported: Import (By UUID), Vehicles\Assembly\Vehicle_f933babc-9fe3-4fef-b404-522ab1cfc5f0.par, , Vehicle: Assembly, Meus Veiculos, VHF Urbano, eRWD Hibrido Serie
+2025-04-06T11:02:31 (Info):    Imported: Import (By UUID), Procedures\Proc_d09d4d83-fe61-42cd-b5b5-55178f726641.par, , Procedures, Meus procedimentos, Full Throttle Accel. and Mu constant
+2025-04-06T11:02:31 (Info):    Imported: Import (By UUID), Animator\HUD\HUD_9d0084f1-a433-4611-bf43-5b880b3962d4.par, , Animator: HUD, Vehicle Status Indicators, Acceleration Text
+2025-04-06T11:02:31 (Info):    Imported: Import (By UUID), Roads\Profiles\Profile_26561b5c-2b57-4c52-9487-718b00d84997.par, , Surface: Roughness Profiles, Rough Road - Sample Data Edited, Rough Road 04 - 55 in/mi (0.87 m/km)
+2025-04-06T11:02:31 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_7f5b891d-1f1e-41be-ae5a-9a8a00cf48c6.par, , Plot: Setup, Tire Kinematics, Slip Ratios: Instant
+2025-04-06T11:02:31 (Info):    Imported: Import (By UUID), IO_Channels\W_Channels\Write_d0c3b391-b7bd-4d14-b429-cb98f6f9ac45.par, , I/O Channels: Write, , Optimal_ASR Analisys (MAT File)
+2025-04-06T11:02:31 (Info):    Imported: Import (By UUID), Models\Simulink\Simlink_ee36557c-aca6-402e-acb8-4e352d61f7fa.par, , Models: Simulink, Traction Control for TCS and ESC, VHF TCS Model Free Const Torque
+2025-04-06T11:02:32 (Info):    Imported: Import (By UUID), Roads\Profiles\Profile_3bff0c88-84c1-408a-843d-956a1e2abe43.par, , Surface: Roughness Profiles, , Example Road Roughness
+2025-04-06T11:02:32 (Info):    Imported: Import (By UUID), Vehicles\Assembly\Vehicle_bd699e8e-e4d6-4c7c-bfd8-5185f1131fcd.par, , Vehicle: Assembly, Meus Veiculos, VHF Urbano, eRWD 500 Hibrido Serie
+2025-04-06T11:02:32 (Info):    Imported: Import (By UUID), Procedures\Proc_6f8260cf-3e12-4c75-aebd-3940323949a7.par, , Procedures, Meus procedimentos, Full Throttle Accel. w/ Events and Mu variation
+2025-04-06T11:02:32 (Info):    Imported: Import (By UUID), Models\Simulink\Simlink_e0217934-7fff-4219-81da-96fb6468ba45.par, , Models: Simulink, Traction Control for TCS and ESC, VHF TCS Controller
+2025-04-06T11:02:32 (Info):    Imported: Import (By UUID), Procedures\Proc_213c8ac9-64ab-45f8-825c-ba6320d2f7ed.par, , Procedures, Meus procedimentos, Growing Speed -S tep 9km/h
+2025-04-06T11:02:32 (Info):    Imported: Import (By UUID), Animator\HUD\HUD_28cddbb9-94c6-4e76-a06f-7737ba30c08f.par, , Animator: HUD, Vehicle Status Indicators, Throttle and Speed, L. Side, 19% Up
+2025-04-06T11:02:32 (Info):    Imported: Import (By UUID), Procedures\Proc_94f3d353-1fa8-47b3-a6e6-2be2e05152cd.par, , Procedures, Driver Controls, Lane Keeping, Normal Driving
+2025-04-06T11:02:33 (Info):    Imported: Import (By UUID), Procedures\Proc_f0822b2b-95c6-42c6-a339-b8b12f3607a5.par, , Procedures, Meus procedimentos, Hybrid/Electric: EPA Urban Cycle #1
+2025-04-06T11:02:33 (Info):    Imported: Import (By UUID), Vehicles\Assembly\Vehicle_5b19b8bf-0edc-48c8-b1d4-dde4c5f35d7d.par, , Vehicle: Assembly, Meus Veiculos, VHF Urbano, eRWD Hibrido Serie w/o Reg. Brake
+2025-04-06T11:02:33 (Info):    Imported: Import (By UUID), Models\Simulink\Simlink_8adddf78-e368-4406-8142-186c454b714d.par, , Models: Simulink, TCS/ABS HiL, VHF HiL Model IO
+2025-04-06T11:02:33 (Info):    Imported: Import (By UUID), IO_Channels\Ports\Port_beabe2d7-45c2-4437-8d9a-2059d70d598e.par, , I/O Channels: Ports, VHF Controls, MF const ASR Controllers: Multi-port
+2025-04-06T11:02:34 (Info):    Making file writable per user request: "Animator\Frames\Frame_d2b5165c-cec2-4d4b-a319-0d7cf12b8f0d.par"."
+2025-04-06T11:02:34 (Info):    Imported: Import (By UUID), Animator\Frames\Frame_d2b5165c-cec2-4d4b-a319-0d7cf12b8f0d.par, UUID & Name, Animator: Reference Frame, Tracking: Vehicle, Vehicle X-Y-Z
+2025-04-06T11:02:34 (Info):    Imported: Import (By UUID), Steering\System2\StrSys2_15589801-d4e7-488f-9884-031d53c5d85c.par, , Steering, CS A-Class, A-Class, Hbk: Manual, R&P
+2025-04-06T11:02:34 (Info):    Imported: Import (By UUID), Suspensions\Kin_Indy\KinInd_b73ffbd7-0eec-4cd9-995c-38f37d8c485d.par, , Suspension: Independent System Kinematics, VHF, VHF, Hatchback - Front
+2025-04-06T11:02:34 (Info):    Imported: Import (By UUID), Suspensions\Compliance\CmpInd_33af22ab-8d37-457c-81cc-2dd54103e211.par, , Suspension: Independent Compliance, Springs, and Dampers, A-Class, A-Class, Hatchback - Front
+2025-04-06T11:02:34 (Info):    Imported: Import (By UUID), Tires\Tire\Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f.par, , Tire, Touring Tires, 175/65 R14
+2025-04-06T11:02:34 (Info):    Imported: Import (By UUID), Suspensions\Kin_Indy\KinInd_4eb4cc23-cbe5-4ac6-8bc9-a553dd2d0df4.par, , Suspension: Independent System Kinematics, VHF, VHF, Hatchback - Rear
+2025-04-06T11:02:35 (Info):    Imported: Import (By UUID), Suspensions\Compliance\CmpInd_13763e89-46c0-4596-bfe8-3c54875493f7.par, , Suspension: Independent Compliance, Springs, and Dampers, A-Class, A-Class, Hatchback - Rear
+2025-04-06T11:02:35 (Info):    Imported: Import (By UUID), Vehicles\Sprung_Mass\SprMass_2505038c-0e1e-4b6b-8781-cb3ac91b93fd.par, , Vehicle: Sprung Mass, Meu Veiculo, VHF, Hatchback
+2025-04-06T11:02:35 (Info):    Imported: Import (By UUID), Aerodynamics\Aero_Main\Aero_48d30a48-3cc4-46fd-be0c-77e1d8b465f8.par, , Aerodynamics: Basic, A-Class, A-Class, Hatchback Aero
+2025-04-06T11:02:35 (Info):    Imported: Import (By UUID), Powertrain\Rwd\RWD_7b503ffc-4d73-4af0-9cd7-09a376cb83b8.par, , Powertrain: Rear-Wheel Drive, VHF Hibrido (Engine + Dual Rear Motor), Hibrido Serie 250cc 2RWD optimized
+2025-04-06T11:02:35 (Info):    Imported: Import (By UUID), Brakes\4W_System\Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da.par, , Brakes: Four-Wheel System, A-Class, Hatchback: M/C Press, No ABS
+2025-04-06T11:02:35 (Info):    Imported: Import (By UUID), Animator\Vehicles\AniVeh_6dde9236-a061-4df5-abaa-f2af821aab84.par, , Animator: Vehicles and Sensor Targets, Meu Veiculo, VHF,A-Class, Subcompact
+2025-04-06T11:02:35 (Info):    Imported: Import (By UUID), Output\Sensors\MoSen_e040856c-b0ed-4021-99cb-3a0519cb1981.par, , Positions, Velocities, and Accelerations, SM and USM CGs, Accelerometer at SM CG
+2025-04-06T11:02:37 (Info):    Making file writable per user request: "Control\Driver\StrDM_b1b717a4-04d9-461d-8975-e1ef0b12d822.par"."
+2025-04-06T11:02:37 (Info):    Imported: Import (By UUID), Control\Driver\StrDM_b1b717a4-04d9-461d-8975-e1ef0b12d822.par, UUID & Name, Control: Steering by the Closed-loop Driver Model, Constant Position: No Offset, 0.75s Single Preview
+2025-04-06T11:02:37 (Info):    Making file writable per user request: "Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par"."
+2025-04-06T11:02:37 (Info):    Imported: Import (By UUID), Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par, UUID & Name, Control: Braking MC Pressure (Open Loop), Constant, Constant: 0 MPa
+2025-04-06T11:02:38 (Info):    Making file writable per user request: "Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par"."
+2025-04-06T11:02:38 (Info):    Imported: Import (By UUID), Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par, UUID & Name, Control: Shifting (Closed Loop), Closed-Loop Shifting, AT (All Available Gears)
+2025-04-06T11:02:38 (Info):    Imported: Import (By UUID), Control\Throttle\Throttle_3da12db1-5dff-46bc-992e-e7a512c8c045.par, , Control: Throttle (Open Loop), Constant, Constant: 1.0
+2025-04-06T11:02:38 (Info):    Imported: Import (By UUID), Roads\3D_Road\Road_85c33d04-5227-49b8-97ae-4dcabc5720b6.par, , Road: 3D Surface (All Properties), Straight, Split Mu 10m
+2025-04-06T11:02:38 (Info):    Making file writable per user request: "Plot\Setup\Plot_881b430b-dfba-4afc-a6ce-ff0d76b1c26c.par"."
+2025-04-06T11:02:38 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_881b430b-dfba-4afc-a6ce-ff0d76b1c26c.par, UUID & Name, Plot: Setup, Vehicle Motion, Pitch Angle of Sprung Masses vs. Time
+2025-04-06T11:02:38 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_c4bdb93b-47a3-4cbc-b25d-a177bdb75823.par, , Plot: Setup, Powertrain, Spin Rates in Powertrain
+2025-04-06T11:02:38 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_2cd77a14-4a29-44d1-a8e0-03a81f9c74cf.par, , Plot: Setup, Powertrain, Torques in Powertrain
+2025-04-06T11:02:38 (Info):    Making file writable per user request: "Plot\Setup\Plot_b3ef8646-beef-4024-9925-3f874e91a76b.par"."
+2025-04-06T11:02:38 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_b3ef8646-beef-4024-9925-3f874e91a76b.par, UUID & Name, Plot: Setup, Braking, Wheel Speeds
+2025-04-06T11:02:38 (Info):    Making file writable per user request: "Plot\Setup\Plot_8077fc50-941c-45ed-a470-23f6069121a5.par"."
+2025-04-06T11:02:38 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_8077fc50-941c-45ed-a470-23f6069121a5.par, UUID & Name, Plot: Setup, Powertrain, Wheel Drive Torques
+2025-04-06T11:02:38 (Info):    Making file writable per user request: "Plot\Setup\Plot_4f67d5b7-0627-47d3-baf7-12fe88008d68.par"."
+2025-04-06T11:02:38 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_4f67d5b7-0627-47d3-baf7-12fe88008d68.par, UUID & Name, Plot: Setup, Powertrain, Gear Selection
+2025-04-06T11:02:39 (Info):    Imported: Import (By UUID), Animator\Arrows\Arrows_f8030952-3c18-4226-b2f7-713e534a2c60.par, , Animator: Wheel Arrows and Other Indicators, Tire Force Arrows (2 Axles), 2A - Fx Tire Force Arrows 500N reference
+2025-04-06T11:02:39 (Info):    Imported: Import (By UUID), Animator\Arrows\Arrows_8060e1fd-0c11-4d4b-81f2-285f164eec6d.par, , Animator: Wheel Arrows and Other Indicators, Tire Force Arrows (2 Axles), 2A - Fy Tire Force Arrows custom reference
+2025-04-06T11:02:39 (Info):    Making file writable per user request: "Animator\Arrows\Arrows_f2c29d4b-df79-4c67-b153-729d3f552770.par"."
+2025-04-06T11:02:39 (Info):    Imported: Import (By UUID), Animator\Arrows\Arrows_f2c29d4b-df79-4c67-b153-729d3f552770.par, UUID & Name, Animator: Wheel Arrows and Other Indicators, Tire Force Arrows (2 Axles), 2A - Fz Tire Force Arrows
+2025-04-06T11:02:39 (Info):    Making file writable per user request: "Plot\Format\PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862.par"."
+2025-04-06T11:02:39 (Info):    Imported: Import (By UUID), Plot\Format\PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862.par, UUID & Name, Plot: Format, , Default Plot Settings
+2025-04-06T11:02:39 (Info):    Making file writable per user request: "Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par"."
+2025-04-06T11:02:39 (Info):    Imported: Import (By UUID), Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par, UUID & Name, Plot: Format, , Lines without Symbols
+2025-04-06T11:02:39 (Info):    Imported: Import (By UUID), IO_Channels\Ports\Port_761ffbab-47b8-4498-83ff-176c8a9c5bb3.par, , I/O Channels: Ports, VHF Controls, ASR Controllers: Multi-port w/ sensors
+2025-04-06T11:02:39 (Info):    Imported: Import (By UUID), Powertrain\Rwd\RWD_95533e6b-8b56-44cb-bc46-01fc9bfd0c85.par, , Powertrain: Rear-Wheel Drive, VHF Hibrido (Engine + Dual Rear Motor), Hibrido Serie 250cc 2RWD
+2025-04-06T11:02:39 (Info):    Imported: Import (By UUID), Control\Driver\StrDM_4b7043d6-a7bf-424e-8f01-c465639aa5f6.par, , Control: Steering by the Closed-loop Driver Model, Constant Position: No Offset, 0.15s Preview
+2025-04-06T11:02:40 (Info):    Imported: Import (By UUID), Roads\3D_Road\Road_96f62678-8d62-4db7-ba47-bb218cc8d7b2.par, , Road: 3D Surface (All Properties), Straight VHF Courses, 1200 m, One Lane, 0 Degree, Mu = 0.3
+2025-04-06T11:02:40 (Info):    Making file writable per user request: "Animator\Arrows\Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887.par"."
+2025-04-06T11:02:40 (Info):    Imported: Import (By UUID), Animator\Arrows\Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887.par, UUID & Name, Animator: Wheel Arrows and Other Indicators, Skid Marks, Tire Skid Marks (2 Axles)
+2025-04-06T11:02:40 (Info):    Imported: Import (By UUID), Events\Events_be6dad49-f4bc-4dd5-913f-1f67a1e87943.par, , Events, VHF Acceleration, A. Wait 3 seconds
+2025-04-06T11:02:40 (Info):    Making file writable per user request: "Plot\Setup\Plot_a243fc1c-fc6b-4404-89ac-bc8209a293be.par"."
+2025-04-06T11:02:40 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_a243fc1c-fc6b-4404-89ac-bc8209a293be.par, UUID & Name, Plot: Setup, Vehicle Motion, Longitudinal Speed (Vxz_Fwd) vs. Time
+2025-04-06T11:02:40 (Info):    Making file writable per user request: "Plot\Setup\Plot_7251a722-18c9-43db-a324-bd380d275618.par"."
+2025-04-06T11:02:40 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_7251a722-18c9-43db-a324-bd380d275618.par, UUID & Name, Plot: Setup, Controls: Driver, Throttle: Control Input
+2025-04-06T11:02:40 (Info):    Making file writable per user request: "Plot\Setup\Plot_92c3bffb-a766-4f7d-9f5e-73059542ee31.par"."
+2025-04-06T11:02:40 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_92c3bffb-a766-4f7d-9f5e-73059542ee31.par, UUID & Name, Plot: Setup, Powertrain, Engine RPM
+2025-04-06T11:02:40 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_24a4846e-f402-4012-b77b-094555ca98d1.par, , Plot: Setup, VHF Plots, Slip Ratios w/ Ref: Lagged (Axle 2)
+2025-04-06T11:02:40 (Info):    Making file writable per user request: "Plot\Setup\Plot_50f46a40-9207-462f-95eb-1f0a9f7660f8.par"."
+2025-04-06T11:02:40 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_50f46a40-9207-462f-95eb-1f0a9f7660f8.par, UUID & Name, Plot: Setup, Powertrain, Wheel Drive Torques - Rear
+2025-04-06T11:02:40 (Info):    Making file writable per user request: "Plot\Setup\Plot_c7306601-bee0-4edc-92fb-2c670cb34a1b.par"."
+2025-04-06T11:02:40 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_c7306601-bee0-4edc-92fb-2c670cb34a1b.par, UUID & Name, Plot: Setup, Tire Forces and Moments, Longitudinal Forces
+2025-04-06T11:02:40 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_c6f23fbc-2707-41af-a3cd-715e42a84da4.par, , Plot: Setup, Tire Forces and Moments, Fx vs. Slip
+2025-04-06T11:02:41 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_71df6f9d-5f7f-43e1-a5d7-d556dc8678ab.par, , Plot: Setup, Tire Kinematics, Slip Ratios: Lagged
+2025-04-06T11:02:41 (Info):    Making file writable per user request: "Plot\Setup\Plot_9e7c6a3f-7f4d-4388-b203-bc0555523537.par"."
+2025-04-06T11:02:41 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_9e7c6a3f-7f4d-4388-b203-bc0555523537.par, UUID & Name, Plot: Setup, Powertrain (Hybrid), Battery power limit
+2025-04-06T11:02:41 (Info):    Making file writable per user request: "Plot\Setup\Plot_b837ff0c-b61c-4741-af66-a50fa6d378da.par"."
+2025-04-06T11:02:41 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_b837ff0c-b61c-4741-af66-a50fa6d378da.par, UUID & Name, Plot: Setup, Powertrain (Hybrid), Battery voltage
+2025-04-06T11:02:41 (Info):    Making file writable per user request: "Plot\Setup\Plot_55af1489-6b5d-4c72-9db8-6018c686d9fc.par"."
+2025-04-06T11:02:41 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_55af1489-6b5d-4c72-9db8-6018c686d9fc.par, UUID & Name, Plot: Setup, Powertrain (Hybrid), Motor efficiency
+2025-04-06T11:02:41 (Info):    Making file writable per user request: "Plot\Setup\Plot_4445b244-c3e7-43a0-a5f5-85a967aa04e4.par"."
+2025-04-06T11:02:41 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_4445b244-c3e7-43a0-a5f5-85a967aa04e4.par, UUID & Name, Plot: Setup, Powertrain (Hybrid), Battery current
+2025-04-06T11:02:41 (Info):    Making file writable per user request: "Plot\Setup\Plot_f04a944d-07f4-45a4-b417-57ea1d7f7463.par"."
+2025-04-06T11:02:41 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_f04a944d-07f4-45a4-b417-57ea1d7f7463.par, UUID & Name, Plot: Setup, Powertrain (Hybrid), Hybrid powertrain mode
+2025-04-06T11:02:41 (Info):    Making file writable per user request: "Plot\Setup\Plot_096991e2-726a-4c37-b0ec-6bfbcc66e0c9.par"."
+2025-04-06T11:02:41 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_096991e2-726a-4c37-b0ec-6bfbcc66e0c9.par, UUID & Name, Plot: Setup, Powertrain (Hybrid), Torques in Hybrid Powertrain
+2025-04-06T11:02:41 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_5ad46bd2-8310-4bc0-a616-b45effecb7ca.par, , Plot: Setup, Powertrain (Series Hybrid VHF), Powers in VHF Powertrain
+2025-04-06T11:02:41 (Info):    Making file writable per user request: "Plot\Setup\Plot_57761f47-ff9c-4a69-b8d6-96910bb80979.par"."
+2025-04-06T11:02:41 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_57761f47-ff9c-4a69-b8d6-96910bb80979.par, UUID & Name, Plot: Setup, Powertrain (Hybrid), Battery remaining level
+2025-04-06T11:02:42 (Info):    Imported: Import (By UUID), Powertrain\Rwd\RWD_d5e643b4-d8a6-4985-9b51-98e8242f62b2.par, , Powertrain: Rear-Wheel Drive, VHF Hibrido (Engine + Dual Rear Motor), Hibrido Serie 250cc 2RWD 1000 N-m
+2025-04-06T11:02:42 (Info):    Making file writable per user request: "Output\Sensors\MoSen_372602c7-6b30-40f5-9017-977a02868a38.par"."
+2025-04-06T11:02:42 (Info):    Imported: Import (By UUID), Output\Sensors\MoSen_372602c7-6b30-40f5-9017-977a02868a38.par, UUID & Name, Positions, Velocities, and Accelerations, SM and USM CGs, Accelerometers at SM and USM CGs
+2025-04-06T11:02:42 (Info):    Imported: Import (By UUID), Roads\3D_Road\Road_20a6755e-9c86-4a8a-8c5c-83be0704afe5.par, , Road: 3D Surface (All Properties), Straight VHF Courses, 1200 m, One Lane, Mu Variation
+2025-04-06T11:02:42 (Info):    Imported: Import (By UUID), Events\Events_6b3f4ba4-b58e-4c4b-b89b-f35141a4e3c1.par, , Events, VHF Acceleration, A. Wait 0.5 seconds
+2025-04-06T11:02:42 (Info):    Making file writable per user request: "Control\Driver\StrDM_6bec9717-49f4-4c9c-8644-b5e0a402a44d.par"."
+2025-04-06T11:02:42 (Info):    Imported: Import (By UUID), Control\Driver\StrDM_6bec9717-49f4-4c9c-8644-b5e0a402a44d.par, UUID & Name, Control: Steering by the Closed-loop Driver Model, Constant Position: No Offset, 0.4 sec. Single Preview
+2025-04-06T11:02:42 (Info):    Imported: Import (By UUID), Control\Speed_t\SpdTime_0deaf3f0-6a18-404a-a7cb-f98bc69b4b6d.par, , Control: Speed (Closed Loop) Using Target Speed, Speed vs Time, Step: 0-9-90 km/h
+2025-04-06T11:02:42 (Info):    Making file writable per user request: "Events\Events_72d170af-7b13-45ad-aa79-7b9004596caa.par"."
+2025-04-06T11:02:42 (Info):    Imported: Import (By UUID), Events\Events_72d170af-7b13-45ad-aa79-7b9004596caa.par, UUID & Name, Events, Infinity road, Reset vehicle location when s = 1000
+2025-04-06T11:02:42 (Info):    Making file writable per user request: "Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1.par"."
+2025-04-06T11:02:42 (Info):    Imported: Import (By UUID), Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1.par, UUID & Name, Road: 3D Surface (All Properties), Straight, 3km, Mu = 0.9, One Lane
+2025-04-06T11:02:43 (Info):    Making file writable per user request: "Plot\Setup\Plot_dafae624-d48a-4548-93eb-fa73d080e21a.par"."
+2025-04-06T11:02:43 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_dafae624-d48a-4548-93eb-fa73d080e21a.par, UUID & Name, Plot: Setup, Braking, Brake Control: M/C Pressure
+2025-04-06T11:02:43 (Info):    Making file writable per user request: "Plot\Setup\Plot_77579fdf-3ebb-43be-9ef8-4418316c886a.par"."
+2025-04-06T11:02:43 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_77579fdf-3ebb-43be-9ef8-4418316c886a.par, UUID & Name, Plot: Setup, Powertrain (Hybrid), Spin Rates in Hybrid Powertrain
+2025-04-06T11:02:43 (Info):    Making file writable per user request: "Plot\Setup\Plot_07737336-620f-4fa5-baca-5458abaf7d80.par"."
+2025-04-06T11:02:43 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_07737336-620f-4fa5-baca-5458abaf7d80.par, UUID & Name, Plot: Setup, Powertrain (Hybrid), Powers in Hybrid Powertrain
+2025-04-06T11:02:43 (Info):    Making file writable per user request: "Plot\Setup\Plot_49162719-e05b-4946-b09a-e5f7b94d12ef.par"."
+2025-04-06T11:02:43 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_49162719-e05b-4946-b09a-e5f7b94d12ef.par, UUID & Name, Plot: Setup, Powertrain (Hybrid), Battery efficiency
+2025-04-06T11:02:43 (Info):    Imported: Import (By UUID), Control\Speed_path\SpdPath_65670824-831c-47e5-a0ce-1ce4d6dd8fa1.par, , Control: Speed (Closed Loop) Using Path Preview, Miscellaneous, Normal Driving on Road Course
+2025-04-06T11:02:43 (Info):    Making file writable per user request: "Roads\3D_Road\Road_2e2d68ea-3745-4439-97f8-47f23dcb3105.par"."
+2025-04-06T11:02:43 (Info):    Imported: Import (By UUID), Roads\3D_Road\Road_2e2d68ea-3745-4439-97f8-47f23dcb3105.par, UUID & Name, Road: 3D Surface (All Properties), Self-Contained Scenes, Handling Course
+2025-04-06T11:02:43 (Info):    Imported: Import (By UUID), Events\Events_f69d433a-b23c-4fb6-b221-9dd0be417728.par, , Events, Speed Control with Path Preview, Stop After Number of Laps
+2025-04-06T11:02:43 (Info):    Making file writable per user request: "Plot\Setup\Plot_f30c8f6e-f4c5-457d-9587-3baaad0f98b1.par"."
+2025-04-06T11:02:43 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_f30c8f6e-f4c5-457d-9587-3baaad0f98b1.par, UUID & Name, Plot: Setup, Vehicle Motion, Longitudinal vs. Lateral Accel.
+2025-04-06T11:02:43 (Info):    Making file writable per user request: "Plot\Setup\Plot_a4006ff0-aa52-4565-9c0d-3a634efcbe29.par"."
+2025-04-06T11:02:43 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_a4006ff0-aa52-4565-9c0d-3a634efcbe29.par, UUID & Name, Plot: Setup, Vehicle Motion, Lateral Accel. of CG's vs. Station
+2025-04-06T11:02:44 (Info):    Making file writable per user request: "Plot\Setup\Plot_a883e5dc-fa62-4460-8b54-d60ead53be33.par"."
+2025-04-06T11:02:44 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_a883e5dc-fa62-4460-8b54-d60ead53be33.par, UUID & Name, Plot: Setup, Vehicle Motion, Longitudinal Accel. of CG's vs. Station
+2025-04-06T11:02:44 (Info):    Making file writable per user request: "Plot\Setup\Plot_8158864c-cc8e-44ba-8dd8-e3af665dd87c.par"."
+2025-04-06T11:02:44 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_8158864c-cc8e-44ba-8dd8-e3af665dd87c.par, UUID & Name, Plot: Setup, Controls: Driver, Throttle: Control Input vs Station
+2025-04-06T11:02:44 (Info):    Making file writable per user request: "Plot\Setup\Plot_2069b93a-8ce4-4265-a146-4941167b0a8c.par"."
+2025-04-06T11:02:44 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_2069b93a-8ce4-4265-a146-4941167b0a8c.par, UUID & Name, Plot: Setup, Braking, Brake Control: M/C Pressure vs Station
+2025-04-06T11:02:44 (Info):    Making file writable per user request: "Plot\Setup\Plot_076736e1-2cdd-49d5-8a36-d55940b011f0.par"."
+2025-04-06T11:02:44 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_076736e1-2cdd-49d5-8a36-d55940b011f0.par, UUID & Name, Plot: Setup, Steering, Steering: Handwheel Angle
+2025-04-06T11:02:44 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_d40909f8-5ca3-4822-a9f3-7dfd1bdbb77f.par, , Plot: Setup, Controls: Driver, Speed Limit, Target, and Actual
+2025-04-06T11:02:44 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_245215aa-0bc5-4a7b-9223-5244b6612748.par, , Plot: Setup, Tracking, Vehicle Path with Road Edges
+2025-04-06T11:02:44 (Info):    Imported: Import (By UUID), Control\Speed_t\SpdTime_c23749ac-3db3-4acd-a788-c6126fa08800.par, , Control: Speed (Closed Loop) Using Target Speed, EPA Cycles, EPA Urban Cycle: control modifications
+2025-04-06T11:02:44 (Info):    Imported: Import (By UUID), Powertrain\Rwd\RWD_4a336642-35df-441d-94eb-0dbdc0a7cec3.par, , Powertrain: Rear-Wheel Drive, VHF Hibrido (Engine + Dual Rear Motor), Hibrido Serie 250cc 2RWD w/o Reg. Brake
+2025-04-06T11:02:44 (Info):    Imported: Import (By UUID), IO_Channels\I_Channels\Import_72af32c3-4263-4650-82b8-cd84b72b192b.par, , I/O Channels: Import, VHF Controls, ESC/TCS: Eng. Torque
+2025-04-06T11:02:45 (Info):    Imported: Import (By UUID), IO_Channels\I_Channels\Import_f7d625d8-f7fb-445e-b8bc-5b4bfc12bfec.par, , I/O Channels: Import, VHF Controls, ESC/TCS: Torque Cmd
+2025-04-06T11:02:45 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_20dd4c4b-df73-484e-98e2-a42ea5941651.par, , I/O Channels: Export, VHF Controls, Vehicle Body Velocity
+2025-04-06T11:02:45 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_b957dd9a-8145-4991-b888-690f3b334001.par, , I/O Channels: Export, VHF Controls, Wheels Speeds
+2025-04-06T11:02:45 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_6604c6a5-5ead-4c38-a024-7f56c9c36051.par, , I/O Channels: Export, VHF Controls, Longitudinal rear tires forces
+2025-04-06T11:02:45 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_39f462ac-7bdb-466e-8a13-b43bf716e930.par, , I/O Channels: Export, VHF Controls, Driver Desired Power
+2025-04-06T11:02:45 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_bdebf396-b7ec-4434-b1f6-56a9def11867.par, , I/O Channels: Export, VHF Controls, Reference slip
+2025-04-06T11:02:45 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_f836abb4-3628-4b73-aaab-0b862af8cd95.par, , I/O Channels: Export, VHF Controls, Slip ratio
+2025-04-06T11:02:45 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_fd44d245-4863-420d-8acd-3bd9a983453a.par, , I/O Channels: Export, VHF Controls, Adhesion coefficients
+2025-04-06T11:02:45 (Info):    Making file writable per user request: "Steering\Compliance\StrCmp_17157a8e-5641-490c-8805-31fd0e8a37d2.par"."
+2025-04-06T11:02:45 (Info):    Imported: Import (By UUID), Steering\Compliance\StrCmp_17157a8e-5641-490c-8805-31fd0e8a37d2.par, UUID & Name, Steering System: Compliance, , Constant: Zero
+2025-04-06T11:02:45 (Info):    Imported: Import (By UUID), Steering\KinematicsRack2\RkKin2_922125be-bb14-4125-96e0-86ba7c500ae0.par, , Steering System: Kinematics for 2 Wheels (Rack & Pinion), CS A-Class, A-Class, Hatchback
+2025-04-06T11:02:46 (Info):    Making file writable per user request: "Steering\Compliance\StrCmp_04155b90-303f-4e9a-b97c-a2f522ed3d2a.par"."
+2025-04-06T11:02:46 (Info):    Imported: Import (By UUID), Steering\Compliance\StrCmp_04155b90-303f-4e9a-b97c-a2f522ed3d2a.par, UUID & Name, Steering System: Compliance, Linear, 0.001 deg/N-m
+2025-04-06T11:02:46 (Info):    Imported: Import (By UUID), Steering\Str_Park_Trq2\TqPark2_4ca7ff6a-f258-41a9-81d7-f253f593f7c5.par, , Steering: Parking Torque for 2 Wheels, A-Class, A-Class Hatchback
+2025-04-06T11:02:46 (Info):    Making file writable per user request: "Suspensions\Dive\Dive_36ccca6d-bb82-4b12-b31e-e1aaa482edaa.par"."
+2025-04-06T11:02:46 (Info):    Imported: Import (By UUID), Suspensions\Dive\Dive_36ccca6d-bb82-4b12-b31e-e1aaa482edaa.par, UUID & Name, Suspension: Dive Angle (Caster Change), Strut, Front Strut - Dive Angle
+2025-04-06T11:02:46 (Info):    Making file writable per user request: "Suspensions\Longitudinal\SusX_35125851-77f6-44c6-bcb0-732d9aa828f0.par"."
+2025-04-06T11:02:46 (Info):    Imported: Import (By UUID), Suspensions\Longitudinal\SusX_35125851-77f6-44c6-bcb0-732d9aa828f0.par, UUID & Name, Suspension: Longitudinal Movement, Strut, Front Strut -  Longitudinal Movement
+2025-04-06T11:02:46 (Info):    Making file writable per user request: "Suspensions\Camber\Camber_31c8e63a-6ec9-4a2b-9249-56e8917ff02b.par"."
+2025-04-06T11:02:46 (Info):    Imported: Import (By UUID), Suspensions\Camber\Camber_31c8e63a-6ec9-4a2b-9249-56e8917ff02b.par, UUID & Name, Suspension: Camber Angle, Strut, Front Strut - Camber Change
+2025-04-06T11:02:46 (Info):    Making file writable per user request: "Suspensions\Lateral\LatJnc_c53ecfc6-5914-4478-97c7-9423e28aec52.par"."
+2025-04-06T11:02:46 (Info):    Imported: Import (By UUID), Suspensions\Lateral\LatJnc_c53ecfc6-5914-4478-97c7-9423e28aec52.par, UUID & Name, Suspension: Lateral Movement Due to Jounce, Strut, Front Strut - Lateral Movement
+2025-04-06T11:02:46 (Info):    Making file writable per user request: "Suspensions\Toe\Toe_cc41a91b-7a42-4fa0-8a4b-cc010aca587f.par"."
+2025-04-06T11:02:46 (Info):    Imported: Import (By UUID), Suspensions\Toe\Toe_cc41a91b-7a42-4fa0-8a4b-cc010aca587f.par, UUID & Name, Suspension: Toe Angle, Strut, Front Strut - Toe Angle
+2025-04-06T11:02:46 (Info):    Imported: Import (By UUID), Suspensions\Shocks\Shock_970f98e3-0678-4435-8f8f-ba0016bef9c5.par, , Suspension: Shock Absorber, Passenger Car, Small Car
+2025-04-06T11:02:47 (Info):    Making file writable per user request: "Suspensions\Jounce_Rebound\JncReb_96afcc39-5188-4e82-aa5a-164ead34c04f.par"."
+2025-04-06T11:02:47 (Info):    Imported: Import (By UUID), Suspensions\Jounce_Rebound\JncReb_96afcc39-5188-4e82-aa5a-164ead34c04f.par, UUID & Name, Suspension: Jounce and Rebound Stops, Jounce Range: 50 mm to 99 mm, +60 mm / -40 mm
+2025-04-06T11:02:47 (Info):    Imported: Import (By UUID), Suspensions\Aux_Roll\AuxMx_9c8f9407-2193-4310-a403-343efd012f6b.par, , Suspension: Auxiliary Roll Moment, Linear, Linear: 205 N-m/deg
+2025-04-06T11:02:47 (Info):    Making file writable per user request: "Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par"."
+2025-04-06T11:02:47 (Info):    Imported: Import (By UUID), Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par, UUID & Name, Animator: Shape Assembly, Tires, 145/80 R13
+2025-04-06T11:02:47 (Info):    Making file writable per user request: "Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par"."
+2025-04-06T11:02:47 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par, UUID & Name, Generic Table, Tire Relaxation Length, Lx Variable, Scaled to Tire
+2025-04-06T11:02:47 (Info):    Making file writable per user request: "Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par"."
+2025-04-06T11:02:47 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par, UUID & Name, Generic Table, Tire Relaxation Length, Ly Variable, Scaled to Tire
+2025-04-06T11:02:47 (Info):    Imported: Import (By UUID), Tires\Mz\TireMz_141f15f2-718f-4350-ab59-3e1ab4c044a0.par, , Tire: Aligning Moment, Touring Tires, 175/65 R14 (SAE)
+2025-04-06T11:02:47 (Info):    Imported: Import (By UUID), Tires\Fy\TireFy_9a15db7f-122e-4e13-b021-5738f1703457.par, , Tire: Lateral Force, Touring Tires, 175/65 R14
+2025-04-06T11:02:47 (Info):    Imported: Import (By UUID), Tires\Fx\TireFx_85022984-db32-4ff1-98e3-9d6b8f3429f2.par, , Tire: Longitudinal Force, Touring Tires, 175/65 R14
+2025-04-06T11:02:48 (Info):    Imported: Import (By UUID), Tires\Camber_Thrust\CamStiff_aefc96a5-44e9-4b04-b0f5-6c2a540c3595.par, , Tire: Camber Thrust Coefficient, Touring Tires, 175/65 R14
+2025-04-06T11:02:48 (Info):    Making file writable per user request: "Suspensions\Longitudinal\SusX_dd301e65-3ebf-409d-85f2-eefd1a6795d9.par"."
+2025-04-06T11:02:48 (Info):    Imported: Import (By UUID), Suspensions\Longitudinal\SusX_dd301e65-3ebf-409d-85f2-eefd1a6795d9.par, UUID & Name, Suspension: Longitudinal Movement, Tri-Link Strut, Rr. TLS: Longitudinal Movement
+2025-04-06T11:02:48 (Info):    Making file writable per user request: "Suspensions\Camber\Camber_d74dc4ba-9a45-49dd-9d91-b998a8358463.par"."
+2025-04-06T11:02:48 (Info):    Imported: Import (By UUID), Suspensions\Camber\Camber_d74dc4ba-9a45-49dd-9d91-b998a8358463.par, UUID & Name, Suspension: Camber Angle, Tri-Link Strut, Rear Tri-Link Strut - Camber Change
+2025-04-06T11:02:48 (Info):    Making file writable per user request: "Suspensions\Lateral\LatJnc_2d1706c3-ddcf-4177-9d5d-3259b29b38a2.par"."
+2025-04-06T11:02:48 (Info):    Imported: Import (By UUID), Suspensions\Lateral\LatJnc_2d1706c3-ddcf-4177-9d5d-3259b29b38a2.par, UUID & Name, Suspension: Lateral Movement Due to Jounce, Tri-Link Strut, Rear Tri-Link Strut - Lateral Movement
+2025-04-06T11:02:48 (Info):    Making file writable per user request: "Suspensions\Toe\Toe_95f0644d-9d12-4e20-9ea8-22889a33d059.par"."
+2025-04-06T11:02:48 (Info):    Imported: Import (By UUID), Suspensions\Toe\Toe_95f0644d-9d12-4e20-9ea8-22889a33d059.par, UUID & Name, Suspension: Toe Angle, Tri-Link Strut, Rear Tri-Link Strut - Toe Change
+2025-04-06T11:02:48 (Info):    Imported: Import (By UUID), Suspensions\Aux_Roll\AuxMx_79d58c9e-9915-4f59-8bf9-7576853043f3.par, , Suspension: Auxiliary Roll Moment, Linear, Linear: 184 N-m/deg
+2025-04-06T11:02:48 (Info):    Making file writable per user request: "Aerodynamics\Aero_Fx\AirCFx_67b7c1a5-2eb8-4548-b585-873fbb86b674.par"."
+2025-04-06T11:02:48 (Info):    Imported: Import (By UUID), Aerodynamics\Aero_Fx\AirCFx_67b7c1a5-2eb8-4548-b585-873fbb86b674.par, UUID & Name, Aerodynamics: Fx (Drag) Coef. vs. Aero Slip, Spline Interpolation, Spline: 0.30 at 0 deg.
+2025-04-06T11:02:48 (Info):    Making file writable per user request: "Aerodynamics\Aero_Fy\AirCFy_fdb1d5b6-475a-4d35-bfcc-b2b05bed2d67.par"."
+2025-04-06T11:02:48 (Info):    Imported: Import (By UUID), Aerodynamics\Aero_Fy\AirCFy_fdb1d5b6-475a-4d35-bfcc-b2b05bed2d67.par, UUID & Name, Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip, Spline Interpolation, Spline: 2 at 90 deg.
+2025-04-06T11:02:49 (Info):    Making file writable per user request: "Aerodynamics\Aero_Fz\AirCFz_181dc205-db9c-4a33-a480-7f8380b96502.par"."
+2025-04-06T11:02:49 (Info):    Imported: Import (By UUID), Aerodynamics\Aero_Fz\AirCFz_181dc205-db9c-4a33-a480-7f8380b96502.par, UUID & Name, Aerodynamics: Fz (Lift) Coef. vs. Aero Slip, Spline Interpolation, Spline: 0.18 at 0 deg.
+2025-04-06T11:02:49 (Info):    Making file writable per user request: "Aerodynamics\Aero_Mx\AirCMx_3f02edea-099a-450e-bb38-0cab04c7d554.par"."
+2025-04-06T11:02:49 (Info):    Imported: Import (By UUID), Aerodynamics\Aero_Mx\AirCMx_3f02edea-099a-450e-bb38-0cab04c7d554.par, UUID & Name, Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip, Spline Interpolation, Spline: 0.3 at 90 deg.
+2025-04-06T11:02:49 (Info):    Making file writable per user request: "Aerodynamics\Aero_My\AirCMy_d0c39dc5-f1b1-477a-8422-5ef53720bcf1.par"."
+2025-04-06T11:02:49 (Info):    Imported: Import (By UUID), Aerodynamics\Aero_My\AirCMy_d0c39dc5-f1b1-477a-8422-5ef53720bcf1.par, UUID & Name, Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip, Spline Interpolation, Spline: 0.15 at 0 deg.
+2025-04-06T11:02:49 (Info):    Making file writable per user request: "Aerodynamics\Aero_Mz\AirCMz_8c859ffc-2eb2-44f3-8fa4-850e39efba8a.par"."
+2025-04-06T11:02:49 (Info):    Imported: Import (By UUID), Aerodynamics\Aero_Mz\AirCMz_8c859ffc-2eb2-44f3-8fa4-850e39efba8a.par, UUID & Name, Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip, Spline Interpolation, Spline: 0.2 at 35 deg.
+2025-04-06T11:02:49 (Info):    Imported: Import (By UUID), Powertrain\Engine\Engine_048f8c67-137e-4b23-acf2-378ad7c7802f.par, , Powertrain: Engine, 250cc, Honda CB250F Twister Engine
+2025-04-06T11:02:49 (Info):    Imported: Import (By UUID), Powertrain\HEV\HEV_d0569582-c5ef-4e39-8c1a-3a48a0c5384e.par, , Powertrain: Hybrid/Electric System, , Range-Ext. VHF Powertrain Assembly
+2025-04-06T11:02:49 (Info):    Imported: Import (By UUID), Powertrain\HEV_PMC\PMC_d0723c1e-b47e-4916-895f-466a00b4f20a.par, , Powertrain: Hybrid/Electric Power Management Control, , VHF Power Mgmt: Full Load 20kW optimized
+2025-04-06T11:02:49 (Info):    Imported: Import (By UUID), Powertrain\Reardiff\DiffR_e5ab13bf-b9f1-4f29-bd98-10ffa2bdc3fe.par, , Powertrain: Rear Differential, VHF Electric Motor Drive (30 kW), VHF Twin-Motor w/ 2.65:1 ratio
+2025-04-06T11:02:50 (Info):    Making file writable per user request: "Brakes\Proportioning\BrkProp_139de4eb-5c60-4501-a053-695e60ad9d1b.par"."
+2025-04-06T11:02:50 (Info):    Imported: Import (By UUID), Brakes\Proportioning\BrkProp_139de4eb-5c60-4501-a053-695e60ad9d1b.par, UUID & Name, Brakes: Proportioning / Limiting Valve, , Unity until 2.0 MPa then 30%
+2025-04-06T11:02:50 (Info):    Imported: Import (By UUID), Animator\STL\Shape_a58f97d5-1a89-45af-a23f-a5b72f431c48.par, , Animator: Shape File Link, Common Vehicle Assets: Tires, Blurred Tire: Car - Width 175 mm
+2025-04-06T11:02:50 (Info):    Imported: Import (By UUID), Animator\STL_Groups\ShpGrp_3058e46b-5f58-4074-8f55-63f4eadadfc5.par, , Animator: Shape Assembly, Passenger Cars, A-Class Sub Compact
+2025-04-06T11:02:50 (Info):    Imported: Import (By UUID), Animator\STL\Shape_9dcd14c9-a5cd-4cd8-a500-026479d0a16e.par, , Animator: Shape File Link, Cars: A-Class, Hatchback: Brake Lights
+2025-04-06T11:02:50 (Info):    Imported: Import (By UUID), Animator\STL\Shape_067d569d-4bf4-4a98-9c51-6226f8668a3b.par, , Animator: Shape File Link, Cars: A-Class, Subcompact: Reverse Lights
+2025-04-06T11:02:50 (Info):    Making file writable per user request: "Animator\Cameras\Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577.par"."
+2025-04-06T11:02:50 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577.par, UUID & Name, Animator: Camera Setup, Shape Preview, Vehicles and Drivers - Cars
+2025-04-06T11:02:50 (Info):    Making file writable per user request: "Roads\BuilderSegment\RoadSeg_299f5dd8-31b0-44f2-9251-eaaf215df33c.par"."
+2025-04-06T11:02:50 (Info):    Imported: Import (By UUID), Roads\BuilderSegment\RoadSeg_299f5dd8-31b0-44f2-9251-eaaf215df33c.par, UUID & Name, Path: Segment Builder, Straight, Straight East
+2025-04-06T11:02:50 (Info):    Imported: Import (By UUID), Roads\Friction\RdMu_f0ef4b80-14f8-4aaf-8181-11d9129217ec.par, , Road: Friction Map, S-L Grid, Split Mu, Split Mu @ 10 m 0.2L/0.5R
+2025-04-06T11:02:51 (Info):    Imported: Import (By UUID), Roads\Shapes\RdShape_22356e54-d502-4482-8b1f-c32264f22202.par, , Road: Animator Surface Shapes, Variable friction, Split Mu at 3 m
+2025-04-06T11:02:51 (Info):    Imported: Import (By UUID), Roads\AniGroup\AniRep_4b69659d-aaae-4afc-91ae-55d3fcd7a4bf.par, , Road: Animator Repeated Object, Trees, Snow Covered Trees (-500,500)
+2025-04-06T11:02:51 (Info):    Imported: Import (By UUID), Animator\Groups\Group_8784113f-5948-4ebc-8af1-67164da779e6.par, , Animator: Group, Environment Spheres, Overcast Sky with Snow
+2025-04-06T11:02:51 (Info):    Making file writable per user request: "Animator\Cameras\Camera_36b2ee7b-54ec-4c39-9781-51b289ab39c0.par"."
+2025-04-06T11:02:51 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_36b2ee7b-54ec-4c39-9781-51b289ab39c0.par, UUID & Name, Animator: Camera Setup, Road Reference, 180 Azm, 5 El, 49 m
+2025-04-06T11:02:51 (Info):    Imported: Import (By UUID), Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par, , Animator: Shape File Link, Environment: Trees, Pine: Winter
+2025-04-06T11:02:51 (Info):    Making file writable per user request: "Animator\STL\Shape_121d1f5b-e0e1-4397-b1a3-9459bdc4d022.par"."
+2025-04-06T11:02:51 (Info):    Imported: Import (By UUID), Animator\STL\Shape_121d1f5b-e0e1-4397-b1a3-9459bdc4d022.par, UUID & Name, Animator: Shape File Link, Geometric Shapes: Arrows, 3D Pyramid: Tail Org (X-Axis)
+2025-04-06T11:02:51 (Info):    Making file writable per user request: "Animator\STL\Shape_adff5bc7-5cc6-40c6-8119-03dd91486a9c.par"."
+2025-04-06T11:02:51 (Info):    Imported: Import (By UUID), Animator\STL\Shape_adff5bc7-5cc6-40c6-8119-03dd91486a9c.par, UUID & Name, Animator: Shape File Link, Geometric Shapes: Arrows, 3D Pyramid: Tail Org (Y-Axis)
+2025-04-06T11:02:51 (Info):    Making file writable per user request: "Animator\STL\Shape_252e3627-824b-46c7-8ec4-f437c8cdcf34.par"."
+2025-04-06T11:02:51 (Info):    Imported: Import (By UUID), Animator\STL\Shape_252e3627-824b-46c7-8ec4-f437c8cdcf34.par, UUID & Name, Animator: Shape File Link, Geometric Shapes: Arrows, 3D Pyramid: Tail Org (Z-Axis)
+2025-04-06T11:02:52 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_0b7c1e7a-3746-4138-9a61-1261f5ec2d3c.par, , I/O Channels: Export, VHF Controls, Tires forces
+2025-04-06T11:02:52 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_feec646d-0bdf-4e4b-8ee3-1a2b9df3cfb1.par, , I/O Channels: Export, VHF Controls, powertrain
+2025-04-06T11:02:52 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_7be51743-cd55-4240-a6f3-b42eb3e039f6.par, , I/O Channels: Export, VHF Controls, Accelerations, angular velocitys and orientation
+2025-04-06T11:02:52 (Info):    Imported: Import (By UUID), IO_Channels\O_Channels\Export_0f0b649e-29e2-44d7-afd6-f8aaf80cfc65.par, , I/O Channels: Export, VHF Controls, Lagged Slip Ratio
+2025-04-06T11:02:52 (Info):    Imported: Import (By UUID), Powertrain\HEV_PMC\PMC_490563fa-4dd6-4b70-ba97-07cb4605ae7a.par, , Powertrain: Hybrid/Electric Power Management Control, , VHF Power Mgmt: Full Load 22kW
+2025-04-06T11:02:52 (Info):    Imported: Import (By UUID), Roads\Center_Z\RdRefZ_598f8ea7-d2f1-4e0b-a828-7b8c7dfb136e.par, , Road: Reference Line Elevation, Uniform Grades, Flat
+2025-04-06T11:02:52 (Info):    Imported: Import (By UUID), Roads\Friction\RdMu_a8a49b3d-823d-4e15-aaed-78c2169bf1a0.par, , Road: Friction Map, S-L Grid, Constant, Constant: 0.3
+2025-04-06T11:02:52 (Info):    Imported: Import (By UUID), Roads\Shapes\RdShape_f53d6615-2d47-45da-814d-fb981b79354a.par, , Road: Animator Surface Shapes, Variable friction, Low Mu (Wet Tile) at -5m
+2025-04-06T11:02:52 (Info):    Making file writable per user request: "Animator\Groups\Group_4ccae742-4649-427a-8871-7b3629a730a2.par"."
+2025-04-06T11:02:52 (Info):    Imported: Import (By UUID), Animator\Groups\Group_4ccae742-4649-427a-8871-7b3629a730a2.par, UUID & Name, Animator: Group, Environment Spheres, Partly Cloudy Sky with Light Grass
+2025-04-06T11:02:53 (Info):    Imported: Import (By UUID), Roads\AniGroup\AniRep_9e87b837-4bbe-4910-ab33-c5c61a43b20d.par, , Road: Animator Repeated Object, Trees, Trees (0, 1000)
+2025-04-06T11:02:53 (Info):    Imported: Import (By UUID), Roads\AniGroup\AniRep_c8fe1a01-0c9d-4d47-b2a1-7ce6a443bd54.par, , Road: Animator Repeated Object, Cones, Straight Course Cones
+2025-04-06T11:02:53 (Info):    Making file writable per user request: "Animator\STL\Shape_b639c6f4-88ee-4c0a-b131-51a82e79064b.par"."
+2025-04-06T11:02:53 (Info):    Imported: Import (By UUID), Animator\STL\Shape_b639c6f4-88ee-4c0a-b131-51a82e79064b.par, UUID & Name, Animator: Shape File Link, Environment: Trees, Oak: Summer
+2025-04-06T11:02:53 (Info):    Making file writable per user request: "Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par"."
+2025-04-06T11:02:53 (Info):    Imported: Import (By UUID), Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par, UUID & Name, Animator: Shape File Link, Environment: Props (2 of 2), Traffic Cone
+2025-04-06T11:02:53 (Info):    Making file writable per user request: "Animator\STL\Shape_cbeb61e2-0787-4c7e-b4d8-b6e0b7f413d9.par"."
+2025-04-06T11:02:53 (Info):    Imported: Import (By UUID), Animator\STL\Shape_cbeb61e2-0787-4c7e-b4d8-b6e0b7f413d9.par, UUID & Name, Animator: Shape File Link, Common Vehicle Assets, Tire Mark (Run Color)
+2025-04-06T11:02:53 (Info):    Imported: Import (By UUID), Events\Events_87ece221-9eca-4797-8340-5f89e544460a.par, , Events, VHF Acceleration, B2. Wait 0.5s and reset speed
+2025-04-06T11:02:53 (Info):    Imported: Import (By UUID), Powertrain\Reardiff\DiffR_62efc512-75c6-44a6-b9c2-09a4c6f9d0f9.par, , Powertrain: Rear Differential, VHF Electric Motor Drive (30 kW), VHF Twin-Motor 1000 N-m w/ 2.65:1 ratio
+2025-04-06T11:02:53 (Info):    Making file writable per user request: "Plot\Setup\Plot_43d9b2ae-0bc8-4112-ad93-ef6e25eed1a4.par"."
+2025-04-06T11:02:53 (Info):    Imported: Import (By UUID), Plot\Setup\Plot_43d9b2ae-0bc8-4112-ad93-ef6e25eed1a4.par, UUID & Name, Plot: Setup, Position, Accel. and Rate Sensors, Sensor Vertical Acceleration w/ G
+2025-04-06T11:02:54 (Info):    Making file writable per user request: "Roads\Center_Z\RdRefZ_16e72c88-2feb-4bd2-bb8a-4a7746b0d925.par"."
+2025-04-06T11:02:54 (Info):    Imported: Import (By UUID), Roads\Center_Z\RdRefZ_16e72c88-2feb-4bd2-bb8a-4a7746b0d925.par, UUID & Name, Road: Reference Line Elevation, Hills and Valleys, 1.5 km with Hills
+2025-04-06T11:02:54 (Info):    Imported: Import (By UUID), Roads\Friction\RdMu_3d48c076-58b0-4f08-8dc1-4a73b5ceb33e.par, , Road: Friction Map, S-L Grid, Straight Variable Mu, Variable 0.3 to 0.85 to 0.5 to 0.85 to 0.3
+2025-04-06T11:02:54 (Info):    Making file writable per user request: "Events\Events_e7bd4636-b5d2-4748-903a-59012cfd6412.par"."
+2025-04-06T11:02:54 (Info):    Imported: Import (By UUID), Events\Events_e7bd4636-b5d2-4748-903a-59012cfd6412.par, UUID & Name, Events, Infinity road, Reset to S = 0
+2025-04-06T11:02:54 (Info):    Making file writable per user request: "Roads\Friction\RdMu_76157e0a-7f92-4d03-8249-7715bd43a5ba.par"."
+2025-04-06T11:02:54 (Info):    Imported: Import (By UUID), Roads\Friction\RdMu_76157e0a-7f92-4d03-8249-7715bd43a5ba.par, UUID & Name, Road: Friction Map, S-L Grid, Constant, Constant: 0.9
+2025-04-06T11:02:54 (Info):    Making file writable per user request: "Roads\Shapes\RdShape_9a80db84-927c-4a13-b14d-454a87756c52.par"."
+2025-04-06T11:02:54 (Info):    Imported: Import (By UUID), Roads\Shapes\RdShape_9a80db84-927c-4a13-b14d-454a87756c52.par, UUID & Name, Road: Animator Surface Shapes, Roads, 3km Road, 200m Grass, One Lane
+2025-04-06T11:02:54 (Info):    Making file writable per user request: "Roads\AniGroup\AniRep_8e99d991-f185-48ca-83a5-275b91161cb3.par"."
+2025-04-06T11:02:54 (Info):    Imported: Import (By UUID), Roads\AniGroup\AniRep_8e99d991-f185-48ca-83a5-275b91161cb3.par, UUID & Name, Road: Animator Repeated Object, Trees, Trees (0, 1200)
+2025-04-06T11:02:54 (Info):    Making file writable per user request: "Animator\STL\Shape_ad0ff622-c982-4151-ad8c-04baab43d318.par"."
+2025-04-06T11:02:54 (Info):    Imported: Import (By UUID), Animator\STL\Shape_ad0ff622-c982-4151-ad8c-04baab43d318.par, UUID & Name, Animator: Shape File Link, Environment: Trees, Pine: Summer
+2025-04-06T11:02:54 (Info):    Imported: Import (By UUID), Control\Speed_t\SpdTime_6ee57edf-b277-48cb-9b79-bb9e9bcad9e1.par, , Control: Speed (Closed Loop) Using Target Speed, Handling and Performance Driving, Normal Driving on Road Course
+2025-04-06T11:02:54 (Info):    Making file writable per user request: "Roads\Center_XY\PathXY_c0142889-4f85-45a5-830f-de071137ef97.par"."
+2025-04-06T11:02:54 (Info):    Imported: Import (By UUID), Roads\Center_XY\PathXY_c0142889-4f85-45a5-830f-de071137ef97.par, UUID & Name, Path: X-Y Coordinates, Handling Course, Handling Course Left Edge
+2025-04-06T11:02:55 (Info):    Making file writable per user request: "Roads\Center_Z\RdRefZ_253759f0-3b4a-4168-991e-98a6b5ae562a.par"."
+2025-04-06T11:02:55 (Info):    Imported: Import (By UUID), Roads\Center_Z\RdRefZ_253759f0-3b4a-4168-991e-98a6b5ae562a.par, UUID & Name, Road: Reference Line Elevation, Handling Course, Handling Course
+2025-04-06T11:02:55 (Info):    Making file writable per user request: "Roads\dZ_Map\RdMapZ_446947b3-3c6d-4793-9ba1-61222ba31855.par"."
+2025-04-06T11:02:55 (Info):    Imported: Import (By UUID), Roads\dZ_Map\RdMapZ_446947b3-3c6d-4793-9ba1-61222ba31855.par, UUID & Name, Road: Off-Center Elevation Map, S-L Grid, Handling Course, Handling Course Camber
+2025-04-06T11:02:55 (Info):    Making file writable per user request: "Roads\Friction\RdMu_14d0d322-e529-4060-b63a-06992b038998.par"."
+2025-04-06T11:02:55 (Info):    Imported: Import (By UUID), Roads\Friction\RdMu_14d0d322-e529-4060-b63a-06992b038998.par, UUID & Name, Road: Friction Map, S-L Grid, Road Handling Course, Handling Course Variable Mu
+2025-04-06T11:02:55 (Info):    Making file writable per user request: "Roads\Shapes\RdShape_5a0d0496-c52b-465a-9469-50c21390f2b1.par"."
+2025-04-06T11:02:55 (Info):    Imported: Import (By UUID), Roads\Shapes\RdShape_5a0d0496-c52b-465a-9469-50c21390f2b1.par, UUID & Name, Road: Animator Surface Shapes, , No Machine-Generated Shapes
+2025-04-06T11:02:55 (Info):    Making file writable per user request: "Roads\dZ_Map\RdMapZ_87b25c4f-0087-433e-8ae8-d189ce4b11f7.par"."
+2025-04-06T11:02:55 (Info):    Imported: Import (By UUID), Roads\dZ_Map\RdMapZ_87b25c4f-0087-433e-8ae8-d189ce4b11f7.par, UUID & Name, Road: Off-Center Elevation Map, S-L Grid, Handling Course, Handling Course Curbing
+2025-04-06T11:02:55 (Info):    Making file writable per user request: "Roads\Boundaries\RdBnd_f658c7c3-6007-4ca2-ad16-6682a99f16e4.par"."
+2025-04-06T11:02:55 (Info):    Imported: Import (By UUID), Roads\Boundaries\RdBnd_f658c7c3-6007-4ca2-ad16-6682a99f16e4.par, UUID & Name, Road: Boundaries, Road Boundary Stop Conditions, Handling Course Edges
+2025-04-06T11:02:55 (Info):    Making file writable per user request: "Animator\STL\Shape_aac5faa1-9cce-45a1-81d2-669b47d6af20.par"."
+2025-04-06T11:02:55 (Info):    Imported: Import (By UUID), Animator\STL\Shape_aac5faa1-9cce-45a1-81d2-669b47d6af20.par, UUID & Name, Animator: Shape File Link, Self-Contained Scenes, Handling Course: Road
+2025-04-06T11:02:55 (Info):    Making file writable per user request: "Roads\AniGroup\AniRep_13e13ec7-cea3-4a96-a6ad-d28c56008d88.par"."
+2025-04-06T11:02:55 (Info):    Imported: Import (By UUID), Roads\AniGroup\AniRep_13e13ec7-cea3-4a96-a6ad-d28c56008d88.par, UUID & Name, Road: Animator Repeated Object, Cones, Handling Course Cones
+2025-04-06T11:02:55 (Info):    Making file writable per user request: "Animator\Groups\Group_1e7fec86-9ab4-4fab-8725-bc6e048790ae.par"."
+2025-04-06T11:02:55 (Info):    Imported: Import (By UUID), Animator\Groups\Group_1e7fec86-9ab4-4fab-8725-bc6e048790ae.par, UUID & Name, Animator: Group, Roads and Environment, Handling Course Extra Shapes
+2025-04-06T11:02:56 (Info):    Making file writable per user request: "Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par"."
+2025-04-06T11:02:56 (Info):    Imported: Import (By UUID), Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par, UUID & Name, Events, , End Events
+2025-04-06T11:02:56 (Info):    Imported: Import (By UUID), Events\Events_e97ef8d2-743d-42d6-9143-44d5bf6d3028.par, , Events, Speed Control with Path Preview, Don't Calculate Edges After First Lap
+2025-04-06T11:02:56 (Info):    Imported: Import (By UUID), Powertrain\HEV_PMC\PMC_709eccd2-a6d7-4afb-9773-9ebf40d7145c.par, , Powertrain: Hybrid/Electric Power Management Control, , VHF Power Mgmt: Full Load 20kW w/o Reg. Brake
+2025-04-06T11:02:56 (Info):    Making file writable per user request: "Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par"."
+2025-04-06T11:02:56 (Info):    Imported: Import (By UUID), Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par, UUID & Name, Animator: Shape File Link, Common Vehicle Assets: Tires, 145/80 R13: Tire
+2025-04-06T11:02:56 (Info):    Making file writable per user request: "Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par"."
+2025-04-06T11:02:56 (Info):    Imported: Import (By UUID), Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par, UUID & Name, Animator: Shape File Link, Common Vehicle Assets: Tires, 145/80 R13: Wheel
+2025-04-06T11:02:56 (Info):    Making file writable per user request: "Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par"."
+2025-04-06T11:02:56 (Info):    Imported: Import (By UUID), Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par, UUID & Name, Animator: Shape File Link, Common Vehicle Assets: Tires, 145/80 R13: Stripe
+2025-04-06T11:02:56 (Info):    Making file writable per user request: "Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par"."
+2025-04-06T11:02:56 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par, UUID & Name, Animator: Camera Setup, Shape Preview, YZ-Plane, No Offsets (with Yaw)
+2025-04-06T11:02:56 (Info):    Imported: Import (By UUID), Powertrain\Fuel_Rate\FuelRate_2dc4400d-4ea3-4d4d-8de9-69abf61912b0.par, , Powertrain: Fuel Consumption Rate, , 250cc
+2025-04-06T11:02:56 (Info):    Making file writable per user request: "Generic\Links\GenLink_1e61da3e-2c03-4189-9e05-76481bfea320.par"."
+2025-04-06T11:02:56 (Info):    Imported: Import (By UUID), Generic\Links\GenLink_1e61da3e-2c03-4189-9e05-76481bfea320.par, UUID & Name, Generic Group of Links, Powertrain (HEV), Electric Generator: Max. Load 66 N-m
+2025-04-06T11:02:57 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_6f47a0fa-dc8a-4808-b1d1-8e00dd3b9062.par, , Generic Table, Powertrain VHF, Battery charged resistance
+2025-04-06T11:02:57 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_1b6d560e-1536-4add-8fa1-27ed2890bbaf.par, , Generic Table, Powertrain VHF, Batt. discharged resistance
+2025-04-06T11:02:57 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_fd0240fc-edc6-46dc-9279-278e991cfa22.par, , Generic Table, Powertrain VHF, Battery Open-Circuit Voltage
+2025-04-06T11:02:57 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_658e8cc0-338a-4933-af0c-930d2b39cccc.par, , Generic Table, Powertrain VHF, Battery Max Capacity VHF
+2025-04-06T11:02:57 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_e86f418f-e56a-4cb1-9940-d256c2b057bb.par, , Generic Table, Powertrain VHF, Driver Demand Power: Full Load 22 kW
+2025-04-06T11:02:57 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_5252d211-ca81-4595-9e9d-f8b51151910a.par, , Generic Table, Powertrain VHF, Optimal CB250F Twister engine speed
+2025-04-06T11:02:57 (Info):    Imported: Import (By UUID), Powertrain\Motor\MMotor_692c9cc2-40eb-4345-a5ae-b769de99eea5.par, , Powertrain: Electric Motor Torque, Electric Motor, Max. Output 350 N-m
+2025-04-06T11:02:57 (Info):    Making file writable per user request: "Animator\Cameras\Camera_af7c7c91-f09a-4493-9104-5b2725e3cf03.par"."
+2025-04-06T11:02:57 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_af7c7c91-f09a-4493-9104-5b2725e3cf03.par, UUID & Name, Animator: Camera Setup, Shape Preview, Isometric View - Small Objects
+2025-04-06T11:02:57 (Info):    Imported: Import (By UUID), Animator\STL\Shape_e4ea9ba6-a657-4c2b-9f64-805450f1392a.par, , Animator: Shape File Link, Cars: A-Class, Hatchback
+2025-04-06T11:02:57 (Info):    Imported: Import (By UUID), Animator\STL\Shape_49fa3925-cfda-4de9-9711-6ccb0c7663a9.par, , Animator: Shape File Link, Cars: A-Class, Hatchback: Driver (Asian Female)
+2025-04-06T11:02:58 (Info):    Making file writable per user request: "Animator\Cameras\Camera_82b28084-790d-4ba6-a774-1d2cd5796fec.par"."
+2025-04-06T11:02:58 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_82b28084-790d-4ba6-a774-1d2cd5796fec.par, UUID & Name, Animator: Camera Setup, Shape Preview, Rear View
+2025-04-06T11:02:58 (Info):    Making file writable per user request: "Animator\Frames\Frame_02b47476-96e6-474b-919e-07d03b43f1ec.par"."
+2025-04-06T11:02:58 (Info):    Imported: Import (By UUID), Animator\Frames\Frame_02b47476-96e6-474b-919e-07d03b43f1ec.par, UUID & Name, Animator: Reference Frame, Shape Preview: Generic, Yaw for Shape Preview
+2025-04-06T11:02:58 (Info):    Making file writable per user request: "Animator\Frames\Frame_8761c9b6-c784-4d2d-b8bc-72683578e773.par"."
+2025-04-06T11:02:58 (Info):    Imported: Import (By UUID), Animator\Frames\Frame_8761c9b6-c784-4d2d-b8bc-72683578e773.par, UUID & Name, Animator: Reference Frame, Tracking: Vehicle, Skybox (Vehicle X-Y-Z)
+2025-04-06T11:02:58 (Info):    Imported: Import (By UUID), Animator\STL\Shape_8e36e98b-3732-4378-bdd3-d579e6289bb4.par, , Animator: Shape File Link, Environment: Sky Boxes, Overcast Sky
+2025-04-06T11:02:58 (Info):    Imported: Import (By UUID), Animator\STL\Shape_dd12e90a-4567-4558-8474-f459594533b2.par, , Animator: Shape File Link, Environment: Land Bowls, Snow
+2025-04-06T11:02:58 (Info):    Imported: Import (By UUID), Animator\STL\Shape_2202fd2b-3326-4e17-98ee-a32b013c984a.par, , Animator: Shape File Link, Environment: Land Bowls, Horizon: Snowy Mountains
+2025-04-06T11:02:58 (Info):    Making file writable per user request: "Animator\Frames\Frame_0d19114f-a5d3-40a0-b63b-e67f85442aa7.par"."
+2025-04-06T11:02:58 (Info):    Imported: Import (By UUID), Animator\Frames\Frame_0d19114f-a5d3-40a0-b63b-e67f85442aa7.par, UUID & Name, Animator: Reference Frame, Tracking: Road, Camera Rear Point w/ Yaw
+2025-04-06T11:02:58 (Info):    Making file writable per user request: "Animator\Cameras\Camera_614e20f4-a550-401b-86b4-f904a05376d4.par"."
+2025-04-06T11:02:58 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_614e20f4-a550-401b-86b4-f904a05376d4.par, UUID & Name, Animator: Camera Setup, Shape Preview, Isometric View - Large Objects
+2025-04-06T11:02:58 (Info):    Making file writable per user request: "Animator\STL\Shape_6d5f4980-0cdc-4aa2-841c-f127e1b02f97.par"."
+2025-04-06T11:02:58 (Info):    Imported: Import (By UUID), Animator\STL\Shape_6d5f4980-0cdc-4aa2-841c-f127e1b02f97.par, UUID & Name, Animator: Shape File Link, Environment: Sky Boxes, Partly Cloudy Sky
+2025-04-06T11:02:59 (Info):    Making file writable per user request: "Animator\STL\Shape_8747e07e-81f8-4899-bd41-ca6921d43beb.par"."
+2025-04-06T11:02:59 (Info):    Imported: Import (By UUID), Animator\STL\Shape_8747e07e-81f8-4899-bd41-ca6921d43beb.par, UUID & Name, Animator: Shape File Link, Environment: Land Bowls, Light Grass
+2025-04-06T11:02:59 (Info):    Making file writable per user request: "Animator\Cameras\Camera_a09b6cf8-f7eb-4f79-b815-59182cd87d61.par"."
+2025-04-06T11:02:59 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_a09b6cf8-f7eb-4f79-b815-59182cd87d61.par, UUID & Name, Animator: Camera Setup, Shape Preview, Isometric View - Extra Large Objects
+2025-04-06T11:02:59 (Info):    Making file writable per user request: "Animator\Cameras\Camera_b22c9c83-52ff-415d-a48c-b080618e0e6d.par"."
+2025-04-06T11:02:59 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_b22c9c83-52ff-415d-a48c-b080618e0e6d.par, UUID & Name, Animator: Camera Setup, Shape Preview, XY Plane, No Offsets - Small Objects
+2025-04-06T11:02:59 (Info):    Making file writable per user request: "Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par"."
+2025-04-06T11:02:59 (Info):    Imported: Import (By UUID), Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par, UUID & Name, Control: Throttle (Open Loop), Constant, Constant: 0
+2025-04-06T11:02:59 (Info):    Imported: Import (By UUID), Events\Events_7e4e2cc1-a49f-4a6b-b5fe-a90fc3d2ed9a.par, , Events, VHF Acceleration, B. Wait 0.5s and reset speed
+2025-04-06T11:02:59 (Info):    Imported: Import (By UUID), Powertrain\Motor\MMotor_c4d32a8f-0cf8-482c-9103-d8c63dd3809d.par, , Powertrain: Electric Motor Torque, Electric Motor, Constant 1000 N-m
+2025-04-06T11:02:59 (Info):    Making file writable per user request: "Animator\Cameras\Camera_9080781f-cafb-4524-9f90-b976961c41a3.par"."
+2025-04-06T11:02:59 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_9080781f-cafb-4524-9f90-b976961c41a3.par, UUID & Name, Animator: Camera Setup, Shape Preview, Isometric View - Scene Objects
+2025-04-06T11:02:59 (Info):    Making file writable per user request: "Animator\STL\Shape_9f31fba3-29c8-4ad0-b4dc-048ff6466e5a.par"."
+2025-04-06T11:02:59 (Info):    Imported: Import (By UUID), Animator\STL\Shape_9f31fba3-29c8-4ad0-b4dc-048ff6466e5a.par, UUID & Name, Animator: Shape File Link, Self-Contained Scenes, Handling Course: Details
+2025-04-06T11:02:59 (Info):    Making file writable per user request: "Animator\STL\Shape_e3cb9f93-d7c2-4c4f-8776-fb3f74e96c38.par"."
+2025-04-06T11:02:59 (Info):    Imported: Import (By UUID), Animator\STL\Shape_e3cb9f93-d7c2-4c4f-8776-fb3f74e96c38.par, UUID & Name, Animator: Shape File Link, Self-Contained Scenes, Handling Course: Trees
+2025-04-06T11:03:00 (Info):    Making file writable per user request: "Generic\tables\GenTab_a0db5041-d4b4-45a8-b02b-253fd56e256c.par"."
+2025-04-06T11:03:00 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_a0db5041-d4b4-45a8-b02b-253fd56e256c.par, UUID & Name, Generic Table, Powertrain (HEV), Electric Generator Max Load 66 N-m
+2025-04-06T11:03:00 (Info):    Making file writable per user request: "Generic\tables\GenTab_1a3ad104-4c12-4abe-9041-6f0e6fcd4440.par"."
+2025-04-06T11:03:00 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_1a3ad104-4c12-4abe-9041-6f0e6fcd4440.par, UUID & Name, Generic Table, Powertrain (HEV), Generator efficiency
+2025-04-06T11:03:00 (Info):    Making file writable per user request: "Generic\tables\GenTab_c3554973-3d9a-4db9-9f7d-faae1dd09802.par"."
+2025-04-06T11:03:00 (Info):    Imported: Import (By UUID), Generic\tables\GenTab_c3554973-3d9a-4db9-9f7d-faae1dd09802.par, UUID & Name, Generic Table, Powertrain (HEV), Motor efficiency at wheel
+2025-04-06T11:03:00 (Info):    Making file writable per user request: "Animator\Frames\Frame_8d039c3c-753d-406b-9c28-9406943a988c.par"."
+2025-04-06T11:03:00 (Info):    Imported: Import (By UUID), Animator\Frames\Frame_8d039c3c-753d-406b-9c28-9406943a988c.par, UUID & Name, Animator: Reference Frame, Shape Preview: Generic, Fixed
+2025-04-06T11:03:00 (Info):    Making file writable per user request: "Animator\Cameras\Camera_aa5fadc1-f7d8-4fcd-a8b2-947af476f20d.par"."
+2025-04-06T11:03:00 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_aa5fadc1-f7d8-4fcd-a8b2-947af476f20d.par, UUID & Name, Animator: Camera Setup, Shape Preview, XY Plane, No Offsets - Satellite View
+2025-04-06T11:03:00 (Info):    Making file writable per user request: "Animator\Cameras\Camera_9cc2ba49-3f6e-4c5c-9b44-55695dd364b5.par"."
+2025-04-06T11:03:00 (Info):    Imported: Import (By UUID), Animator\Cameras\Camera_9cc2ba49-3f6e-4c5c-9b44-55695dd364b5.par, UUID & Name, Animator: Camera Setup, Shape Preview, XZ Plane, No Offsets - Large Objects
+2025-04-06T11:03:00 (Info):    Imported: Import (By UUID), Events\Events_5c2c6bd7-13e2-4e94-8dae-2a1e3dee8acf.par, , Events, VHF Acceleration, C. Ramp throttle till 5s
+2025-04-06T11:03:00 (Info):    Imported: Import (By UUID), Control\Throttle\Throttle_f9fad1fe-0146-4ace-97c6-f3b8cbbf8f47.par, , Control: Throttle (Open Loop), Ramp, Ramp To Full Throttle in 1 sec.
+2025-04-06T11:03:01 (Info):    Indexed whole database in 0.25s
+2025-04-06T11:03:01 (Info):    Import completed.
+2025-04-06T11:03:01 (Info):        Imported 261 files, skipped 0.
+2025-04-06T11:03:01 (Info):        It took 39.1 seconds to import.
+2025-04-06T11:03:01 (Info):    ----------------------------------
+2025-04-06T11:03:01 (Info):    Starting import of Consolidated Parsfile "E:\Henrique\Poli\Mestrado\CarSim VHF Run Control.cpar"...
+2025-04-06T11:03:35 (Info):    Removing temp directory: "C:\Users\HENRIQ~1\AppData\Local\Temp\CarSim_SaveAs\cada6dfe-db7e-4509-bda3-0f0f555284bd".
+2025-04-06T11:09:25 (Info):    Dataset created in "Runs\": { VHF Urbano } XiL_external_powertrain (UUID: Run_18bb8736-b871-4ce4-b41f-9800a8c14d01).
+2025-04-06T11:10:13 (Info):    Dataset created in "Vehicles\Assembly\": { Meus Veiculos } VHF Urbano, eRWD External Powertrain (UUID: Vehicle_5ffffde6-c0a4-451f-b31e-fdc1c34e9018).
+2025-04-06T11:11:01 (Info):    Dataset created in "Powertrain\Rwd\": { External } External Powertrain (UUID: RWD_7b1d5fd2-8772-4b5c-b710-efa32adc5a42).
+2025-04-06T11:13:02 (Info):    Dataset created in "Powertrain\Extrans\": { Empty (You should edit or delete this) } No Data (UUID: TransExt_74463034-a96c-4ef5-b124-a291ee56a705).
+2025-04-06T11:15:47 (Info):    Dataset created in "Models\Simulink\": { VHF XiL setup } iL External Powertrain (UUID: Simlink_593df5ef-1996-42a8-9853-ebadf2010624).
+2025-04-06T11:16:10 (Info):    Warning: carsimspdgtus is not available in your region: br
+2025-04-06T11:16:28 (Info):    Dataset created in "Models\Simulink\": { VHF XiL setup } HiL External Powertrain (UUID: Simlink_4c21deca-19db-45cb-80e8-be6f3f65bd0c).
+2025-04-06T11:16:44 (Info):    Dataset deleted: Models\Simulink\Simlink_593df5ef-1996-42a8-9853-ebadf2010624.par { VHF XiL setup } iL External Powertrain.
+2025-04-06T11:24:41 (Info):    Dataset created in "IO_Channels\Ports\": { XiL IO setup } XiL External Powertrain (UUID: Port_018a94da-8bbe-40b7-bce2-8bc9b7423996).
+2025-04-06T11:26:08 (Info):    Dataset created in "IO_Channels\I_Channels\": { Powertrain } Rear Axle Motors Torque (UUID: Import_ad263a9c-9090-4135-878a-d5831c7f834d).
+2025-04-06T11:26:25 (Info):    Regenerated road shapes for "Roads\3D_Road\Road_96f62678-8d62-4db7-ba47-bb218cc8d7b2.ani" linked from "Roads\3D_Road\Road_96f62678-8d62-4db7-ba47-bb218cc8d7b2.par".
+2025-04-06T11:27:08 (Info)

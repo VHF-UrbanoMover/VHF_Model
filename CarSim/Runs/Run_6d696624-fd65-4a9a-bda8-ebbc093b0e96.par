@@ -1,0 +1,93 @@
+PARSFILE
+#FullDataName CarSim Run Control`Growing Speed (Step)`VHF Urbano
+#VEHICLECODE Ind_Ind
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_6d696624-fd65-4a9a-bda8-ebbc093b0e96
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 9 El, 18 m, No Yaw` Vehicle Reference` , Animator camera`Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 1    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 5
+#RingCtrl1 11
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 3
+#RingCtrl7 4
+*RUN_COLOR 1 0.8 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea.par
+#BlueLink2 Vehicle: Assembly`VHF Urbano, eRWD Hibrido Serie com controle Vx` Meus Veiculos` , Math Model`Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea
+
+PARSFILE Procedures\Proc_213c8ac9-64ab-45f8-825c-ba6320d2f7ed.par
+#BlueLink28 Procedures`Growing Speed -S tep 9km/h` Meus procedimentos` , Procedure`Proc_213c8ac9-64ab-45f8-825c-ba6320d2f7ed
+
+OPT_VS_FILETYPE 4
+PARSFILE Plot\Setup\Plot_ac871e31-3a2e-4f60-b6cb-3284aa167ea9.par
+#BlueLink15 Plot: Setup`Speed Target and Actual` Speed Controller` , Plot`Plot_ac871e31-3a2e-4f60-b6cb-3284aa167ea9
+
+PARSFILE Plot\Setup\Plot_757f72ed-4f5c-43eb-8e7e-7788378ee0bf.par
+#BlueLink16 Plot: Setup`Fuel Consumed` Powertrain` , Plot`Plot_757f72ed-4f5c-43eb-8e7e-7788378ee0bf
+
+PARSFILE Plot\Setup\Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f.par
+#BlueLink17 Plot: Setup`Station vs. Time` Tracking` , Plot`Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea.png
+
+OPT_ALL_WRITE 1
+WRITE_SENSOR_DETECT
+Title Growing Speed (Step) <VHF Urbano>
+CATEGORY VHF Urbano 
+DATASET_TITLE Growing Speed (Step)
+#RingCtrl8 -1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#Este é um primeiro modelo do Veículo Urbano Leve Híbrido-Flex (VHF). O VHF possui tração traseira e arquitetura híbrido série.
+#
+#É realizado um teste simples de full throtle para caracterização do veículo em pista com baixo atrito.
+#
+#Este dataset deve ser usado como base para outros datasets e testes a serem desenvolvidos.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { VHF Urbano } Growing Speed (Step)
+#Library : CarSim Run Control
+#DataSet : Growing Speed (Step)
+#Category: VHF Urbano
+#FileID  : Run_6d696624-fd65-4a9a-bda8-ebbc093b0e96
+#Created : 01-13-2023 13:31:36
+#Modified: 01-13-2023 13:32:04
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

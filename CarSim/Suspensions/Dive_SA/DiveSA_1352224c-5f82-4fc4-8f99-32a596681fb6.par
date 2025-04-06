@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Suspension: Dive Angle (Solid Axle)`Constant: Zero Dive Angle (deg)`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+SUSP_DIVE_AXLE_COMBINE MULTIPLY
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+SUSP_DIVE_AXLE_CONSTANT 0
+SUSP_DIVE_AXLE_ROLL_CONSTANT 1
+*SCALAR 0
+*SCALAR2 1
+
+
+LOG_ENTRY Used Dataset: Suspension: Dive Angle (Solid Axle); Constant: Zero Dive Angle (deg)
+#Library : Suspension: Dive Angle (Solid Axle)
+#DataSet : Constant: Zero Dive Angle (deg)
+#Category: 
+#FileID  : DiveSA_1352224c-5f82-4fc4-8f99-32a596681fb6
+#Created : 04-12-2021 13:46:58
+#Modified: 05-28-2021 14:59:10
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Dive (Solid Axle)
+
+END

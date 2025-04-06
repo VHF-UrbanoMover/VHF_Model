@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Suspension: Longitudinal Movement (Solid Axle)`Zero Forward X Movement`Artic Bus
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+SUSP_X_AXLE_COMBINE MULTIPLY
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+SUSP_X_AXLE_CONSTANT 0
+SUSP_X_AXLE_ROLL_CONSTANT 1
+*SCALAR 0
+*SCALAR2 1
+
+
+LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement (Solid Axle); { Artic Bus } Zero Forward X Movement
+#Library : Suspension: Longitudinal Movement (Solid Axle)
+#DataSet : Zero Forward X Movement
+#Category: Artic Bus
+#FileID  : LongSA_44b16b8b-fe06-4f67-972f-9a7585cd2f12
+#Created : 09-29-2021 17:27:56
+#Modified: 11-11-2021 13:48:20
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode X Movement (Solid Axle)
+
+END

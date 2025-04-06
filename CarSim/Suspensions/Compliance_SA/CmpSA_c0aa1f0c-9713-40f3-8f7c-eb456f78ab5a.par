@@ -1,0 +1,145 @@
+PARSFILE
+#FullDataName Suspension: Solid Axle Compliance, Springs, and Dampers`Pickup, Midsize, Electric - Rear`Pickup Trucks
+#CheckBox0 1    
+#CheckBox1 0    
+
+#RingCtrl0 0
+*OPT_SPR 0
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 2
+#RingCtrl4 2
+#RingCtrl5 2
+#RingCtrl6 2
+#RingCtrl7 2
+#RingCtrl8 2
+#RingCtrl9 2
+#RingCtrl10 2
+#RingCtrl11 2
+#RingCtrl12 2
+#RingCtrl13 1
+*KSPRING_L 250
+*FRICTION_L 20
+*BETA_C_L 2
+*BETA_E_L 2
+*KSPRING_R 250
+*FRICTION_R 20
+*BETA_C_R 2
+*BETA_E_R 2
+*L_SPG_ADJ_L 0
+*L_SPG_ADJ_R 0
+*CT_FX_L 0
+*CT_FX_R 0
+*CS_FY_L 0
+*CS_FY_R 0
+*CS_MZ_L 0
+*CS_MZ_R 0
+*CC_FX_L 0
+*CC_FX_R 0
+*CI_FY_L 0
+*CI_FY_R 0
+*CI_MZ_L 0
+*CI_MZ_R 0
+C_LONG_AXLE_COEFFICIENT 2e-4
+C_LAT_AXLE_COEFFICIENT 0
+DAUX 0
+L_SPRINGS L_TRACK
+L_DAMPERS L_TRACK
+L_JNC_STOPS L_TRACK
+L_REB_STOPS L_TRACK
+
+iside 1
+OPT_EXT_SP 0
+FS_COMP_COEFFICIENT 250
+FS_EXT_COEFFICIENT 250
+FS_COMP_OFFSET 20
+FS_EXT_OFFSET -20
+SPRING_COMP_BETA 2
+SPRING_EXT_BETA 2
+PARSFILE Generic\tables\GenTab_dab81c45-1f6d-4e2e-aa91-c2048ac0fb84.par
+#BlueLink7 Generic Table`Left Spring Compression` 4 Link w/ Track Bar` , Spring compression`GenTab_dab81c45-1f6d-4e2e-aa91-c2048ac0fb84
+
+L_SPG_ADJ 0
+FS_OFFSET 0
+CMP_OFFSET 0
+PARSFILE Suspensions\Shocks\Shock_0751644e-013f-45f4-8119-29f0d1bd5cc4.par
+#BlueLink1 Suspension: Shock Absorber`Big SUV` SUV and Light Truck` , Left damper`Shock_0751644e-013f-45f4-8119-29f0d1bd5cc4
+
+PARSFILE Generic\tables\GenTab_c2269f7c-5a14-4791-aec2-186d1d5cd1c5.par
+#BlueLink9 Generic Table`Left Shock Compression` 4 Link w/ Track Bar` , Damper compression`GenTab_c2269f7c-5a14-4791-aec2-186d1d5cd1c5
+
+PARSFILE Suspensions\Jounce_Rebound\JncReb_6ee10cdb-b2ec-42e7-a35f-b979fa9dcd7e.par
+#BlueLink5 Suspension: Jounce and Rebound Stops`+80 mm / -80 mm` Jounce Range: 50 mm to 99 mm` , Jounce / rebound stop force`JncReb_6ee10cdb-b2ec-42e7-a35f-b979fa9dcd7e
+
+PARSFILE Generic\tables\GenTab_a824249b-244c-4815-b319-b9129ad84106.par
+#BlueLink11 Generic Table`Left J-Stop Compression` 4 Link w/ Track Bar` , Jounce stop compression`GenTab_a824249b-244c-4815-b319-b9129ad84106
+
+PARSFILE Generic\tables\GenTab_dc4bf1bb-a9d9-4d8c-9cb1-4b265d644ac5.par
+#BlueLink13 Generic Table`Left R-Stop Compression` 4 Link w/ Track Bar` , Rebound stop compression`GenTab_dc4bf1bb-a9d9-4d8c-9cb1-4b265d644ac5
+
+CT_FX_COEFFICIENT 0
+CS_FY_COEFFICIENT 0
+CS_MZ_COEFFICIENT 0
+CC_FX_COEFFICIENT 0
+CI_FY_COEFFICIENT 0
+CI_MZ_COEFFICIENT 0
+
+iside 2
+OPT_EXT_SP 0
+FS_COMP_COEFFICIENT 250
+FS_EXT_COEFFICIENT 250
+FS_COMP_OFFSET 20
+FS_EXT_OFFSET -20
+SPRING_COMP_BETA 2
+SPRING_EXT_BETA 2
+PARSFILE Generic\tables\GenTab_bbcfc960-b420-44dc-bb5f-c5d0e71c4d0f.par
+#BlueLink8 Generic Table`Right Spring Compression` 4 Link w/ Track Bar` , Spring compression`GenTab_bbcfc960-b420-44dc-bb5f-c5d0e71c4d0f
+
+L_SPG_ADJ 0
+FS_OFFSET 0
+CMP_OFFSET 0
+PARSFILE Suspensions\Shocks\Shock_0751644e-013f-45f4-8119-29f0d1bd5cc4.par
+#BlueLink4 Suspension: Shock Absorber`Big SUV` SUV and Light Truck` , Right damper`Shock_0751644e-013f-45f4-8119-29f0d1bd5cc4
+
+PARSFILE Generic\tables\GenTab_3aba904c-05e1-420d-a212-77bf1fdb48e4.par
+#BlueLink10 Generic Table`Right Shock Compression` 4 Link w/ Track Bar` , Damper compression`GenTab_3aba904c-05e1-420d-a212-77bf1fdb48e4
+
+PARSFILE Suspensions\Jounce_Rebound\JncReb_6ee10cdb-b2ec-42e7-a35f-b979fa9dcd7e.par
+#BlueLink6 Suspension: Jounce and Rebound Stops`+80 mm / -80 mm` Jounce Range: 50 mm to 99 mm` , Jounce / rebound stop force`JncReb_6ee10cdb-b2ec-42e7-a35f-b979fa9dcd7e
+
+PARSFILE Generic\tables\GenTab_6d49324d-dc8c-4d99-a0b0-a1cde0b48ec6.par
+#BlueLink12 Generic Table`Right J-Stop Compression` 4 Link w/ Track Bar` , Jounce stop compression`GenTab_6d49324d-dc8c-4d99-a0b0-a1cde0b48ec6
+
+PARSFILE Generic\tables\GenTab_eef8c848-ba87-4f95-ae6d-0151bbebb214.par
+#BlueLink14 Generic Table`Right R-Stop Compression` 4 Link w/ Track Bar` , Rebound stop compression`GenTab_eef8c848-ba87-4f95-ae6d-0151bbebb214
+
+CT_FX_COEFFICIENT 0
+CS_FY_COEFFICIENT 0
+CS_MZ_COEFFICIENT 0
+CC_FX_COEFFICIENT 0
+CI_FY_COEFFICIENT 0
+CI_MZ_COEFFICIENT 0
+PARSFILE Suspensions\Aux_Roll\AuxMx_898a0de9-0ba9-4833-b9e0-d6748c8708df.par
+#BlueLink2 Suspension: Auxiliary Roll Moment`Constant: Zero` Constant` , Roll Moment`AuxMx_898a0de9-0ba9-4833-b9e0-d6748c8708df
+
+
+#EMBEDDED_NOTES
+#The 2D kinematics are from a SuspensionSim example of a four link with track bar which has coil springs mounted separately from the shock absorbers.
+#
+#The lateral spacings are set to the track width because the springs, dampers, and bump/droop stops are given with 2D tables, which capture the motion ratio effects without needing the additional geometric information.
+#
+#The unsteered solid axle suspension uses only the Long/Fx and Lat/Fy compliance coefficients. The SuspensionSim example showed essentially zero lateral compliance, but some longitudinal compliance.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { Pickup Trucks } Pickup, Midsize, Electric - Rear
+#Library : Suspension: Solid Axle Compliance, Springs, and Dampers
+#DataSet : Pickup, Midsize, Electric - Rear
+#Category: Pickup Trucks
+#FileID  : CmpSA_c0aa1f0c-9713-40f3-8f7c-eb456f78ab5a
+#Created : 05-18-2021 12:50:27
+#Modified: 05-28-2021 14:59:11
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Solid Axle
+
+END

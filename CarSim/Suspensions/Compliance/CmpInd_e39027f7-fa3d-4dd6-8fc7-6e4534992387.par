@@ -1,0 +1,132 @@
+PARSFILE
+#FullDataName Suspension: Independent Compliance, Springs, and Dampers`D-Class, Sdn - Rear (Twist, No Comp.)`D-Class
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 0
+*OPT_SPR 0
+#RingCtrl1 1
+#RingCtrl3 2
+#RingCtrl5 2
+#RingCtrl7 2
+#RingCtrl9 2
+#RingCtrl11 2
+#RingCtrl13 1
+*KSPRING_L 82
+*FRICTION_L 20
+*BETA_C_L 2
+*BETA_E_L 2
+*L_SPG_ADJ_L 0
+*FS_OFFSET_L 0
+*FS_OFFSET_R 0
+*R_SPRING_L 0.797
+*R_DAMPER_L 0.797
+*R_JOUNCE_L 1
+*R_REBOUND_L 1
+*CT_FX_L 0
+*CS_FY_L 0
+*CS_MZ_L 0
+*CC_FX_L 0
+*CI_FY_L 0
+*CI_MZ_L 0
+*C_LONG_L 0
+*C_LAT_L 0
+DAUX 0
+*CD_MY_L 0
+
+iside 1
+OPT_EXT_SP 0
+FS_COMP_COEFFICIENT 82
+FS_EXT_COEFFICIENT 82
+FS_COMP_OFFSET 20
+FS_EXT_OFFSET -20
+SPRING_COMP_BETA 2
+SPRING_EXT_BETA 2
+PARSFILE Generic\tables\GenTab_0cce96b9-88a4-4004-a1f9-0c9d11a2acca.par
+#BlueLink7 Generic Table`Spring Compression (2D)` Generic Suspension Comp.: Twist-Beam (2D)` , Spring compression`GenTab_0cce96b9-88a4-4004-a1f9-0c9d11a2acca
+
+L_SPG_ADJ 0
+FS_OFFSET 0
+CMP_OFFSET 0
+PARSFILE Suspensions\Shocks\Shock_06339072-ca43-46c4-af82-ec3bf59d6ffc.par
+#BlueLink1 Suspension: Shock Absorber`Big Car` Passenger Car` , Left damper`Shock_06339072-ca43-46c4-af82-ec3bf59d6ffc
+
+PARSFILE Generic\tables\GenTab_d163bc79-cc7a-4a89-8f9e-7bb9d7fcd94b.par
+#BlueLink9 Generic Table`Damper Compression (2D)` Generic Suspension Comp.: Twist-Beam (2D)` , Damper compression`GenTab_d163bc79-cc7a-4a89-8f9e-7bb9d7fcd94b
+
+PARSFILE Suspensions\Jounce_Rebound\JncReb_2ed6e569-2f5b-4678-923b-03a6ae86e5a3.par
+#BlueLink5 Suspension: Jounce and Rebound Stops`+100 mm / -100 mm` Jounce Range: 100 mm to 150 mm` , Jounce / rebound stop force`JncReb_2ed6e569-2f5b-4678-923b-03a6ae86e5a3
+
+PARSFILE Generic\tables\GenTab_87d5de10-31ae-435f-bfcf-838d22fb386b.par
+#BlueLink11 Generic Table`Jounce Stop Compression (2D)` Generic Suspension Comp.: Twist-Beam (2D)` , Jounce stop compression`GenTab_87d5de10-31ae-435f-bfcf-838d22fb386b
+
+PARSFILE Generic\tables\GenTab_3a8d59b8-8cab-4456-a255-6d2399bca975.par
+#BlueLink13 Generic Table`Rebound Stop Compression (2D)` Generic Suspension Comp.: Twist-Beam (2D)` , Rebound stop compression`GenTab_3a8d59b8-8cab-4456-a255-6d2399bca975
+
+CT_FX_COEFFICIENT 0
+CS_FY_COEFFICIENT 0
+CS_MZ_COEFFICIENT 0
+CC_FX_COEFFICIENT 0
+CI_FY_COEFFICIENT 0
+CI_MZ_COEFFICIENT 0
+C_LONG_COEFFICIENT 0
+C_LAT_COEFFICIENT 0
+CD_MY_COEFFICIENT 0
+
+iside 2
+OPT_EXT_SP 0
+FS_COMP_COEFFICIENT 82
+FS_EXT_COEFFICIENT 82
+FS_COMP_OFFSET 20
+FS_EXT_OFFSET -20
+SPRING_COMP_BETA 2
+SPRING_EXT_BETA 2
+PARSFILE Generic\tables\GenTab_0cce96b9-88a4-4004-a1f9-0c9d11a2acca.par
+#BlueLink7 Generic Table`Spring Compression (2D)` Generic Suspension Comp.: Twist-Beam (2D)` , Spring compression`GenTab_0cce96b9-88a4-4004-a1f9-0c9d11a2acca
+
+L_SPG_ADJ 0
+FS_OFFSET 0
+CMP_OFFSET 0
+PARSFILE Suspensions\Shocks\Shock_06339072-ca43-46c4-af82-ec3bf59d6ffc.par
+#BlueLink1 Suspension: Shock Absorber`Big Car` Passenger Car` , Left damper`Shock_06339072-ca43-46c4-af82-ec3bf59d6ffc
+
+PARSFILE Generic\tables\GenTab_d163bc79-cc7a-4a89-8f9e-7bb9d7fcd94b.par
+#BlueLink9 Generic Table`Damper Compression (2D)` Generic Suspension Comp.: Twist-Beam (2D)` , Damper compression`GenTab_d163bc79-cc7a-4a89-8f9e-7bb9d7fcd94b
+
+PARSFILE Suspensions\Jounce_Rebound\JncReb_2ed6e569-2f5b-4678-923b-03a6ae86e5a3.par
+#BlueLink5 Suspension: Jounce and Rebound Stops`+100 mm / -100 mm` Jounce Range: 100 mm to 150 mm` , Jounce / rebound stop force`JncReb_2ed6e569-2f5b-4678-923b-03a6ae86e5a3
+
+PARSFILE Generic\tables\GenTab_87d5de10-31ae-435f-bfcf-838d22fb386b.par
+#BlueLink11 Generic Table`Jounce Stop Compression (2D)` Generic Suspension Comp.: Twist-Beam (2D)` , Jounce stop compression`GenTab_87d5de10-31ae-435f-bfcf-838d22fb386b
+
+PARSFILE Generic\tables\GenTab_3a8d59b8-8cab-4456-a255-6d2399bca975.par
+#BlueLink13 Generic Table`Rebound Stop Compression (2D)` Generic Suspension Comp.: Twist-Beam (2D)` , Rebound stop compression`GenTab_3a8d59b8-8cab-4456-a255-6d2399bca975
+
+CT_FX_COEFFICIENT 0
+CS_FY_COEFFICIENT 0
+CS_MZ_COEFFICIENT 0
+CC_FX_COEFFICIENT 0
+CI_FY_COEFFICIENT 0
+CI_MZ_COEFFICIENT 0
+C_LONG_COEFFICIENT 0
+C_LAT_COEFFICIENT 0
+CD_MY_COEFFICIENT 0
+PARSFILE Suspensions\Aux_Roll\AuxMx_3211aad2-69b1-401a-b9be-b23bd990eafe.par
+#BlueLink2 Suspension: Auxiliary Roll Moment`Linear: 344 N-m/deg` Linear` , Roll Moment`AuxMx_3211aad2-69b1-401a-b9be-b23bd990eafe
+
+
+#EMBEDDED_NOTES
+#For the D-Class Twist Beam, but with all suspension compliances turned off (set to zero).
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { D-Class } D-Class, Sdn - Rear (Twist, No Comp.)
+#Library : Suspension: Independent Compliance, Springs, and Dampers
+#DataSet : D-Class, Sdn - Rear (Twist, No Comp.)
+#Category: D-Class
+#FileID  : CmpInd_e39027f7-fa3d-4dd6-8fc7-6e4534992387
+#Modified: 05-28-2021 14:59:12
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Springs and Dampers
+
+END

@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Plot: Setup`Slip Ratios w/ Ref: Lagged (Axle 2)`VHF Plots
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS KappL_L2, Time
+PLOTCHANNELS KappL_R2, Time
+PLOTCHANNELS KappaRef, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Slip Ratios w/ Ref: Lagged (Axle 2)
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#Slip ratios after applying relaxation length
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { VHF Plots } Slip Ratios w/ Ref: Lagged (Axle 2)
+#Library : Plot: Setup
+#DataSet : Slip Ratios w/ Ref: Lagged (Axle 2)
+#Category: VHF Plots
+#FileID  : Plot_24a4846e-f402-4012-b77b-094555ca98d1
+#Created : 07-31-2023 09:48:10
+#Modified: 07-31-2023 09:48:35
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Tractor Tire`Common Vehicle Assets: Payloads
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Common_Vehicle_Assets\Payloads\Cargo_Tire\cargo_tire.osg
+#ENDMYellow
+
+SET_OFFSET_Z .85
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_af7c7c91-f09a-4493-9104-5b2725e3cf03.par
+#BlueLink2 Animator: Camera Setup`Isometric View - Small Objects` Shape Preview` , Video Camera`Camera_af7c7c91-f09a-4493-9104-5b2725e3cf03
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_5b96deb3-a8f6-4012-8aee-3f92a86756c2.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Payloads } Tractor Tire
+#Library : Animator: Shape File Link
+#DataSet : Tractor Tire
+#Category: Common Vehicle Assets: Payloads
+#FileID  : Shape_5b96deb3-a8f6-4012-8aee-3f92a86756c2
+#Created : 08-03-2021 14:31:51
+#Modified: 08-05-2021 17:08:47
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape File
+
+END

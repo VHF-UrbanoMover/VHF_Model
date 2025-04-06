@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Plot: Setup`Battery temperature`Powertrain (Hybrid)
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Lines without Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS TempBttry, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Battery temperature
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Battery temperature
+#Library : Plot: Setup
+#DataSet : Battery temperature
+#Category: Powertrain (Hybrid)
+#FileID  : Plot_5ade7bba-df0d-43d8-b20a-991eaded38af
+#Created : 05-18-2021 13:16:31
+#Modified: 05-28-2021 14:59:43
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

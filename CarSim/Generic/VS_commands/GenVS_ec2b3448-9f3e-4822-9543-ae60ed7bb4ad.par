@@ -1,0 +1,59 @@
+PARSFILE
+#FullDataName Generic VS Commands`Simulink Events Setup Poly`Obstacle Avoidance
+#VehCode VS Commands
+
+#MiscYellow0
+DEFINE_PARAMETER BEGIN_PATH_UPDATE = 0; - ; path update trigger flag
+DEFINE_PARAMETER LTARG_PATH_UPDATE = 0; m ; path update LTARG value
+DEFINE_PARAMETER LAT_ERROR_THRESH = 0.25; m; lat., error threshold
+
+define_output LatError = abs(Lat_Targ-Lat_Veh); m; lateral deviation error
+define_output  UpdatePathSwitch = BEGIN_PATH_UPDATE; - ; path update trigger flag
+define_output yOffsetCalc = DisS1_1*abs(sin(BrCS1_1)); m ; my lat offset value
+define_output xOffsetCalc = DisS1_1*cos(BrCS1_1); m ; my offset val
+define_output BearingRad = BrCS1_1; rad; radian output of rel. bearing
+define_output PathShift = 4.5 -  yOffsetCalc; m; jim's pathshift value
+define_output maxLtarg = if( BrCS1_1<= 0.045, Lat_Targ + PathShift, ...
+Lat_Targ - PathShift); m; python max lat. target point
+define_output detTime = det_time; s; time allowed for updated path control
+define_output drvModelPrevTime = TPREV_CONSTANT; s; driver model prev. time
+define_output drvModPrevDist = Vxz_Fwd*drvModelPrevTime; m; driver moel prev. dist
+
+! create access to driver model import varibles 
+INSTALL_DM_OUTPUTS 
+! Override the driver mocel import coordintates with updated coords. based on the path update S, and L values ( based on the updated LTARG, and current station) 
+EQ_IN IMP_X_DM = PATH_X_ID(Station + drvModPrevDist, IMP_LTARG_OBS_AVD, PATH_ID_DM, 1); m; driver model x-prev. pt from S,L update
+EQ_IN IMP_Y_DM = PATH_Y_ID(Station + drvModPrevDist, IMP_LTARG_OBS_AVD, PATH_ID_DM, 1); m; driver model y-prev. pt from S,L update
+
+! Activate the updated x and y preview point coordinates, to replace the regular prev. point values 
+IMPORT IMP_X_DM VS_Replace
+IMPORT IMP_Y_DM VS_Replace
+
+! create updated path preview point outputs
+define_output xPrevGlobal = IMP_X_DM; m; updated global x-preview point
+define_output yPrevGlobal = IMP_Y_DM; m; updated global x-preview point
+#ENDMYellow
+
+PARSFILE Plot\Setup\Plot_11a008db-8b27-4902-9477-75bd33796466.par
+#BlueLink3 Plot: Setup`Obstacle Avoidance Plots: 1` Obstacle Avoidance` , Plot`Plot_11a008db-8b27-4902-9477-75bd33796466
+
+PARSFILE Plot\Setup\Plot_594ff514-deb7-4390-8735-e375916a4ded.par
+#BlueLink4 Plot: Setup`Obstacle Avoidance Plots: 2` Obstacle Avoidance` , Plot`Plot_594ff514-deb7-4390-8735-e375916a4ded
+
+
+#EMBEDDED_NOTES
+#Note: The INSTALL_DM_OUTPUTS command creates the output and import variables for the target point, so the imports can be set and the outputs can be written to file or used in calculations.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Obstacle Avoidance } Simulink Events Setup Poly
+#Library : Generic VS Commands
+#DataSet : Simulink Events Setup Poly
+#Category: Obstacle Avoidance
+#FileID  : GenVS_ec2b3448-9f3e-4822-9543-ae60ed7bb4ad
+#Created : 02-26-2021 18:07:48
+#Modified: 05-28-2021 15:02:27
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode VS Commands
+
+END

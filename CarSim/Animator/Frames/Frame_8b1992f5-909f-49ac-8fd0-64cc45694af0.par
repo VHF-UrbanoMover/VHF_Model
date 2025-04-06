@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`K & C: Wheel Pad (All Wheels)`K & C Machine
+ADD_REFERENCE_FRAME Frame_8b1992f5-909f-49ac-8fd0-64cc45694af0
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME xctc_<<kc_side>><<kc_axle>>
+SET_Y_NAME yctc_<<kc_side>><<kc_axle>>
+SET_Z_NAME Zgnd_<<kc_side>><<kc_axle>>
+
+PARSFILE Animator\STL\Shape_38334a40-dbbf-424e-98c1-e001466ddd2f.par
+#BlueLink0 Animator: Shape File Link`K & C Machine: Wheel Pad` K & C Machine` , Animator Data`Shape_38334a40-dbbf-424e-98c1-e001466ddd2f
+
+WRT_xctc_<<kc_side>><<kc_axle>>
+ANI_xctc_<<kc_side>><<kc_axle>>
+WRT_yctc_<<kc_side>><<kc_axle>>
+ANI_yctc_<<kc_side>><<kc_axle>>
+WRT_Zgnd_<<kc_side>><<kc_axle>>
+ANI_Zgnd_<<kc_side>><<kc_axle>>
+
+#EMBEDDED_NOTES
+#This dataset uses the symbol stack variables <<kc_side>> and <<kc_axle>> to set the side and axle output variables for the wheel pad.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { K & C Machine } K & C: Wheel Pad (All Wheels)
+#Library : Animator: Reference Frame
+#DataSet : K & C: Wheel Pad (All Wheels)
+#Category: K & C Machine
+#FileID  : Frame_8b1992f5-909f-49ac-8fd0-64cc45694af0
+#Modified: 05-28-2021 15:03:25
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Reference Frame
+
+END

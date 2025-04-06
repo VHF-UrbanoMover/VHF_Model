@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Generic Data Group`Payload: Tractor Tires`Multple Payloads
+#VehCode Generic Group
+PARSFILE Payloads\Custom\Custom_6cc3b304-06bb-461e-b98f-c39606c67c0a.par
+#BlueLink0 Payload: Custom`Tractor Tire 1` ` , Link 1`Custom_6cc3b304-06bb-461e-b98f-c39606c67c0a
+
+
+PARSFILE Payloads\Custom\Custom_1fcb1505-781f-434e-ade0-cec137f73ecf.par
+#BlueLink1 Payload: Custom`Tractor Tire 2` ` , Link 2`Custom_1fcb1505-781f-434e-ade0-cec137f73ecf
+
+
+PARSFILE Payloads\Custom\Custom_7f73bf87-cf2e-4d9c-bb32-e0897089e103.par
+#BlueLink2 Payload: Custom`Tractor Tire 3` ` , Link 3`Custom_7f73bf87-cf2e-4d9c-bb32-e0897089e103
+
+
+PARSFILE Payloads\Custom\Custom_e3bb6555-27c9-4423-bfe5-12a3ba3964bf.par
+#BlueLink3 Payload: Custom`Tractor Tire 4` ` , Link 4`Custom_e3bb6555-27c9-4423-bfe5-12a3ba3964bf
+
+
+
+
+
+
+
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Multple Payloads } Payload: Tractor Tires
+#Library : Generic Data Group
+#DataSet : Payload: Tractor Tires
+#Category: Multple Payloads
+#FileID  : GenGrp_49c3a4b2-74f3-4774-bad3-8b74945f3b13
+#Created : 08-03-2021 14:28:41
+#Modified: 08-03-2021 14:35:02
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Generic Group
+
+END

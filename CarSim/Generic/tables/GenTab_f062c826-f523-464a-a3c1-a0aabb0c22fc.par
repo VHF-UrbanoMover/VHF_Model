@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Generic Table`Optimal engine speed (Hi-Power)`Powertrain (HEV)
+#RingCtrl0 LINEAR
+#CheckBox0 0    
+
+#DiagramOne0
+VENGINE_OPTIMAL_TABLE LINEAR
+100, 1200
+200, 2400
+300, 3400
+400, 4100
+500, 5000
+600, 5050
+700, 5100
+800, 5100
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD VENGINE_OPTIMAL
+*X_LABEL Power demand (kW)
+*Y_LABEL Engine speed (RPM)
+
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Optimal engine speed (Hi-Power)
+#Library : Generic Table
+#DataSet : Optimal engine speed (Hi-Power)
+#Category: Powertrain (HEV)
+#FileID  : GenTab_f062c826-f523-464a-a3c1-a0aabb0c22fc
+#Created : 05-26-2021 13:16:59
+#Modified: 05-28-2021 15:02:30
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode table
+
+END

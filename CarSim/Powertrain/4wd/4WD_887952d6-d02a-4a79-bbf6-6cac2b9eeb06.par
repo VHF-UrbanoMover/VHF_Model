@@ -1,0 +1,82 @@
+PARSFILE
+#FullDataName Powertrain: 4-Wheel Drive`300/100/50kW x2, Axle-Split Hybrid`Hybrid: 300/100/50kW x2 (Engine + 3 Motors)
+INSTALL_POWERTRAIN 3
+INSTALL_ENGINE
+
+R_REAR_DRIVE_SC 0.5
+
+OPT_ENGINE_PITCH_REACTION(1) 0
+OPT_ENGINE_PITCH_REACTION(2) 1
+
+#RingCtrl0 0
+R_MDRIVE 0
+#RingCtrl4 1
+#RingCtrl5 1
+#RingCtrl6 1
+#RingCtrl7 1
+#CheckBox0 0    
+#CheckBox1 1    
+
+OPT_ENGINE_INTERNAL 1
+OPT_PWR_CPL_INTERNAL 0
+OPT_TRANS_INTERNAL 0
+OPT_SHIFT_INTERNAL 0
+OPT_TR_GEAR_INTERNAL 0
+IDIFF 1
+OPT_DIFF_INTERNAL 1
+IDIFF 2
+OPT_DIFF_INTERNAL 1
+IDIFF 3
+OPT_DIFF_INTERNAL 1
+
+PARSFILE Powertrain\Engine\Engine_8040b1ad-5f06-4c6c-a6e6-740997750fc3.par
+#BlueLink0 Powertrain: Engine`300 kW Engine` 300 kW Engines` , Engine`Engine_8040b1ad-5f06-4c6c-a6e6-740997750fc3
+
+PARSFILE Powertrain\HEV\HEV_575e1165-6e1f-4353-a0e1-fb1559c781ec.par
+#BlueLink11 Powertrain: Hybrid/Electric System`Parallel Hyb. Motor on Axle, Hi-Gr` ` , Hybrid system`HEV_575e1165-6e1f-4353-a0e1-fb1559c781ec
+
+PARSFILE Powertrain\HEV_PMC\PMC_54731d71-c57d-42a8-9a41-5fda86ebd81a.par
+#BlueLink12 Powertrain: Hybrid/Electric Power Management Control`PL-HEV Pwr Mgmt: Full Load 500kW` ` , Transmission`PMC_54731d71-c57d-42a8-9a41-5fda86ebd81a
+
+
+IDIFF 3
+PARSFILE Powertrain\Centerdiff\XC_7984c8af-e59d-4da7-8fe7-8dff5afb7497.par
+#BlueLink3 Powertrain: Transfer Case`HEV: RWD base eAWD, Gr. 1.0` Electric Motor Drive` , Transfer case`XC_7984c8af-e59d-4da7-8fe7-8dff5afb7497
+
+
+IDIFF 1
+PARSFILE Powertrain\Frontdiff\DiffF_b5941808-7fb1-417e-9a8d-febd063d169b.par
+#BlueLink4 Powertrain: Front Differential`EV Twin-Motor: Visc. R3.1` Electric Motor Drive (100 kW)` , Differential front`DiffF_b5941808-7fb1-417e-9a8d-febd063d169b
+
+
+IDIFF 2
+PARSFILE Powertrain\Reardiff\DiffR_f0e3d8ee-bd55-46fb-b51e-b8ec6faad8cb.par
+#BlueLink5 Powertrain: Rear Differential`EV Viscous Diff.: Gear Ratio 3.1` Electric Motor Drive (100 kW)` , Differential rear`DiffR_f0e3d8ee-bd55-46fb-b51e-b8ec6faad8cb
+
+
+#EMBEDDED_NOTES
+#This particular axle-split parallel hybrid powertrain setting involves ICE + transmission w/ an electric motor drive rear wheels; while two independent electric motors (twin-motor) drive front wheels.
+#
+#Such hybrid powertrain layout is adopted for high performance Hybrid AWD sport-cars, e.g. Ferrari SF90 Hybrid, Porsche 918 Spyder Hybrid, McLarren Hybrid and Honda NSX Hybrid.
+#
+#* * In case this powertrain dataset is used with Engine Mount model option as follow:
+#
+#If the engine (and any rigid parts which move together with the engine, e.g. transmission, clutch/torque converter) is treated as one independent rigid body by selecting the "Engine Mount" option, the engine body reacts in pitch and/or roll direction with the drive torque through the drive shafts and/or propeller shaft(s) as specified on this screen.
+#
+#In this particular example, the rear drive torque pitch effect is checked. Therefore, the engine body would react in pitch direction through the rear drive torques.
+#
+#Front drive torque is no effect the the engine body.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { Hybrid: 300/100/50kW x2 (Engine + 3 Motors) } 300/100/50kW x2, Axle-Split Hybrid
+#Library : Powertrain: 4-Wheel Drive
+#DataSet : 300/100/50kW x2, Axle-Split Hybrid
+#Category: Hybrid: 300/100/50kW x2 (Engine + 3 Motors)
+#FileID  : 4WD_887952d6-d02a-4a79-bbf6-6cac2b9eeb06
+#Created : 11-18-2021 15:42:00
+#Modified: 11-24-2021 14:03:14
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode 4WD
+
+END

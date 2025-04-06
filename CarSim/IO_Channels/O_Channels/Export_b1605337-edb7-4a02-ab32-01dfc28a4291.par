@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Export: Update Path`ADAS and Active Safety
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_fda87933-9ead-47bf-971f-567b4fa53fb0\Run_out_tab.txt
+
+
+EXPORT Vxz_Fwd
+EXPORT UpdatePathSwitch
+EXPORT drvModelPrevTime
+EXPORT objWidth
+EXPORT vehWidth
+EXPORT Lat_Targ
+EXPORT Station
+EXPORT DsLS1_1
+EXPORT BrCS1_1
+#MiscYellow0
+#Number of Selected Channels: 9
+#CHN_NAME: Vxz_Fwd
+#CHN_NAME: UpdatePathSwitch
+#CHN_NAME: drvModelPrevTime
+#CHN_NAME: objWidth
+#CHN_NAME: vehWidth
+#CHN_NAME: Lat_Targ
+#CHN_NAME: Station
+#CHN_NAME: DsLS1_1
+#CHN_NAME: BrCS1_1
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`Path Update SLC: Simulink, Poly.` Obstacle Avoidance` , example run`Run_fda87933-9ead-47bf-971f-567b4fa53fb0
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { ADAS and Active Safety } Export: Update Path
+#Library : I/O Channels: Export
+#DataSet : Export: Update Path
+#Category: ADAS and Active Safety
+#FileID  : Export_b1605337-edb7-4a02-ab32-01dfc28a4291
+#Modified: 05-28-2021 15:02:23
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Export Channels
+
+END

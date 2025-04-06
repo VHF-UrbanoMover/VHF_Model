@@ -1,0 +1,92 @@
+PARSFILE
+#FullDataName Generic Data Group`Ind. Kinematics Outputs`Suspension Extensions
+#VehCode Generic Group
+#MiscYellow0
+symbol_push_or_set <<axle>> 1
+symbol_push <<wheel>> 1
+symbol_push <<side>> -1
+symbol_push <<side2>> 1
+symbol_push_or_set <<tire>> L<<axle>>
+symbol_push <<tire_os>> R<<axle>>
+#ENDMYellow
+
+PARSFILE Generic\VS_commands\GenVS_eda3e712-82ac-42a1-a5de-0b76529ee654.par
+#BlueLink0 Generic VS Commands`Disable R&P Comp.` Ind. Susp. Kinematics` , Link 1`GenVS_eda3e712-82ac-42a1-a5de-0b76529ee654
+
+
+PARSFILE Generic\VS_commands\GenVS_f217d513-a864-4700-86f6-0701d2420f37.par
+#BlueLink1 Generic VS Commands`Disable Ind. Susp. Comp.` Ind. Susp. Kinematics` , Link 2`GenVS_f217d513-a864-4700-86f6-0701d2420f37
+
+
+PARSFILE Generic\VS_commands\GenVS_39a3ab23-d878-4fab-bdfd-a4871cabedc9.par
+#BlueLink2 Generic VS Commands`Ind. Kinematics Outputs` Ind. Susp. Kinematics` , Link 3`GenVS_39a3ab23-d878-4fab-bdfd-a4871cabedc9
+
+
+#MiscYellow3
+symbol_set <<wheel>> 2
+symbol_set <<tire>> R<<axle>>
+symbol_set <<tire_os>> L<<axle>>
+symbol_set <<side>> 1
+symbol_set <<side2>> 2
+#ENDMYellow
+
+PARSFILE Generic\VS_commands\GenVS_f217d513-a864-4700-86f6-0701d2420f37.par
+#BlueLink3 Generic VS Commands`Disable Ind. Susp. Comp.` Ind. Susp. Kinematics` , Link 4`GenVS_f217d513-a864-4700-86f6-0701d2420f37
+
+
+PARSFILE Generic\VS_commands\GenVS_39a3ab23-d878-4fab-bdfd-a4871cabedc9.par
+#BlueLink4 Generic VS Commands`Ind. Kinematics Outputs` Ind. Susp. Kinematics` , Link 5`GenVS_39a3ab23-d878-4fab-bdfd-a4871cabedc9
+
+
+#MiscYellow5
+symbol_set <<axle>> 2
+symbol_set <<wheel>> 3
+symbol_set <<side>> -1
+symbol_set <<side2>> 1
+symbol_set <<tire>> L<<axle>>
+symbol_set <<tire_os>> R<<axle>>
+#ENDMYellow
+
+PARSFILE Generic\VS_commands\GenVS_f217d513-a864-4700-86f6-0701d2420f37.par
+#BlueLink5 Generic VS Commands`Disable Ind. Susp. Comp.` Ind. Susp. Kinematics` , Link 6`GenVS_f217d513-a864-4700-86f6-0701d2420f37
+
+
+PARSFILE Generic\VS_commands\GenVS_39a3ab23-d878-4fab-bdfd-a4871cabedc9.par
+#BlueLink6 Generic VS Commands`Ind. Kinematics Outputs` Ind. Susp. Kinematics` , Link 7`GenVS_39a3ab23-d878-4fab-bdfd-a4871cabedc9
+
+
+#MiscYellow7
+symbol_set <<wheel>> 4
+symbol_set <<side>> 1
+symbol_set <<side2>> 2
+symbol_set <<tire>> R<<axle>>
+symbol_set <<tire_os>> L<<axle>>
+#ENDMYellow
+
+PARSFILE Generic\VS_commands\GenVS_f217d513-a864-4700-86f6-0701d2420f37.par
+#BlueLink7 Generic VS Commands`Disable Ind. Susp. Comp.` Ind. Susp. Kinematics` , Link 8`GenVS_f217d513-a864-4700-86f6-0701d2420f37
+
+
+PARSFILE Generic\VS_commands\GenVS_39a3ab23-d878-4fab-bdfd-a4871cabedc9.par
+#BlueLink8 Generic VS Commands`Ind. Kinematics Outputs` Ind. Susp. Kinematics` , Link 9`GenVS_39a3ab23-d878-4fab-bdfd-a4871cabedc9
+
+
+
+#EMBEDDED_NOTES
+#This dataset assumes a vehicle with independent front and rear suspension and steering by rack and pinion.
+#
+#All suspension and steering compliances are disabled in order to compare the wheel kinematics outputs to the wheel kinematics inputs.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Suspension Extensions } Ind. Kinematics Outputs
+#Library : Generic Data Group
+#DataSet : Ind. Kinematics Outputs
+#Category: Suspension Extensions
+#FileID  : GenGrp_ae530e6b-8480-4b5a-97a8-5ad11a6053a1
+#Created : 11-16-2021 09:48:43
+#Modified: 11-16-2021 10:46:21
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Generic Group
+
+END

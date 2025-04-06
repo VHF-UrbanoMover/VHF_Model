@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Highway Trailer Tire`Artic Bus
+*X_REF_LENGTH 530
+*Y_REF_LENGTH 265
+*Z_REF_LENGTH 530
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_9fac9d71-6594-43f0-834a-8247fc710e35.png
+PARSFILE Animator\STL\Shape_7249c242-38b9-4a18-8093-9102721f2e9b.par
+#BlueLink0 Animator: Shape File Link`Highway: Trailer` Artic Bus` , Shape File`Shape_7249c242-38b9-4a18-8093-9102721f2e9b
+
+x_ref_length 530
+y_ref_length 265
+z_ref_length 530
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_7117989f-e693-4984-a206-5a1b1be90223.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_7117989f-e693-4984-a206-5a1b1be90223
+
+
+#EMBEDDED_NOTES
+#- Unloaded free (outer) radius: 530 mm
+#- 265/85 R24
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Artic Bus } Highway Trailer Tire
+#Library : Animator: Shape Assembly
+#DataSet : Highway Trailer Tire
+#Category: Artic Bus
+#FileID  : ShpGrp_9fac9d71-6594-43f0-834a-8247fc710e35
+#Modified: 12-09-2021 02:40:53
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape Assembly
+
+END

@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Rear Axle Motors Torque`Powertrain
+#RingCtrl0 1
+#RingCtrl1 0
+*README_FILE Results\Run_18bb8736-b871-4ce4-b41f-9800a8c14d01\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_MY_OUT_D2_L Add 0.0 ! 0
+IMP_MY_OUT_D2_R Add 0.0 ! 0
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`XiL_external_powertrain` VHF Urbano` , example run`Run_18bb8736-b871-4ce4-b41f-9800a8c14d01
+
+
+#EMBEDDED_NOTES
+#ESC/TCS import variables involve engine torque management:
+#
+#IMP_ESC_ENGINE_CON_STATE:
+#0: no control,
+#1: engine torque reduced to ESC request, and
+#2: engine torque increased to ESC request.
+#
+#IMP_MENGINE_ESC_REQUEST: ESC requesting engine torque.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { Powertrain } Rear Axle Motors Torque
+#Library : I/O Channels: Import
+#DataSet : Rear Axle Motors Torque
+#Category: Powertrain
+#FileID  : Import_ad263a9c-9090-4135-878a-d5831c7f834d
+#Created : 04-06-2025 11:26:08
+#Modified: 04-06-2025 11:28:27
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Import Channels
+
+END

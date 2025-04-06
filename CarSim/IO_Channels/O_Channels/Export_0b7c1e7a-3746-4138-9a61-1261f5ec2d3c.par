@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Tires forces`VHF Controls
+#RingCtrl0 1
+#RingCtrl1 1
+
+
+EXPORT Fx_L1
+EXPORT Fx_R1
+EXPORT Fx_L2
+EXPORT Fx_R2
+EXPORT Fz_L1
+EXPORT Fz_R1
+EXPORT Fz_L2
+EXPORT Fz_R2
+#MiscYellow0
+#Number of Selected Channels: 8
+#CHN_NAME: Fx_L1
+#CHN_NAME: Fx_R1
+#CHN_NAME: Fx_L2
+#CHN_NAME: Fx_R2
+#CHN_NAME: Fz_L1
+#CHN_NAME: Fz_R1
+#CHN_NAME: Fz_L2
+#CHN_NAME: Fz_R2
+#ENDMYellow
+
+
+
+#EMBEDDED_NOTES
+#ESC/TCS export variables involve engine torque management:
+#
+#M_ENG_IN: actual engine torque
+#M_ENG_RQ: driver requesting engine torque
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Tires forces
+#Library : I/O Channels: Export
+#DataSet : Tires forces
+#Category: VHF Controls
+#FileID  : Export_0b7c1e7a-3746-4138-9a61-1261f5ec2d3c
+#Created : 10-31-2022 17:47:08
+#Modified: 02-17-2023 21:39:31
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Export Channels
+
+END

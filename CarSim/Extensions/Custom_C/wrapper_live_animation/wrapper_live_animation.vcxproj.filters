@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="vs_connect_live_animation.cpp" />
+    <ClCompile Include="wrapper_live_animation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libs">
+      <UniqueIdentifier>{34dc1cb1-d94f-40ac-a2d8-694190b325bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\bin\vs_vehicle_32.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\bin\vs_vehicle_64.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\bin\vs_connect_32.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\bin\vs_connect_64.lib">
+      <Filter>libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vs_connect_live_animation.hpp" />
+  </ItemGroup>
+</Project>

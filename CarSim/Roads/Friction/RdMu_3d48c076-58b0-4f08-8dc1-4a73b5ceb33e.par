@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Road: Friction Map, S-L Grid`Variable 0.3 to 0.85 to 0.5 to 0.85 to 0.3`Straight Variable Mu
+#CheckBox0 0    
+
+#RingCtrl0 STEP
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+MU_ROAD_COMBINE ADD
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+#DiagramOne0
+MU_ROAD_TABLE STEP
+0, 0.3
+0.1, 0.85
+5, 0.5
+12, 0.85
+20, 0.3
+ENDTABLE
+MU_ROAD_L_CONSTANT 0
+*SCALAR 0.85
+*SCALAR2 0
+
+
+LOG_ENTRY Used Dataset: Road: Friction Map, S-L Grid; { Straight Variable Mu } Variable 0.3 to 0.85 to 0.5 to 0.85 to 0.3
+#Library : Road: Friction Map, S-L Grid
+#DataSet : Variable 0.3 to 0.85 to 0.5 to 0.85 to 0.3
+#Category: Straight Variable Mu
+#FileID  : RdMu_3d48c076-58b0-4f08-8dc1-4a73b5ceb33e
+#Created : 08-18-2023 09:55:34
+#Modified: 08-18-2023 10:23:07
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Mu via S-L Grid
+
+END

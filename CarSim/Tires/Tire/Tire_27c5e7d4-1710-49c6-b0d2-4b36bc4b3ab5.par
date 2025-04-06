@@ -1,0 +1,82 @@
+PARSFILE
+#FullDataName Tire`510 mm Radius (Trailer)`Artic Bus
+FZ_REF 30000
+X_LENGTH 520
+Z_LENGTH 520
+Y_LENGTH 265
+#CheckBox2 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+
+#RingCtrl0 1
+#RingCtrl5 2
+#RingCtrl6 2
+#RingCtrl7 3
+#RingCtrl8 3
+#RingCtrl9 2
+OPT_TIRE_LAG_KAPPA 2
+#RingCtrl10 1
+OPT_TIRE_LAG_ALPHA 1
+OPT_TIRE_MODEL 1
+
+PARSFILE Animator\STL_Groups\ShpGrp_9fac9d71-6594-43f0-834a-8247fc710e35.par
+#BlueLink4 Animator: Shape Assembly`Highway Trailer Tire` Artic Bus` , Animator`ShpGrp_9fac9d71-6594-43f0-834a-8247fc710e35
+
+WRITE_WHEEL_OFFSET
+*SET_THICKNESS 265
+RRE 510
+R0 520
+FZ_TIRE_COEFFICIENT 980
+FZ_MAX 1000000
+M_TIRE 91
+IT 4.8
+IT_XXZZ 0
+PARSFILE Generic\tables\GenTab_b71b24a2-ff24-4b5b-8ef2-7d50fe464edf.par
+#BlueLink14 Generic Table`Lx Variable, Scaled to Tire` Artic Bus` , Longitudinal relaxation length`GenTab_b71b24a2-ff24-4b5b-8ef2-7d50fe464edf
+
+PARSFILE Generic\tables\GenTab_08fc893d-bf07-451a-8ac2-588ae864bff0.par
+#BlueLink15 Generic Table`Ly Variable, Scaled to Tire` Artic Bus` , Longitudinal relaxation length`GenTab_08fc893d-bf07-451a-8ac2-588ae864bff0
+
+VLOW_KAPPA 2
+VLOW_ALPHA 2
+RR_C 0.0041
+RR_V 0.0000256
+L_CONTACT_X_CONSTANT 0
+L_CONTACT_Y_CONSTANT 0
+RR_FX 1
+OPT_TIRE_COMB 0
+PARSFILE Tires\Mz\TireMz_a75e7c10-4239-4751-bd1b-2d60cbc49978.par
+#BlueLink0 Tire: Aligning Moment`Mz: 3000 kg Load Rating` Artic Bus` , Aligning Moment`TireMz_a75e7c10-4239-4751-bd1b-2d60cbc49978
+
+PARSFILE Tires\Fy\TireFy_3375f40a-c7ee-4bc8-9cfb-13adcb684a23.par
+#BlueLink1 Tire: Lateral Force`Fy: 3000 kg Load Rating` Artic Bus` , Lateral Force`TireFy_3375f40a-c7ee-4bc8-9cfb-13adcb684a23
+
+PARSFILE Tires\Fx\TireFx_07ded978-d3c7-4014-83c9-609d480922b0.par
+#BlueLink2 Tire: Longitudinal Force`Fx: 3000 kg Load Rating` Artic Bus` , Longitudinal Force`TireFx_07ded978-d3c7-4014-83c9-609d480922b0
+
+PARSFILE Tires\Camber_Thrust\CamStiff_19be01c9-f5e6-4c3c-b654-08f75cf1c7e8.par
+#BlueLink3 Tire: Camber Thrust Coefficient`Linear Coefficient: -0.01` Artic Bus` , Overturning moment`CamStiff_19be01c9-f5e6-4c3c-b654-08f75cf1c7e8
+
+
+
+#EMBEDDED_NOTES
+#This data is typical for a radial tire with a nominal load rating of 3000 kg, such as a 305/75R22.5, 11.00R22 or a 12R24.5.
+#
+#The tire is suitable for use on a steer axle up to 5.5t (12,000 lb), or for use in a dual-tire configuration on a drive or trailer axles up to 10t (20,000 lb).
+#
+#Radius on other tires of equivalent load rating may vary from 510 to 570 mm.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Tire; { Artic Bus } 510 mm Radius (Trailer)
+#Library : Tire
+#DataSet : 510 mm Radius (Trailer)
+#Category: Artic Bus
+#FileID  : Tire_27c5e7d4-1710-49c6-b0d2-4b36bc4b3ab5
+#Modified: 11-11-2021 13:48:23
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Tire
+
+END

@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Generic Table`723 V Battery, OCV per Cell`Powertrain (HEV / EV)
+#RingCtrl0 LINEAR_FLAT
+#RingCtrl1 MULTIPLY
+#RingCtrl2 LINEAR
+#CheckBox0 1    
+
+VOC_BATTERY_COMBINE MULTIPLY
+#DiagramOne0
+VOC_BATTERY_TABLE LINEAR_FLAT
+0, 3.2
+0.1, 3.4
+0.2, 3.5
+0.3, 3.6
+0.4, 3.6
+0.5, 3.7
+0.6, 3.8
+0.7, 3.8
+0.8, 3.9
+0.9, 4
+1, 4.2
+ENDTABLE
+#DiagramOne1
+VOC_BATTERY_TEMP_TABLE LINEAR
+-20, 1.05
+25, 1
+45, 0.95
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD VOC_BATTERY
+*X_LABEL State of charge (-)
+*Y_LABEL Voltage (V)
+*X_LABEL_2 Temperature (C)
+*KEYWORD_2 VOC_BATTERY_TEMP
+
+
+#EMBEDDED_NOTES
+#The upper table is intended to reflect cell OCV at 25 C. The temperature effect slightly increases OCV at low temperatures and slightly decreases OCV at high temperatures.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV / EV) } 723 V Battery, OCV per Cell
+#Library : Generic Table
+#DataSet : 723 V Battery, OCV per Cell
+#Category: Powertrain (HEV / EV)
+#FileID  : GenTab_34311f4a-6f29-4335-8b34-ac07bf45eca8
+#Created : 05-18-2021 12:18:22
+#Modified: 05-28-2021 15:02:30
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode table
+
+END

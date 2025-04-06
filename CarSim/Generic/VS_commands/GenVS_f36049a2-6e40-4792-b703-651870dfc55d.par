@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Generic VS Commands`Set Static Camber/Toe`Ind. Susp. Kinematics
+#VehCode VS Commands
+
+#MiscYellow0
+A_CAMBER(1,1) = -0.5
+A_TOE(1,1) = 0.1
+
+A_CAMBER(1,2) = -0.5
+A_TOE(1,2) = 0.1
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Ind. Susp. Kinematics } Set Static Camber/Toe
+#Library : Generic VS Commands
+#DataSet : Set Static Camber/Toe
+#Category: Ind. Susp. Kinematics
+#FileID  : GenVS_f36049a2-6e40-4792-b703-651870dfc55d
+#Created : 11-16-2021 10:47:50
+#Modified: 11-16-2021 13:13:09
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode VS Commands
+
+END

@@ -1,0 +1,119 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`B-Class, Hbk: A.Split Hybrid RWD, Regen`B-Class
+#VehCode Ind_Ind
+IUNIT_INCREMENT
+IVEHICLE = IVEHICLE + 1
+NAXLES 2
+IOBJECT_SAVE
+symbol_add  <<vehicle>> 1
+symbol_add  <<unit>> 1
+#CheckBox0 0    
+#CheckBox1 0    
+#CheckBox2 1    
+INSTALL_SPEED_CONTROLLER
+
+#RingCtrl0 3
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 0
+PARSFILE Steering\System2\StrSys2_25d9c47e-6437-40ab-9054-2134f14f0d2d.par
+#BlueLink7 Steering`B-Class, Hbk: Power, R&P` CS B-Class` , Steering System`StrSys2_25d9c47e-6437-40ab-9054-2134f14f0d2d
+
+
+* Front components
+iaxle 1
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_74151e37-72c6-4592-aa45-2f4b19ad1152.par
+#BlueLink19 Suspension: Independent System Kinematics`B-Class, Hatchback - Front` B-Class` , Kinematics`KinInd_74151e37-72c6-4592-aa45-2f4b19ad1152
+
+PARSFILE Suspensions\Compliance\CmpInd_75f33e4d-a05c-47e1-a809-10c0d59b38de.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`B-Class, Hatchback - Front` B-Class` , Compliance`CmpInd_75f33e4d-a05c-47e1-a809-10c0d59b38de
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+itire 1 ! just in case
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_a5ad5d04-56d9-405d-aa0f-3498fe3c8f31.par
+#BlueLink999 Tire`R=287mm for Hybrid Evaluation` Touring Tires` , Tire`Tire_a5ad5d04-56d9-405d-aa0f-3498fe3c8f31
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_a5ad5d04-56d9-405d-aa0f-3498fe3c8f31.par
+#BlueLink10 Tire`R=287mm for Hybrid Evaluation` Touring Tires` , Tire`Tire_a5ad5d04-56d9-405d-aa0f-3498fe3c8f31
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_49a0d2c0-088d-44d0-8dd5-3656c3b35c27.par
+#BlueLink20 Suspension: Independent System Kinematics`B-Class, Hatchback - Rear` B-Class` , Kinematics`KinInd_49a0d2c0-088d-44d0-8dd5-3656c3b35c27
+
+PARSFILE Suspensions\Compliance\CmpInd_de979640-7f0d-460e-8a33-c60537f41e3d.par
+#BlueLink17 Suspension: Independent Compliance, Springs, and Dampers`B-Class, Hatchback - Rear` B-Class` , Compliance`CmpInd_de979640-7f0d-460e-8a33-c60537f41e3d
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_a5ad5d04-56d9-405d-aa0f-3498fe3c8f31.par
+#BlueLink999 Tire`R=287mm for Hybrid Evaluation` Touring Tires` , Tire`Tire_a5ad5d04-56d9-405d-aa0f-3498fe3c8f31
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_a5ad5d04-56d9-405d-aa0f-3498fe3c8f31.par
+#BlueLink999 Tire`R=287mm for Hybrid Evaluation` Touring Tires` , Tire`Tire_a5ad5d04-56d9-405d-aa0f-3498fe3c8f31
+
+symbol_add  <<axle>> -1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_fdecbebf-859b-4b9d-beff-920bee8c258d.par
+#BlueLink0 Vehicle: Sprung Mass`B-Class, Hatchback w/Hybrid Powertrain` B-Class` , Sprung Mass`SprMass_fdecbebf-859b-4b9d-beff-920bee8c258d
+
+PARSFILE Aerodynamics\Aero_Main\Aero_db988a1d-4f04-40ca-b2eb-75902adea4ca.par
+#BlueLink1 Aerodynamics: Basic`B-Class, Hatchback Aero` B-Class` , Aerodynamics`Aero_db988a1d-4f04-40ca-b2eb-75902adea4ca
+
+PARSFILE Powertrain\4wd\4WD_18727b30-c5ec-4cc3-9c9d-546429d31dc1.par
+#BlueLink5 Powertrain: 4-Wheel Drive`43kW/40kW, A.Split Hybrid Hi-Pw` A.Split Hybrid: 43kW/40kW (Engine+Motor)` , Powertrain`4WD_18727b30-c5ec-4cc3-9c9d-546429d31dc1
+
+PARSFILE Brakes\4W_System\Brk4W_2276dc13-2698-4949-b4a6-c2745f75552b.par
+#BlueLink6 Brakes: Four-Wheel System`Hatchback: M/C Press, No ABS or Rr bk` B-Class` , Brake System`Brk4W_2276dc13-2698-4949-b4a6-c2745f75552b
+
+symbol_add  <<axle>> 1
+PARSFILE Animator\Vehicles\AniVeh_744dc54f-cca9-4d31-8bee-3535b6477b13.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`B-Class, Hatchback` B-Class` , Vehicle 3D Shape`AniVeh_744dc54f-cca9-4d31-8bee-3535b6477b13
+
+IOBJECT_RESTORE
+*IMAGE_FIT_MODE 1
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_744dc54f-cca9-4d31-8bee-3535b6477b13.png
+
+#EMBEDDED_NOTES
+#This example vehicle demonstrates a n axle-split parallel hybrid powertrain modeled in the CarSim GUI and math model.
+#
+#This particular powertrain setting involves ICE + transmission drives front wheels; while an independent electric motor is connected with rear differential and drives rear wheels.
+#
+#Click on the powertrain blue link to see the settings for defining an axle-split parallel hybrid powertrain.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { B-Class } B-Class, Hbk: A.Split Hybrid RWD, Regen
+#Library : Vehicle: Assembly
+#DataSet : B-Class, Hbk: A.Split Hybrid RWD, Regen
+#Category: B-Class
+#FileID  : Vehicle_ad868796-bfff-4f5d-a571-684e166c708d
+#Created : 11-18-2021 13:41:38
+#Modified: 11-22-2021 16:41:46
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Ind_Ind
+
+END

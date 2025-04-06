@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Animator: HUD`Simulation Time`Vehicle Status Indicators
+#CheckBox1 1    
+#CheckBox2 1    
+
+#RingCtrl0 1
+#RingCtrl1 18
+#RingCtrl2 0
+#RingCtrl3 0
+#RingCtrl4 2
+*TITLE_1 Time
+*LOCX_1 5
+*LOCY_1 4
+*VAR_NAME_1 T_Stamp
+*COLOR_1 1 1 1 1
+*PREC1 3
+*LOCX_3 5
+*LOCY_3 32
+
+
+#Selection 18 for Icon 0
+#Selection_1 18 for Icon
+#Selection_2 Title: Time AlX 0 AlY 0
+#Selection_3 Scale 1.333333 locX 100 locY 40
+#Selection_4 Fixed: 1 VarName: T_Stamp  ColorStr: 1 1 1 1
+#Selection_5 ImgName: 
+ANI_T_Stamp
+WRT_T_Stamp
+ADD_ENTITY hud_text Text Output
+location 100 40 24 24
+align_x left
+align_y top
+size_mode absolute
+place_mode absolute
+# var name is T_Stamp
+prefix Time
+min_width_prefix 20
+value T_Stamp
+precision 3
+color 1 1 1 1.0
+END_ENTITY hud_text Text Output
+
+LOG_ENTRY Used Dataset: Animator: HUD; { Vehicle Status Indicators } Simulation Time
+#Library : Animator: HUD
+#DataSet : Simulation Time
+#Category: Vehicle Status Indicators
+#FileID  : HUD_131f745a-8906-43fd-92f8-417ed1b36950
+#Created : 12-09-2021 10:05:47
+#Modified: 12-13-2021 10:41:03
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode HUD
+
+END

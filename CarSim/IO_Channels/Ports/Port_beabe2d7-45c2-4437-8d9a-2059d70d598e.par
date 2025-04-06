@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName I/O Channels: Ports`MF const ASR Controllers: Multi-port`VHF Controls
+#RingCtrl0 2
+#RingCtrl1 7
+#CheckBox0 0    
+
+IPORT_IMP 1
+PARSFILE IO_Channels\I_Channels\Import_72af32c3-4263-4650-82b8-cd84b72b192b.par
+#BlueLink0 I/O Channels: Import`ESC/TCS: Eng. Torque` VHF Controls` , Library for factor A`Import_72af32c3-4263-4650-82b8-cd84b72b192b
+
+IPORT_IMP 2
+PARSFILE IO_Channels\I_Channels\Import_f7d625d8-f7fb-445e-b8bc-5b4bfc12bfec.par
+#BlueLink1 I/O Channels: Import`ESC/TCS: Torque Cmd` VHF Controls` , Baseline run`Import_f7d625d8-f7fb-445e-b8bc-5b4bfc12bfec
+
+IPORT_EXP 1
+PARSFILE IO_Channels\O_Channels\Export_20dd4c4b-df73-484e-98e2-a42ea5941651.par
+#BlueLink20 I/O Channels: Export`Vehicle Body Velocity` VHF Controls` , Library for factor B`Export_20dd4c4b-df73-484e-98e2-a42ea5941651
+
+IPORT_EXP 2
+PARSFILE IO_Channels\O_Channels\Export_b957dd9a-8145-4991-b888-690f3b334001.par
+#BlueLink21 I/O Channels: Export`Wheels Speeds` VHF Controls` , Baseline run`Export_b957dd9a-8145-4991-b888-690f3b334001
+
+IPORT_EXP 3
+PARSFILE IO_Channels\O_Channels\Export_6604c6a5-5ead-4c38-a024-7f56c9c36051.par
+#BlueLink22 I/O Channels: Export`Longitudinal rear tires forces` VHF Controls` , Baseline run`Export_6604c6a5-5ead-4c38-a024-7f56c9c36051
+
+IPORT_EXP 4
+PARSFILE IO_Channels\O_Channels\Export_39f462ac-7bdb-466e-8a13-b43bf716e930.par
+#BlueLink23 I/O Channels: Export`Driver Desired Power` VHF Controls` , Baseline run`Export_39f462ac-7bdb-466e-8a13-b43bf716e930
+
+IPORT_EXP 5
+PARSFILE IO_Channels\O_Channels\Export_bdebf396-b7ec-4434-b1f6-56a9def11867.par
+#BlueLink24 I/O Channels: Export`Reference slip` VHF Controls` , Baseline run`Export_bdebf396-b7ec-4434-b1f6-56a9def11867
+
+IPORT_EXP 6
+PARSFILE IO_Channels\O_Channels\Export_f836abb4-3628-4b73-aaab-0b862af8cd95.par
+#BlueLink25 I/O Channels: Export`Slip ratio` VHF Controls` , Baseline run`Export_f836abb4-3628-4b73-aaab-0b862af8cd95
+
+IPORT_EXP 7
+PARSFILE IO_Channels\O_Channels\Export_fd44d245-4863-420d-8acd-3bd9a983453a.par
+#BlueLink26 I/O Channels: Export`Adhesion coefficients` VHF Controls` , Baseline run`Export_fd44d245-4863-420d-8acd-3bd9a983453a
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Ports; { VHF Controls } MF const ASR Controllers: Multi-port
+#Library : I/O Channels: Ports
+#DataSet : MF const ASR Controllers: Multi-port
+#Category: VHF Controls
+#FileID  : Port_beabe2d7-45c2-4437-8d9a-2059d70d598e
+#Created : 08-18-2023 09:20:32
+#Modified: 07-04-2024 15:33:02
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode I/O Ports
+
+END

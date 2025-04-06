@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Events`Simulink Obstacle Avoid Events Poly`Embedded Python: Obstacle Detection
+#CheckBox1 1    
+*CLEAR
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 ZERO ~=
+#RingCtrl10 1
+#RingCtrl11 4
+RESET_EVENTS
+*VALUE1 MagS1_1
+DEFINE_EVENT MagS1_1 ; Events\Events_c1a2b345-8c79-48a2-8ec1-952915df20be.par
+#BlueLink0 Events`New Detect: Simulink Poly` Embedded Python: Obstacle Detection` , Events`Events_c1a2b345-8c79-48a2-8ec1-952915df20be
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#Check to see if the single sensor has detected a new obstruction.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Embedded Python: Obstacle Detection } Simulink Obstacle Avoid Events Poly
+#Library : Events
+#DataSet : Simulink Obstacle Avoid Events Poly
+#Category: Embedded Python: Obstacle Detection
+#FileID  : Events_d0eeadf1-12ce-4e2d-a86f-790e710b10ee
+#Created : 03-10-2021 07:39:15
+#Modified: 05-28-2021 14:59:25
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Events
+
+END

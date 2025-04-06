@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Aerodynamics: Basic`Tour Bus, 4.5 m Ref.`Artic Bus
+#CheckBox0 0    
+
+#RingCtrl0 2
+#RingCtrl1 2
+#RingCtrl2 2
+#RingCtrl3 2
+#RingCtrl4 2
+#RingCtrl5 2
+PARSFILE Aerodynamics\Aero_Fx\AirCFx_39571890-a8a9-4604-9547-15e449a65eef.par
+#BlueLink0 Aerodynamics: Fx (Drag) Coef. vs. Aero Slip`Cab-Over-Engine` Artic Bus` , CFx`AirCFx_39571890-a8a9-4604-9547-15e449a65eef
+
+PARSFILE Aerodynamics\Aero_Fy\AirCFy_f44bef2e-7454-48ba-b12d-cd85466fdf54.par
+#BlueLink1 Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip`Linear: 0.082 1/deg.` Artic Bus` , CFy`AirCFy_f44bef2e-7454-48ba-b12d-cd85466fdf54
+
+PARSFILE Aerodynamics\Aero_Fz\AirCFz_8ce1137e-3dea-4603-9c6a-46dd066e878c.par
+#BlueLink2 Aerodynamics: Fz (Lift) Coef. vs. Aero Slip`Spline: -0.15 at 0 deg.` Artic Bus` , CFz`AirCFz_8ce1137e-3dea-4603-9c6a-46dd066e878c
+
+PARSFILE Aerodynamics\Aero_Mx\AirCMx_22296c7c-7996-431a-a948-fac88e74b5d9.par
+#BlueLink3 Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip`Spline: 0.064 1/deg.` Artic Bus` , CMx`AirCMx_22296c7c-7996-431a-a948-fac88e74b5d9
+
+PARSFILE Aerodynamics\Aero_My\AirCMy_616b55b1-8892-4071-a058-ee1e4f1c60c5.par
+#BlueLink4 Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip`Spline: 0.2 at 0 deg., 0.38 at 25 deg.` Artic Bus` , CMy`AirCMy_616b55b1-8892-4071-a058-ee1e4f1c60c5
+
+PARSFILE Aerodynamics\Aero_Mz\AirCMz_0dee27c5-1f61-434a-9571-15893a0886ec.par
+#BlueLink5 Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip`Linear: 0.012 1/deg.` Artic Bus` , CMz`AirCMz_0dee27c5-1f61-434a-9571-15893a0886ec
+
+X_REF_AERO -2250
+Y_REF_AERO 0
+H_REF_AERO 0
+L_REF_AERO 4500
+AREA_AERO 7.3
+D_AIR 1.206
+
+#EMBEDDED_NOTES
+#According to SAE convention:
+#
+#The aerodynamic reference point is located at the midpoint of the wheelbase, the midpoint of the track, and at ground level.
+#
+#The aerodynamic reference length is equal to the vehicle's wheelbase.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Artic Bus } Tour Bus, 4.5 m Ref.
+#Library : Aerodynamics: Basic
+#DataSet : Tour Bus, 4.5 m Ref.
+#Category: Artic Bus
+#FileID  : Aero_7661bcf0-b4ff-4159-b99c-280191d22089
+#Modified: 11-11-2021 13:48:23
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Aerodynamics
+
+END

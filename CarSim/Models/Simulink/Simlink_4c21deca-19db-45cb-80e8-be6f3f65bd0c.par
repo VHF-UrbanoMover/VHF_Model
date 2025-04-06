@@ -1,0 +1,57 @@
+PARSFILE
+#FullDataName Models: Simulink`HiL External Powertrain`VHF XiL setup
+#RunMdlFile ..\Models\hil_vhf_model_setup.slx
+SIMULINK_MODEL_FILE ..\Models\hil_vhf_model_setup.slx
+#RingCtrl0 -1
+#CheckBox0 1    
+*USE_ALT_DIR 1
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 1    
+#CheckBox4 1    
+OPT_IO_SYNC_FM 1
+#RingCtrl1 0
+OPT_INT_METHOD 0
+#CheckBox2 1    
+OPT_IO_UPDATE 1
+#CheckBox4 1    
+OPT_IO_SYNC_FM 1
+*TSTEP 0.0005
+*FREQ_MODEL 2000
+*TSTEP_OUT 0.025
+*FREQ_OUT 40
+tstep 0.0005
+iprint 50
+#CheckBox5 0    
+*MULTI_SOLVERS 0
+#AltPath ..\Models
+*ALTERNATE_PATH ..\Models
+PARSFILE IO_Channels\Ports\Port_018a94da-8bbe-40b7-bce2-8bc9b7423996.par
+#BlueLink0 I/O Channels: Ports`XiL External Powertrain` XiL IO setup` , Import`Port_018a94da-8bbe-40b7-bce2-8bc9b7423996
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This “Models: Simulink” dataset links to a Simulink model of a Traction Control System (TCS), which controls excessive wheel spin with modulated brake pressures and engine torque management.
+#
+#The time step is set to 0.0005 sec. (2000 Hz), the method is AB-2, and the option is checked to synchronize the CarSim kinematical exports with force imports.
+#
+#The Simulink model is set to use "variable step" numerical integration, which means it will inherit the time step from CarSim.
+#
+#
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { VHF XiL setup } HiL External Powertrain
+#Library : Models: Simulink
+#DataSet : HiL External Powertrain
+#Category: VHF XiL setup
+#FileID  : Simlink_4c21deca-19db-45cb-80e8-be6f3f65bd0c
+#Created : 04-06-2025 11:16:28
+#Modified: 04-06-2025 11:24:42
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode 
+
+END

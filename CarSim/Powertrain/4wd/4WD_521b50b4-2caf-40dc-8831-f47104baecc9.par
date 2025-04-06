@@ -1,0 +1,69 @@
+PARSFILE
+#FullDataName Powertrain: 4-Wheel Drive`300 kW Electric Dual-Motor AWD`300 kW Powertrains
+INSTALL_POWERTRAIN 3
+INSTALL_ENGINE
+
+R_REAR_DRIVE_SC 0.5
+
+OPT_ENGINE_PITCH_REACTION(1) 0
+OPT_ENGINE_PITCH_REACTION(2) 0
+
+#RingCtrl0 0
+R_MDRIVE 0
+#RingCtrl4 1
+#RingCtrl5 1
+#RingCtrl6 1
+#RingCtrl7 2
+#CheckBox0 0    
+#CheckBox1 0    
+
+OPT_ENGINE_INTERNAL 0
+OPT_PWR_CPL_INTERNAL 0
+OPT_TRANS_INTERNAL 0
+OPT_SHIFT_INTERNAL 0
+OPT_TR_GEAR_INTERNAL 0
+IDIFF 1
+OPT_DIFF_INTERNAL 1
+IDIFF 2
+OPT_DIFF_INTERNAL 1
+IDIFF 3
+OPT_DIFF_INTERNAL 1
+
+PARSFILE Powertrain\HEV\HEV_3a33a31c-d1cf-4ec7-b62c-108429a0b5f7.par
+#BlueLink11 Powertrain: Hybrid/Electric System`723 V Battery, Axle Motors` ` , Hybrid system`HEV_3a33a31c-d1cf-4ec7-b62c-108429a0b5f7
+
+PARSFILE Powertrain\HEV_PMC\PMC_182fb0c7-5a50-4dbe-9977-c3d4ccbf237d.par
+#BlueLink12 Powertrain: Hybrid/Electric Power Management Control`Power Management: Full Load 300 kW` ` , Transmission`PMC_182fb0c7-5a50-4dbe-9977-c3d4ccbf237d
+
+
+IDIFF 3
+PARSFILE Powertrain\Centerdiff\XC_5b09b60f-239a-468d-b714-046e2f8d7af9.par
+#BlueLink3 Powertrain: Transfer Case`EV eTransfer Case: 50/50, Gr. 1.0` Electric Motor Drive` , Transfer case`XC_5b09b60f-239a-468d-b714-046e2f8d7af9
+
+
+IDIFF 1
+PARSFILE Powertrain\Frontdiff\DiffF_1affb025-46e3-4266-b52c-d4ff2e43b4a9.par
+#BlueLink4 Powertrain: Front Differential`150 kW Drive Unit, Open Diff. 10:1` Electric Motor Drive (150 kW)` , Differential front`DiffF_1affb025-46e3-4266-b52c-d4ff2e43b4a9
+
+
+IDIFF 2
+PARSFILE Powertrain\Reardiff\DiffR_911b29f1-e676-4299-bd56-22ad5f22ece7.par
+#BlueLink5 Powertrain: Rear Differential`150 kW Drive Unit, Limited Slip Diff. 10:1` Electric Motor Drive (150 kW)` , Differential rear`DiffR_911b29f1-e676-4299-bd56-22ad5f22ece7
+
+
+#EMBEDDED_NOTES
+#A per-axle, dual motor system with a high voltage, 93 kW-h battery pack producing about 400 hp in total. The axle ratios are selected for use in a light duty pickup truck.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { 300 kW Powertrains } 300 kW Electric Dual-Motor AWD
+#Library : Powertrain: 4-Wheel Drive
+#DataSet : 300 kW Electric Dual-Motor AWD
+#Category: 300 kW Powertrains
+#FileID  : 4WD_521b50b4-2caf-40dc-8831-f47104baecc9
+#Created : 05-18-2021 12:15:23
+#Modified: 11-24-2021 14:03:13
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode 4WD
+
+END

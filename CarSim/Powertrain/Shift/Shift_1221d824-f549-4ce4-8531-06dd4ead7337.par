@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Powertrain: Shift Schedule`7-speed, 2-3 Shift (MT)`7-speed (Exotic Sports Car)
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+#DiagramOne0
+UPSHIFT_TRANS_TABLE
+0, 1250
+0.2, 1250
+0.8, 2500
+1, 2500
+ENDTABLE
+#DiagramOne1
+DOWNSHIFT_TRANS_TABLE
+0, 1000
+0.2, 1000
+0.8, 2051.5
+1, 2051.5
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Powertrain: Shift Schedule; { 7-speed (Exotic Sports Car) } 7-speed, 2-3 Shift (MT)
+#Library : Powertrain: Shift Schedule
+#DataSet : 7-speed, 2-3 Shift (MT)
+#Category: 7-speed (Exotic Sports Car)
+#FileID  : Shift_1221d824-f549-4ce4-8531-06dd4ead7337
+#Created : 04-14-2021 08:29:29
+#Modified: 05-28-2021 14:59:33
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shift Schedule
+
+END

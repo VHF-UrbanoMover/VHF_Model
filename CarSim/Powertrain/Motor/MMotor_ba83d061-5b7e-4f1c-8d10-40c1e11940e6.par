@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Powertrain: Electric Motor Torque`Max. Output 286 N-m`Electric Motor
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR
+#DiagramOne0
+MMOTOR_MAX_TABLE LINEAR
+0, 286
+1000, 286
+2000, 286
+3000, 286
+4000, 286
+5000, 286
+6000, 223
+7000, 177
+8000, 143
+9000, 117
+10000, 95
+ENDTABLE
+#RadioCtrl0 0    
+
+TC_MOTOR 0.05
+IMOTOR 0.07
+
+PARSFILE Generic\tables\GenTab_4cdab7ed-ceb0-4b5a-a9bb-b4cb503c10ef.par
+#BlueLink0 Generic Table`Motor efficiency: 286 N-m motor` Powertrain (HEV / EV)` , Motor Efficiency`GenTab_4cdab7ed-ceb0-4b5a-a9bb-b4cb503c10ef
+
+
+#EMBEDDED_NOTES
+#Produces 150 kW at 5,000 rpm.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Electric Motor Torque; { Electric Motor } Max. Output 286 N-m
+#Library : Powertrain: Electric Motor Torque
+#DataSet : Max. Output 286 N-m
+#Category: Electric Motor
+#FileID  : MMotor_ba83d061-5b7e-4f1c-8d10-40c1e11940e6
+#Created : 05-18-2021 12:36:51
+#Modified: 05-28-2021 14:59:34
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Drive torque w/ electric motor
+
+END

@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Artic Bus:  Driver`Artic Bus
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trucks\Articulated_Bus\Drivers\Caucasian_Male\Caucasian_Male.OSG
+#ENDMYellow
+
+SET_OFFSET_Z 0.05
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_7117989f-e693-4984-a206-5a1b1be90223.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_7117989f-e693-4984-a206-5a1b1be90223
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_ffd70977-808e-4419-b92a-17471ae13c36.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Artic Bus } Artic Bus:  Driver
+#Library : Animator: Shape File Link
+#DataSet : Artic Bus:  Driver
+#Category: Artic Bus
+#FileID  : Shape_ffd70977-808e-4419-b92a-17471ae13c36
+#Created : 12-08-2021 23:55:20
+#Modified: 12-10-2021 13:56:28
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape File
+
+END

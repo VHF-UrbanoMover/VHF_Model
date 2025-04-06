@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Powertrain: Electric Motor Torque`Constant 1000 N-m`Electric Motor
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+MMOTOR_MAX_CONSTANT 1000
+#RadioCtrl0 0    
+
+TC_MOTOR 0.05
+IMOTOR 0.26
+*SCALAR 1000
+
+PARSFILE Generic\tables\GenTab_c3554973-3d9a-4db9-9f7d-faae1dd09802.par
+#BlueLink0 Generic Table`Motor efficiency at wheel` Powertrain (HEV)` , Motor Efficiency`GenTab_c3554973-3d9a-4db9-9f7d-faae1dd09802
+
+
+#EMBEDDED_NOTES
+#Generic 10 kW electric motor.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Electric Motor Torque; { Electric Motor } Constant 1000 N-m
+#Library : Powertrain: Electric Motor Torque
+#DataSet : Constant 1000 N-m
+#Category: Electric Motor
+#FileID  : MMotor_c4d32a8f-0cf8-482c-9103-d8c63dd3809d
+#Created : 08-16-2023 17:12:37
+#Modified: 08-31-2024 16:43:42
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Drive torque w/ electric motor
+
+END

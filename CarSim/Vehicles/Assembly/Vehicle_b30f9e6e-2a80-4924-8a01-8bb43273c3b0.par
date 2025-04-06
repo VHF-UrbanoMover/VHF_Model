@@ -1,0 +1,120 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`Exotic Sports Car, Parallel Hybrid AWD`Exotic Sports Car
+#VehCode Ind_Ind
+IUNIT_INCREMENT
+IVEHICLE = IVEHICLE + 1
+NAXLES 2
+IOBJECT_SAVE
+symbol_add  <<vehicle>> 1
+symbol_add  <<unit>> 1
+#CheckBox0 0    
+#CheckBox1 1    
+#CheckBox2 1    
+INSTALL_SPEED_CONTROLLER
+
+#RingCtrl0 3
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 1
+PARSFILE Steering\System2\StrSys2_7d1bcc8b-482e-4f5c-bebe-cab4c0727276.par
+#BlueLink7 Steering`Exotic: Manual R&P` CS Exotic Sports Car` , Steering System`StrSys2_7d1bcc8b-482e-4f5c-bebe-cab4c0727276
+
+
+* Front components
+iaxle 1
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_c714d705-474e-4717-8255-455252c00dd2.par
+#BlueLink19 Suspension: Independent System Kinematics`Exotic - Front` Exotic Sports Car` , Kinematics`KinInd_c714d705-474e-4717-8255-455252c00dd2
+
+PARSFILE Suspensions\Compliance\CmpInd_d6d9fdbb-bcd0-4f5b-a886-678330c3bbdc.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`Exotic - Front` Exotic Sports Car` , Compliance`CmpInd_d6d9fdbb-bcd0-4f5b-a886-678330c3bbdc
+
+itire 1 ! just in case
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_68f15a93-cb0c-4c0e-9e42-4b2443f2766b.par
+#BlueLink999 Tire`Exotic Front - 235/35 19` Performance Tires` , Tire`Tire_68f15a93-cb0c-4c0e-9e42-4b2443f2766b
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_68f15a93-cb0c-4c0e-9e42-4b2443f2766b.par
+#BlueLink10 Tire`Exotic Front - 235/35 19` Performance Tires` , Tire`Tire_68f15a93-cb0c-4c0e-9e42-4b2443f2766b
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_d4b8f0c3-defb-4452-a69c-e46209c68032.par
+#BlueLink20 Suspension: Independent System Kinematics`Exotic - Rear` Exotic Sports Car` , Kinematics`KinInd_d4b8f0c3-defb-4452-a69c-e46209c68032
+
+PARSFILE Suspensions\Compliance\CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d.par
+#BlueLink17 Suspension: Independent Compliance, Springs, and Dampers`Exotic - Rear` Exotic Sports Car` , Compliance`CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_ca639635-05d0-4e2c-aa22-d15d109a74b9.par
+#BlueLink999 Tire`Exotic Rear - 305/30 19` Performance Tires` , Rear Tire`Tire_ca639635-05d0-4e2c-aa22-d15d109a74b9
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_ca639635-05d0-4e2c-aa22-d15d109a74b9.par
+#BlueLink14 Tire`Exotic Rear - 305/30 19` Performance Tires` , Rear Tire`Tire_ca639635-05d0-4e2c-aa22-d15d109a74b9
+
+symbol_add  <<axle>> -1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_bed60800-28b1-4053-8e9b-ac399ab91812.par
+#BlueLink0 Vehicle: Sprung Mass`Exotic Car` Exotic Sports Car` , Sprung Mass`SprMass_bed60800-28b1-4053-8e9b-ac399ab91812
+
+PARSFILE Aerodynamics\Aero_Main\Aero_60e52d91-3741-4fa9-91dd-4fbc227e7f4f.par
+#BlueLink1 Aerodynamics: Basic`Exotic Car Aero` Exotic Sports Car` , Aerodynamics`Aero_60e52d91-3741-4fa9-91dd-4fbc227e7f4f
+
+PARSFILE Powertrain\4wd\4WD_887952d6-d02a-4a79-bbf6-6cac2b9eeb06.par
+#BlueLink5 Powertrain: 4-Wheel Drive`300/100/50kW x2, Axle-Split Hybrid` Hybrid: 300/100/50kW x2 (Engine + 3 Motors)` , Powertrain`4WD_887952d6-d02a-4a79-bbf6-6cac2b9eeb06
+
+PARSFILE Brakes\4W_System\Brk4W_fc154439-fb7f-43dd-9503-d2ed7b7466c7.par
+#BlueLink6 Brakes: Four-Wheel System`Exotic: M/C Press, ABS` Exotic Sports Car` , Brake System`Brk4W_fc154439-fb7f-43dd-9503-d2ed7b7466c7
+
+symbol_add  <<axle>> 1
+PARSFILE Animator\Vehicles\AniVeh_30f1b262-73d2-47f4-b117-69aefa4b7382.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`Exotic Car` Exotic Sports Car` , Vehicle 3D Shape`AniVeh_30f1b262-73d2-47f4-b117-69aefa4b7382
+
+IOBJECT_RESTORE
+PARSFILE Animator\Groups\Group_28686184-e800-4d0c-9e44-abbda7857611.par
+#BlueLink18 Animator: Group`Exotic Brake Calipers` Brake System` , Misc. Vehicle Data`Group_28686184-e800-4d0c-9e44-abbda7857611
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_30f1b262-73d2-47f4-b117-69aefa4b7382.png
+
+#EMBEDDED_NOTES
+#Generic sport-car with an axle-split parallel hybrid powertrain is demonstrated.
+#
+#This particular powertrain setting involves ICE + transmission w/ an electric motor drive rear wheels; while two independent electric motors (twin-motor) drive front wheels.
+#
+#Such hybrid powertrain layout is adopted for high performance Hybrid AWD sport-cars, e.g. Ferrari SF90 Hybrid, Porsche 918 Spyder Hybrid, McLarren Hybrid and Honda NSX Hybrid.
+#
+#Brake system uses Master Cylinder Pressure as the control input.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { Exotic Sports Car } Exotic Sports Car, Parallel Hybrid AWD
+#Library : Vehicle: Assembly
+#DataSet : Exotic Sports Car, Parallel Hybrid AWD
+#Category: Exotic Sports Car
+#FileID  : Vehicle_b30f9e6e-2a80-4924-8a01-8bb43273c3b0
+#Created : 11-18-2021 15:37:56
+#Modified: 11-22-2021 18:03:52
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Ind_Ind
+
+END

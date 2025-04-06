@@ -1,0 +1,88 @@
+PARSFILE
+#FullDataName Suspension: Solid Axle System Kinematics`Pickup, Midsize, Electric - Rear`Pickup Trucks
+OPT_NL_AXLE 1
+iside 1
+#RingCtrl0 1
+OPT_JNC_DESIGN 1
+#RingCtrl1 3
+#RingCtrl2 3
+#RingCtrl3 3
+#RingCtrl4 2
+#RingCtrl5 2
+#CheckBox0 0
+#CheckBox1 0    
+#CheckBox2 1    
+PARSFILE Suspensions\Dive_SA\DiveSA_545bfd68-db48-4a11-a8d6-613b04679fe4.par
+#BlueLink7 Suspension: Dive Angle (Solid Axle)`2D Dive - 4 Link w/ Track Bar` Rear` , Axle dive (2D)`DiveSA_545bfd68-db48-4a11-a8d6-613b04679fe4
+
+PARSFILE Suspensions\Longitudinal_SA\LongSA_791c6a3a-b5c2-4bcd-8f35-1badb24cbe62.par
+#BlueLink8 Suspension: Longitudinal Movement (Solid Axle)`2D X - 4 Link w/ Track Bar` Rear` , Axle X movement (2D)`LongSA_791c6a3a-b5c2-4bcd-8f35-1badb24cbe62
+
+PARSFILE Suspensions\Lateral_Roll\LatRoll_b5b86a9e-b468-4f4f-ae37-1dd7f5e648ea.par
+#BlueLink4 Suspension: Lateral Movement Due to Roll and Jounce`2D Y - 4 Link w/ Track Bar` Rear` , Axle Y movement - roll`LatRoll_b5b86a9e-b468-4f4f-ae37-1dd7f5e648ea
+
+PARSFILE Suspensions\RollSteer\StrRoll_95f24d7e-0a01-437c-8fd3-b5e5c57646dd.par
+#BlueLink5 Suspension: Roll Steer (Solid Axle)`2D Steer - 4 Link w/ Track Bar` Rear` , Roll steer of axle`StrRoll_95f24d7e-0a01-437c-8fd3-b5e5c57646dd
+
+PARSFILE Animator\STL\Shape_870a6ad0-7214-490b-abe7-c5a7e94f9fc3.par
+#BlueLink2 Animator: Shape File Link`Solid Axles: Light Duty (Driven)` Common Vehicle Assets` , Animator 3D Shape`Shape_870a6ad0-7214-490b-abe7-c5a7e94f9fc3
+
+*IW_R 2
+Y_CL_SUSP 0
+*TOE_L 0
+*TOE_R 0
+*CAMBER_L 0
+*CAMBER_R 0
+H_CG_AXLE 350
+*JNC_DESIGN_L 0
+*JNC_DESIGN_R 0
+R_US_STR 0
+L_TRACK 1590
+M_US 175
+IA 25
+*IW_L 2
+*IWXXZZ_L 0
+*IWXXZZ_R 0
+M_US_AXLE 175
+*M_US_STR_1 0
+*M_US_STR_2 0
+Y_CG_AXLE 200
+Y_LENGTH 1590
+IW 2
+A_TOE 0
+A_CAMBER 0
+JNC_DESIGN 0
+IW_XXZZ 0
+M_US_STR 0
+
+iside 2
+M_US_STR 0
+IW 2
+A_TOE 0
+A_CAMBER 0
+JNC_DESIGN 0
+IW_XXZZ 0
+#MiscYellow0
+IA_YY 2
+X_CG_AXLE -200
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#The 2D solid axle kinematics are from a SuspensionSim example of a four link with track bar.
+#
+#The mass and inertia parameters are intended to represent an electric drive unit which is mounted to the unsprung axle body. This includes custom settings for IA_YY and X_CG_AXLE, which give non-negligible pitch inertia and X CG offset for the unsteered axle body, respectively.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Solid Axle System Kinematics; { Pickup Trucks } Pickup, Midsize, Electric - Rear
+#Library : Suspension: Solid Axle System Kinematics
+#DataSet : Pickup, Midsize, Electric - Rear
+#Category: Pickup Trucks
+#FileID  : KinSA_30900f3a-b9d6-42bd-be6f-66d6956c42bb
+#Created : 05-18-2021 12:45:57
+#Modified: 05-28-2021 14:59:12
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Solid Axle
+
+END

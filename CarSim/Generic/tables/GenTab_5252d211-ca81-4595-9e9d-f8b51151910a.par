@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Generic Table`Optimal CB250F Twister engine speed`Powertrain VHF
+#RingCtrl0 LINEAR
+#CheckBox0 0    
+
+#DiagramOne0
+VENGINE_OPTIMAL_TABLE LINEAR
+0, 1450
+1.26, 1776.8
+2.44, 2082.9
+5.78, 2949.2
+9.18, 3831.1
+12.65, 4731.1
+16.26, 5667.4
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD VENGINE_OPTIMAL
+*X_LABEL Power demand (kW)
+*Y_LABEL Engine speed (RPM)
+
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain VHF } Optimal CB250F Twister engine speed
+#Library : Generic Table
+#DataSet : Optimal CB250F Twister engine speed
+#Category: Powertrain VHF
+#FileID  : GenTab_5252d211-ca81-4595-9e9d-f8b51151910a
+#Created : 12-23-2022 10:16:22
+#Modified: 01-13-2023 11:44:37
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode table
+
+END

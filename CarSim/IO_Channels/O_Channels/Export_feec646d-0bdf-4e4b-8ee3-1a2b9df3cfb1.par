@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName I/O Channels: Export`powertrain`VHF Controls
+#RingCtrl0 1
+#RingCtrl1 1
+
+
+EXPORT Throttle
+#MiscYellow0
+#Number of Selected Channels: 1
+#CHN_NAME: Throttle
+#ENDMYellow
+
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } powertrain
+#Library : I/O Channels: Export
+#DataSet : powertrain
+#Category: VHF Controls
+#FileID  : Export_feec646d-0bdf-4e4b-8ee3-1a2b9df3cfb1
+#Created : 02-16-2023 14:59:11
+#Modified: 01-23-2025 16:12:33
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Export Channels
+
+END

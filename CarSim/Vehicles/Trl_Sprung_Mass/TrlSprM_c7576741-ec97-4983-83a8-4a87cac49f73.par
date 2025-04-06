@@ -1,0 +1,61 @@
+PARSFILE
+#FullDataName Vehicle: Trailer Sprung Mass`Articulated Bus, L = 500`Artic Bus
+#CheckBox0 1    
+#CheckBox1 0    
+
+#RingCtrl0 4
+X_LENGTH 5870
+HT_SM 2910
+WID_SM 2100
+H_CG_SU 971
+Z_LENGTH 2910
+LX_CG_SU 4000
+M_SU 5611.3
+IXX_SU 6789.7
+IYY_SU 27158.7
+IZZ_SU 27158.7
+IXZ_SU 0
+*RX 1.100
+*RY 2.200
+*RZ 2.200
+Y_CG_SU 0
+IXY_SU 0
+IYZ_SU 0
+Y_LENGTH 2100
+H_H_FRONT 625
+*HWC_LF 530
+*HWC_RF 530
+*LXA1 5870
+SYMBOL_PUSH <<h>> <<unit>>
+SYMBOL_ADD <<h>> -1
+OPT_HITCH_TYPE(<<h>>) = 4
+LX_ART 500
+iaxle 1
+iside 1
+H_WC 530
+LX_AXLE 5870
+iside 2
+H_WC 530
+iaxle 2
+iside 1
+iside 2
+iaxle 3
+iside 1
+iside 2
+
+#EMBEDDED_NOTES
+#Trailers can be modeled with a simple hitch, with a hinged tow bar, or with an articulation system.  When an articulation system is selected, you must provide the distance between the hinge joint and the turntable.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { Artic Bus } Articulated Bus, L = 500
+#Library : Vehicle: Trailer Sprung Mass
+#DataSet : Articulated Bus, L = 500
+#Category: Artic Bus
+#FileID  : TrlSprM_c7576741-ec97-4983-83a8-4a87cac49f73
+#Created : 11-15-2021 13:31:57
+#Modified: 12-10-2021 15:14:16
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Sprung Mass (Trailer)
+
+END

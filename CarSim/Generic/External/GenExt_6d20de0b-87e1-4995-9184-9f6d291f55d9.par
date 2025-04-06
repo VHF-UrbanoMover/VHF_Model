@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName External PARSFILE`Double Lane Change (Quick Start)`Driver Controls
+#VehCode External file
+#MiscYellow0
+PARSFILE Generic\Double_Lane_Change_QSG.par
+#ENDMYellow
+*CPAR_INCLUDE Generic\Double_Lane_Change_QSG.par
+
+#RingCtrl0 0
+
+#EMBEDDED_NOTES
+#This data came from the Closed Loop Driver Model dataset (LTARG) used with the Quick Start Guide -> Baseline example.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: External PARSFILE; { Driver Controls } Double Lane Change (Quick Start)
+#Library : External PARSFILE
+#DataSet : Double Lane Change (Quick Start)
+#Category: Driver Controls
+#FileID  : GenExt_6d20de0b-87e1-4995-9184-9f6d291f55d9
+#Created : 05-21-2021 11:03:19
+#Modified: 05-28-2021 15:02:33
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode External file
+
+END

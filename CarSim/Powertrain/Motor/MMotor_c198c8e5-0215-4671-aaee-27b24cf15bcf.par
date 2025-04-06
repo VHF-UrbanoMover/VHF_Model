@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Powertrain: Electric Motor Torque`Max. Output 762.5 N-m`Electric Motor
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR
+#DiagramOne0
+MMOTOR_MAX_TABLE LINEAR
+0, 762.5
+500, 762.5
+1000, 723.55
+1500, 480.48
+2000, 359.68
+2500, 287.29
+3000, 239.12
+3500, 204.8
+4000, 179.28
+4500, 161.83
+6000, 119.25
+ENDTABLE
+#RadioCtrl0 0    
+
+TC_MOTOR 0.05
+IMOTOR 0.0226
+
+PARSFILE Generic\tables\GenTab_5b8c0469-aae6-4203-af41-03e86e82d3cb.par
+#BlueLink0 Generic Table`Motor efficiency` Powertrain (HEV)` , Motor Efficiency`GenTab_5b8c0469-aae6-4203-af41-03e86e82d3cb
+
+
+#EMBEDDED_NOTES
+#Generic 100 kW electric motor.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Electric Motor Torque; { Electric Motor } Max. Output 762.5 N-m
+#Library : Powertrain: Electric Motor Torque
+#DataSet : Max. Output 762.5 N-m
+#Category: Electric Motor
+#FileID  : MMotor_c198c8e5-0215-4671-aaee-27b24cf15bcf
+#Created : 05-21-2021 18:03:23
+#Modified: 05-28-2021 14:59:34
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Drive torque w/ electric motor
+
+END

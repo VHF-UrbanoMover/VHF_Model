@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Generic Table`Battery charged resis. (Hi-Power)`Powertrain (HEV)
+#RingCtrl0 CARPET
+#CheckBox0 1    
+
+*3D_XLabel Temperature (C)
+*3D_YLabel State of charged (-)
+*3D_ZLabel Resistance (V2/W)
+
+#DiagramTwo0
+*3D_DATA 2, 11 ! columns x rows
+R_CHRG_BATTERY_CARPET 2D_LINEAR
+0, 0, 25
+0, 0.0047, 0.0047
+0.1, 0.0044, 0.0044
+0.2, 0.0041, 0.0041
+0.3, 0.00396, 0.00396
+0.4, 0.00396, 0.00396
+0.5, 0.00392, 0.00392
+0.6, 0.00396, 0.00396
+0.7, 0.00394, 0.00394
+0.8, 0.00406, 0.00406
+0.9, 0.00408, 0.00408
+1, 0.00408, 0.00408
+ENDTABLE
+
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD R_CHRG_BATTERY
+*X_LABEL State of charged (-)
+*Y_LABEL Resistance (V2/W)
+*X_LABEL_2 Temperature (C)
+
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Battery charged resis. (Hi-Power)
+#Library : Generic Table
+#DataSet : Battery charged resis. (Hi-Power)
+#Category: Powertrain (HEV)
+#FileID  : GenTab_60ca8cbc-3ae7-440f-a05f-45f86d090003
+#Created : 11-19-2021 18:56:55
+#Modified: 11-19-2021 19:00:50
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode table
+
+END

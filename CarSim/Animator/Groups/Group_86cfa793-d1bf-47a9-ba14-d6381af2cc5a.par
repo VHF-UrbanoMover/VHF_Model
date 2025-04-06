@@ -1,0 +1,53 @@
+PARSFILE
+#FullDataName Animator: Group`K & C Wheel Pads`K & C Machine
+#MiscYellow0
+SYMBOL_PUSH <<kc_side>> L
+SYMBOL_PUSH <<kc_axle>> 1
+#ENDMYellow
+
+PARSFILE Animator\Frames\Frame_8b1992f5-909f-49ac-8fd0-64cc45694af0.par
+#BlueLink11 Animator: Reference Frame`K & C: Wheel Pad (All Wheels)` K & C Machine` , Miscellaneous`Frame_8b1992f5-909f-49ac-8fd0-64cc45694af0
+
+#MiscYellow1
+SYMBOL_SET <<kc_side>> L
+SYMBOL_SET <<kc_axle>> 2
+#ENDMYellow
+
+PARSFILE Animator\Frames\Frame_8b1992f5-909f-49ac-8fd0-64cc45694af0.par
+#BlueLink12 Animator: Reference Frame`K & C: Wheel Pad (All Wheels)` K & C Machine` , Miscellaneous`Frame_8b1992f5-909f-49ac-8fd0-64cc45694af0
+
+#MiscYellow3
+SYMBOL_SET <<kc_side>> R
+SYMBOL_SET <<kc_axle>> 1
+#ENDMYellow
+
+PARSFILE Animator\Frames\Frame_8b1992f5-909f-49ac-8fd0-64cc45694af0.par
+#BlueLink17 Animator: Reference Frame`K & C: Wheel Pad (All Wheels)` K & C Machine` , Miscellaneous`Frame_8b1992f5-909f-49ac-8fd0-64cc45694af0
+
+#MiscYellow4
+SYMBOL_SET <<kc_side>> R
+SYMBOL_SET <<kc_axle>> 2
+#ENDMYellow
+
+PARSFILE Animator\Frames\Frame_8b1992f5-909f-49ac-8fd0-64cc45694af0.par
+#BlueLink18 Animator: Reference Frame`K & C: Wheel Pad (All Wheels)` K & C Machine` , Miscellaneous`Frame_8b1992f5-909f-49ac-8fd0-64cc45694af0
+
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_af7c7c91-f09a-4493-9104-5b2725e3cf03.par
+#BlueLink20 Animator: Camera Setup`Isometric View - Small Objects` Shape Preview` , Video Camera`Camera_af7c7c91-f09a-4493-9104-5b2725e3cf03
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { K & C Machine } K & C Wheel Pads
+#Library : Animator: Group
+#DataSet : K & C Wheel Pads
+#Category: K & C Machine
+#FileID  : Group_86cfa793-d1bf-47a9-ba14-d6381af2cc5a
+#Modified: 05-28-2021 15:03:27
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Animator Group
+
+END

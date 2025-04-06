@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Plot: Setup`Road Wheel Steer Angle Targets`Auxiliary Steer Control
+
+ADD_ENTITY Plot
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS StrCtlAux, time, Auxiliary Steer Control
+PLOTCHANNELS StrCtlDM, time, Primary Steer Control
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Road Wheel Steer Angle Targets
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Auxiliary Steer Control } Road Wheel Steer Angle Targets
+#Library : Plot: Setup
+#DataSet : Road Wheel Steer Angle Targets
+#Category: Auxiliary Steer Control
+#FileID  : Plot_a89030f5-89a9-4a62-821c-ca01c00892d3
+#Created : 11-08-2021 09:26:11
+#Modified: 11-08-2021 09:27:08
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

@@ -1,0 +1,111 @@
+PARSFILE
+#FullDataName Vehicle: Trailer with 1 Axle`Artic Bus - Rear`
+#VehCode S
+IUNIT_INCREMENT
+NAXLES 1
+IOBJECT_SAVE
+symbol_add  <<unit>> 1
+#CheckBox1 0    
+#CheckBox2 1    
+
+#RingCtrl0 3
+#RingCtrl1 3
+
+* Trailer front suspension
+iaxle 1
+ADD_REFERENCE_FRAME Axle 3
+SET_EULER_ANGLES yaw_roll_pitch
+SET_X_NAME X_A3
+WRT_X_A3
+ANI_X_A3
+SET_Y_NAME Y_A3
+WRT_Y_A3
+ANI_Y_A3
+SET_Z_NAME Z_A3
+WRT_Z_A3
+ANI_Z_A3
+SET_YAW_NAME Yaw_2
+WRT_Yaw_2
+ANI_Yaw_2
+SET_PITCH_NAME Pitch_A3
+WRT_Pitch_A3
+ANI_Pitch_A3
+SET_ROLL_NAME Roll_A3
+WRT_Roll_A3
+ANI_Roll_A3
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+X_LENGTH 1
+Y_LENGTH 1
+Z_LENGTH 1
+PARSFILE Suspensions\Compliance_SA\CmpSA_077f68e4-faa3-4c34-bb07-d2ab6cde4d87.par
+#BlueLink10 Suspension: Solid Axle Compliance, Springs, and Dampers`10t Air: +60 mm, -60 mm Travel` Artic Bus` , Compliance`CmpSA_077f68e4-faa3-4c34-bb07-d2ab6cde4d87
+
+PARSFILE Suspensions\Kin_Solid\KinSA_2fd4e061-dd7f-4f07-9b88-47405860b960.par
+#BlueLink11 Suspension: Solid Axle System Kinematics`10t Trailer, Dual Wheels` Artic Bus` , Kinematics`KinSA_2fd4e061-dd7f-4f07-9b88-47405860b960
+
+symbol_push  <<axle>> 3
+OPT_STEER_EXT 1
+PARSFILE Tires\Group_2a\Tire2a_c104e366-6203-4a26-ab90-82bcdf1e29c2.par
+#BlueLink12 Tires for Any Vehicle Unit`510 mm, Trailer, Dual` Artic Bus` , Duals`Tire2a_c104e366-6203-4a26-ab90-82bcdf1e29c2
+
+
+* sprung mass data
+ADD_REFERENCE_FRAME TrlSprungMass
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo_2
+WRT_Xo_2
+ANI_Xo_2
+SET_Y_NAME Yo_2
+WRT_Yo_2
+ANI_Yo_2
+SET_Z_NAME Zo_2
+WRT_Zo_2
+ANI_Zo_2
+SET_YAW_NAME Yaw_2
+WRT_Yaw_2
+ANI_Yaw_2
+SET_PITCH_NAME Pitch_2
+WRT_Pitch_2
+ANI_Pitch_2
+SET_ROLL_NAME Roll_E_2
+WRT_Roll_E_2
+ANI_Roll_E_2
+PARSFILE Brakes\2W_System\Brk2W_c1daa283-16c4-49c3-bef3-cde55425bcfd.par
+#BlueLink4 Brakes: Trailer Two-Wheel System`10 kN-m Capacity, Air (2 ch. ABS)` Artic Bus` , Brakes`Brk2W_c1daa283-16c4-49c3-bef3-cde55425bcfd
+
+PARSFILE Vehicles\Trl_Sprung_Mass\TrlSprM_c7576741-ec97-4983-83a8-4a87cac49f73.par
+#BlueLink0 Vehicle: Trailer Sprung Mass`Articulated Bus, L = 500` Artic Bus` , Sprung mass`TrlSprM_c7576741-ec97-4983-83a8-4a87cac49f73
+
+PARSFILE Aerodynamics\Aero_Main\Aero_202c73e7-c8ce-4206-a2f9-7934106b8c43.par
+#BlueLink1 Aerodynamics: Basic`No Aerodynamics` ` , Aerodynamics`Aero_202c73e7-c8ce-4206-a2f9-7934106b8c43
+
+PARSFILE Animator\Vehicles\AniVeh_70385d2f-97b4-49e3-a4b4-61d1739945f7.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`Articulated Bus - Rear` Artic Bus` , Trailer 3D Shape`AniVeh_70385d2f-97b4-49e3-a4b4-61d1739945f7
+
+IUNIT_DECREMENT
+IUNIT_INCREMENT
+IOBJECT_RESTORE
+PARSFILE Animator\Frames\Frame_36ec9797-e3d9-4fe6-9950-3a894dcd0e15.par
+#BlueLink5 Animator: Reference Frame`Trailing body of articulated bus` ` , Miscellaneous`Frame_36ec9797-e3d9-4fe6-9950-3a894dcd0e15
+
+*IMAGE_TYPE CUSTOM
+*IMAGE_FILE Vehicles\Trailer_1A\Trl_1a_9b0e6a41-2fdf-4d39-b471-c708fbcadaba.png
+
+#EMBEDDED_NOTES
+#The hinge portion of the articulation joint is specified on the Sprung Mass (Trailer) screen.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer with 1 Axle; Artic Bus - Rear
+#Library : Vehicle: Trailer with 1 Axle
+#DataSet : Artic Bus - Rear
+#Category: 
+#FileID  : Trl_1a_9b0e6a41-2fdf-4d39-b471-c708fbcadaba
+#Created : 11-24-2021 17:03:31
+#Modified: 12-10-2021 15:11:39
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode S
+
+END

@@ -1,0 +1,82 @@
+PARSFILE
+#FullDataName Vehicle with Loads, Sensors, Trailer, etc.`Pickup, DRW, 2A GN Trailer w Dual Whls`Pickup, Full Size
+#VehCode Ind_SA + SS
+#CheckBox0 1    
+#CheckBox2 1    
+
+symbol_push <<hitch_x>> 0
+symbol_push <<hitch_y>> 0
+symbol_push <<hitch_z>> 0
+PARSFILE Vehicles\Assembly\Vehicle_220461f3-8ab2-44a7-b1f5-86bc5c11ef59.par
+#BlueLink0 Vehicle: Assembly`Pickup, Full Size Reg Cab DRW, GN hitch` Pickup Trucks` , Lead Unit`Vehicle_220461f3-8ab2-44a7-b1f5-86bc5c11ef59
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Vehicles\Trailer_2A\Trl_2a_71239c76-43b7-4115-b89c-f159b8b1e302.par
+#BlueLink8 Vehicle: Trailer with 2 Axles`2A Heavy Flatbed GN, Dual Wheels` ` , Trailer`Trl_2a_71239c76-43b7-4115-b89c-f159b8b1e302
+
+ADD_REFERENCE_FRAME TrailUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo_2
+WRT_Xo_2
+ANI_Xo_2
+SET_Y_NAME Yo_2
+WRT_Yo_2
+ANI_Yo_2
+SET_Z_NAME Zo_2
+WRT_Zo_2
+ANI_Zo_2
+SET_YAW_NAME Yaw_2
+WRT_Yaw_2
+ANI_Yaw_2
+SET_PITCH_NAME Pitch_2
+WRT_Pitch_2
+ANI_Pitch_2
+SET_ROLL_NAME Roll_E_2
+WRT_Roll_E_2
+ANI_Roll_E_2
+PARSFILE Generic\Group\GenGrp_49c3a4b2-74f3-4774-bad3-8b74945f3b13.par
+#BlueLink13 Generic Data Group`Payload: Tractor Tires` Multple Payloads` , Miscellaneous`GenGrp_49c3a4b2-74f3-4774-bad3-8b74945f3b13
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_94681f71-cfc4-4053-bfd1-1d2ed6e4fd10.png
+*IMAGE_TYPE_TRAILER DEFAULT
+
+#EMBEDDED_NOTES
+#This example shows a full-size pickup truck with a two-axle dual wheel gooseneck trailer and a payload.
+#
+#The payload type is Custom as opposed to a box shape, meaning the payloads are defined by their mass and inertia properties. Links are then made to an appropriate animation shape to provide a visual representation of the modeled payload.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { Pickup, Full Size } Pickup, DRW, 2A GN Trailer w Dual Whls
+#Library : Vehicle with Loads, Sensors, Trailer, etc.
+#DataSet : Pickup, DRW, 2A GN Trailer w Dual Whls
+#Category: Pickup, Full Size
+#FileID  : VehLoad_69f4cb99-5649-47ab-bcdb-8363d17af3ee
+#Created : 08-03-2021 11:41:19
+#Modified: 08-18-2021 16:20:56
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Ind_SA + SS
+
+END

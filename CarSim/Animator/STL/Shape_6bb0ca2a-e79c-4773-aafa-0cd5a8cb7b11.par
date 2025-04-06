@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Gooseneck (Dual Wheels): Ramps`Trailers
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trailers\Heavy_Flatbed\flatbed_duel_ramps.osg
+#ENDMYellow
+
+SET_COLOR 1 1 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_9cfa1033-fce4-4d22-8928-0bfc456f9467.par
+#BlueLink2 Animator: Camera Setup`Vehicles - Trailers (Heavy)` Shape Preview` , Video Camera`Camera_9cfa1033-fce4-4d22-8928-0bfc456f9467
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_6bb0ca2a-e79c-4773-aafa-0cd5a8cb7b11.png
+
+#EMBEDDED_NOTES
+#Gooseneck Trailer Frame
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailers } Gooseneck (Dual Wheels): Ramps
+#Library : Animator: Shape File Link
+#DataSet : Gooseneck (Dual Wheels): Ramps
+#Category: Trailers
+#FileID  : Shape_6bb0ca2a-e79c-4773-aafa-0cd5a8cb7b11
+#Created : 08-03-2021 12:52:55
+#Modified: 08-04-2021 19:32:56
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape File
+
+END

@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Powertrain: Hybrid/Electric Power Management Control`PL-HEV Pwr Mgmt: Full Load 165kW`
+! Hybrid Power Management Controller. 
+#CheckBox0 0    
+#CheckBox1 0    
+OPT_REGEN_OFF_THRT 0
+VLOW_ENG_MODE 45
+PWR_ENG_MODE 50
+K_BATTERY_CHARGE 750
+BATTERY_CHARGE_TARG 0.6
+BATTERY_CHARGE_LOW 0.55
+AV_GNRTR_LIMIT 5850
+GNR_CONTROL_KP 0.0052
+GNR_CONTROL_KI 0.00003
+VLOW_BATTERY_CHARGE 15
+PWR_HEV_DRV_MAX 55
+TC_PWR_HYBRID_AV 0.8
+KPW_PBK_HEV 16
+PWR_EV_MODE 25
+REGEN_BRK_OFF 0.8
+
+PARSFILE Generic\tables\GenTab_90d23e81-2c53-435f-8e2c-d6503354f720.par
+#BlueLink0 Generic Table`Driver Demand Power: Full Load 165 kW` Powertrain (HEV)` , Driver Demand Power`GenTab_90d23e81-2c53-435f-8e2c-d6503354f720
+
+PARSFILE Generic\tables\GenTab_bb6801a5-dd10-4a8d-af64-f21870709025.par
+#BlueLink1 Generic Table`Opt. engine speed (Parallel hybrid)` Powertrain (HEV)` , Engine Optimal Speed`GenTab_bb6801a5-dd10-4a8d-af64-f21870709025
+
+
+LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric Power Management Control; PL-HEV Pwr Mgmt: Full Load 165kW
+#Library : Powertrain: Hybrid/Electric Power Management Control
+#DataSet : PL-HEV Pwr Mgmt: Full Load 165kW
+#Category: 
+#FileID  : PMC_a1b82af4-f6da-494b-b1e8-74f6a1a4b92c
+#Created : 11-17-2021 14:21:59
+#Modified: 11-17-2021 17:47:03
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Power Management (HEV)
+
+END

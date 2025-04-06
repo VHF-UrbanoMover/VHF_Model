@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Plot: Setup`Camber vs. Time`Suspension - Ind. Kin. Outputs
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Camber<<tire>>, Time
+PLOTCHANNELS Camber<<tire>>_Alt, Time, Wheel camber <<tire>> (input)
+
+#ENDMYellow
+
+YAXISLABEL <<tire>> - Camber angle [deg]
+XAXISLABEL Time [s]
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Camber vs. Time
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Suspension - Ind. Kin. Outputs } Camber vs. Time
+#Library : Plot: Setup
+#DataSet : Camber vs. Time
+#Category: Suspension - Ind. Kin. Outputs
+#FileID  : Plot_abb6641e-9a7c-4d9b-a1f3-9bd0cbc95805
+#Created : 11-08-2021 08:27:39
+#Modified: 11-08-2021 13:02:24
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

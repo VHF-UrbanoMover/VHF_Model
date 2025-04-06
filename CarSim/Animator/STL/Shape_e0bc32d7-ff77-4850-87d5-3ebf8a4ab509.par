@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Highway: Steer`Artic Bus
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Common_Vehicle_Assets\Tires\Highway_Steer\Highwy_Steer.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+X_REF_LENGTH 530
+Y_REF_LENGTH 277
+Z_REF_LENGTH 530
+*SPECULAR 0.7
+*IMAGE_FIT_MODE 3
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0.7 0.7 0.7
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_b22c9c83-52ff-415d-a48c-b080618e0e6d.par
+#BlueLink2 Animator: Camera Setup`XY Plane, No Offsets - Small Objects` Shape Preview` , Video Camera`Camera_b22c9c83-52ff-415d-a48c-b080618e0e6d
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_e0bc32d7-ff77-4850-87d5-3ebf8a4ab509.png
+
+#EMBEDDED_NOTES
+#Unloaded free (outer) radius: 530mm
+#265/85 R24
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Artic Bus } Highway: Steer
+#Library : Animator: Shape File Link
+#DataSet : Highway: Steer
+#Category: Artic Bus
+#FileID  : Shape_e0bc32d7-ff77-4850-87d5-3ebf8a4ab509
+#Modified: 12-09-2021 02:11:24
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape File
+
+END

@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Generic Data Group`Deer and Vehicle Event Setup Poly`Obstacle Avoidance
+#VehCode Generic Group
+PARSFILE Generic\Links\GenLink_b78bf821-4eb6-4253-b095-601019e5837b.par
+#BlueLink0 Generic Group of Links`Animated Deer for Update Path: Simulink` ADAS: Moving Objects, incl. Pedestrians` , Link 1`GenLink_b78bf821-4eb6-4253-b095-601019e5837b
+
+
+PARSFILE Generic\VS_commands\GenVS_ec2b3448-9f3e-4822-9543-ae60ed7bb4ad.par
+#BlueLink1 Generic VS Commands`Simulink Events Setup Poly` Obstacle Avoidance` , Link 2`GenVS_ec2b3448-9f3e-4822-9543-ae60ed7bb4ad
+
+
+PARSFILE Events\Events_d0eeadf1-12ce-4e2d-a86f-790e710b10ee.par
+#BlueLink2 Events`Simulink Obstacle Avoid Events Poly` Embedded Python: Obstacle Detection` , Link 3`Events_d0eeadf1-12ce-4e2d-a86f-790e710b10ee
+
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_685c5b22-b555-4300-90e6-7f354600c8d8.par
+#BlueLink3 Multiple Moving Objects`1 Driver Preview Point` Points of Interest` , Link 4`TMotion_685c5b22-b555-4300-90e6-7f354600c8d8
+
+
+
+
+
+
+
+
+#EMBEDDED_NOTES
+#Datasets included in this Group:
+#
+#- setup of the Animated Deer
+#- setup of parameters and outputs to use with the Simulink model
+#- Actual Events used for the example
+#- inclusion of the driver model preview point, and its configuration
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Obstacle Avoidance } Deer and Vehicle Event Setup Poly
+#Library : Generic Data Group
+#DataSet : Deer and Vehicle Event Setup Poly
+#Category: Obstacle Avoidance
+#FileID  : GenGrp_7e7accc0-1080-41a5-8256-8894db14172a
+#Created : 02-26-2021 18:07:35
+#Modified: 05-28-2021 15:02:33
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Generic Group
+
+END

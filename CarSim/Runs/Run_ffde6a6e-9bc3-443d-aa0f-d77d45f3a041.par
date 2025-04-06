@@ -1,0 +1,119 @@
+PARSFILE
+#FullDataName CarSim Run Control`Accel: Full Thr, Split-Mu (Model Free)`VHF Urbano
+#VEHICLECODE Ind_Ind
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_ffde6a6e-9bc3-443d-aa0f-d77d45f3a041
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Models\Simulink\Simlink_49569927-7d66-45ae-873a-f3c1beadd0d5.par
+#BlueLink12 Models: Simulink`VHF TCS Model Free` Traction Control for TCS and ESC` , Models`Simlink_49569927-7d66-45ae-873a-f3c1beadd0d5
+
+PARSFILE Animator\Cameras\Camera_27cfa3aa-bcd7-4b05-b522-6516bf0a17ae.par
+#BlueLink0 Animator: Camera Setup`200 Azm, 10 El, 25 m, No Yaw` Vehicle Reference` , Animator camera`Camera_27cfa3aa-bcd7-4b05-b522-6516bf0a17ae
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 1    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 5
+#RingCtrl1 17
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 6
+#RingCtrl7 4
+*RUN_COLOR 1 0.8 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea.par
+#BlueLink2 Vehicle: Assembly`VHF Urbano, eRWD Hibrido Serie com controle Vx` Meus Veiculos` , Math Model`Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea
+
+PARSFILE Procedures\Proc_c8fe4f0d-7dba-41d9-8c0e-5afba45a7ece.par
+#BlueLink28 Procedures`Part-Throttle Accel: 1.0 Thr, Split-Mu` Accel. and Brake Testing` , Procedure`Proc_c8fe4f0d-7dba-41d9-8c0e-5afba45a7ece
+
+PARSFILE Generic\Group\GenGrp_fb093731-6cce-46b7-a245-ad3984d047a3.par
+#BlueLink9 Generic Data Group`2 Axle - Fx, Fy, Fz custom reference` Tire Force Arrows` , Miscellaneous`GenGrp_fb093731-6cce-46b7-a245-ad3984d047a3
+
+OPT_VS_FILETYPE 4
+PARSFILE Plot\Setup\Plot_ac871e31-3a2e-4f60-b6cb-3284aa167ea9.par
+#BlueLink15 Plot: Setup`Speed Target and Actual` Speed Controller` , Plot`Plot_ac871e31-3a2e-4f60-b6cb-3284aa167ea9
+
+PARSFILE Plot\Setup\Plot_757f72ed-4f5c-43eb-8e7e-7788378ee0bf.par
+#BlueLink16 Plot: Setup`Fuel Consumed` Powertrain` , Plot`Plot_757f72ed-4f5c-43eb-8e7e-7788378ee0bf
+
+PARSFILE Plot\Setup\Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f.par
+#BlueLink17 Plot: Setup`Station vs. Time` Tracking` , Plot`Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f
+
+PARSFILE Plot\Setup\Plot_1f907f02-54f4-41b3-b001-1025d2df75c3.par
+#BlueLink18 Plot: Setup`Electric traction motors Torque` VHF Plots` , Plot`Plot_1f907f02-54f4-41b3-b001-1025d2df75c3
+
+PARSFILE Plot\Setup\Plot_0e77b12b-234b-4637-9ff0-9b41b1d40bd1.par
+#BlueLink19 Plot: Setup`Rear Wheels laged Slip Rate` VHF Plots` , Plot`Plot_0e77b12b-234b-4637-9ff0-9b41b1d40bd1
+
+PARSFILE Plot\Setup\Plot_243197da-07ae-44f7-b559-e70dedafb1c4.par
+#BlueLink20 Plot: Setup`Powers in Series Hybrid Powertrain` VHF Plots` , Plot`Plot_243197da-07ae-44f7-b559-e70dedafb1c4
+
+
+SPECIAL_PARSFILE Runs\Run_b6e8b1b1-8bb5-45a4-a854-d3ebd04fe6db.par
+#BlueLink23 CarSim Run Control`Accel: Full Thr, Split-Mu (No Control)` VHF Urbano` , Overlay run or ERD file`Run_b6e8b1b1-8bb5-45a4-a854-d3ebd04fe6db
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea.png
+
+OPT_ALL_WRITE 1
+WRITE_SENSOR_DETECT
+Title Accel: Full Thr, Split-Mu (Model Free) <VHF Urbano>
+CATEGORY VHF Urbano 
+DATASET_TITLE Accel: Full Thr, Split-Mu (Model Free)
+#MiscYellow0
+OPT_ECHO_ICS 1
+DEFINE_OUTPUT KappaRef 0.1; -;  Longitudinal Slip Reference
+DEFINE_IMPORT IMP_TCMD_L2 0; N-m
+DEFINE_IMPORT IMP_TCMD_R2 0; N-m
+#ENDMYellow
+
+#RingCtrl8 -1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#Este é um primeiro modelo do Veículo Urbano Leve Híbrido-Flex (VHF). O VHF possui tração traseira e arquitetura híbrido série.
+#
+#É realizado um teste simples de full throtle para caracterização do veículo em pista com baixo atrito.
+#
+#Este dataset deve ser usado como base para outros datasets e testes a serem desenvolvidos.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { VHF Urbano } Accel: Full Thr, Split-Mu (Model Free)
+#Library : CarSim Run Control
+#DataSet : Accel: Full Thr, Split-Mu (Model Free)
+#Category: VHF Urbano
+#FileID  : Run_ffde6a6e-9bc3-443d-aa0f-d77d45f3a041
+#Created : 08-17-2023 16:31:09
+#Modified: 08-17-2023 17:00:57
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

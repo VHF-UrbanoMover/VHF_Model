@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Powertrain: Hybrid/Electric Power Management Control`VHF Power Mgmt: Full Load 20kW optimized`
+! Hybrid Power Management Controller. 
+#CheckBox0 0    
+#CheckBox1 0    
+OPT_REGEN_OFF_THRT 0
+VLOW_ENG_MODE 10
+PWR_ENG_MODE 16
+K_BATTERY_CHARGE 1000
+BATTERY_CHARGE_TARG 0.8
+BATTERY_CHARGE_LOW 0.4
+AV_GNRTR_LIMIT 5850
+GNR_CONTROL_KP 0.052
+GNR_CONTROL_KI 0.0003
+VLOW_BATTERY_CHARGE 10
+PWR_HEV_DRV_MAX 20
+TC_PWR_HYBRID_AV 10
+KPW_PBK_HEV 16
+PWR_EV_MODE 4
+REGEN_BRK_OFF 0.4
+
+PARSFILE Generic\tables\GenTab_e86f418f-e56a-4cb1-9940-d256c2b057bb.par
+#BlueLink0 Generic Table`Driver Demand Power: Full Load 22 kW` Powertrain VHF` , Driver Demand Power`GenTab_e86f418f-e56a-4cb1-9940-d256c2b057bb
+
+PARSFILE Generic\tables\GenTab_5252d211-ca81-4595-9e9d-f8b51151910a.par
+#BlueLink1 Generic Table`Optimal CB250F Twister engine speed` Powertrain VHF` , Engine Optimal Speed`GenTab_5252d211-ca81-4595-9e9d-f8b51151910a
+
+
+#EMBEDDED_NOTES
+#Power management for range-exlended electric powertrain
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric Power Management Control; VHF Power Mgmt: Full Load 20kW optimized
+#Library : Powertrain: Hybrid/Electric Power Management Control
+#DataSet : VHF Power Mgmt: Full Load 20kW optimized
+#Category: 
+#FileID  : PMC_d0723c1e-b47e-4916-895f-466a00b4f20a
+#Created : 01-13-2023 11:35:04
+#Modified: 02-16-2023 15:39:27
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Power Management (HEV)
+
+END

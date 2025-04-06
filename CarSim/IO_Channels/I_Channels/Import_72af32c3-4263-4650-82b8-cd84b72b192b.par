@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName I/O Channels: Import`ESC/TCS: Eng. Torque`VHF Controls
+#RingCtrl0 1
+#RingCtrl1 1
+
+#MiscYellow0
+IMP_M_MOTOR_CMD_D2_L Replace 0.0 ! 1
+IMP_M_MOTOR_CMD_D2_R Replace 0.0 ! 1
+#ENDMYellow
+
+
+
+#EMBEDDED_NOTES
+#ESC/TCS import variables involve engine torque management:
+#
+#IMP_ESC_ENGINE_CON_STATE:
+#0: no control,
+#1: engine torque reduced to ESC request, and
+#2: engine torque increased to ESC request.
+#
+#IMP_MENGINE_ESC_REQUEST: ESC requesting engine torque.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { VHF Controls } ESC/TCS: Eng. Torque
+#Library : I/O Channels: Import
+#DataSet : ESC/TCS: Eng. Torque
+#Category: VHF Controls
+#FileID  : Import_72af32c3-4263-4650-82b8-cd84b72b192b
+#Created : 07-05-2022 10:24:29
+#Modified: 08-03-2022 15:33:01
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Import Channels
+
+END

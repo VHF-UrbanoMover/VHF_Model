@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Events`New Detect: Simulink Poly`Embedded Python: Obstacle Detection
+#CheckBox1 1    
+*CLEAR
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 <
+#RingCtrl10 1
+#RingCtrl11 1
+#RingCtrl12 1
+RESET_EVENTS
+*NAME1 DsLS1_1
+*VALUE1 35.0
+*SPEED 0
+INSTALL_SPEED_CONTROLLER
+OPT_SC 3
+SET_ISPEED_FOR_ID 0
+set_description SPEED_TARGET_ID Event: New Detect: Simulink Poly
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_S_CONSTANT 0
+SPEED_ID_SC = SPEED_TARGET_ID
+OPT_SC_ENGINE_BRAKING 0
+SPEED_TARGET_CONSTANT 0
+#MiscYellow0
+det_time = t + 1.5
+#ENDMYellow
+
+MAKE_EVENT DsLS1_1 < 35.0 ; Events\Events_9349fe3e-d7bc-488b-967d-976cf1bb9158.par
+#BlueLink0 Events`Update Path Simulink Poly` Embedded Python: Obstacle Detection` , Events`Events_9349fe3e-d7bc-488b-967d-976cf1bb9158
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#Create timing variable to remain in path-update detection mode
+#
+#Also, wait  until the deer is within 35m of the vehicle, to activate the path update model
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Embedded Python: Obstacle Detection } New Detect: Simulink Poly
+#Library : Events
+#DataSet : New Detect: Simulink Poly
+#Category: Embedded Python: Obstacle Detection
+#FileID  : Events_c1a2b345-8c79-48a2-8ec1-952915df20be
+#Created : 03-10-2021 07:39:47
+#Modified: 05-28-2021 14:59:25
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Events
+
+END

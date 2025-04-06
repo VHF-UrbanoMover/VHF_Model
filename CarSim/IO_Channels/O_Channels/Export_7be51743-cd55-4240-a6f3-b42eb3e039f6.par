@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Accelerations, angular velocitys and orientation`VHF Controls
+#RingCtrl0 1
+#RingCtrl1 1
+
+
+EXPORT Ax_S1
+EXPORT Ay_S1
+EXPORT Az_S1
+EXPORT AVx_S1
+EXPORT AVy_S1
+EXPORT AVz_S1
+EXPORT Yaw
+EXPORT Pitch
+EXPORT Roll_E
+#MiscYellow0
+#Number of Selected Channels: 9
+#CHN_NAME: Ax_S1
+#CHN_NAME: Ay_S1
+#CHN_NAME: Az_S1
+#CHN_NAME: AVx_S1
+#CHN_NAME: AVy_S1
+#CHN_NAME: AVz_S1
+#CHN_NAME: Yaw
+#CHN_NAME: Pitch
+#CHN_NAME: Roll_E
+#ENDMYellow
+
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Accelerations, angular velocitys and orientation
+#Library : I/O Channels: Export
+#DataSet : Accelerations, angular velocitys and orientation
+#Category: VHF Controls
+#FileID  : Export_7be51743-cd55-4240-a6f3-b42eb3e039f6
+#Created : 10-28-2022 18:01:07
+#Modified: 10-28-2022 19:07:19
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Export Channels
+
+END

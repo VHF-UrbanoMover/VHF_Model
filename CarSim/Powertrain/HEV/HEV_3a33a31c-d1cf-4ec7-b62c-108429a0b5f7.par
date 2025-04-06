@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Powertrain: Hybrid/Electric System`723 V Battery, Axle Motors`
+#RingCtrl0 2
+OPT_HEV 2
+#CheckBox1 1    
+OPT_MOTOR_ON_AXLE 1 
+N_BATTERY 198
+T_BATTERY_INIT 25
+BATTERY_CHARGE_INIT 0.8
+V_MOTOR_MIN 200
+V_BATTERY_MIN 3.08
+V_BATTERY_MAX 4.22
+
+INSTALL_ELECTRIC_DRIVE_MOTORS 
+
+PARSFILE Generic\tables\GenTab_01a6ec09-039c-4ded-b92b-96c612f600dd.par
+#BlueLink2 Generic Table`723 V Battery, Charge Resistance per Cell` Powertrain (HEV / EV)` , Charging resistance`GenTab_01a6ec09-039c-4ded-b92b-96c612f600dd
+
+PARSFILE Generic\tables\GenTab_5410cfea-d8ce-4663-88b4-ff8692b88e80.par
+#BlueLink3 Generic Table`723 V Battery, Discharge Resist. per Cell` Powertrain (HEV / EV)` , Discharging resistance`GenTab_5410cfea-d8ce-4663-88b4-ff8692b88e80
+
+PARSFILE Generic\tables\GenTab_34311f4a-6f29-4335-8b34-ac07bf45eca8.par
+#BlueLink4 Generic Table`723 V Battery, OCV per Cell` Powertrain (HEV / EV)` , Open-circuit voltage`GenTab_34311f4a-6f29-4335-8b34-ac07bf45eca8
+
+PARSFILE Generic\tables\GenTab_41f18122-6f96-4963-bb13-b548198278b8.par
+#BlueLink5 Generic Table`723 V Battery, Total Capacity` Powertrain (HEV / EV)` , Max. capacity`GenTab_41f18122-6f96-4963-bb13-b548198278b8
+
+
+#EMBEDDED_NOTES
+#Min. battery voltage 610 V, max. voltage 835 V, nominal voltage 723 V.
+#
+#The motor is specified on the differential gear screen on each driven axle.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; 723 V Battery, Axle Motors
+#Library : Powertrain: Hybrid/Electric System
+#DataSet : 723 V Battery, Axle Motors
+#Category: 
+#FileID  : HEV_3a33a31c-d1cf-4ec7-b62c-108429a0b5f7
+#Created : 05-18-2021 12:16:36
+#Modified: 11-23-2021 19:11:08
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode HEV
+
+END

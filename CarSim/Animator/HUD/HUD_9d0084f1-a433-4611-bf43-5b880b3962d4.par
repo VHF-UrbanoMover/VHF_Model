@@ -1,0 +1,89 @@
+PARSFILE
+#FullDataName Animator: HUD`Acceleration Text`Vehicle Status Indicators
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl0 2
+#RingCtrl1 18
+#RingCtrl2 0
+#RingCtrl3 2
+#RingCtrl4 2
+#RingCtrl5 18
+#RingCtrl6 0
+#RingCtrl7 2
+#RingCtrl8 2
+*TITLE_1 Ax (g's)
+*LOCX_1 5
+*LOCY_1 7
+*VAR_NAME_1 Ax
+*COLOR_1 1 1 0.5 1
+*PREC1 3
+*TITLE_2 Ay (g's)
+*LOCX_2 5
+*LOCY_2 3
+*VAR_NAME_2 Ay
+*COLOR_2 1 1 0.5 1
+*PREC2 3
+*TITLE_3 Speed Error (km/h)
+*LOCX_3 5
+*LOCY_3 32
+*VAR_NAME_3 Vx_ERR
+*COLOR_3 1 1 0.5 1
+
+
+#Selection 18 for Icon 0
+#Selection_1 18 for Icon
+#Selection_2 Title: Ax (g's) AlX 0 AlY 2
+#Selection_3 Scale 1.333333 locX 100 locY 70
+#Selection_4 Fixed: 1 VarName: Ax  ColorStr: 1 1 0.5 1
+#Selection_5 ImgName: 
+ANI_Ax
+WRT_Ax
+ADD_ENTITY hud_text Text Output
+location 100 70 24 24
+align_x left
+align_y bottom
+size_mode absolute
+place_mode absolute
+# var name is Ax
+prefix Ax (g's)
+min_width_prefix 20
+value Ax
+precision 3
+color 1 1 0.5 1.0
+END_ENTITY hud_text Text Output
+#Selection 18 for Icon 1
+#Selection_1 18 for Icon
+#Selection_2 Title: Ay (g's) AlX 0 AlY 2
+#Selection_3 Scale 1.333333 locX 100 locY 30
+#Selection_4 Fixed: 1 VarName: Ay  ColorStr: 1 1 0.5 1
+#Selection_5 ImgName: 
+ANI_Ay
+WRT_Ay
+ADD_ENTITY hud_text Text Output
+location 100 30 24 24
+align_x left
+align_y bottom
+size_mode absolute
+place_mode absolute
+# var name is Ay
+prefix Ay (g's)
+min_width_prefix 20
+value Ay
+precision 3
+color 1 1 0.5 1.0
+END_ENTITY hud_text Text Output
+
+LOG_ENTRY Used Dataset: Animator: HUD; { Vehicle Status Indicators } Acceleration Text
+#Library : Animator: HUD
+#DataSet : Acceleration Text
+#Category: Vehicle Status Indicators
+#FileID  : HUD_9d0084f1-a433-4611-bf43-5b880b3962d4
+#Modified: 12-13-2021 10:41:03
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode HUD
+
+END

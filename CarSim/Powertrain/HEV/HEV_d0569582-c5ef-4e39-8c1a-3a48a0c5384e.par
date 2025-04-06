@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Powertrain: Hybrid/Electric System`Range-Ext. VHF Powertrain Assembly`
+#RingCtrl0 3
+OPT_HEV 3
+#CheckBox1 1    
+OPT_MOTOR_ON_AXLE 1 
+N_BATTERY 1
+T_BATTERY_INIT 25
+BATTERY_CHARGE_INIT 0.8
+V_MOTOR_MIN 48
+V_BATTERY_MIN 40
+V_BATTERY_MAX 58.5
+
+INSTALL_ELECTRIC_DRIVE_MOTORS 
+
+PARSFILE Generic\Links\GenLink_1e61da3e-2c03-4189-9e05-76481bfea320.par
+#BlueLink1 Generic Group of Links`Electric Generator: Max. Load 66 N-m` Powertrain (HEV)` , Electric Generator`GenLink_1e61da3e-2c03-4189-9e05-76481bfea320
+
+PARSFILE Generic\tables\GenTab_6f47a0fa-dc8a-4808-b1d1-8e00dd3b9062.par
+#BlueLink2 Generic Table`Battery charged resistance` Powertrain VHF` , Charging resistance`GenTab_6f47a0fa-dc8a-4808-b1d1-8e00dd3b9062
+
+PARSFILE Generic\tables\GenTab_1b6d560e-1536-4add-8fa1-27ed2890bbaf.par
+#BlueLink3 Generic Table`Batt. discharged resistance` Powertrain VHF` , Discharging resistance`GenTab_1b6d560e-1536-4add-8fa1-27ed2890bbaf
+
+PARSFILE Generic\tables\GenTab_fd0240fc-edc6-46dc-9279-278e991cfa22.par
+#BlueLink4 Generic Table`Battery Open-Circuit Voltage` Powertrain VHF` , Open-circuit voltage`GenTab_fd0240fc-edc6-46dc-9279-278e991cfa22
+
+PARSFILE Generic\tables\GenTab_658e8cc0-338a-4933-af0c-930d2b39cccc.par
+#BlueLink5 Generic Table`Battery Max Capacity VHF` Powertrain VHF` , Max. capacity`GenTab_658e8cc0-338a-4933-af0c-930d2b39cccc
+
+
+#EMBEDDED_NOTES
+#Generic a 40 kW electric motor is equipped for series hybrid (range-extended electric) powertrain.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Range-Ext. VHF Powertrain Assembly
+#Library : Powertrain: Hybrid/Electric System
+#DataSet : Range-Ext. VHF Powertrain Assembly
+#Category: 
+#FileID  : HEV_d0569582-c5ef-4e39-8c1a-3a48a0c5384e
+#Created : 06-29-2022 11:37:27
+#Modified: 07-04-2024 15:24:26
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode HEV
+
+END

@@ -1,0 +1,71 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`Pickup, Midsize, Electric`Pickup Trucks
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+#CheckBox2 1    
+X_LENGTH 3261
+Y_LENGTH 1500
+iaxle 2
+iside 1
+symbol_push_or_set <<hitch_x>> -4.3
+symbol_push_or_set <<hitch_y>> 0
+symbol_push_or_set <<hitch_z>> 0.47
+PARSFILE Hitches\Joint\Hitch_bcedf949-8612-4e6e-98e0-21c4f8e1c879.par
+#BlueLink1 Hitch: Joint Assembly`Ball Hitch` ` , Hitch`Hitch_bcedf949-8612-4e6e-98e0-21c4f8e1c879
+
+LX_H 4300
+H_H 470
+Y_H 0
+LX_AXLE 3261
+LX_CG_SU 1500
+M_SU 2000
+IXX_SU 700
+IYY_SU 3800
+IZZ_SU 3800
+IXZ_SU 0
+*RX 0.592
+*RY 1.378
+*RZ 1.378
+Y_CG_SU 0
+H_CG_SU 725
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1418
+Y_LENGTH 2152
+*HWC_LF 390
+*HWC_RF 390
+*HWC_LR 391
+*HWC_RR 391
+LEN_SM 3261
+LX_F_SM 750
+H_WC 391
+iside 2
+H_WC 391
+iaxle 1
+iside 1
+H_WC 390
+iside 2
+H_WC 390
+iaxle 2
+iside 1
+HT_SM 1418
+WID_SM 2152
+
+#EMBEDDED_NOTES
+#Intended to represent a battery-electric midsize pickup (no combustion engine, no transmission, and a large battery pack mounted under the floor of the cab).
+#
+#Compared to the regular midsize pickup sprung mass dataset, this is heavier, but with mass slightly lower and slightly more concentrated about the vehicle center, due to the central location of the battery pack.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Pickup Trucks } Pickup, Midsize, Electric
+#Library : Vehicle: Sprung Mass
+#DataSet : Pickup, Midsize, Electric
+#Category: Pickup Trucks
+#FileID  : SprMass_77290b73-31b6-4f27-8a78-074c47679343
+#Created : 05-18-2021 12:11:13
+#Modified: 05-28-2021 14:58:45
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Rigid sprung mass
+
+END

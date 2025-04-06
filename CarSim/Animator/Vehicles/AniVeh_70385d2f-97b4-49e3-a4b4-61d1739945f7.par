@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`Articulated Bus - Rear`Artic Bus
+
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 1    
+#CheckBox4 0    
+#CheckBox6 0    
+#CheckBox8 0    
+
+OBJ_X_LENGTH 4870
+OBJ_Y_LENGTH 2650
+OBJ_Z_LENGTH 3000
+*DZ_V 0
+*LAT_WC 1863
+*LAT_WC_2 1863
+*HWC 310
+*WHEEL_RATIO 1
+*LAXLE_1 4870
+*DUAL_1 310
+*IMAGE_TYPE CUSTOM
+*IMAGE_FILE Animator\Vehicles\AniVeh_70385d2f-97b4-49e3-a4b4-61d1739945f7.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+WRITE_REFERENCE_FRAME_SIZE
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL_Groups\ShpGrp_9f65ed29-4210-4220-805a-633692946136.par
+#BlueLink7 Animator: Shape Assembly`Articulated Bus - Rear` Artic Bus` , Vehicle Body`ShpGrp_9f65ed29-4210-4220-805a-633692946136
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_9cc2ba49-3f6e-4c5c-9b44-55695dd364b5.par
+#BlueLink5 Animator: Camera Setup`XZ Plane, No Offsets - Large Objects` Shape Preview` , Video Camera`Camera_9cc2ba49-3f6e-4c5c-9b44-55695dd364b5
+
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Artic Bus } Articulated Bus - Rear
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : Articulated Bus - Rear
+#Category: Artic Bus
+#FileID  : AniVeh_70385d2f-97b4-49e3-a4b4-61d1739945f7
+#Created : 09-29-2021 17:27:56
+#Modified: 12-10-2021 15:09:17
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Vehicle Shape
+
+END

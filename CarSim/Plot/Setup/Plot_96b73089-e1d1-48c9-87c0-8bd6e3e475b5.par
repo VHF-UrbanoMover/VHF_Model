@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Plot: Setup`Y vs. Time`Suspension - Ind. Kin. Outputs
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_33e2becb-9fc8-474d-a6bb-685bf100d862
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Yrel_<<tire>>, Time
+PLOTCHANNELS Yrel_<<tire>>_Alt, Time, Wheel center <<tire>> (input)
+
+#ENDMYellow
+
+YAXISLABEL <<tire>> - Sprung mass Y [mm]
+XAXISLABEL Time [s]
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Y vs. Time
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Suspension - Ind. Kin. Outputs } Y vs. Time
+#Library : Plot: Setup
+#DataSet : Y vs. Time
+#Category: Suspension - Ind. Kin. Outputs
+#FileID  : Plot_96b73089-e1d1-48c9-87c0-8bd6e3e475b5
+#Created : 11-08-2021 08:27:52
+#Modified: 11-08-2021 13:03:32
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

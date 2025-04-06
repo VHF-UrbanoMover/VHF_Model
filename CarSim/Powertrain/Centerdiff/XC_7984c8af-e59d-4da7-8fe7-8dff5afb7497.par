@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Powertrain: Transfer Case`HEV: RWD base eAWD, Gr. 1.0`Electric Motor Drive
+#CheckBox0 0    
+LOCKED_XC_OPT 0
+#RingCtrl0 CONSTANT
+#RingCtrl1 1
+*EV_CONTROL 1
+OPT_LOCKED_DIFF 0
+M_DIFF_VISC_CONSTANT 0
+#RadioCtrl0 0    
+
+M_DIFF_XC_CONSTANT 0
+R_GEAR_XC 1.00
+R_EFF_F_XC 0.99
+R_EFF_R_XC 0.99
+R_REAR_XC 1
+LOCKED_XC_DAMP 0.8
+LOCKED_XC_K 80
+*SCALAR 0
+*MOTOR_BIAS 0.5
+
+R_REAR_MOTOR_BIAS 0.5
+R_REAR_BIAS 1
+R_GEAR_DIFF 1.00
+R_EFF_F_DIFF 0.99
+R_EFF_R_DIFF 0.99
+LOCKED_DIFF_DAMP 0.8
+LOCKED_DIFF_K 80
+
+#EMBEDDED_NOTES
+#HEV eTransfer Case:
+#
+#Mechanical torque distribution (which distribute the torque from hybrid transmission) is 100% on the front drive axle.
+#
+#Electric torque distribution is 50/50 equally distributing the torque on the front and rear axle motors.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Transfer Case; { Electric Motor Drive } HEV: RWD base eAWD, Gr. 1.0
+#Library : Powertrain: Transfer Case
+#DataSet : HEV: RWD base eAWD, Gr. 1.0
+#Category: Electric Motor Drive
+#FileID  : XC_7984c8af-e59d-4da7-8fe7-8dff5afb7497
+#Created : 05-21-2021 18:04:27
+#Modified: 05-28-2021 14:59:35
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Transfer Case
+
+END

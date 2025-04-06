@@ -1,0 +1,81 @@
+PARSFILE
+#FullDataName CarSim Run Control`DRW Pickup + GN Trailer w Dual Wheels`* New Vehicle Configuration
+#VEHICLECODE Ind_SA + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_aacc4383-7700-41eb-a202-131312685dd7
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 9 El, 18 m, No Yaw` Vehicle Reference` , Animator camera`Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 0
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_69f4cb99-5649-47ab-bcdb-8363d17af3ee.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`Pickup, DRW, 2A GN Trailer w Dual Whls` Pickup, Full Size` , Math Model`VehLoad_69f4cb99-5649-47ab-bcdb-8363d17af3ee
+
+PARSFILE Procedures\Proc_b157e401-006e-4da8-821c-e954769dd1a8.par
+#BlueLink28 Procedures`DLC @ 50 km/h` Handling Testing` , Procedure`Proc_b157e401-006e-4da8-821c-e954769dd1a8
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_685c5b22-b555-4300-90e6-7f354600c8d8.par
+#BlueLink9 Multiple Moving Objects`1 Driver Preview Point` Points of Interest` , Miscellaneous`TMotion_685c5b22-b555-4300-90e6-7f354600c8d8
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_6ba13624-c527-4355-b1e1-654631d3017e.png
+WRITE_SENSOR_DETECT
+Title DRW Pickup + GN Trailer w Dual Wheels <* New Vehicle Configuration>
+CATEGORY * New Vehicle Configuration 
+DATASET_TITLE DRW Pickup + GN Trailer w Dual Wheels
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#A full size, DRW pickup truck towing a two-axle, dual wheel Gooseneck trailer performs a double lane change at 50 km/h.
+#
+#The Gooseneck trailer uses a custom payload with the tractor tire as the custom shape.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * New Vehicle Configuration } DRW Pickup + GN Trailer w Dual Wheels
+#Library : CarSim Run Control
+#DataSet : DRW Pickup + GN Trailer w Dual Wheels
+#Category: * New Vehicle Configuration
+#FileID  : Run_aacc4383-7700-41eb-a202-131312685dd7
+#Created : 08-03-2021 11:37:36
+#Modified: 08-18-2021 16:31:11
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

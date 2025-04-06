@@ -1,0 +1,74 @@
+PARSFILE
+#FullDataName Models: Simulink`VHF Optimal TCS Model Free`Traction Control for TCS and ESC
+#RunMdlFile Extensions\Simulink\tc_vhf\optimal_tcs_VHF_model_free.slx
+SIMULINK_MODEL_FILE Extensions\Simulink\tc_vhf\optimal_tcs_VHF_model_free.slx
+#RingCtrl0 -1
+#CheckBox0 1    
+*USE_ALT_DIR 1
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 1    
+#CheckBox4 1    
+OPT_IO_SYNC_FM 1
+#RingCtrl1 0
+OPT_INT_METHOD 0
+#CheckBox2 1    
+OPT_IO_UPDATE 1
+#CheckBox4 1    
+OPT_IO_SYNC_FM 1
+*TSTEP 0.0005
+*FREQ_MODEL 2000
+*TSTEP_OUT 0.025
+*FREQ_OUT 40
+tstep 0.0005
+iprint 50
+#CheckBox5 0    
+*MULTI_SOLVERS 0
+#AltPath Extensions\Simulink\tc_vhf
+*ALTERNATE_PATH Extensions\Simulink\tc_vhf
+PARSFILE IO_Channels\Ports\Port_761ffbab-47b8-4498-83ff-176c8a9c5bb3.par
+#BlueLink0 I/O Channels: Ports`ASR Controllers: Multi-port w/ sensors` VHF Controls` , Import`Port_761ffbab-47b8-4498-83ff-176c8a9c5bb3
+
+#MiscYellow1
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\control_bus.m
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\control\model_free.slx
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\control\PI_control.slx
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\control\esc_dict.sldd
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\control\Perturbation_ESC.slx
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\control\Sliding_Window_Second_Order.slx
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\observers\algebraic_PIO_observer.slx
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\observers\algebraic_PIO_observer.slx
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\observers\Extremum_Seeking_vx_gain.slx
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\observers\Force_algebraic_estimator.slx
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\observers\friction_observer.slx
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\observers\Kalman_Filter.slx
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\observers\kf_dict.sldd
+*CPAR_INCLUDE Extensions\Simulink\tc_vhf\observers\mult_friction_observer.slx
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This “Models: Simulink” dataset links to a Simulink model of a Traction Control System (TCS), which controls excessive wheel spin with modulated brake pressures and engine torque management.
+#
+#The time step is set to 0.0005 sec. (2000 Hz), the method is AB-2, and the option is checked to synchronize the CarSim kinematical exports with force imports.
+#
+#The Simulink model is set to use "variable step" numerical integration, which means it will inherit the time step from CarSim.
+#
+#
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { Traction Control for TCS and ESC } VHF Optimal TCS Model Free
+#Library : Models: Simulink
+#DataSet : VHF Optimal TCS Model Free
+#Category: Traction Control for TCS and ESC
+#FileID  : Simlink_1800cc56-03cc-4044-b6ad-f75a76322ff4
+#Created : 10-28-2022 18:20:54
+#Modified: 11-21-2024 19:59:05
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode 
+
+END

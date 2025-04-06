@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Suspension: Camber Angle`Generic Commercial Vehicle`Artic Bus
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+CAMBER_COMBINE ADD
+#DiagramOne0
+CAMBER_TABLE SPLINE
+-70, 0.43
+-60, 0.44
+-50, 0.42
+-40, 0.38
+-30, 0.31
+-20, 0.23
+-10, 0.13
+0, 0
+10, -0.15
+20, -0.32
+30, -0.51
+40, -0.72
+50, -0.95
+60, -1.21
+70, -1.49
+ENDTABLE
+SUSP_CAMBER_JNC_OTHER_SIDE_CONSTANT 0
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*SCALAR2 0
+
+
+LOG_ENTRY Used Dataset: Suspension: Camber Angle; { Artic Bus } Generic Commercial Vehicle
+#Library : Suspension: Camber Angle
+#DataSet : Generic Commercial Vehicle
+#Category: Artic Bus
+#FileID  : Camber_99faa2fd-5b70-4847-a899-e049806ef4d6
+#Modified: 11-11-2021 13:48:21
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Camber
+
+END

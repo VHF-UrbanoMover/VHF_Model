@@ -1,0 +1,109 @@
+PARSFILE
+#FullDataName Brakes: Four-Wheel System`Artic Bus`
+#CheckBox1 0    
+#RingCtrl0 2
+#RingCtrl1 2
+#RingCtrl2 2
+#RingCtrl4 2
+#RingCtrl6 2
+#RingCtrl8 2
+#RingCtrl10 1
+#RingCtrl12 1
+#RingCtrl14 0
+OPT_BK_PEDAL 0
+TL_L1 0.05
+TL_L2 0.05
+
+iaxle 1
+iside 1
+symbol_push <<ax_bk>> <<axle>>
+symbol_push <<side>> L
+TLAG_BK 0.05
+PARSFILE Brakes\Proportioning\BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c.par
+#BlueLink4 Brakes: Proportioning / Limiting Valve`Linear: Unity Gain` ` , Proportioning`BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c
+
+TC_L1 0.3
+TC_BK 0.3
+OPT_BK_DYN 1
+PARSFILE Brakes\Torque\BrkTrq_5efadd3b-efd9-45a6-9d36-a07cd1659fb1.par
+#BlueLink0 Brakes: Torque`7.5 kN-m, Air` Artic Bus` , Torque`BrkTrq_5efadd3b-efd9-45a6-9d36-a07cd1659fb1
+
+*MY_FRIC_L1 1
+MY_FRICTION 1
+
+INSTALL_ABS_CONTROLLER
+OPT_ABS_CTRL 2
+*OFF_F 0.2
+*ON_F 0.1
+*V_F 6
+ABS_SLIP_OFF 0.2
+ABS_SLIP_ON 0.1
+ABS_VMIN 6
+
+iside 2
+symbol_set <<side>> R
+TLAG_BK 0.05
+PARSFILE Brakes\Proportioning\BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c.par
+#BlueLink4 Brakes: Proportioning / Limiting Valve`Linear: Unity Gain` ` , Proportioning`BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c
+
+TC_L1 0.3
+TC_BK 0.3
+OPT_BK_DYN 1
+PARSFILE Brakes\Torque\BrkTrq_5efadd3b-efd9-45a6-9d36-a07cd1659fb1.par
+#BlueLink0 Brakes: Torque`7.5 kN-m, Air` Artic Bus` , Torque`BrkTrq_5efadd3b-efd9-45a6-9d36-a07cd1659fb1
+
+*MY_FRIC_L1 1
+MY_FRICTION 1
+
+iaxle 2
+iside 1
+symbol_add <<ax_bk>> 1
+symbol_set <<side>> L
+TLAG_BK 0.05
+PARSFILE Brakes\Proportioning\BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c.par
+#BlueLink6 Brakes: Proportioning / Limiting Valve`Linear: Unity Gain` ` , Proportioning`BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c
+
+TC_L2 0.3
+TC_BK 0.3
+OPT_BK_DYN 1
+PARSFILE Brakes\Torque\BrkTrq_c876c1b7-ced1-47e5-af0e-25186afbeb0d.par
+#BlueLink2 Brakes: Torque`10 kN-m, Air` Artic Bus` , Torque`BrkTrq_c876c1b7-ced1-47e5-af0e-25186afbeb0d
+
+*MY_FRIC_L2 2
+MY_FRICTION 2
+
+OPT_ABS_CTRL 2
+*OFF_R 0.2
+*ON_R 0.1
+*V_R 6
+ABS_SLIP_OFF 0.2
+ABS_SLIP_ON 0.1
+ABS_VMIN 6
+
+iside 2
+symbol_set <<side>> R
+TLAG_BK 0.05
+PARSFILE Brakes\Proportioning\BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c.par
+#BlueLink6 Brakes: Proportioning / Limiting Valve`Linear: Unity Gain` ` , Proportioning`BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c
+
+TC_L2 0.3
+TC_BK 0.3
+OPT_BK_DYN 1
+PARSFILE Brakes\Torque\BrkTrq_c876c1b7-ced1-47e5-af0e-25186afbeb0d.par
+#BlueLink2 Brakes: Torque`10 kN-m, Air` Artic Bus` , Torque`BrkTrq_c876c1b7-ced1-47e5-af0e-25186afbeb0d
+
+*MY_FRIC_L2 2
+MY_FRICTION 2
+
+LOG_ENTRY Used Dataset: Brakes: Four-Wheel System; Artic Bus
+#Library : Brakes: Four-Wheel System
+#DataSet : Artic Bus
+#Category: 
+#FileID  : Brk4W_957a1d4b-880a-4c97-af91-ab317a0f98df
+#Created : 11-24-2021 11:57:24
+#Modified: 11-24-2021 12:00:31
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode 4-Wheel System
+
+END

@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Plot: Setup`Rear Wheels laged Slip Rate`VHF Plots
+
+ADD_ENTITY Plot
+
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS KappL_L2, Time
+PLOTCHANNELS KappL_R2, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl4 0
+#RingCtrl6 1
+#RingCtrl8 1
+
+
+PTITLE Rear Wheels laged Slip Rate
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { VHF Plots } Rear Wheels laged Slip Rate
+#Library : Plot: Setup
+#DataSet : Rear Wheels laged Slip Rate
+#Category: VHF Plots
+#FileID  : Plot_0e77b12b-234b-4637-9ff0-9b41b1d40bd1
+#Created : 11-07-2022 10:20:50
+#Modified: 11-07-2022 10:21:45
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

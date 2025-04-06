@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Vehicle Body Velocity`VHF Controls
+#RingCtrl0 3
+#RingCtrl1 1
+
+
+EXPORT Vx_S1
+#MiscYellow0
+#Number of Selected Channels: 1
+#CHN_NAME: Vx_S1
+#ENDMYellow
+
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Vehicle Body Velocity
+#Library : I/O Channels: Export
+#DataSet : Vehicle Body Velocity
+#Category: VHF Controls
+#FileID  : Export_20dd4c4b-df73-484e-98e2-a42ea5941651
+#Created : 10-13-2022 11:35:59
+#Modified: 10-13-2022 11:37:21
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Export Channels
+
+END

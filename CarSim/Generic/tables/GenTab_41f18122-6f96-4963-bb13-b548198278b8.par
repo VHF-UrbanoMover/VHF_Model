@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Generic Table`723 V Battery, Total Capacity`Powertrain (HEV / EV)
+#RingCtrl0 LINEAR
+#CheckBox0 0    
+
+#DiagramOne0
+CAP_BATTERY_MAX_TABLE LINEAR
+-20, 80
+-10, 100
+0, 120
+25, 129.2
+45, 129.2
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD CAP_BATTERY_MAX
+*X_LABEL Temperature (C)
+*Y_LABEL Capacity (A-h)
+
+
+#EMBEDDED_NOTES
+#Intended for use with the 723 V nominal battery pack, yielding ~93 kW-h of energy at warm temperatures.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV / EV) } 723 V Battery, Total Capacity
+#Library : Generic Table
+#DataSet : 723 V Battery, Total Capacity
+#Category: Powertrain (HEV / EV)
+#FileID  : GenTab_41f18122-6f96-4963-bb13-b548198278b8
+#Created : 05-18-2021 12:18:39
+#Modified: 05-28-2021 15:02:30
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode table
+
+END

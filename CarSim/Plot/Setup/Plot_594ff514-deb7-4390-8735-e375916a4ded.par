@@ -1,0 +1,51 @@
+PARSFILE
+#FullDataName Plot: Setup`Obstacle Avoidance Plots: 2`Obstacle Avoidance
+
+ADD_ENTITY Plot
+
+#BlueLink2 CarSim Run Control`Path Update SLC: Simulink, Poly.` Obstacle Avoidance` , example run`Run_fda87933-9ead-47bf-971f-567b4fa53fb0
+
+#CheckBox1 0    
+
+*README_FILE Results\Run_fda87933-9ead-47bf-971f-567b4fa53fb0\Run_out_tab.txt
+
+#MiscYellow0
+PLOTCHANNELS Lat_Targ, Station
+PLOTCHANNELS Lat_Veh, Station
+PLOTCHANNELS LTARG_ObsAvoid, Station
+PLOTCHANNELS LatError, Station
+PLOTCHANNELS xOffsetCalc, Station
+PLOTCHANNELS UpdatePathSwitch, Station
+PLOTCHANNELS xPrevGlobal, Station
+PLOTCHANNELS x_dm_1, Station
+PLOTCHANNELS yPrevGlobal, Station
+PLOTCHANNELS y_dm_1, Station
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl4 0
+#RingCtrl6 0
+#RingCtrl8 1
+
+
+PTITLE Obstacle Avoidance Plots: 2
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Obstacle Avoidance } Obstacle Avoidance Plots: 2
+#Library : Plot: Setup
+#DataSet : Obstacle Avoidance Plots: 2
+#Category: Obstacle Avoidance
+#FileID  : Plot_594ff514-deb7-4390-8735-e375916a4ded
+#Modified: 05-28-2021 14:59:42
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Plot Setup
+
+END

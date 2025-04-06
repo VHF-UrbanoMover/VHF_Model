@@ -1,0 +1,101 @@
+PARSFILE
+#FullDataName CarSim Run Control`TCS_HiL_Simulink_Model`VHF Urbano
+#VEHICLECODE Ind_Ind
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_dbc53c6c-2889-4564-9b27-ed44de9c5998
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Models\Simulink\Simlink_8adddf78-e368-4406-8142-186c454b714d.par
+#BlueLink12 Models: Simulink`VHF HiL Model IO` TCS/ABS HiL` , Models`Simlink_8adddf78-e368-4406-8142-186c454b714d
+
+PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 9 El, 18 m, No Yaw` Vehicle Reference` , Animator camera`Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 5
+#RingCtrl1 17
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 4
+*RUN_COLOR 0.8 1 0
+SET_RUN_COLOR 0.8 1 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_f933babc-9fe3-4fef-b404-522ab1cfc5f0.par
+#BlueLink2 Vehicle: Assembly`VHF Urbano, eRWD Hibrido Serie` Meus Veiculos` , Math Model`Vehicle_f933babc-9fe3-4fef-b404-522ab1cfc5f0
+
+PARSFILE Procedures\Proc_d09d4d83-fe61-42cd-b5b5-55178f726641.par
+#BlueLink28 Procedures`Full Throttle Accel. and Mu constant` Meus procedimentos` , Procedure`Proc_d09d4d83-fe61-42cd-b5b5-55178f726641
+
+PARSFILE Animator\HUD\HUD_9d0084f1-a433-4611-bf43-5b880b3962d4.par
+#BlueLink9 Animator: HUD`Acceleration Text` Vehicle Status Indicators` , Miscellaneous`HUD_9d0084f1-a433-4611-bf43-5b880b3962d4
+
+PARSFILE Roads\Profiles\Profile_26561b5c-2b57-4c52-9487-718b00d84997.par
+#BlueLink11 Surface: Roughness Profiles`Rough Road 04 - 55 in/mi (0.87 m/km)` Rough Road - Sample Data Edited` , Miscellaneous`Profile_26561b5c-2b57-4c52-9487-718b00d84997
+
+OPT_VS_FILETYPE 4
+PARSFILE Plot\Setup\Plot_7f5b891d-1f1e-41be-ae5a-9a8a00cf48c6.par
+#BlueLink15 Plot: Setup`Slip Ratios: Instant` Tire Kinematics` , Plot`Plot_7f5b891d-1f1e-41be-ae5a-9a8a00cf48c6
+
+#BlueLink23 CarSim Run Control`Full_acc_TC Simulink (Model Free)` VHF Urbano` , Overlay run or ERD file`Run_9fe35bc6-59fb-4f26-a807-019b125ff5c0
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_f933babc-9fe3-4fef-b404-522ab1cfc5f0.png
+PARSFILE IO_Channels\W_Channels\Write_d0c3b391-b7bd-4d14-b429-cb98f6f9ac45.par
+#BlueLink13 I/O Channels: Write`Optimal_ASR Analisys (MAT File)` ` , Output Variables`Write_d0c3b391-b7bd-4d14-b429-cb98f6f9ac45
+
+WRITE_SENSOR_DETECT
+Title TCS_HiL_Simulink_Model <VHF Urbano>
+CATEGORY VHF Urbano 
+DATASET_TITLE TCS_HiL_Simulink_Model
+#MiscYellow0
+TSTOP 9
+#ENDMYellow
+
+#RingCtrl8 -1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#This is a baseline example used in the CarSim Quick Start Guide and Demo Tutorial (see Help -> Guides and Tutorials).
+#
+#The box is checked to "Write all outputs." This simplifies the use of this example as a reference for comparisons with other runs that might have different plot settings.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { VHF Urbano } TCS_HiL_Simulink_Model
+#Library : CarSim Run Control
+#DataSet : TCS_HiL_Simulink_Model
+#Category: VHF Urbano
+#FileID  : Run_dbc53c6c-2889-4564-9b27-ed44de9c5998
+#Created : 11-19-2024 18:30:25
+#Modified: 12-05-2024 09:44:23
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Run
+
+END

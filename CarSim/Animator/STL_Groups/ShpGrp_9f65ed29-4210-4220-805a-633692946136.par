@@ -1,0 +1,52 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Articulated Bus - Rear`Artic Bus
+*ANGLE_Z 0
+*ANGLE_Y 0
+*ANGLE_X 0
+*OFFSET_X 6.2
+*OFFSET_Y 0
+*OFFSET_Z 0
+*X_REF_LENGTH 4870
+*Y_REF_LENGTH 2650
+*Z_REF_LENGTH 3000
+*TRANSPARENCY 1
+#CheckBox0 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE CUSTOM
+*IMAGE_FILE Animator\STL_Groups\ShpGrp_9f65ed29-4210-4220-805a-633692946136.png
+PARSFILE Animator\STL\Shape_319f1c96-4bd6-4463-aa3f-66a5e8469c4e.par
+#BlueLink0 Animator: Shape File Link`Artic Bus Rear` Artic Bus` , Shape File`Shape_319f1c96-4bd6-4463-aa3f-66a5e8469c4e
+
+set_transparency 1
+set_angle_x 0
+set_angle_y 0
+set_angle_z 0
+set_offset_x 6.2
+set_offset_y 0
+set_offset_z 0
+x_ref_length 4870
+y_ref_length 2650
+z_ref_length 3000
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_614e20f4-a550-401b-86b4-f904a05376d4.par
+#BlueLink17 Animator: Camera Setup`Isometric View - Large Objects` Shape Preview` , Video Camera`Camera_614e20f4-a550-401b-86b4-f904a05376d4
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Artic Bus } Articulated Bus - Rear
+#Library : Animator: Shape Assembly
+#DataSet : Articulated Bus - Rear
+#Category: Artic Bus
+#FileID  : ShpGrp_9f65ed29-4210-4220-805a-633692946136
+#Created : 11-17-2021 17:35:08
+#Modified: 12-10-2021 15:07:18
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Shape Assembly
+
+END

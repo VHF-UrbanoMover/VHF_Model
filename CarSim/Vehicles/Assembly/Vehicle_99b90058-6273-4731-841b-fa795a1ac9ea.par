@@ -1,0 +1,121 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`VHF Urbano, eRWD Hibrido Serie com controle Vx`Meus Veiculos
+#VehCode Ind_Ind
+IUNIT_INCREMENT
+IVEHICLE = IVEHICLE + 1
+NAXLES 2
+IOBJECT_SAVE
+symbol_add  <<vehicle>> 1
+symbol_add  <<unit>> 1
+#CheckBox0 0    
+#CheckBox1 1    
+#CheckBox2 1    
+INSTALL_SPEED_CONTROLLER
+
+#RingCtrl0 2
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 0
+PARSFILE Steering\System2\StrSys2_15589801-d4e7-488f-9884-031d53c5d85c.par
+#BlueLink7 Steering`A-Class, Hbk: Manual, R&P` CS A-Class` , Steering System`StrSys2_15589801-d4e7-488f-9884-031d53c5d85c
+
+
+* Front components
+iaxle 1
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_b73ffbd7-0eec-4cd9-995c-38f37d8c485d.par
+#BlueLink19 Suspension: Independent System Kinematics`VHF, Hatchback - Front` VHF` , Kinematics`KinInd_b73ffbd7-0eec-4cd9-995c-38f37d8c485d
+
+PARSFILE Suspensions\Compliance\CmpInd_33af22ab-8d37-457c-81cc-2dd54103e211.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`A-Class, Hatchback - Front` A-Class` , Compliance`CmpInd_33af22ab-8d37-457c-81cc-2dd54103e211
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+itire 1 ! just in case
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f.par
+#BlueLink999 Tire`175/65 R14` Touring Tires` , Tire`Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f.par
+#BlueLink10 Tire`175/65 R14` Touring Tires` , Tire`Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_4eb4cc23-cbe5-4ac6-8bc9-a553dd2d0df4.par
+#BlueLink20 Suspension: Independent System Kinematics`VHF, Hatchback - Rear` VHF` , Kinematics`KinInd_4eb4cc23-cbe5-4ac6-8bc9-a553dd2d0df4
+
+PARSFILE Suspensions\Compliance\CmpInd_13763e89-46c0-4596-bfe8-3c54875493f7.par
+#BlueLink17 Suspension: Independent Compliance, Springs, and Dampers`A-Class, Hatchback - Rear` A-Class` , Compliance`CmpInd_13763e89-46c0-4596-bfe8-3c54875493f7
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f.par
+#BlueLink999 Tire`175/65 R14` Touring Tires` , Tire`Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f.par
+#BlueLink999 Tire`175/65 R14` Touring Tires` , Tire`Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f
+
+symbol_add  <<axle>> -1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_2505038c-0e1e-4b6b-8781-cb3ac91b93fd.par
+#BlueLink0 Vehicle: Sprung Mass`VHF, Hatchback` Meu Veiculo` , Sprung Mass`SprMass_2505038c-0e1e-4b6b-8781-cb3ac91b93fd
+
+PARSFILE Aerodynamics\Aero_Main\Aero_48d30a48-3cc4-46fd-be0c-77e1d8b465f8.par
+#BlueLink1 Aerodynamics: Basic`A-Class, Hatchback Aero` A-Class` , Aerodynamics`Aero_48d30a48-3cc4-46fd-be0c-77e1d8b465f8
+
+PARSFILE Powertrain\Rwd\RWD_7b503ffc-4d73-4af0-9cd7-09a376cb83b8.par
+#BlueLink4 Powertrain: Rear-Wheel Drive`Hibrido Serie 250cc 2RWD optimized` VHF Hibrido (Engine + Dual Rear Motor)` , Powertrain`RWD_7b503ffc-4d73-4af0-9cd7-09a376cb83b8
+
+PARSFILE Brakes\4W_System\Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da.par
+#BlueLink6 Brakes: Four-Wheel System`Hatchback: M/C Press, No ABS` A-Class` , Brake System`Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da
+
+symbol_add  <<axle>> 1
+PARSFILE Animator\Vehicles\AniVeh_6dde9236-a061-4df5-abaa-f2af821aab84.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`VHF,A-Class, Subcompact` Meu Veiculo` , Vehicle 3D Shape`AniVeh_6dde9236-a061-4df5-abaa-f2af821aab84
+
+IOBJECT_RESTORE
+PARSFILE Output\Sensors\MoSen_e040856c-b0ed-4021-99cb-3a0519cb1981.par
+#BlueLink18 Positions, Velocities, and Accelerations`Accelerometer at SM CG` SM and USM CGs` , Misc. Vehicle Data`MoSen_e040856c-b0ed-4021-99cb-3a0519cb1981
+
+*IMAGE_FIT_MODE 1
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_6dde9236-a061-4df5-abaa-f2af821aab84.png
+
+#EMBEDDED_NOTES
+#VHF Urbano genérico ainda em desenvolvimento.
+#
+#O hatchback foi alterado para corresponder ao VHF, assim como o powertrain. O powertrain é composto por um motor de moto de 250cc e 24kW em série com um gerador de 18kW (CarSim). Os motores de tração correspondem a dois motores de 295N.m em cada roda do eixo traseiro.
+#
+#Dados de suspensão, amortecimento, pneus, aerodinâmicas, freios e sistema de esterçamento foram aproveitos de um modelo de veículo genérico classe A.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { Meus Veiculos } VHF Urbano, eRWD Hibrido Serie com controle Vx
+#Library : Vehicle: Assembly
+#DataSet : VHF Urbano, eRWD Hibrido Serie com controle Vx
+#Category: Meus Veiculos
+#FileID  : Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea
+#Created : 10-21-2022 17:55:56
+#Modified: 03-01-2023 13:34:57
+#Product : CarSim 2022.0
+#DataVer : 2022.0
+#VehCode Ind_Ind
+
+END
