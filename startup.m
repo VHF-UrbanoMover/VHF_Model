@@ -9,13 +9,13 @@ addpath(genpath([curPath,'\Scripts']));
 addpath(genpath([curPath,'\Database']));
 
 
-% Path_m_temp=[curPath,'\Database'];
-% fp=findfiles(Path_m_temp,'m');
-% nump=size(fp,1);
-% for i=1:1:nump
-%    run(fp{i,1});
-%    disp('......');
-%    disp(fp{i,1});
-% end
+Path_m_temp=[curPath,'\Database'];
+fp=findfiles(Path_m_temp,'m');
+nump=size(fp,1);
+for i=1:1:nump
+   run(fp{i,1});
+   disp('......');
+   disp(fp{i,1});
+end
 
-clear curPath model_libs
+clear curPath model_libs nump fp Path_m_temp
