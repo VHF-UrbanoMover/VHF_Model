@@ -34,7 +34,7 @@ I_RMS = griddata(throttle, rpm, i_rms, THROTTLE, RPM, 'linear');
 TORQUE = griddata(throttle, rpm, torque, THROTTLE, RPM, 'linear');
 
 % Compile into a MATLAB table
-motorData = table(throttle', rpm', v_dc', i_dc', v_rms', i_rms', torque', ...
+motorData = table(throttle', rpm', v_dc', i_dc', u_rms', i_rms', torque', ...
     'VariableNames', {'Throttle', 'RPM', 'V_DC', 'I_DC', 'V_RMS', 'I_RMS', 'Torque'});
 
 % Save for Simulink

@@ -25,7 +25,7 @@ OPT_INT_METHOD 0
 OPT_VS_FILETYPE 2
 ENTER_PARSFILE Models\Simulink\Simlink_4c21deca-19db-45cb-80e8-be6f3f65bd0c.par
 #FullDataName Models: Simulink`HiL External Powertrain`VHF XiL setup
-SIMULINK_MODEL_FILE ..\Models\hil_vhf_model_setup.slx
+SIMULINK_MODEL_FILE ..\Models\vhf_model_setup.slx
 OPT_IO_SYNC_FM 1
 OPT_INT_METHOD 0
 OPT_IO_UPDATE 1
@@ -77,12 +77,6 @@ LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Slip ratio
 EXIT_PARSFILE IO_Channels\O_Channels\Export_f836abb4-3628-4b73-aaab-0b862af8cd95.par
 
 IPORT_EXP 7
-ENTER_PARSFILE IO_Channels\O_Channels\Export_fd44d245-4863-420d-8acd-3bd9a983453a.par
-#FullDataName I/O Channels: Export`Adhesion coefficients`VHF Controls
-LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Adhesion coefficients
-EXIT_PARSFILE IO_Channels\O_Channels\Export_fd44d245-4863-420d-8acd-3bd9a983453a.par
-
-IPORT_EXP 8
 ENTER_PARSFILE IO_Channels\O_Channels\Export_0f0b649e-29e2-44d7-afd6-f8aaf80cfc65.par
 #FullDataName I/O Channels: Export`Lagged Slip Ratio`VHF Controls
 LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Lagged Slip Ratio
@@ -13520,7 +13514,6 @@ ENDTABLE
 LOG_ENTRY Used Dataset: Surface: Roughness Profiles; { Rough Road - Sample Data Edited } Rough Road 04 - 55 in/mi (0.87 m/km)
 EXIT_PARSFILE Roads\Profiles\Profile_26561b5c-2b57-4c52-9487-718b00d84997.par
 
-OPT_VS_FILETYPE 4
 ENTER_PARSFILE Plot\Setup\Plot_7f5b891d-1f1e-41be-ae5a-9a8a00cf48c6.par
 #FullDataName Plot: Setup`Slip Ratios: Instant`Tire Kinematics
 ADD_ENTITY Plot
@@ -13603,14 +13596,12 @@ EXPORT Kappa_L1
 EXPORT Kappa_L2
 EXPORT Kappa_R1
 EXPORT Kappa_R2
-EXPORT MuX_R1
-EXPORT MuX_L2
 EXPORT KappL_L1
 EXPORT KappL_L2
 EXPORT KappL_R1
 EXPORT KappL_R2
 PORTS_IMP 1,2
-PORTS_EXP 8,1,4,8,1,9,4,2,4
+PORTS_EXP 7,1,4,8,1,9,4,4
 
 
 END

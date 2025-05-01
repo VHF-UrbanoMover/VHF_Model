@@ -6,6 +6,8 @@
 *.mdl.r*
 *.slx.original
 *.mdl.original
+*.slx.orig
+*.mdl.orig
 
 # Derived content-obscured files
 *.p

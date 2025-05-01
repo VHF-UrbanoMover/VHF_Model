@@ -1,52 +1,54 @@
-2025-04-06T13:31:46 Logfile initialized.
-2025-04-06T13:31:46 (Info):    CarSim 2022.0
-2025-04-06T13:31:46 (Info):    -
-2025-04-06T13:31:46 (Info):    command-line: 
-2025-04-06T13:31:46 (Info):    -
-2025-04-06T13:31:46 (Info):    Working Dir: E:\Henrique\Poli\Pos-Mestrado2025\VCU HiL\VHF_Model\CarSim\
-2025-04-06T13:31:46 (Info):    Program Dir: C:\Program Files (x86)\CarSim2022.0_Prog\
-2025-04-06T13:31:46 (Info):    -
-2025-04-06T13:31:46 (Info):    OS Version:        6.2 (build 9200)
-2025-04-06T13:31:46 (Info):    CPU Architecture:  x64
-2025-04-06T13:31:46 (Info):    CPU Count:         8
-2025-04-06T13:31:46 (Info):    CPU Level/Rev:     6/36364
-2025-04-06T13:31:46 (Info):    Start Mem Total:   16235 MB
-2025-04-06T13:31:46 (Info):    Start Mem Used:    69%
-2025-04-06T13:31:46 (Info):    -
-2025-04-06T13:31:46 (Info):    Loaded dataset index cache in 0.02s, 5.5 megabytes.
-2025-04-06T13:31:47 (Info):    Warning: carsimspdgtus is not available in your region: br
-2025-04-06T13:31:47 (Info):    Feature                  Source                       Version  Acquired  Count
-2025-04-06T13:31:47 (Info):    -----------------        -----------------            -------  --------  -----
-2025-04-06T13:31:47 (Info):    carsimbr                 @carsim                      2022     [   ]          
-2025-04-06T13:31:47 (Info):    carsimsguibr             @carsim                      2022     [   ]          
-2025-04-06T13:31:47 (Info):    carsimsmobr              @carsim                      2022     [   ]          
-2025-04-06T13:31:47 (Info):    carsimbr                 @carsimrt                    2024     [   ]          
-2025-04-06T13:31:47 (Info):    carsimsguibr             @carsimrt                    2024     [   ]          
-2025-04-06T13:31:47 (Info):    carsimsmobr              @carsimrt                    2024     [   ]          
-2025-04-06T13:31:47 (Info):    trucksimbr               @carsimrt                    2024     [   ]          
-2025-04-06T13:31:47 (Info):    trucksimsguibr           @carsimrt                    2024     [   ]          
-2025-04-06T13:31:47 (Info):    trucksimsmobr            @carsimrt                    2024     [   ]          
-2025-04-06T13:31:47 (Info):    carsimbr                 @carsimrt2                   2024     [   ]          
-2025-04-06T13:31:47 (Info):    carsimanibr              @carsimrt2                   2024     [   ]          
-2025-04-06T13:31:47 (Info):    carsimlabcarbr           @carsimrt2                   2024     [   ]          
-2025-04-06T13:31:47 (Info):    carsimsguibr             @carsimrt2                   2024     [   ]          
-2025-04-06T13:31:47 (Info):    carsimsmobr              @carsimrt2                   2024     [   ]          
-2025-04-06T13:31:47 (Info):    carsimsmortbr            @carsimrt2                   2024     [   ]          
-2025-04-06T13:31:47 (Info):    Warning: carsimspdgtus is not available in your region: br
-2025-04-06T13:31:55 (Info):    Warning: carsimspdgtus is not available in your region: br
-2025-04-06T13:31:55 (Info):    Acquired [1] license for carsimsguibr
-2025-04-06T13:31:55 (Info):    Acquired [1] license for carsimbr
-2025-04-06T13:31:55 (Info):    Acquired [1] license for carsimsmobr
-2025-04-06T13:31:55 (Info):    License check took 9.53 seconds.
-2025-04-06T13:31:58 (Info):    Initial setup took 2.97 seconds.
-2025-04-06T13:31:58 (Info):    Auto updates took 0.00 seconds.
-2025-04-06T13:32:01 (Info):    Loaded last screen in 2.56 seconds.
-2025-04-06T13:32:01 (Info):    Total init time 15.52 seconds.
-2025-04-06T13:33:09 (Info):    Dataset deleted: Runs\Run_490bfdc0-b5a4-4267-86c4-f678aeaf9588.par { VHF Urbano } Percurso Urbano #1.
-2025-04-06T13:33:17 (Info):    Dataset deleted: Runs\Run_9bc1aea5-9ee6-4df9-b097-09948315df94.par { VHF Urbano } Percurso Urbano w/o regenerative brake.
-2025-04-06T13:34:35 (Info):    1262 index cache entries written in 0.000s
-2025-04-06T13:34:36 (Info):    Warning: carsimspdgtus is not available in your region: br
-2025-04-06T13:34:36 (Info):    Released [1] license for carsimsguibr
-2025-04-06T13:34:36 (Info):    Released [1] license for carsimbr
-2025-04-06T13:34:36 (Info):    Released [1] license for carsimsmobr
-2025-04-06T13:34:36 (Info):    Exiting application...
+2025-04-26T14:28:04 Logfile initialized.
+2025-04-26T14:28:04 (Info):    CarSim 2022.0
+2025-04-26T14:28:04 (Info):    -
+2025-04-26T14:28:04 (Info):    command-line: 
+2025-04-26T14:28:04 (Info):    -
+2025-04-26T14:28:04 (Info):    Working Dir: E:\Henrique\Poli\Pos-Mestrado2025\VCU HiL\VHF_Model\CarSim\
+2025-04-26T14:28:04 (Info):    Program Dir: C:\Program Files (x86)\CarSim2022.0_Prog\
+2025-04-26T14:28:04 (Info):    -
+2025-04-26T14:28:04 (Info):    OS Version:        6.2 (build 9200)
+2025-04-26T14:28:04 (Info):    CPU Architecture:  x64
+2025-04-26T14:28:04 (Info):    CPU Count:         8
+2025-04-26T14:28:04 (Info):    CPU Level/Rev:     6/36364
+2025-04-26T14:28:04 (Info):    Start Mem Total:   16235 MB
+2025-04-26T14:28:04 (Info):    Start Mem Used:    90%
+2025-04-26T14:28:04 (Info):    -
+2025-04-26T14:28:04 (Info):    Could not load dataset index cache "Configuration\index.cache"
+2025-04-26T14:28:06 (Info):    Feature                  Source                       Version  Acquired  Count
+2025-04-26T14:28:06 (Info):    -----------------        -----------------            -------  --------  -----
+2025-04-26T14:28:06 (Info):    carsimbr                 @carsimrt                    2024     [   ]          
+2025-04-26T14:28:06 (Info):    carsimsguibr             @carsimrt                    2024     [   ]          
+2025-04-26T14:28:06 (Info):    carsimsmobr              @carsimrt                    2024     [   ]          
+2025-04-26T14:28:06 (Info):    trucksimbr               @carsimrt                    2024     [   ]          
+2025-04-26T14:28:06 (Info):    trucksimsguibr           @carsimrt                    2024     [   ]          
+2025-04-26T14:28:06 (Info):    trucksimsmobr            @carsimrt                    2024     [   ]          
+2025-04-26T14:28:06 (Info):    carsimbr                 @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimdspacebr           @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimlabcarbr           @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimsguibr             @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimsmobr              @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimsmortbr            @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimoptionsrtbr        @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimebr                @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimengmtbr            @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimlinuxbr            @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimmvbr               @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimopalbr             @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimepibr              @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimfbr                @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimlinuxsolverbr      @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimlabviewbr          @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimspdgtbr            @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimwdsbr              @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimanibr              @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimtbr                @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:06 (Info):    carsimcanoebr            @carsimrt2                   2025     [   ]          
+2025-04-26T14:28:16 (Info):    Acquired [1] license for carsimsguibr
+2025-04-26T14:28:16 (Info):    Acquired [1] license for carsimbr
+2025-04-26T14:28:16 (Info):    Acquired [1] license for carsimsmobr
+2025-04-26T14:28:16 (Info):    License check took 11.22 seconds.
+2025-04-26T14:28:30 (Info):    Indexed whole database in 13.89s
+2025-04-26T14:28:34 (Info):    Initial setup took 3.88 seconds.
+2025-04-26T14:28:34 (Info):    Auto updates took 0.00 seconds.
+2025-04-26T14:28:35 (Info):    Loaded last screen in 0.66 seconds.
+2

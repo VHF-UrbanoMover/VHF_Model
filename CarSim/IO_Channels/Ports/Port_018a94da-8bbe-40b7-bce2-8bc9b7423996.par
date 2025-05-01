@@ -1,7 +1,7 @@
 PARSFILE
 #FullDataName I/O Channels: Ports`XiL External Powertrain`XiL IO setup
 #RingCtrl0 1
-#RingCtrl1 8
+#RingCtrl1 7
 #CheckBox0 0    
 
 IPORT_IMP 1
@@ -33,12 +33,8 @@ PARSFILE IO_Channels\O_Channels\Export_f836abb4-3628-4b73-aaab-0b862af8cd95.par
 #BlueLink25 I/O Channels: Export`Slip ratio` VHF Controls` , Baseline run`Export_f836abb4-3628-4b73-aaab-0b862af8cd95
 
 IPORT_EXP 7
-PARSFILE IO_Channels\O_Channels\Export_fd44d245-4863-420d-8acd-3bd9a983453a.par
-#BlueLink26 I/O Channels: Export`Adhesion coefficients` VHF Controls` , Baseline run`Export_fd44d245-4863-420d-8acd-3bd9a983453a
-
-IPORT_EXP 8
 PARSFILE IO_Channels\O_Channels\Export_0f0b649e-29e2-44d7-afd6-f8aaf80cfc65.par
-#BlueLink27 I/O Channels: Export`Lagged Slip Ratio` VHF Controls` , Baseline run`Export_0f0b649e-29e2-44d7-afd6-f8aaf80cfc65
+#BlueLink26 I/O Channels: Export`Lagged Slip Ratio` VHF Controls` , Baseline run`Export_0f0b649e-29e2-44d7-afd6-f8aaf80cfc65
 
 
 LOG_ENTRY Used Dataset: I/O Channels: Ports; { XiL IO setup } XiL External Powertrain
@@ -47,7 +43,7 @@ LOG_ENTRY Used Dataset: I/O Channels: Ports; { XiL IO setup } XiL External Power
 #Category: XiL IO setup
 #FileID  : Port_018a94da-8bbe-40b7-bce2-8bc9b7423996
 #Created : 04-06-2025 11:24:41
-#Modified: 04-06-2025 11:30:13
+#Modified: 04-26-2025 14:40:52
 #Product : CarSim 2022.0
 #DataVer : 2022.0
 #VehCode I/O Ports
