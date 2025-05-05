@@ -3,6 +3,7 @@ throttle = [0.43, 0.395, 0.36, 0.325, 0.288, 0.253, 0.385, 0.355, 0.327, 0.299, 
 rpm = [1001.5, 999.58, 1000.1, 999.27, 999.28, 998.74, 798.98, 801.27, 799.56, 800.17, 800.63, 600.32, 599.45, 600.24, 600.5, 600.01, 600.56, 600.14, 600.99, 400.8, 397.68, 393.32, 400.96, 401.22, 400.95, 401.03, 400.85, 400.95, 200.95, 201.26, 200.0, 200.0];
 v_dc = [95.79, 98.69, 101.22, 104.24, 107.3, 109.91, 99.25, 101.55, 103.84, 106.12, 107.51, 93.71, 97.72, 99.77, 101.7, 103.83, 105.75, 107.65, 109.48, 95.9, 90.66, 93.88, 95.66, 97.08, 95.11, 95.21, 96.47, 94.21, 97.82, 99.01, 100.11, 100.1];
 i_dc = [118.96, 96.38, 76.59, 57.08, 38.55, 21.81, 94.25, 76.79, 60.27, 45.23, 31.22, 131.58, 99.31, 84.44, 70.79, 57.21, 45.83, 34.67, 23.75, 105.65, 86.55, 64.56, 52.97, 43.29, 35.73, 26.82, 18.31, 10.31, 27.43, 19.17, 5.063, 5.063];
+power_dc = 1e3*[11.403 9.518 7.756 5.953 4.139 2.398 9.357 7.8 6.259 4.801 3.358 12.333 9.705 8.425 7.2 5.94 4.846 3.733 2.601 10.133 7.847 6.061 5.067 4.203 3.398 2.554 1.766 0.971 2.683 1.898 0.507 0.507];
 u1 = [71.71, 72.37, 73.01, 73.79, 74.58, 75.21, 65.75, 66.15, 66.42, 66.83, 67.0, 57.917, 58.234, 58.324, 58.44, 58.559, 58.714, 58.864, 59.013, 50.403, 47.633, 47.222, 47.408, 47.371, 46.353, 45.848, 45.689, 44.624, 35.349, 34.649, 32.578, 32.578];
 u2 = [71.88, 72.51, 73.12, 73.88, 74.69, 75.28, 65.87, 66.26, 66.51, 66.86, 67.06, 58.091, 58.358, 58.419, 58.496, 58.578, 58.748, 58.858, 59.022, 50.716, 47.837, 47.352, 47.511, 47.438, 46.426, 45.903, 45.707, 44.631, 35.335, 34.603, 32.534, 32.534];
 u3 = [71.63, 72.27, 72.92, 73.66, 74.48, 75.13, 65.68, 66.06, 66.32, 66.69, 66.81, 57.837, 58.156, 58.247, 58.31, 58.441, 58.567, 58.664, 58.77, 50.381, 47.553, 47.13, 47.307, 47.241, 46.225, 45.714, 45.522, 44.48, 35.192, 34.407, 32.462, 32.462];
@@ -22,16 +23,24 @@ u_rms = mean([u1; u2; u3], 1);
 i_rms = mean([i1; i2; i3], 1);
 
 % Define grid points for Throttle and RPM
-throttle_grid = unique(throttle);
-rpm_grid = unique(rpm);
+% throttle_grid = unique(throttle);
+% rpm_grid = unique(rpm);
+throttle_grid = min(throttle):0.01:max(throttle);
+rpm_grid = min(rpm):10:max(rpm);
+torque_grid = min(torque):1:max(torque);
 
 % Interpolate data onto a grid using griddata
 [THROTTLE, RPM] = meshgrid(throttle_grid, rpm_grid);
-V_DC_load = griddata(throttle, rpm, v_dc, THROTTLE, RPM, 'linear');
-I_DC_load = griddata(throttle, rpm, i_dc, THROTTLE, RPM, 'linear');
-V_RMS = griddata(throttle, rpm, u_rms, THROTTLE, RPM, 'linear');
-I_RMS = griddata(throttle, rpm, i_rms, THROTTLE, RPM, 'linear');
-TORQUE = griddata(throttle, rpm, torque, THROTTLE, RPM, 'linear');
+V_DC_load = griddata(throttle, rpm, v_dc, THROTTLE, RPM, 'natural');
+I_DC_load = griddata(throttle, rpm, i_dc, THROTTLE, RPM, 'natural');
+POWER_DC = griddata(throttle, rpm, power_dc, THROTTLE, RPM, 'natural');
+V_RMS = griddata(throttle, rpm, u_rms, THROTTLE, RPM, 'natural');
+I_RMS = griddata(throttle, rpm, i_rms, THROTTLE, RPM, 'natural');
+TORQUE = griddata(throttle, rpm, torque, THROTTLE, RPM, 'natural');
+
+% Interpolate data to have throttle as output
+[TORQUE_t, RPM_t] = meshgrid(torque_grid, rpm_grid);
+THROTTLE_t = griddata(torque, rpm, throttle, TORQUE_t, RPM_t, 'natural');
 
 % Compile into a MATLAB table
 motorData = table(throttle', rpm', v_dc', i_dc', u_rms', i_rms', torque', ...
