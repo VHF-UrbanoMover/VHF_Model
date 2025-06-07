@@ -2,12 +2,14 @@
 P = 10;                     % Número de polos
 Ra = 0.00194;               % Resistência de armadura [Ω]
 Ls = 77e-6;                 % Indutância síncrona [H]
-Ke = 0.0054;                % Constante de tensão [V/(rad/s)]
+Ke = 0.0054;                % Constante de tensão [V/rpm]
 
 %% 2. Parâmetros do Retificador Ativo
 eta_rect = 0.95;            % Eficiência do retificador
 V_drop = 0.5;               % Queda de tensão por chave [V]
 R_rect = 0.005;             % Resistência equivalente do retificador [Ω]
+Vd = 0.8;
+Cr = 4e-3;
 
 %% 3. Parâmetros do Conversor DC-DC Boost
 eta_conv = 0.9;             % Eficiência do conversor
