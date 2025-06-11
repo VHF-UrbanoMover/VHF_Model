@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Crossing with Curbs } South Ent
 #Category: Crossing with Curbs
 #FileID  : RoadSeg_a09c2235-681b-48de-a620-d24ab3577bd4
 #Modified: 05-28-2021 15:00:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Path Segment Builder
 
 END

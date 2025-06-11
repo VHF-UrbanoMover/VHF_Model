@@ -49,8 +49,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
 #Category: Tires
 #FileID  : ShpGrp_f0838b2d-45fa-4938-8ac7-8b6701f49e48
 #Modified: 05-28-2021 15:03:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shape Assembly
 
 END

@@ -1,6 +1,5 @@
 PARSFILE
 #FullDataName I/O Channels: Export`Lagged Slip Ratio`VHF Controls
-#RingCtrl0 1
 #RingCtrl1 1
 
 
@@ -17,16 +16,15 @@ EXPORT KappL_R2
 #ENDMYellow
 
 
-
 LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Lagged Slip Ratio
 #Library : I/O Channels: Export
 #DataSet : Lagged Slip Ratio
 #Category: VHF Controls
 #FileID  : Export_0f0b649e-29e2-44d7-afd6-f8aaf80cfc65
 #Created : 05-28-2024 09:33:09
-#Modified: 05-28-2024 09:33:46
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Export Channels
 
 END

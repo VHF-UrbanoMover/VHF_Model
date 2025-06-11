@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { Touring Tires } 225/60 R18
 #Category: Touring Tires
 #FileID  : TireFy_546b71a0-0127-4f2c-8fbd-755756778489
 #Modified: 05-28-2021 14:58:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fy
 
 END

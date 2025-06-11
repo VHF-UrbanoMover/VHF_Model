@@ -56,8 +56,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; { Strut } Fr
 #Category: Strut
 #FileID  : LatJnc_c53ecfc6-5914-4478-97c7-9423e28aec52
 #Modified: 05-28-2021 14:59:10
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Lateral Movement
 
 END

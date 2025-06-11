@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain VHF } Battery Open-Circuit V
 #FileID  : GenTab_fd0240fc-edc6-46dc-9279-278e991cfa22
 #Created : 07-01-2022 17:32:08
 #Modified: 07-01-2022 17:34:42
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_7fd93935-5e80-4d39-bf60-d7ff5dbaa0af.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 17
@@ -82,9 +83,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { Obstacle Avoidance } Path Update D
 #DataSet : Path Update DLC: Simulink, Spline
 #Category: Obstacle Avoidance
 #FileID  : Run_ea53bb91-f636-4b09-a400-9dbe2d1f05fa
-#Modified: 12-13-2021 15:23:37
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

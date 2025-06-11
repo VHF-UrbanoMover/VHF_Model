@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Pickup Trucks } Reg Cab 8 Bed, Duals
 #Category: Pickup Trucks
 #FileID  : Group_6b939a0b-86f8-45cb-8b4c-cc149608f5e4
 #Modified: 05-28-2021 15:03:27
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Animator Group
 
 END

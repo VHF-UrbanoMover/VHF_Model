@@ -14,16 +14,15 @@ SUSP_DIVE_JNC_OTHER_SIDE_CONSTANT 0
 #RadioCtrl0 0    
 #RadioCtrl1 0    
 
-SUSP_DIVE_AXLE_CONSTANT 0
 
 LOG_ENTRY Used Dataset: Suspension: Dive Angle (Caster Change); { Artic Bus } Constant: Zero Dive Angle (deg)
 #Library : Suspension: Dive Angle (Caster Change)
 #DataSet : Constant: Zero Dive Angle (deg)
 #Category: Artic Bus
 #FileID  : Dive_3025bf36-73d6-49f9-964f-5aaab3d58114
-#Modified: 11-11-2021 13:48:22
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:49
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Dive
 
 END

@@ -1,17 +1,17 @@
 PARSFILE
 #FullDataName Generic Table`Ly Variable, Scaled to Tire`Artic Bus
-#RingCtrl0 SPLINE_FLAT
-#RingCtrl1 MULTIPLY
-#RingCtrl2 SPLINE
-#CheckBox0 1    
-
-L_RELAX_Y_COMBINE MULTIPLY
 #MiscYellow0
 SET_UNITS L_RELAX_Y_TABLE m
 L_RELAX_Y_GAIN = RRE*2
 FZ_SCALE_L_RELAX_Y = FZ_REF
 #ENDMYellow
 
+#RingCtrl0 SPLINE_FLAT
+#RingCtrl1 MULTIPLY
+#RingCtrl2 SPLINE
+#CheckBox0 1    
+
+L_RELAX_Y_COMBINE MULTIPLY
 #DiagramOne0
 L_RELAX_Y_TABLE SPLINE_FLAT
 -10, 0.039175
@@ -85,9 +85,9 @@ LOG_ENTRY Used Dataset: Generic Table; { Artic Bus } Ly Variable, Scaled to Tire
 #DataSet : Ly Variable, Scaled to Tire
 #Category: Artic Bus
 #FileID  : GenTab_08fc893d-bf07-451a-8ac2-588ae864bff0
-#Modified: 11-11-2021 13:48:16
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:29
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

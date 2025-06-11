@@ -100,8 +100,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear Differential; { Limited Slip and Viscou
 #Category: Limited Slip and Viscous Coupling
 #FileID  : DiffR_da4842d3-1cfe-4768-958e-30a52829d844
 #Modified: 05-28-2021 14:59:36
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rear Differential
 
 END

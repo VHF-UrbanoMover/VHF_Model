@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Events; { Recording a Lap } Stop Condition: Record Exact
 #Category: Recording a Lap
 #FileID  : Events_a81087d1-a61e-4368-b969-d92ee798f876
 #Modified: 05-28-2021 14:59:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Events
 
 END

@@ -5,6 +5,7 @@ IUNIT_INCREMENT
 NAXLES 1
 IOBJECT_SAVE
 symbol_add  <<unit>> 1
+symbol_add  <<axle>> 1
 #CheckBox1 0    
 #CheckBox2 1    
 
@@ -13,44 +14,18 @@ symbol_add  <<unit>> 1
 
 * Trailer front suspension
 iaxle 1
-ADD_REFERENCE_FRAME Axle 3
-SET_EULER_ANGLES yaw_roll_pitch
-SET_X_NAME X_A3
-WRT_X_A3
-ANI_X_A3
-SET_Y_NAME Y_A3
-WRT_Y_A3
-ANI_Y_A3
-SET_Z_NAME Z_A3
-WRT_Z_A3
-ANI_Z_A3
-SET_YAW_NAME Yaw_2
-WRT_Yaw_2
-ANI_Yaw_2
-SET_PITCH_NAME Pitch_A3
-WRT_Pitch_A3
-ANI_Pitch_A3
-SET_ROLL_NAME Roll_A3
-WRT_Roll_A3
-ANI_Roll_A3
-X_REF_LENGTH 1
-Y_REF_LENGTH 1
-Z_REF_LENGTH 1
-X_LENGTH 1
-Y_LENGTH 1
-Z_LENGTH 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+
 PARSFILE Suspensions\Compliance_SA\CmpSA_077f68e4-faa3-4c34-bb07-d2ab6cde4d87.par
 #BlueLink10 Suspension: Solid Axle Compliance, Springs, and Dampers`10t Air: +60 mm, -60 mm Travel` Artic Bus` , Compliance`CmpSA_077f68e4-faa3-4c34-bb07-d2ab6cde4d87
 
 PARSFILE Suspensions\Kin_Solid\KinSA_2fd4e061-dd7f-4f07-9b88-47405860b960.par
 #BlueLink11 Suspension: Solid Axle System Kinematics`10t Trailer, Dual Wheels` Artic Bus` , Kinematics`KinSA_2fd4e061-dd7f-4f07-9b88-47405860b960
 
-symbol_push  <<axle>> 3
-OPT_STEER_EXT 1
 PARSFILE Tires\Group_2a\Tire2a_c104e366-6203-4a26-ab90-82bcdf1e29c2.par
 #BlueLink12 Tires for Any Vehicle Unit`510 mm, Trailer, Dual` Artic Bus` , Duals`Tire2a_c104e366-6203-4a26-ab90-82bcdf1e29c2
 
-
+symbol_add  <<axle>> -1
 * sprung mass data
 ADD_REFERENCE_FRAME TrlSprungMass
 SET_EULER_ANGLES YAW_PITCH_ROLL
@@ -103,9 +78,9 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer with 1 Axle; Artic Bus - Rear
 #Category: 
 #FileID  : Trl_1a_9b0e6a41-2fdf-4d39-b471-c708fbcadaba
 #Created : 11-24-2021 17:03:31
-#Modified: 12-10-2021 15:11:39
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode S
 
 END

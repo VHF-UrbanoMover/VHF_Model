@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; { Artic Bus
 #Category: Artic Bus
 #FileID  : AirCFx_39571890-a8a9-4604-9547-15e449a65eef
 #Modified: 11-11-2021 13:48:18
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Drag vs. Aero Slip
 
 END

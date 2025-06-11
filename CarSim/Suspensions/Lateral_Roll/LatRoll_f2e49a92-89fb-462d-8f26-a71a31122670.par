@@ -68,8 +68,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; { A
 #Category: Artic Bus
 #FileID  : LatRoll_f2e49a92-89fb-462d-8f26-a71a31122670
 #Modified: 11-11-2021 13:48:19
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Lateral Movement
 
 END

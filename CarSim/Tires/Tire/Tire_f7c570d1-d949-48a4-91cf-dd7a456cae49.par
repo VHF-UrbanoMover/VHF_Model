@@ -73,8 +73,8 @@ LOG_ENTRY Used Dataset: Tire; { Touring Tires } 225/60 R18
 #Category: Touring Tires
 #FileID  : Tire_f7c570d1-d949-48a4-91cf-dd7a456cae49
 #Modified: 05-28-2021 14:59:07
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

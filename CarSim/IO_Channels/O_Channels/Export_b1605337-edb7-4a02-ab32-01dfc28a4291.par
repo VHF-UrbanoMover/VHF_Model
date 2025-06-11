@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Export; { ADAS and Active Safety } Export:
 #Category: ADAS and Active Safety
 #FileID  : Export_b1605337-edb7-4a02-ab32-01dfc28a4291
 #Modified: 05-28-2021 15:02:23
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Export Channels
 
 END

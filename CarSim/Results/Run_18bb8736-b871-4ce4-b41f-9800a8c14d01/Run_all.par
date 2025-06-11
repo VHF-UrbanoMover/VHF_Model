@@ -6,7 +6,7 @@ PARSFILE
 ! It contains the contents of that file plus the contents of any files linked
 ! with the "PARSFILE" keyword.
 
-! File created by CarSim 2022.0
+! File created by CarSim 2024.1
 
 PRODUCT_NAME CarSim
 MODEL_LAYOUT i_i
@@ -26,9 +26,7 @@ OPT_VS_FILETYPE 2
 ENTER_PARSFILE Models\Simulink\Simlink_4c21deca-19db-45cb-80e8-be6f3f65bd0c.par
 #FullDataName Models: Simulink`HiL External Powertrain`VHF XiL setup
 SIMULINK_MODEL_FILE ..\Models\vhf_model_setup.slx
-OPT_IO_SYNC_FM 1
 OPT_INT_METHOD 0
-OPT_IO_UPDATE 1
 OPT_IO_SYNC_FM 1
 tstep 0.0005
 iprint 50
@@ -133,6 +131,7 @@ NAXLES 2
 IOBJECT_SAVE
 ENTER_PARSFILE Steering\System2\StrSys2_15589801-d4e7-488f-9884-031d53c5d85c.par
 #FullDataName Steering`A-Class, Hbk: Manual, R&P`CS A-Class
+INSTALL_STEERING
 I_COL 0.02
 I_GEAR_IN 0.0002
 D_COL 0.002
@@ -171,7 +170,8 @@ iaxle 1
 OPT_POWER 0
 OPT_RACK 1
 OPT_STEER_EXT 0
-RACK_TRAVEL_COEFFICIENT 36.765/360
+SET_UNITS_TABLE_ROW RACK_TRAVEL_TABLE rev
+RACK_TRAVEL_COEFFICIENT 36.765
 D_RACK 4.0
 HYS_RACK 150
 BETA_RACK 0.1
@@ -682,23 +682,6 @@ SUSP_DIVE_TABLE SPLINE
 70, -0.311062
 ENDTABLE
 SUSP_DIVE_JNC_OTHER_SIDE_CONSTANT 0
-SUSP_DIVE_AXLE_TABLE SPLINE
--70, 0.282157
--60, 0.243294
--50, 0.204028
--40, 0.164309
--30, 0.124089
--20, 0.083323
--10, 0.041971
-0, 0
-10, -0.042617
-20, -0.085893
-30, -0.129828
-40, -0.174396
-50, -0.21954
-60, -0.265153
-70, -0.311062
-ENDTABLE
 LOG_ENTRY Used Dataset: Suspension: Dive Angle (Caster Change); { Strut } Front Strut - Dive Angle
 EXIT_PARSFILE Suspensions\Dive\Dive_36ccca6d-bb82-4b12-b31e-e1aaa482edaa.par
 
@@ -723,23 +706,6 @@ SUSP_X_TABLE SPLINE
 70, -0.297272
 ENDTABLE
 SUSP_X_JNC_OTHER_SIDE_CONSTANT 0
-SUSP_X_AXLE_TABLE SPLINE
--70, -0.779336
--60, -0.596671
--50, -0.438583
--40, -0.304523
--30, -0.194019
--20, -0.106665
--10, -0.042102
-0, 0
-10, 0.019968
-20, 0.018152
-30, -0.005034
-40, -0.049059
-50, -0.113201
-60, -0.196434
-70, -0.297272
-ENDTABLE
 LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; { Strut } Front Strut -  Longitudinal Movement
 EXIT_PARSFILE Suspensions\Longitudinal\SusX_35125851-77f6-44c6-bcb0-732d9aa828f0.par
 
@@ -862,23 +828,6 @@ SUSP_DIVE_TABLE SPLINE
 70, -0.311062
 ENDTABLE
 SUSP_DIVE_JNC_OTHER_SIDE_CONSTANT 0
-SUSP_DIVE_AXLE_TABLE SPLINE
--70, 0.282157
--60, 0.243294
--50, 0.204028
--40, 0.164309
--30, 0.124089
--20, 0.083323
--10, 0.041971
-0, 0
-10, -0.042617
-20, -0.085893
-30, -0.129828
-40, -0.174396
-50, -0.21954
-60, -0.265153
-70, -0.311062
-ENDTABLE
 LOG_ENTRY Used Dataset: Suspension: Dive Angle (Caster Change); { Strut } Front Strut - Dive Angle
 EXIT_PARSFILE Suspensions\Dive\Dive_36ccca6d-bb82-4b12-b31e-e1aaa482edaa.par
 
@@ -903,23 +852,6 @@ SUSP_X_TABLE SPLINE
 70, -0.297272
 ENDTABLE
 SUSP_X_JNC_OTHER_SIDE_CONSTANT 0
-SUSP_X_AXLE_TABLE SPLINE
--70, -0.779336
--60, -0.596671
--50, -0.438583
--40, -0.304523
--30, -0.194019
--20, -0.106665
--10, -0.042102
-0, 0
-10, 0.019968
-20, 0.018152
-30, -0.005034
-40, -0.049059
-50, -0.113201
-60, -0.196434
-70, -0.297272
-ENDTABLE
 LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; { Strut } Front Strut -  Longitudinal Movement
 EXIT_PARSFILE Suspensions\Longitudinal\SusX_35125851-77f6-44c6-bcb0-732d9aa828f0.par
 
@@ -1249,10 +1181,10 @@ IT 0.8
 IT_XXZZ 0.4
 ENTER_PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
 #FullDataName Generic Table`Lx Variable, Scaled to Tire`Tire Relaxation Length
-L_RELAX_X_COMBINE MULTIPLY
 SET_UNITS L_RELAX_X_TABLE m
 L_RELAX_X_GAIN = RRE/5
 FZ_SCALE_L_RELAX_X = FZ_REF
+L_RELAX_X_COMBINE MULTIPLY
 L_RELAX_X_TABLE SPLINE_FLAT
 -0.1, 0.13526
 -0.095, 0.13793
@@ -1305,10 +1237,10 @@ EXIT_PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
 
 ENTER_PARSFILE Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par
 #FullDataName Generic Table`Ly Variable, Scaled to Tire`Tire Relaxation Length
-L_RELAX_Y_COMBINE MULTIPLY
 SET_UNITS L_RELAX_Y_TABLE m
 L_RELAX_Y_GAIN = RRE*2
 FZ_SCALE_L_RELAX_Y = FZ_REF
+L_RELAX_Y_COMBINE MULTIPLY
 L_RELAX_Y_TABLE SPLINE_FLAT
 -10, 0.039175
 -9.5, 0.042142
@@ -1673,10 +1605,10 @@ IT 0.8
 IT_XXZZ 0.4
 ENTER_PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
 #FullDataName Generic Table`Lx Variable, Scaled to Tire`Tire Relaxation Length
-L_RELAX_X_COMBINE MULTIPLY
 SET_UNITS L_RELAX_X_TABLE m
 L_RELAX_X_GAIN = RRE/5
 FZ_SCALE_L_RELAX_X = FZ_REF
+L_RELAX_X_COMBINE MULTIPLY
 L_RELAX_X_TABLE SPLINE_FLAT
 -0.1, 0.13526
 -0.095, 0.13793
@@ -1729,10 +1661,10 @@ EXIT_PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
 
 ENTER_PARSFILE Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par
 #FullDataName Generic Table`Ly Variable, Scaled to Tire`Tire Relaxation Length
-L_RELAX_Y_COMBINE MULTIPLY
 SET_UNITS L_RELAX_Y_TABLE m
 L_RELAX_Y_GAIN = RRE*2
 FZ_SCALE_L_RELAX_Y = FZ_REF
+L_RELAX_Y_COMBINE MULTIPLY
 L_RELAX_Y_TABLE SPLINE_FLAT
 -10, 0.039175
 -9.5, 0.042142
@@ -2041,29 +1973,6 @@ SUSP_X_TABLE SPLINE
 150, -2.03055
 ENDTABLE
 SUSP_X_JNC_OTHER_SIDE_CONSTANT 0
-SUSP_X_AXLE_TABLE SPLINE
--150, 34.0109
--135, 29.0492
--120, 24.4735
--105, 20.2638
--90, 16.4039
--75, 12.8801
--60, 9.68167
--45, 6.79994
--30, 4.22844
--15, 1.96266
-0, 0
-15, -1.66025
-30, -3.01692
-45, -4.06686
-60, -4.8048
-75, -5.22318
-90, -5.31173
-105, -5.05706
-120, -4.44179
-135, -3.4432
-150, -2.03055
-ENDTABLE
 LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; { Tri-Link Strut } Rr. TLS: Longitudinal Movement
 EXIT_PARSFILE Suspensions\Longitudinal\SusX_dd301e65-3ebf-409d-85f2-eefd1a6795d9.par
 
@@ -2217,29 +2126,6 @@ SUSP_X_TABLE SPLINE
 150, -2.03055
 ENDTABLE
 SUSP_X_JNC_OTHER_SIDE_CONSTANT 0
-SUSP_X_AXLE_TABLE SPLINE
--150, 34.0109
--135, 29.0492
--120, 24.4735
--105, 20.2638
--90, 16.4039
--75, 12.8801
--60, 9.68167
--45, 6.79994
--30, 4.22844
--15, 1.96266
-0, 0
-15, -1.66025
-30, -3.01692
-45, -4.06686
-60, -4.8048
-75, -5.22318
-90, -5.31173
-105, -5.05706
-120, -4.44179
-135, -3.4432
-150, -2.03055
-ENDTABLE
 LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; { Tri-Link Strut } Rr. TLS: Longitudinal Movement
 EXIT_PARSFILE Suspensions\Longitudinal\SusX_dd301e65-3ebf-409d-85f2-eefd1a6795d9.par
 
@@ -2591,10 +2477,10 @@ IT 0.8
 IT_XXZZ 0.4
 ENTER_PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
 #FullDataName Generic Table`Lx Variable, Scaled to Tire`Tire Relaxation Length
-L_RELAX_X_COMBINE MULTIPLY
 SET_UNITS L_RELAX_X_TABLE m
 L_RELAX_X_GAIN = RRE/5
 FZ_SCALE_L_RELAX_X = FZ_REF
+L_RELAX_X_COMBINE MULTIPLY
 L_RELAX_X_TABLE SPLINE_FLAT
 -0.1, 0.13526
 -0.095, 0.13793
@@ -2647,10 +2533,10 @@ EXIT_PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
 
 ENTER_PARSFILE Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par
 #FullDataName Generic Table`Ly Variable, Scaled to Tire`Tire Relaxation Length
-L_RELAX_Y_COMBINE MULTIPLY
 SET_UNITS L_RELAX_Y_TABLE m
 L_RELAX_Y_GAIN = RRE*2
 FZ_SCALE_L_RELAX_Y = FZ_REF
+L_RELAX_Y_COMBINE MULTIPLY
 L_RELAX_Y_TABLE SPLINE_FLAT
 -10, 0.039175
 -9.5, 0.042142
@@ -3015,10 +2901,10 @@ IT 0.8
 IT_XXZZ 0.4
 ENTER_PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
 #FullDataName Generic Table`Lx Variable, Scaled to Tire`Tire Relaxation Length
-L_RELAX_X_COMBINE MULTIPLY
 SET_UNITS L_RELAX_X_TABLE m
 L_RELAX_X_GAIN = RRE/5
 FZ_SCALE_L_RELAX_X = FZ_REF
+L_RELAX_X_COMBINE MULTIPLY
 L_RELAX_X_TABLE SPLINE_FLAT
 -0.1, 0.13526
 -0.095, 0.13793
@@ -3071,10 +2957,10 @@ EXIT_PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
 
 ENTER_PARSFILE Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par
 #FullDataName Generic Table`Ly Variable, Scaled to Tire`Tire Relaxation Length
-L_RELAX_Y_COMBINE MULTIPLY
 SET_UNITS L_RELAX_Y_TABLE m
 L_RELAX_Y_GAIN = RRE*2
 FZ_SCALE_L_RELAX_Y = FZ_REF
+L_RELAX_Y_COMBINE MULTIPLY
 L_RELAX_Y_TABLE SPLINE_FLAT
 -10, 0.039175
 -9.5, 0.042142
@@ -3346,8 +3232,7 @@ LOG_ENTRY Used Dataset: Tire; { Touring Tires } 175/65 R14
 EXIT_PARSFILE Tires\Tire\Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f.par
 
 WRITE_ADD_REFERENCE_FRAME_BODY
-ADD_REFERENCE_FRAME sprung mass body 1
-
+ADD_REFERENCE_FRAME Sprung mass
 SET_EULER_ANGLES YAW_PITCH_ROLL
 SET_X_NAME Xo
 WRT_Xo
@@ -3386,8 +3271,7 @@ IXY_SU 0
 IYZ_SU 0
 Z_LENGTH 1365
 Y_LENGTH 1291
-LEN_SM 3000
-LX_F_SM 400
+X_LENGTH 1917
 H_WC 274
 iside 2
 H_WC 274
@@ -3398,8 +3282,10 @@ iside 2
 H_WC 274
 iaxle 2
 iside 1
+LX_F_SM 400
 HT_SM 1365
 WID_SM 1291
+LEN_SM 3000
 LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Meu Veiculo } VHF, Hatchback
 EXIT_PARSFILE Vehicles\Sprung_Mass\SprMass_2505038c-0e1e-4b6b-8781-cb3ac91b93fd.par
 
@@ -3505,6 +3391,7 @@ EXIT_PARSFILE Aerodynamics\Aero_Main\Aero_48d30a48-3cc4-46fd-be0c-77e1d8b465f8.p
 ENTER_PARSFILE Powertrain\Rwd\RWD_7b1d5fd2-8772-4b5c-b710-efa32adc5a42.par
 #FullDataName Powertrain: Rear-Wheel Drive`External Powertrain`External
 INSTALL_POWERTRAIN 2
+OPT_PT 2
 R_REAR_DRIVE_SC 1
 OPT_ENGINE_PITCH_REACTION(2) 1
 INSTALL_ENGINE
@@ -3517,9 +3404,9 @@ OPT_TRANS_INTERNAL 0
 IDIFF 2
 OPT_DIFF_INTERNAL 0
 ENTER_PARSFILE Powertrain\Extrans\TransExt_74463034-a96c-4ef5-b124-a291ee56a705.par
-#FullDataName Powertrain: Transmission (External)`External Transmission`External
+#FullDataName Powertrain: Transmission (External, Deprecated)`External Transmission`External
 OPT_SHIFT_INTERNAL 0
-LOG_ENTRY Used Dataset: Powertrain: Transmission (External); { External } External Transmission
+LOG_ENTRY Used Dataset: Powertrain: Transmission (External, Deprecated); { External } External Transmission
 EXIT_PARSFILE Powertrain\Extrans\TransExt_74463034-a96c-4ef5-b124-a291ee56a705.par
 
 IDIFF 2
@@ -3600,13 +3487,13 @@ EXIT_PARSFILE Brakes\4W_System\Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da.par
 
 ENTER_PARSFILE Animator\Vehicles\AniVeh_6dde9236-a061-4df5-abaa-f2af821aab84.par
 #FullDataName Animator: Vehicles and Sensor Targets`VHF,A-Class, Subcompact`Meu Veiculo
+OPT_TRAILER_REF_FRAME 0
 OBJ_X_LENGTH 2000
 OBJ_Y_LENGTH 1441
 OBJ_Z_LENGTH 1365
 DZ_OBJECT 0
 WRITE_ADD_REFERENCE_FRAME_OBJECT
-ADD_REFERENCE_FRAME sprung mass body 1
-
+ADD_REFERENCE_FRAME Sprung mass
 SET_EULER_ANGLES YAW_PITCH_ROLL
 SET_X_NAME Xo
 WRT_Xo
@@ -3654,8 +3541,7 @@ SET_OFFSET_Y -0.4705
 SET_OFFSET_Z 0.2774
 DZ_OBJECT 0
 WRITE_ADD_REFERENCE_FRAME_OBJECT
-ADD_REFERENCE_FRAME sprung mass body 1
-
+ADD_REFERENCE_FRAME Sprung mass
 SET_EULER_ANGLES YAW_PITCH_ROLL
 SET_X_NAME Xo
 WRT_Xo
@@ -3860,6 +3746,9 @@ ENTER_PARSFILE Control\Driver\StrDM_4b7043d6-a7bf-424e-8f01-c465639aa5f6.par
 #FullDataName Control: Steering by the Closed-loop Driver Model`0.15s Preview`Constant Position: No Offset
 SET_ILTARG_FOR_ID 0
 set_description LTARG_ID 0.15s Preview
+INSTALL_DM_PATH_FOLLOWER
+OPT_DM 1
+OPT_DM_2019 0
 LTARG_CONSTANT 0
 SET_PATH_WIDTH 0.1
 SET_PATH_DASH_INTERVAL 1
@@ -3869,8 +3758,6 @@ SET_PATH_COLOR .5 .6 1
 LTARG_ID_DM LTARG_ID
 CREATE_PATH_OBJ on
 OPT_STR_BY_TRQ 0
-OPT_DM 1
-OPT_DM_2019 0
 AV_SW_MAX_DM 1200
 A_SW_MAX_DM 720
 VLOW_DM 10
@@ -7527,7 +7414,7 @@ ENTER_PARSFILE Animator\HUD\HUD_9d0084f1-a433-4611-bf43-5b880b3962d4.par
 ANI_Ax
 WRT_Ax
 ADD_ENTITY hud_text Text Output
-location 100 70 24 24
+location 80 56 24 24
 align_x left
 align_y bottom
 size_mode absolute
@@ -7541,7 +7428,7 @@ END_ENTITY hud_text Text Output
 ANI_Ay
 WRT_Ay
 ADD_ENTITY hud_text Text Output
-location 100 30 24 24
+location 80 24 24 24
 align_x left
 align_y bottom
 size_mode absolute
@@ -13567,8 +13454,8 @@ NUM_CACHED_RUNS 1
 LOG_ENTRY Used Dataset: CarSim Run Control; { VHF Urbano } XiL_external_powertrain
 EXIT_PARSFILE Runs\Run_18bb8736-b871-4ce4-b41f-9800a8c14d01.par
 
-IMPORT IMP_MY_OUT_D2_L Add 0.0 ! 0
-IMPORT IMP_MY_OUT_D2_R Add 0.0 ! 0
+IMPORT IMP_MY_OUT_D2_L Add 0.0! 0
+IMPORT IMP_MY_OUT_D2_R Add 0.0! 0
 EXPORT Vx_S1
 EXPORT AVy_L1
 EXPORT AVy_R1

@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Vehicle Sideslip Angle v
 #Category: Vehicle Motion
 #FileID  : Plot_033c55dc-d64e-4e15-89b2-56afa03c4255
 #Modified: 05-28-2021 14:59:48
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

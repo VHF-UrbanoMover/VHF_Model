@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain VHF } Batt. discharged resis
 #FileID  : GenTab_1b6d560e-1536-4add-8fa1-27ed2890bbaf
 #Created : 07-01-2022 17:30:13
 #Modified: 07-01-2022 17:30:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

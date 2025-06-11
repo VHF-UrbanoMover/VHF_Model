@@ -1,5 +1,5 @@
 PARSFILE
-#FullDataName External PARSFILE`Path: X-Y: Straight Path East`Road Properties
+#FullDataName External Parsfile`Path: X-Y: Straight Path East`Road Properties
 #VehCode External file
 #MiscYellow0
 PARSFILE Generic\Path_XY_Straight.par
@@ -8,15 +8,15 @@ PARSFILE Generic\Path_XY_Straight.par
 
 #RingCtrl0 0
 
-LOG_ENTRY Used Dataset: External PARSFILE; { Road Properties } Path: X-Y: Straight Path East
-#Library : External PARSFILE
+LOG_ENTRY Used Dataset: External Parsfile; { Road Properties } Path: X-Y: Straight Path East
+#Library : External Parsfile
 #DataSet : Path: X-Y: Straight Path East
 #Category: Road Properties
 #FileID  : GenExt_7ed613ff-d2bf-47e0-b4c9-0b71f5230e2a
 #Created : 05-21-2021 11:09:23
-#Modified: 05-28-2021 15:02:33
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:30
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode External file
 
 END

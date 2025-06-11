@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 1
@@ -73,9 +74,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { Electric Midsize Pickup } EPA Urba
 #DataSet : EPA Urban Cycle
 #Category: Electric Midsize Pickup
 #FileID  : Run_281b00d2-a67b-43b6-84b5-d9a34fd3280c
-#Modified: 11-09-2021 13:37:26
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

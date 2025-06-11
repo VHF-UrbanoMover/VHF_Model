@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Pickup Trucks } Pickup, Midsize: Regu
 #Category: Pickup Trucks
 #FileID  : Group_08ba75c6-295e-48a2-b389-b1ff9e3a16d7
 #Modified: 05-28-2021 15:03:27
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Animator Group
 
 END

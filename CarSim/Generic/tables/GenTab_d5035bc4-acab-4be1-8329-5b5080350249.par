@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Optimal engine speed
 #Category: Powertrain (HEV)
 #FileID  : GenTab_d5035bc4-acab-4be1-8329-5b5080350249
 #Modified: 05-28-2021 15:02:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

@@ -73,8 +73,8 @@ LOG_ENTRY Used Dataset: Steering System: Rack Kinematics; { E-Class } E-Class, S
 #Category: E-Class
 #FileID  : RackKin_20ad163f-0645-42fa-b5a2-68ebecf2e01f
 #Modified: 05-28-2021 14:59:15
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Steering Rack
 
 END

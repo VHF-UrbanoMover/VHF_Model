@@ -1,0 +1,20 @@
+# Shape file for lane 9
+v -0.125 -102.186 0.005
+vt 0 0
+v -0.025 -102.186 0.005
+vt 1 0
+v -0.125 -13.38599 0.005
+vt 0 8.880001
+v -0.025 -13.38599 0.005
+vt 1 8.880001
+mtllib Roads\3D_Road\Road_b6f64dfc-36a1-4993-88a9-b6f1163ebcc7_9.mtl
+usemtl Yellow Line
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

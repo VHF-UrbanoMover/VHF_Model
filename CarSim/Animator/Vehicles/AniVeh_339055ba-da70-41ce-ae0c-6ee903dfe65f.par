@@ -12,6 +12,8 @@ PARSFILE Generic\Lists\GenList_f1eca2af-262f-452b-a53f-07c6b1476b11.par
 #CheckBox6 0    
 #CheckBox8 1    
 
+#RingCtrl1 0
+OPT_TRAILER_REF_FRAME 0
 OBJ_X_LENGTH 2910
 OBJ_Y_LENGTH 2082
 OBJ_Z_LENGTH 1405
@@ -87,9 +89,9 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { C-Class } C-Cla
 #DataSet : C-Class, Hatchback
 #Category: C-Class
 #FileID  : AniVeh_339055ba-da70-41ce-ae0c-6ee903dfe65f
-#Modified: 05-28-2021 15:02:44
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:32
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Vehicle Shape
 
 END

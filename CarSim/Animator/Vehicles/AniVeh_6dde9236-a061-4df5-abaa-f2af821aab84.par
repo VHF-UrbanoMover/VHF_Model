@@ -9,6 +9,8 @@ PARSFILE
 #CheckBox6 0    
 #CheckBox8 1    
 
+#RingCtrl1 0
+OPT_TRAILER_REF_FRAME 0
 OBJ_X_LENGTH 2000
 OBJ_Y_LENGTH 1441
 OBJ_Z_LENGTH 1365
@@ -90,9 +92,9 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Meu Veiculo } V
 #Category: Meu Veiculo
 #FileID  : AniVeh_6dde9236-a061-4df5-abaa-f2af821aab84
 #Created : 06-29-2022 11:26:09
-#Modified: 04-18-2024 10:53:11
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:32
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Vehicle Shape
 
 END

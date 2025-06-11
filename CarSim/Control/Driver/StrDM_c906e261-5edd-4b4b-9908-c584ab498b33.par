@@ -2,6 +2,10 @@ PARSFILE
 #FullDataName Control: Steering by the Closed-loop Driver Model`DLC, 1.65 Offset Right, Torque Control`Vehicle Dynamics Tests
 SET_ILTARG_FOR_ID 0
 set_description LTARG_ID DLC, 1.65 Offset Right, Torque Control
+INSTALL_DM_PATH_FOLLOWER
+#CheckBox4 1    
+OPT_DM 3
+INSTALL_DM_IMPORTS
 #RingCtrl0 0
 #RingCtrl1 SPLINE_FLAT
 #RingCtrl2 1
@@ -38,10 +42,8 @@ LTARG_ID_DM LTARG_ID
 #CheckBox0 0    
 #CheckBox1 1    
 CREATE_PATH_OBJ on
-#CheckBox4 1    
 #CheckBox5 1    
 OPT_STR_BY_TRQ 1
-OPT_DM 3
 AV_SW_MAX_DM 1200
 A_SW_MAX_DM 720
 *TPREV 0.5
@@ -61,9 +63,9 @@ LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Veh
 #Category: Vehicle Dynamics Tests
 #FileID  : StrDM_c906e261-5edd-4b4b-9908-c584ab498b33
 #Created : 11-11-2021 07:22:51
-#Modified: 11-17-2021 09:34:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:31
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Driver Path Follower
 
 END

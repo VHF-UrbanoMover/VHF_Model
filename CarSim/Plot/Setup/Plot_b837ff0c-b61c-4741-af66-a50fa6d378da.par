@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Battery voltage
 #Category: Powertrain (Hybrid)
 #FileID  : Plot_b837ff0c-b61c-4741-af66-a50fa6d378da
 #Modified: 05-28-2021 14:59:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

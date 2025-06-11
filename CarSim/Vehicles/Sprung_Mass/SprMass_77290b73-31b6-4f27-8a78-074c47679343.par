@@ -3,6 +3,7 @@ PARSFILE
 #VehCode Rigid sprung mass
 #RingCtrl0 0
 #CheckBox2 1    
+#CheckBox3 1    
 X_LENGTH 3261
 Y_LENGTH 1500
 iaxle 2
@@ -36,8 +37,7 @@ Y_LENGTH 2152
 *HWC_RF 390
 *HWC_LR 391
 *HWC_RR 391
-LEN_SM 3261
-LX_F_SM 750
+X_LENGTH 3261
 H_WC 391
 iside 2
 H_WC 391
@@ -48,8 +48,10 @@ iside 2
 H_WC 390
 iaxle 2
 iside 1
+LX_F_SM 750
 HT_SM 1418
 WID_SM 2152
+LEN_SM 3261
 
 #EMBEDDED_NOTES
 #Intended to represent a battery-electric midsize pickup (no combustion engine, no transmission, and a large battery pack mounted under the floor of the cab).
@@ -63,9 +65,9 @@ LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Pickup Trucks } Pickup, Midsize,
 #Category: Pickup Trucks
 #FileID  : SprMass_77290b73-31b6-4f27-8a78-074c47679343
 #Created : 05-18-2021 12:11:13
-#Modified: 05-28-2021 14:58:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:23
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rigid sprung mass
 
 END

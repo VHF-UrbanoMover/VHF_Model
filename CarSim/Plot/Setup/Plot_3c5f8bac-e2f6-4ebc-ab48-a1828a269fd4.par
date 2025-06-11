@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Kinematics } Slip Angles: Instant
 #Category: Tire Kinematics
 #FileID  : Plot_3c5f8bac-e2f6-4ebc-ab48-a1828a269fd4
 #Modified: 05-28-2021 14:59:46
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

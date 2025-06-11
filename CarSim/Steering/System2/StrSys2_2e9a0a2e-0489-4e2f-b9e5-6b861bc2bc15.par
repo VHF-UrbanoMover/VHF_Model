@@ -1,5 +1,6 @@
 PARSFILE
 #FullDataName Steering`E-Class, Sdn: Power R&P`CS E-Class
+INSTALL_STEERING
 I_COL 0.02
 I_GEAR_IN 0.0004
 D_COL 0.002
@@ -20,6 +21,8 @@ OPT_I_GEAR_IN 0
 #RingCtrl5 1
 #RingCtrl6 0
 #RingCtrl7 1
+#RingCtrl8 0
+#RingCtrl9 0
 
 OPT_STEER_DEF 1
 
@@ -65,7 +68,7 @@ OPT_POWER 1
 OPT_RACK 1
 OPT_STEER_EXT 0
 PARSFILE Steering\Rack_Kinematics\RackKin_20ad163f-0645-42fa-b5a2-68ebecf2e01f.par
-#BlueLink4 Steering System: Rack Kinematics`E-Class, Sedan` E-Class` , Rack input to output: front`RackKin_20ad163f-0645-42fa-b5a2-68ebecf2e01f
+#BlueLink4 Steering System: Rack Kinematics`E-Class, Sedan` E-Class` , input to output: front`RackKin_20ad163f-0645-42fa-b5a2-68ebecf2e01f
 
 D_RACK 4
 HYS_RACK 200
@@ -97,9 +100,9 @@ LOG_ENTRY Used Dataset: Steering; { CS E-Class } E-Class, Sdn: Power R&P
 #DataSet : E-Class, Sdn: Power R&P
 #Category: CS E-Class
 #FileID  : StrSys2_2e9a0a2e-0489-4e2f-b9e5-6b861bc2bc15
-#Modified: 10-01-2021 12:45:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:52
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 4-Wheel Steer
 
 END

@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric Power Management Control; VH
 #FileID  : PMC_709eccd2-a6d7-4afb-9773-9ebf40d7145c
 #Created : 01-03-2023 09:29:07
 #Modified: 01-03-2023 09:33:23
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Power Management (HEV)
 
 END

@@ -2,12 +2,13 @@ PARSFILE
 #FullDataName Vehicle: Sprung Mass (from Whole Vehicle)`D-Class, Sedan`
 #VehCode Rigid sprung mass (whole)
 #CheckBox1 0    
+#CheckBox2 1    
 *M_TU 1529.98
 *LX_CG_TU 1175.89
 *Y_CG_TU 0.00
 M_SU 1369.98
 LX_CG_SU 1145.87
-Y_CG_SU -0.00
+Y_CG_SU 0.00
 H_CG_SU 541.90
 IXX_SU 607.61
 IYY_SU 4169.74
@@ -40,6 +41,7 @@ Y_LENGTH 2162
 *L_TRACK(1) 1550
 *L_TRACK(2) 1550
 *IA(2) 0
+X_LENGTH 2866
 #RingCtrl0 0
 #RingCtrl1 0
 X_LENGTH 2866
@@ -66,9 +68,9 @@ LOG_ENTRY Used Dataset: Vehicle: Sprung Mass (from Whole Vehicle); D-Class, Seda
 #DataSet : D-Class, Sedan
 #Category: 
 #FileID  : TotMass_57ce4c54-c51a-4176-b1e3-b425b2406355
-#Modified: 05-28-2021 14:58:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rigid sprung mass (whole)
 
 END

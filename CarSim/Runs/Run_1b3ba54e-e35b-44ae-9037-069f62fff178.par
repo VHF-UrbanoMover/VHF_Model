@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_78646c82-3c25-4eef-b153-d76a910f00fb.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 1
@@ -76,9 +77,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { * Independent Suspension Kinematic
 #Category: * Independent Suspension Kinematics
 #FileID  : Run_1b3ba54e-e35b-44ae-9037-069f62fff178
 #Created : 11-16-2021 09:47:38
-#Modified: 11-16-2021 11:43:20
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

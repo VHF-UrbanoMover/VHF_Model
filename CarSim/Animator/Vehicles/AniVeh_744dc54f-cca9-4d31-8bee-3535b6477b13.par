@@ -9,6 +9,8 @@ PARSFILE
 #CheckBox6 0    
 #CheckBox8 1    
 
+#RingCtrl1 0
+OPT_TRAILER_REF_FRAME 0
 OBJ_X_LENGTH 2600
 OBJ_Y_LENGTH 1889
 OBJ_Z_LENGTH 1314
@@ -85,9 +87,9 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { B-Class } B-Cla
 #DataSet : B-Class, Hatchback
 #Category: B-Class
 #FileID  : AniVeh_744dc54f-cca9-4d31-8bee-3535b6477b13
-#Modified: 05-28-2021 15:02:44
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:32
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Vehicle Shape
 
 END

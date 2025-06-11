@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain VHF } Battery Max Capacity V
 #FileID  : GenTab_658e8cc0-338a-4933-af0c-930d2b39cccc
 #Created : 07-01-2022 17:35:10
 #Modified: 01-13-2023 14:08:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

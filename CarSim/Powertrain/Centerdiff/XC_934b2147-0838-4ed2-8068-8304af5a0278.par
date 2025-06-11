@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Powertrain: Transfer Case; { Electric Motor Drive } A.Sp
 #FileID  : XC_934b2147-0838-4ed2-8068-8304af5a0278
 #Created : 11-18-2021 13:47:21
 #Modified: 11-22-2021 16:55:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Transfer Case
 
 END

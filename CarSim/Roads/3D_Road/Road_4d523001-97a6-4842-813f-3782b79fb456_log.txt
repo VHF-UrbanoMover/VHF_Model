@@ -1,0 +1,26 @@
+Run made by VS Road Calculator at 18:21 on June 09, 2025.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_4d523001-97a6-4842-813f-3782b79fb456.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_08ba0f79-cc4a-4553-ae31-1adf1e0c58b9.par"
+ 1013: Straight Path South <Straight>
+Used Dataset: Path: Segment Builder; { Straight } 1013: Straight Path South
+Include PARSFILE "Roads\dZ_Map\RdMapZ_b0c3abca-1068-458d-a7d6-15a24b9ddd4c.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Gutters, Curbs, Ditches } 2003: Lane with Curb and Cross-Slope
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_d05b70d7-5673-4cd6-a868-f384e2f9445c.par"
+Used Dataset: Road: Animator Surface Shapes; { Intersections } Straight w/ Curb
+ 1013: Enter North Straight South <Intersection, 3D Roads with Curbs>
+Used Dataset: Road: 3D Surface (All Properties); { Intersection, 3D Roads with Curbs } 1013: Enter North Straight South
+
+Time to read input = 0.0004533
+
+Run stopped at t = 12.68. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_4d523001-97a6-4842-813f-3782b79fb456.vsb
+Function ROAD_DZ_CARPET(1) extrapolated (out of range LOW) for X = -80 m at T = 12.68
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

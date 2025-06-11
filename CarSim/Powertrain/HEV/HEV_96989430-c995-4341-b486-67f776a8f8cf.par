@@ -63,8 +63,8 @@ LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Post-Transmission Pa
 #FileID  : HEV_96989430-c995-4341-b486-67f776a8f8cf
 #Created : 11-17-2021 14:19:33
 #Modified: 11-24-2021 14:04:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode HEV
 
 END

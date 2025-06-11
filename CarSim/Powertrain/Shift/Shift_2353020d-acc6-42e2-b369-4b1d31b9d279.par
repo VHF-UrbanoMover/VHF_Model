@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed,
 #Category: 6-speed, Diesel
 #FileID  : Shift_2353020d-acc6-42e2-b369-4b1d31b9d279
 #Modified: 05-28-2021 14:59:33
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shift Schedule
 
 END

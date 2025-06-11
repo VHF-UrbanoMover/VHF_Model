@@ -1,6 +1,7 @@
 PARSFILE
 #FullDataName Powertrain: Front-Wheel Drive`150 kW, 6-spd., 4.1 Ratio`150 kW Powertrains
 INSTALL_POWERTRAIN 1
+OPT_PT 1
 INSTALL_ENGINE
 INSTALL_TORQUE_TRANSFER_DEVICE
 INSTALL_TRANSMISSION
@@ -51,9 +52,9 @@ LOG_ENTRY Used Dataset: Powertrain: Front-Wheel Drive; { 150 kW Powertrains } 15
 #DataSet : 150 kW, 6-spd., 4.1 Ratio
 #Category: 150 kW Powertrains
 #FileID  : FWD_9353b8fc-d6b6-45f5-8da8-c431f74078bd
-#Modified: 11-24-2021 14:02:40
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:54
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode FWD
 
 END

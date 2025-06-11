@@ -96,8 +96,8 @@ LOG_ENTRY Used Dataset: Procedures; { K&C Individual Tests } K & C Bounce Test
 #Category: K&C Individual Tests
 #FileID  : Proc_d5438202-de54-4c8d-9911-8a45734f221d
 #Modified: 05-28-2021 14:59:20
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Procedure
 
 END

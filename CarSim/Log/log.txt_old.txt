@@ -1,52 +1,41 @@
-2025-04-26T13:36:30 Logfile initialized.
-2025-04-26T13:36:30 (Info):    CarSim 2022.0
-2025-04-26T13:36:30 (Info):    -
-2025-04-26T13:36:30 (Info):    command-line: 
-2025-04-26T13:36:30 (Info):    -
-2025-04-26T13:36:30 (Info):    Working Dir: E:\Henrique\Poli\Pos-Mestrado2025\VCU HiL\VHF_Model\CarSim\
-2025-04-26T13:36:30 (Info):    Program Dir: C:\Program Files (x86)\CarSim2022.0_Prog\
-2025-04-26T13:36:30 (Info):    -
-2025-04-26T13:36:30 (Info):    OS Version:        6.2 (build 9200)
-2025-04-26T13:36:30 (Info):    CPU Architecture:  x64
-2025-04-26T13:36:30 (Info):    CPU Count:         8
-2025-04-26T13:36:30 (Info):    CPU Level/Rev:     6/36364
-2025-04-26T13:36:30 (Info):    Start Mem Total:   16235 MB
-2025-04-26T13:36:30 (Info):    Start Mem Used:    87%
-2025-04-26T13:36:30 (Info):    -
-2025-04-26T13:36:30 (Info):    Loaded dataset index cache in 0.25s, 5.5 megabytes.
-2025-04-26T13:36:32 (Info):    Feature                  Source                       Version  Acquired  Count
-2025-04-26T13:36:32 (Info):    -----------------        -----------------            -------  --------  -----
-2025-04-26T13:36:32 (Info):    carsimbr                 @carsim                      2022     [   ]          
-2025-04-26T13:36:32 (Info):    carsimsguibr             @carsim                      2022     [   ]          
-2025-04-26T13:36:32 (Info):    carsimsmobr              @carsim                      2022     [   ]          
-2025-04-26T13:36:32 (Info):    carsimbr                 @carsimrt                    2024     [   ]          
-2025-04-26T13:36:32 (Info):    carsimsguibr             @carsimrt                    2024     [   ]          
-2025-04-26T13:36:32 (Info):    carsimsmobr              @carsimrt                    2024     [   ]          
-2025-04-26T13:36:32 (Info):    trucksimbr               @carsimrt                    2024     [   ]          
-2025-04-26T13:36:32 (Info):    trucksimsguibr           @carsimrt                    2024     [   ]          
-2025-04-26T13:36:32 (Info):    trucksimsmobr            @carsimrt                    2024     [   ]          
-2025-04-26T13:36:32 (Info):    carsimbr                 @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimdspacebr           @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimlabcarbr           @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimsguibr             @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimsmobr              @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimsmortbr            @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimoptionsrtbr        @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimebr                @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimengmtbr            @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimlinuxbr            @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimmvbr               @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimopalbr             @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimepibr              @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimfbr                @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimlinuxsolverbr      @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimlabviewbr          @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimspdgtbr            @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimwdsbr              @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimanibr              @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimtbr                @carsimrt2                   2025     [   ]          
-2025-04-26T13:36:32 (Info):    carsimcanoebr            @carsimrt2                   2025     [   ]          
-2025-04-26T13:38:02 (Info):    Acquired [1] license for carsimsguibr
-2025-04-26T13:38:02 (Info):    Acquired [1] license for carsimbr
-2025-04-26T13:38:02 (Info):    Acquired [1] license for carsimsmobr
-2025-
+2025-06-09T18:14:13 Logfile initialized.
+2025-06-09T18:14:13 (Info):    CarSim 2024.1
+2025-06-09T18:14:13 (Info):    -
+2025-06-09T18:14:13 (Info):    command-line: 
+2025-06-09T18:14:13 (Info):    -
+2025-06-09T18:14:13 (Info):    Working Dir: E:\Henrique\Poli\Pos-Mestrado2025\VCU HiL\VHF_Model\CarSim\
+2025-06-09T18:14:13 (Info):    Program Dir: C:\Program Files (x86)\CarSim2024.1_Prog\
+2025-06-09T18:14:13 (Info):    -
+2025-06-09T18:14:13 (Info):    OS Version:        6.2 (build 9200)
+2025-06-09T18:14:13 (Info):    CPU Architecture:  x64
+2025-06-09T18:14:13 (Info):    CPU Count:         16
+2025-06-09T18:14:13 (Info):    CPU Level/Rev:     6/47618
+2025-06-09T18:14:13 (Info):    Start Mem Total:   32389 MB
+2025-06-09T18:14:13 (Info):    Start Mem Used:    37%
+2025-06-09T18:14:13 (Info):    -
+2025-06-09T18:14:13 (Info):    Could not load dataset index cache "Configuration\index.cache"
+2025-06-09T18:15:20 (Info):    Feature                  Source                       Version  Acquired  Count
+2025-06-09T18:15:20 (Info):    -----------------        -----------------            -------  --------  -----
+2025-06-09T18:15:20 (Info):    carsimbr                                              2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimdspacebr                                        2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimlabcarbr                                        2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimsguibr                                          2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimsmobr                                           2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimsmortbr                                         2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimoptionsrtbr                                     2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimebr                                             2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimengmtbr                                         2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimlinuxbr                                         2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimmvbr                                            2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimopalbr                                          2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimepibr                                           2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimfbr                                             2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimlinuxsolverbr                                   2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimlabviewbr                                       2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimspdgtbr                                         2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimwdsbr                                           2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimanibr                                           2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimtbr                                             2025     [   ]          
+2025-06-09T18:15:20 (Info):    carsimcanoebr                                         2025     [   ]          
+2025-06-09T18:15:38 (Info):    0 index cache entries written in 0.000s
+2025-06-09T18:15:39 (Info):    Exiting application...

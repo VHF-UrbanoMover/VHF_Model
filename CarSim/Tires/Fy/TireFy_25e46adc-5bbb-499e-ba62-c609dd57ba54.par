@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { Touring Tires } 265/70 R17
 #Category: Touring Tires
 #FileID  : TireFy_25e46adc-5bbb-499e-ba62-c609dd57ba54
 #Modified: 05-28-2021 14:58:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fy
 
 END

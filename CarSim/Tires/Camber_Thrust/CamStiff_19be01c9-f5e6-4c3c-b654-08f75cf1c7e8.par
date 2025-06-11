@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Tire: Camber Thrust Coefficient; { Artic Bus } Linear Co
 #Category: Artic Bus
 #FileID  : CamStiff_19be01c9-f5e6-4c3c-b654-08f75cf1c7e8
 #Modified: 11-11-2021 13:48:15
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Camber Thrust
 
 END

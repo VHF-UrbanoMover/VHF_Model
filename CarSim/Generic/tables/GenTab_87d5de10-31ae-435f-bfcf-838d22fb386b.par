@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Generic Suspension Comp.: Twist-Beam (2
 #FileID  : GenTab_87d5de10-31ae-435f-bfcf-838d22fb386b
 #Created : 04-01-2021 08:34:38
 #Modified: 05-28-2021 15:02:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

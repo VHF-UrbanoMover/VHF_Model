@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; CFz = 0
 #Category: 
 #FileID  : AirCFz_3625ad4f-4faa-42fc-a93b-f90396b378ea
 #Modified: 05-28-2021 15:03:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Lift vs. Aero Slip
 
 END

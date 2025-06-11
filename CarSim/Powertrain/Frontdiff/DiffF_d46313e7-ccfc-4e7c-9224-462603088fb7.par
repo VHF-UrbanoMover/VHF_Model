@@ -100,8 +100,8 @@ LOG_ENTRY Used Dataset: Powertrain: Front Differential; { Limited Slip and Visco
 #Category: Limited Slip and Viscous Coupling
 #FileID  : DiffF_d46313e7-ccfc-4e7c-9224-462603088fb7
 #Modified: 05-28-2021 14:59:36
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Front Differential
 
 END

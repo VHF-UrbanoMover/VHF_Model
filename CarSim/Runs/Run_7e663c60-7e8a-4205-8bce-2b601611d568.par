@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
 #CheckBox9 1    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 5
 #RingCtrl1 11
@@ -88,9 +89,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { VHF Urbano } Full_acc_TC Simulink 
 #DataSet : Full_acc_TC Simulink (PI)
 #Category: VHF Urbano
 #FileID  : Run_7e663c60-7e8a-4205-8bce-2b601611d568
-#Modified: 01-11-2024 11:03:52
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

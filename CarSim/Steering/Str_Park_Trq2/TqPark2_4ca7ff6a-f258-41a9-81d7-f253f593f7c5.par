@@ -72,8 +72,8 @@ LOG_ENTRY Used Dataset: Steering: Parking Torque for 2 Wheels; { A-Class } A-Cla
 #Category: A-Class
 #FileID  : TqPark2_4ca7ff6a-f258-41a9-81d7-f253f593f7c5
 #Modified: 05-28-2021 14:59:15
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Parking Torque
 
 END

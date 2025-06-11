@@ -1,6 +1,7 @@
 PARSFILE
 #FullDataName Powertrain: Rear-Wheel Drive`Hibrido Serie 250cc 2RWD`VHF Hibrido (Engine + Dual Rear Motor)
 INSTALL_POWERTRAIN 2
+OPT_PT 2
 R_REAR_DRIVE_SC 1
 
 OPT_ENGINE_PITCH_REACTION(2) 0
@@ -47,9 +48,9 @@ LOG_ENTRY Used Dataset: Powertrain: Rear-Wheel Drive; { VHF Hibrido (Engine + Du
 #Category: VHF Hibrido (Engine + Dual Rear Motor)
 #FileID  : RWD_95533e6b-8b56-44cb-bc46-01fc9bfd0c85
 #Created : 08-04-2022 10:38:55
-#Modified: 08-16-2023 17:17:47
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:54
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode RWD
 
 END

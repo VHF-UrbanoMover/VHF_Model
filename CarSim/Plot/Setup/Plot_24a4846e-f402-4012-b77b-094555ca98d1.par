@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { VHF Plots } Slip Ratios w/ Ref: Lagged (A
 #FileID  : Plot_24a4846e-f402-4012-b77b-094555ca98d1
 #Created : 07-31-2023 09:48:10
 #Modified: 07-31-2023 09:48:35
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Batt. discharged res
 #FileID  : GenTab_fad603d4-ad9b-4a82-ba5a-22696b964a8f
 #Created : 11-19-2021 18:58:52
 #Modified: 11-19-2021 19:40:55
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

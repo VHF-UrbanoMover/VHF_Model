@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Utility Vehicles } SUV, Full
 #Category: Utility Vehicles
 #FileID  : ShpGrp_8bbb24d9-060d-4e02-85d1-21fe78bbec29
 #Modified: 05-28-2021 15:03:02
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shape Assembly
 
 END

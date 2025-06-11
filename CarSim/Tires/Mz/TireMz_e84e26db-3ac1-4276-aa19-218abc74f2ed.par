@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Racing Tires } GT Front - 27/68
 #Category: Racing Tires
 #FileID  : TireMz_e84e26db-3ac1-4276-aa19-218abc74f2ed
 #Modified: 05-28-2021 14:58:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Mz
 
 END

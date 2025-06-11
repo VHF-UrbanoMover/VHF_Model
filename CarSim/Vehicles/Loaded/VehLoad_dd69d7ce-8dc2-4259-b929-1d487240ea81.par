@@ -89,8 +89,8 @@ LOG_ENTRY Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { Artic Bus 
 #FileID  : VehLoad_dd69d7ce-8dc2-4259-b929-1d487240ea81
 #Created : 11-15-2021 13:31:20
 #Modified: 12-10-2021 15:04:42
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_SA + S
 
 END

@@ -132,8 +132,8 @@ LOG_ENTRY Used Dataset: Steering: Power Assist Force; { D-Class } D-Class Sedan,
 #Category: D-Class
 #FileID  : FBoost_0179f836-8d46-4262-ba17-8cccf2e143b4
 #Modified: 05-28-2021 14:59:14
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Power Assist Force
 
 END

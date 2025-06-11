@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Events; { Recording a Lap } Record Start Time, Write to 
 #Category: Recording a Lap
 #FileID  : Events_885e39b0-6bdc-484f-803a-eab5448b1537
 #Modified: 05-28-2021 14:59:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Events
 
 END

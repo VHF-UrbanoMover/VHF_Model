@@ -1,6 +1,7 @@
 PARSFILE
 #FullDataName Powertrain: Rear-Wheel Drive`175 kW, 7 Speed AT (2A Tour Bus)`175 kW Powertrains
 INSTALL_POWERTRAIN 2
+OPT_PT 2
 R_REAR_DRIVE_SC 1
 
 OPT_ENGINE_PITCH_REACTION(2) 0
@@ -46,9 +47,9 @@ LOG_ENTRY Used Dataset: Powertrain: Rear-Wheel Drive; { 175 kW Powertrains } 175
 #DataSet : 175 kW, 7 Speed AT (2A Tour Bus)
 #Category: 175 kW Powertrains
 #FileID  : RWD_cdba35cb-9610-4495-81fa-32e0c32aada7
-#Modified: 12-09-2021 16:33:33
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:54
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode RWD
 
 END

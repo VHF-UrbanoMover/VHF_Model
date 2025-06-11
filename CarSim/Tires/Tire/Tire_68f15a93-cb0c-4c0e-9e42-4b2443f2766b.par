@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire; { Performance Tires } Exotic Front - 235/35 19
 #Category: Performance Tires
 #FileID  : Tire_68f15a93-cb0c-4c0e-9e42-4b2443f2766b
 #Modified: 05-28-2021 14:59:07
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

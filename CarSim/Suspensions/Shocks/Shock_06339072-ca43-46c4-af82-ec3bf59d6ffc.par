@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Suspension: Shock Absorber; { Passenger Car } Big Car
 #Category: Passenger Car
 #FileID  : Shock_06339072-ca43-46c4-af82-ec3bf59d6ffc
 #Modified: 05-28-2021 14:59:08
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shock Absorber
 
 END

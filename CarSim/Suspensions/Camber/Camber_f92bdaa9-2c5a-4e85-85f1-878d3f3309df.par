@@ -73,8 +73,8 @@ LOG_ENTRY Used Dataset: Suspension: Camber Angle; { Twist-Beam (2D): Generic Sus
 #Category: Twist-Beam (2D): Generic Suspension
 #FileID  : Camber_f92bdaa9-2c5a-4e85-85f1-878d3f3309df
 #Modified: 05-28-2021 14:59:11
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Camber
 
 END

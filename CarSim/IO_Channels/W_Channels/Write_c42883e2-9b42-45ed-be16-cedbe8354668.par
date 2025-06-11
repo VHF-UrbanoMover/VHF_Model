@@ -1,16 +1,15 @@
 PARSFILE
 #FullDataName I/O Channels: Write`Copy All Active Output Variables to Excel`
+#CheckBox1 0    
 
 #RingCtrl1 1
 #RingCtrl2 0
 #RingCtrl3 2
 #RingCtrl4 0
 
-OPT_ALL_WRITE_CONVERT_CSV 1
-OPT_ALL_WRITE_CONVERT_MAT 0
-OPT_CONVERT_SUFFIX 
-OPT_FMT_CSV 1
-OPT_FMT_MAT 0
+OPT_AUXOUT_CSV 1
+OPT_AUXOUT_MAT 0
+OPT_AUXOUT_ALL_WRITE_CSV 1
 
 #EMBEDDED_NOTES
 #This dataset is set up to write everything to a CSV file for viewing in Excel.
@@ -21,9 +20,9 @@ LOG_ENTRY Used Dataset: I/O Channels: Write; Copy All Active Output Variables to
 #DataSet : Copy All Active Output Variables to Excel
 #Category: 
 #FileID  : Write_c42883e2-9b42-45ed-be16-cedbe8354668
-#Modified: 06-14-2021 14:35:04
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Write Channels
 
 END

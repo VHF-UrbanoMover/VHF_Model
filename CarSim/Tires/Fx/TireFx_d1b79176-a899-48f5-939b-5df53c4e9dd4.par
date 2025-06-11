@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Racing Tires } GT Front - 27
 #Category: Racing Tires
 #FileID  : TireFx_d1b79176-a899-48f5-939b-5df53c4e9dd4
 #Modified: 05-28-2021 14:58:50
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fx
 
 END

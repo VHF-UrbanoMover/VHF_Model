@@ -84,8 +84,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/55 R17 (SAE
 #Category: Touring Tires
 #FileID  : TireMz_3a71ed18-e842-4d21-9297-9e431964ca79
 #Modified: 05-28-2021 14:58:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Mz
 
 END

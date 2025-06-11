@@ -59,8 +59,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } 275/70 R16
 #Category: Tires
 #FileID  : ShpGrp_18c0e5b0-cef5-419a-9a7e-cb8c3eccf7a4
 #Modified: 05-28-2021 15:03:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shape Assembly
 
 END

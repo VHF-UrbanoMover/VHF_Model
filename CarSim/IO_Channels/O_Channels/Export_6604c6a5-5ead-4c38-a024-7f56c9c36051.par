@@ -1,6 +1,5 @@
 PARSFILE
 #FullDataName I/O Channels: Export`Longitudinal rear tires forces`VHF Controls
-#RingCtrl0 3
 #RingCtrl1 1
 
 
@@ -11,7 +10,6 @@ EXPORT Fx_R2
 #CHN_NAME: Fx_L2
 #CHN_NAME: Fx_R2
 #ENDMYellow
-
 
 
 #EMBEDDED_NOTES
@@ -27,9 +25,9 @@ LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Longitudinal rear
 #Category: VHF Controls
 #FileID  : Export_6604c6a5-5ead-4c38-a024-7f56c9c36051
 #Created : 10-13-2022 11:38:38
-#Modified: 10-13-2022 11:38:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Export Channels
 
 END

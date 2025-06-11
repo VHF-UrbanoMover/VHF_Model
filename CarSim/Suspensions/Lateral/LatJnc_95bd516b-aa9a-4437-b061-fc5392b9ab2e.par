@@ -132,8 +132,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; { Twist-Beam
 #Category: Twist-Beam (2D): Generic Suspension
 #FileID  : LatJnc_95bd516b-aa9a-4437-b061-fc5392b9ab2e
 #Modified: 05-28-2021 14:59:10
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Lateral Movement
 
 END

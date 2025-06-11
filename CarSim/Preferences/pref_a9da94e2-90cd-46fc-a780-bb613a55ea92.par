@@ -15,6 +15,7 @@ NSPLINE_MAX_PLOT 100
 #CheckBox8 0    
 #CheckBox11 0    
 #CheckBox12 0    
+#CheckBox13 1    
 
 
 #RingCtrl1 1
@@ -28,9 +29,9 @@ LOG_ENTRY Used Dataset: Preferences; Default Settings
 #DataSet : Default Settings
 #Category: 
 #FileID  : pref_a9da94e2-90cd-46fc-a780-bb613a55ea92
-#Modified: 05-28-2021 14:58:44
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Preferences
 
 END

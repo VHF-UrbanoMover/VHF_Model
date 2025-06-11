@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Generic Aerodynamic Properties } 
 #Category: Generic Aerodynamic Properties
 #FileID  : Aero_3479bdf1-b57e-4404-97d9-41c21f83ddb4
 #Modified: 05-28-2021 15:03:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Aerodynamics
 
 END

@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Kinematics } Slip Ratios: Lagged
 #Category: Tire Kinematics
 #FileID  : Plot_71df6f9d-5f7f-43e1-a5d7-d556dc8678ab
 #Modified: 05-28-2021 14:59:46
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

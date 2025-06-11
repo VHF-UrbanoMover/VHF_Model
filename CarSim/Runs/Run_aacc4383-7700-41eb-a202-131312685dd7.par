@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 0
 #RingCtrl1 0
@@ -51,8 +52,7 @@ PARSFILE Sensors_Traffic\Traffic\TMotion_685c5b22-b555-4300-90e6-7f354600c8d8.pa
 #BlueLink9 Multiple Moving Objects`1 Driver Preview Point` Points of Interest` , Miscellaneous`TMotion_685c5b22-b555-4300-90e6-7f354600c8d8
 
 
-*IMAGE_TYPE PASS_THROUGH
-*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_6ba13624-c527-4355-b1e1-654631d3017e.png
+*IMAGE_TYPE DEFAULT
 WRITE_SENSOR_DETECT
 Title DRW Pickup + GN Trailer w Dual Wheels <* New Vehicle Configuration>
 CATEGORY * New Vehicle Configuration 
@@ -73,9 +73,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { * New Vehicle Configuration } DRW 
 #Category: * New Vehicle Configuration
 #FileID  : Run_aacc4383-7700-41eb-a202-131312685dd7
 #Created : 08-03-2021 11:37:36
-#Modified: 08-18-2021 16:31:11
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

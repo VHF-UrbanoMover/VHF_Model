@@ -2,6 +2,7 @@ PARSFILE
 #FullDataName Suspension: Compliance (Nonlinear)`SUV, Full Size - Front`
 #CheckBox0 0    
 #CheckBox1 0    
+#CheckBox2 0    
 
 #RingCtrl0 1
 #RingCtrl2 1
@@ -62,9 +63,9 @@ LOG_ENTRY Used Dataset: Suspension: Compliance (Nonlinear); SUV, Full Size - Fro
 #DataSet : SUV, Full Size - Front
 #Category: 
 #FileID  : CmpAll_1b36889d-d09c-4a62-b49a-54a9ac2946b5
-#Modified: 05-28-2021 14:59:10
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:50
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Springs and Dampers
 
 END

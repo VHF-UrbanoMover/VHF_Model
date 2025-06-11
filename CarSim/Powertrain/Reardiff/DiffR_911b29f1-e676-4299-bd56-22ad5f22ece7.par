@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear Differential; { Electric Motor Drive (1
 #FileID  : DiffR_911b29f1-e676-4299-bd56-22ad5f22ece7
 #Created : 05-18-2021 12:38:42
 #Modified: 05-28-2021 14:59:35
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rear Differential
 
 END

@@ -89,8 +89,8 @@ LOG_ENTRY Used Dataset: Steering: Power Assist Force; { Speed Sensitive } Symetr
 #Category: Speed Sensitive
 #FileID  : FBoost_a0b35a68-329f-4ad0-9619-afbe8234a092
 #Modified: 05-28-2021 14:59:15
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Power Assist Force
 
 END

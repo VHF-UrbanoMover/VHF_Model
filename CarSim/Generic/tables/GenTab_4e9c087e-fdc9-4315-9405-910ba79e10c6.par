@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV / EV) } Drv. Demand Pwr
 #FileID  : GenTab_4e9c087e-fdc9-4315-9405-910ba79e10c6
 #Created : 11-19-2021 12:47:04
 #Modified: 11-19-2021 19:50:36
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

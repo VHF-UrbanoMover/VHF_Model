@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Motor efficiency
 #Category: Powertrain (Hybrid)
 #FileID  : Plot_55af1489-6b5d-4c72-9db8-6018c686d9fc
 #Modified: 05-28-2021 14:59:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

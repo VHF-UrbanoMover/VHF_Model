@@ -1,6 +1,7 @@
 PARSFILE
 #FullDataName Powertrain: 4-Wheel Drive`250 kW, 7-spd., 2.65 Ratio`250 kW Powertrains
 INSTALL_POWERTRAIN 3
+OPT_PT 3
 INSTALL_ENGINE
 INSTALL_TORQUE_TRANSFER_DEVICE
 INSTALL_TRANSMISSION
@@ -69,9 +70,9 @@ LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { 250 kW Powertrains } 250 kW
 #DataSet : 250 kW, 7-spd., 2.65 Ratio
 #Category: 250 kW Powertrains
 #FileID  : 4WD_98e7df45-86ba-435a-a020-96dbd26b907b
-#Modified: 11-24-2021 14:03:13
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:54
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 4WD
 
 END

@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Artic Bus } Tour Bus, 4.5 m Ref.
 #Category: Artic Bus
 #FileID  : Aero_7661bcf0-b4ff-4159-b99c-280191d22089
 #Modified: 11-11-2021 13:48:23
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Aerodynamics
 
 END

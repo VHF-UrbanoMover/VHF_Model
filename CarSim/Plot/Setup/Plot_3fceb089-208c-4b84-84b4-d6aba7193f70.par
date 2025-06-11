@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Transmission Clutch Torque
 #Category: Powertrain
 #FileID  : Plot_3fceb089-208c-4b84-84b4-d6aba7193f70
 #Modified: 05-28-2021 14:59:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

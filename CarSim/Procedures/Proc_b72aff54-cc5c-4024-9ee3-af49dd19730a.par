@@ -85,8 +85,8 @@ LOG_ENTRY Used Dataset: Procedures; { Accel. and Brake Testing } Hybrid/Electric
 #Category: Accel. and Brake Testing
 #FileID  : Proc_b72aff54-cc5c-4024-9ee3-af49dd19730a
 #Modified: 05-28-2021 14:59:18
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Procedure
 
 END

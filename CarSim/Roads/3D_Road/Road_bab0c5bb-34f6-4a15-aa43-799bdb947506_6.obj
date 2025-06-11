@@ -1,0 +1,35 @@
+# Shape file for lane 6
+v 210 1.5 0
+vt 0 0
+v 210 -1.5 0
+vt 1 0
+v 220 1.5 0
+vt 0 1
+v 220 -1.5 0
+vt 1 1
+v 230 1.5 0
+vt 0 2
+v 230 -1.5 0
+vt 1 2
+v 240 1.5 0
+vt 0 3
+v 240 -1.5 0
+vt 1 3
+v 250 1.5 0
+vt 0 4
+v 250 -1.5 0
+vt 1 4
+mtllib Roads\3D_Road\Road_bab0c5bb-34f6-4a15-aa43-799bdb947506_6.mtl
+usemtl Road (One Lane)
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+f  3/3 4/4 6/6 5/5
+f  5/5 6/6 8/8 7/7
+f  7/7 8/8 10/10 9/9
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

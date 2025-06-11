@@ -5,8 +5,8 @@ PARSFILE
 *README_FILE Results\Run_18bb8736-b871-4ce4-b41f-9800a8c14d01\Run_imp_tab.txt
 
 #MiscYellow0
-IMP_MY_OUT_D2_L Add 0.0 ! 0
-IMP_MY_OUT_D2_R Add 0.0 ! 0
+IMP_MY_OUT_D2_L Add 0.0! 0
+IMP_MY_OUT_D2_R Add 0.0! 0
 #ENDMYellow
 
 #BlueLink0 CarSim Run Control`XiL_external_powertrain` VHF Urbano` , example run`Run_18bb8736-b871-4ce4-b41f-9800a8c14d01
@@ -29,9 +29,9 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { Powertrain } Rear Axle Motors To
 #Category: Powertrain
 #FileID  : Import_ad263a9c-9090-4135-878a-d5831c7f834d
 #Created : 04-06-2025 11:26:08
-#Modified: 04-06-2025 11:28:27
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Import Channels
 
 END

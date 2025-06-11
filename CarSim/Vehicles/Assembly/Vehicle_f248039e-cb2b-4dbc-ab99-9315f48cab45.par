@@ -109,8 +109,8 @@ LOG_ENTRY Used Dataset: Vehicle: Assembly; { Pickup Trucks } Pickup, Midsize: El
 #FileID  : Vehicle_f248039e-cb2b-4dbc-ab99-9315f48cab45
 #Created : 05-18-2021 12:06:55
 #Modified: 09-01-2021 12:45:26
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_SA
 
 END

@@ -110,8 +110,8 @@ LOG_ENTRY Used Dataset: Vehicle: Assembly; { B-Class } B-Class, Hbk: RE-Electric
 #FileID  : Vehicle_064fc37a-6f17-49b7-b01c-fdab0c598bb7
 #Created : 09-13-2021 15:36:25
 #Modified: 09-13-2021 15:39:20
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_Ind
 
 END

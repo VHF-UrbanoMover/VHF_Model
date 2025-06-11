@@ -3,17 +3,17 @@ PARSFILE
 #RunMdlFile Extensions\Simulink\tc_vhf\optimal_tcs_VHF_model_free.slx
 SIMULINK_MODEL_FILE Extensions\Simulink\tc_vhf\optimal_tcs_VHF_model_free.slx
 #RingCtrl0 -1
+#RingCtrl2 0
+*MULTI_SOLVERS 0
+*MULTI_S_WRAPPER 0
 #CheckBox0 1    
 *USE_ALT_DIR 1
 #CheckBox1 0    
 *USE_DIFF_SOLVERS 0
 #CheckBox3 1    
-#CheckBox4 1    
-OPT_IO_SYNC_FM 1
+#CheckBox5 0    
 #RingCtrl1 0
 OPT_INT_METHOD 0
-#CheckBox2 1    
-OPT_IO_UPDATE 1
 #CheckBox4 1    
 OPT_IO_SYNC_FM 1
 *TSTEP 0.0005
@@ -22,12 +22,18 @@ OPT_IO_SYNC_FM 1
 *FREQ_OUT 40
 tstep 0.0005
 iprint 50
-#CheckBox5 0    
-*MULTI_SOLVERS 0
 #AltPath Extensions\Simulink\tc_vhf
 *ALTERNATE_PATH Extensions\Simulink\tc_vhf
 PARSFILE IO_Channels\Ports\Port_761ffbab-47b8-4498-83ff-176c8a9c5bb3.par
 #BlueLink0 I/O Channels: Ports`ASR Controllers: Multi-port w/ sensors` VHF Controls` , Import`Port_761ffbab-47b8-4498-83ff-176c8a9c5bb3
+
+#BlueLink3 I/O Channels: Ports`` ` , vs_state Ports`
+
+#BlueLink4 I/O Channels: Ports`` ` , vs_ctl Ports`
+
+#BlueLink5 I/O Channels: Ports`` ` , vs_kin Ports`
+
+#BlueLink6 I/O Channels: Ports`` ` , vs_dyn Ports`
 
 #MiscYellow1
 *CPAR_INCLUDE Extensions\Simulink\tc_vhf\control_bus.m
@@ -66,9 +72,9 @@ LOG_ENTRY Used Dataset: Models: Simulink; { Traction Control for TCS and ESC } V
 #Category: Traction Control for TCS and ESC
 #FileID  : Simlink_1800cc56-03cc-4044-b6ad-f75a76322ff4
 #Created : 10-28-2022 18:20:54
-#Modified: 11-21-2024 19:59:05
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 
 
 END

@@ -3,6 +3,7 @@ PARSFILE
 #VehCode Rigid sprung mass
 #RingCtrl0 0
 #CheckBox2 0    
+#CheckBox3 1    
 X_LENGTH 1917
 Y_LENGTH 1500
 iaxle 2
@@ -27,8 +28,7 @@ Y_LENGTH 1291
 *HWC_RF 274
 *HWC_LR 274
 *HWC_RR 274
-LEN_SM 3000
-LX_F_SM 400
+X_LENGTH 1917
 H_WC 274
 iside 2
 H_WC 274
@@ -39,8 +39,10 @@ iside 2
 H_WC 274
 iaxle 2
 iside 1
+LX_F_SM 400
 HT_SM 1365
 WID_SM 1291
+LEN_SM 3000
 
 LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Meu Veiculo } VHF, Hatchback
 #Library : Vehicle: Sprung Mass
@@ -48,9 +50,9 @@ LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Meu Veiculo } VHF, Hatchback
 #Category: Meu Veiculo
 #FileID  : SprMass_2505038c-0e1e-4b6b-8781-cb3ac91b93fd
 #Created : 06-29-2022 11:15:09
-#Modified: 01-10-2024 17:11:40
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rigid sprung mass
 
 END

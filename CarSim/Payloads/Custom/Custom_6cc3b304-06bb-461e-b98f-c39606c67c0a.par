@@ -13,7 +13,7 @@ SET_OFFSET_X -5.87300027895
 SET_OFFSET_Y 0
 SET_OFFSET_Z 0.225000010687
 Z_CG_PL 225
-LX_CG_PL 5873
+X_CG_PL 5873
 Y_CG_PL 0
 M_PL 431
 IXX_PL 365.5
@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 0.921
 *RZ 1.275
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; Tractor Tire 1
@@ -34,9 +36,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; Tractor Tire 1
 #Category: 
 #FileID  : Custom_6cc3b304-06bb-461e-b98f-c39606c67c0a
 #Created : 08-03-2021 14:29:44
-#Modified: 08-03-2021 14:33:24
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:56
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Payload: Custom
 
 END

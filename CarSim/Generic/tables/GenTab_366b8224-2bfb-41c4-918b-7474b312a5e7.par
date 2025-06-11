@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Battery Open-Circuit
 #Category: Powertrain (HEV)
 #FileID  : GenTab_366b8224-2bfb-41c4-918b-7474b312a5e7
 #Modified: 05-28-2021 15:02:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

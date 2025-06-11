@@ -79,8 +79,8 @@ LOG_ENTRY Used Dataset: Procedures; { Auxiliary Steer Controller } Auxiliary Ste
 #FileID  : Proc_63dfbf2a-4e86-4ce7-a677-26a53974a5fd
 #Created : 11-11-2021 07:21:17
 #Modified: 11-17-2021 08:39:41
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Procedure
 
 END

@@ -33,11 +33,11 @@ PARSFILE
 #Selection 19 for Icon 0
 #Selection_1 19 for Icon
 #Selection_2 Title: Throttle AlX 0 AlY 2
-#Selection_3 Scale 0.666667 locX 20 locY 190
+#Selection_3 Scale 0.666667 locX 16 locY 152
 #Selection_4 Fixed: 1 VarName: NULL  ColorStr: 0 1 0
 #Selection_5 ImgName: 
 ADD_ENTITY hud_image Throttle Fill BG
-location 20 190 66 133
+location 16 152 66 133
 align_x left
 align_y bottom
 size_mode absolute
@@ -46,7 +46,7 @@ image_file Resources\Animator\2D_HUD_Icons\Throttle_Bar\0_100.dds
 END_ENTITY hud_image Throttle Fill BG
 ADD_ENTITY hud_text Icon Text for Type #19
 prefix Throttle
-location 13 328 100 18
+location 9 290 100 18
 align_x left
 align_y bottom
 size_mode absolute
@@ -58,7 +58,7 @@ END_ENTITY hud_text Icon Text for Type #19
 ANI_Throttle
 WRT_Throttle
 ADD_ENTITY hud_image Throttle Fill Bar
-location 34 206 22 99
+location 30 168 22 99
 red 0
 green 1
 blue 0
@@ -74,11 +74,11 @@ END_ENTITY hud_image Throttle Fill Bar
 #Selection 16 for Icon 1
 #Selection_1 16 for Icon
 #Selection_2 Title:  AlX 0 AlY 2
-#Selection_3 Scale 0.666667 locX 140 locY 190
+#Selection_3 Scale 0.666667 locX 112 locY 152
 #Selection_4 Fixed: 1 VarName: Vxz_Fwd  ColorStr: 0 0 0
 #Selection_5 ImgName: 
 ADD_ENTITY hud_image Vxz_Fwd Speedometer w/Gear (RWD)
-location 140 190 133 133
+location 112 152 133 133
 align_x left
 align_y bottom
 size_mode absolute
@@ -88,7 +88,7 @@ END_ENTITY hud_image Vxz_Fwd Speedometer w/Gear (RWD)
 ANI_Vxz_Fwd
 WRT_Vxz_Fwd
 ADD_ENTITY hud_image Vxz_Fwd Speed w/Gear (Needle) (RWD)
-location 140 190 133 133
+location 112 152 133 133
 align_x left
 align_y bottom
 size_mode absolute
@@ -104,7 +104,7 @@ align_x left
 align_y bottom
 size_mode absolute
 place_mode absolute
-location 170 208 23 23
+location 142 170 23 23
 value gearstat
 precision 0
 color 1 1 1 1
@@ -125,9 +125,9 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Vehicle Status Indicators } Throttle an
 #DataSet : Throttle and Speed, L. Side, 19% Up
 #Category: Vehicle Status Indicators
 #FileID  : HUD_28cddbb9-94c6-4e76-a06f-7737ba30c08f
-#Modified: 12-13-2021 10:41:04
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:33
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode HUD
 
 END

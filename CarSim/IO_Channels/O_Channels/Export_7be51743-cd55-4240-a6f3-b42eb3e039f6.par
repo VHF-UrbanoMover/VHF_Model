@@ -1,6 +1,5 @@
 PARSFILE
 #FullDataName I/O Channels: Export`Accelerations, angular velocitys and orientation`VHF Controls
-#RingCtrl0 1
 #RingCtrl1 1
 
 
@@ -27,16 +26,15 @@ EXPORT Roll_E
 #ENDMYellow
 
 
-
 LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Accelerations, angular velocitys and orientation
 #Library : I/O Channels: Export
 #DataSet : Accelerations, angular velocitys and orientation
 #Category: VHF Controls
 #FileID  : Export_7be51743-cd55-4240-a6f3-b42eb3e039f6
 #Created : 10-28-2022 18:01:07
-#Modified: 10-28-2022 19:07:19
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Export Channels
 
 END

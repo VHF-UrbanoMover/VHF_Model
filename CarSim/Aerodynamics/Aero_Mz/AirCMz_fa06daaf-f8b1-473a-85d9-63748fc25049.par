@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; CMz =
 #Category: 
 #FileID  : AirCMz_fa06daaf-f8b1-473a-85d9-63748fc25049
 #Modified: 05-28-2021 15:03:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Mz vs. Aero Slip
 
 END

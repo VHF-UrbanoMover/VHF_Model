@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/70 R17
 #Category: Touring Tires
 #FileID  : TireFx_4f613f38-7467-4751-8690-96d1fe34a410
 #Modified: 05-28-2021 14:58:50
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fx
 
 END

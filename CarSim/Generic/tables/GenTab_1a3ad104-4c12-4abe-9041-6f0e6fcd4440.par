@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Generator efficiency
 #Category: Powertrain (HEV)
 #FileID  : GenTab_1a3ad104-4c12-4abe-9041-6f0e6fcd4440
 #Modified: 05-28-2021 15:02:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

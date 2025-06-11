@@ -3,6 +3,7 @@ PARSFILE
 #VehCode Rigid sprung mass
 #RingCtrl0 0
 #CheckBox2 0    
+#CheckBox3 1    
 X_LENGTH 3050
 Y_LENGTH 1500
 iaxle 2
@@ -27,6 +28,7 @@ Y_LENGTH 1880
 *HWC_RF 320
 *HWC_LR 300
 *HWC_RR 300
+X_LENGTH 3050
 H_WC 300
 iside 2
 H_WC 300
@@ -45,9 +47,9 @@ LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { E-Class } E-Class, Sedan
 #DataSet : E-Class, Sedan
 #Category: E-Class
 #FileID  : SprMass_b7bfa6a7-4b7d-4095-94f5-7980dbf42a4f
-#Modified: 05-28-2021 14:58:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rigid sprung mass
 
 END

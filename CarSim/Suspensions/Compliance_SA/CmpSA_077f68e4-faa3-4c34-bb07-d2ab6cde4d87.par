@@ -92,8 +92,8 @@ LOG_ENTRY Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers;
 #Category: Artic Bus
 #FileID  : CmpSA_077f68e4-faa3-4c34-bb07-d2ab6cde4d87
 #Modified: 11-11-2021 13:48:24
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Solid Axle
 
 END

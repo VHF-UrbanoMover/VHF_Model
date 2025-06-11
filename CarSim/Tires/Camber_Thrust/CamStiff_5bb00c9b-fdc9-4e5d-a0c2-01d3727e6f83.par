@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Tire: Camber Thrust Coefficient; { Performance Tires } 2
 #Category: Performance Tires
 #FileID  : CamStiff_5bb00c9b-fdc9-4e5d-a0c2-01d3727e6f83
 #Modified: 05-28-2021 14:58:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Camber Thrust
 
 END

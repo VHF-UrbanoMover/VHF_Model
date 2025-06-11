@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Suspension: Solid Axle System Kinematics; { Utility Vehi
 #Category: Utility Vehicles: SUVs and Vans
 #FileID  : KinSA_9db24bdb-ec5d-47ba-9a09-69693f8c8ec9
 #Modified: 05-28-2021 14:59:12
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Solid Axle
 
 END

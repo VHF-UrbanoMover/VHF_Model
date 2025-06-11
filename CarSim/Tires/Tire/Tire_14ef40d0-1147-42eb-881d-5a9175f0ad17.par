@@ -73,8 +73,8 @@ LOG_ENTRY Used Dataset: Tire; { Touring Tires } 275/65 R18
 #Category: Touring Tires
 #FileID  : Tire_14ef40d0-1147-42eb-881d-5a9175f0ad17
 #Modified: 05-28-2021 14:59:07
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { D-Class } D-Class, Sedan Aero
 #Category: D-Class
 #FileID  : Aero_a610d4fd-9cf5-4ffa-90af-33c3c3fe903c
 #Modified: 05-28-2021 15:03:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Aerodynamics
 
 END

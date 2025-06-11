@@ -1,6 +1,8 @@
 PARSFILE
 #FullDataName Brakes: Four-Wheel System`Sports Car: M/C Press, ABS`B-Class
+#CheckBox0 0    
 #CheckBox1 0    
+
 #RingCtrl0 2
 #RingCtrl1 2
 #RingCtrl2 1
@@ -100,9 +102,9 @@ LOG_ENTRY Used Dataset: Brakes: Four-Wheel System; { B-Class } Sports Car: M/C P
 #DataSet : Sports Car: M/C Press, ABS
 #Category: B-Class
 #FileID  : Brk4W_e0a33082-d8fd-4b80-8c76-a8b2036812f5
-#Modified: 05-28-2021 15:02:41
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:31
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 4-Wheel System
 
 END

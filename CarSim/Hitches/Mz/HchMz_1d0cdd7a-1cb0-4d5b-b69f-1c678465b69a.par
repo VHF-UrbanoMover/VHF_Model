@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Hitch: Yaw Moment; Artic Bus: 100 kN-m/deg (108 deg Lash
 #FileID  : HchMz_1d0cdd7a-1cb0-4d5b-b69f-1c678465b69a
 #Created : 12-09-2021 10:05:20
 #Modified: 12-09-2021 10:05:37
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Hitch Mz
 
 END

@@ -11,6 +11,8 @@ PARSFILE
 #CheckBox8 0    
 
 #RingCtrl0 2
+#RingCtrl1 0
+OPT_TRAILER_REF_FRAME 0
 OBJ_X_LENGTH 12178
 OBJ_Y_LENGTH 2710
 OBJ_Z_LENGTH 2068
@@ -107,9 +109,9 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Trailers } Goos
 #Category: Trailers
 #FileID  : AniVeh_2525e4bc-cb47-4812-bc6b-551631da8855
 #Created : 08-03-2021 12:35:47
-#Modified: 08-05-2021 17:38:09
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:32
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Vehicle Shape
 
 END

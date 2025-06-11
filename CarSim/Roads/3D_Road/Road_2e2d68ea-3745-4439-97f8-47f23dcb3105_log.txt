@@ -1,0 +1,31 @@
+Run made by VS Road Calculator at 18:21 on June 09, 2025.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_2e2d68ea-3745-4439-97f8-47f23dcb3105.par"
+Include PARSFILE "Roads\Center_XY\PathXY_c0142889-4f85-45a5-830f-de071137ef97.par"
+Used Dataset: Path: X-Y Coordinates; { Handling Course } Handling Course Left Edge
+Include PARSFILE "Roads\Center_Z\RdRefZ_253759f0-3b4a-4168-991e-98a6b5ae562a.par"
+Used Dataset: Road: Reference Line Elevation; { Handling Course } Handling Course
+Include PARSFILE "Roads\dZ_Map\RdMapZ_446947b3-3c6d-4793-9ba1-61222ba31855.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Handling Course } Handling Course Camber
+Include PARSFILE "Roads\Friction\RdMu_14d0d322-e529-4060-b63a-06992b038998.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Road Handling Course } Handling Course Variable Mu
+Include PARSFILE "Roads\Shapes\RdShape_5a0d0496-c52b-465a-9469-50c21390f2b1.par"
+Used Dataset: Road: Animator Surface Shapes; No Machine-Generated Shapes
+Include PARSFILE "Roads\dZ_Map\RdMapZ_87b25c4f-0087-433e-8ae8-d189ce4b11f7.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Handling Course } Handling Course Curbing
+Include PARSFILE "Roads\Boundaries\RdBnd_f658c7c3-6007-4ca2-ad16-6682a99f16e4.par"
+Used Dataset: Road: Boundaries; { Road Boundary Stop Conditions } Handling Course Edges
+ Handling Course <Self-Contained Scenes>
+Used Dataset: Road: 3D Surface (All Properties); { Self-Contained Scenes } Handling Course
+
+Time to read input = 0.0015748
+
+Run stopped at t = 19.32. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_2e2d68ea-3745-4439-97f8-47f23dcb3105.vsb
+Function ROAD_DZ_CARPET(2) extrapolated (out of range HIGH) for XCOL = 2.95 m at T = 19.32
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

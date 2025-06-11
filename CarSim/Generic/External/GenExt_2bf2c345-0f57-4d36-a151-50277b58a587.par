@@ -1,5 +1,5 @@
 PARSFILE
-#FullDataName External PARSFILE`Mu_Road_Constant = 0.85`Road Properties
+#FullDataName External Parsfile`Mu_Road_Constant = 0.85`Road Properties
 #VehCode External file
 #MiscYellow0
 PARSFILE Generic\Mu_Road_Constant_085.par
@@ -8,15 +8,15 @@ PARSFILE Generic\Mu_Road_Constant_085.par
 
 #RingCtrl0 0
 
-LOG_ENTRY Used Dataset: External PARSFILE; { Road Properties } Mu_Road_Constant = 0.85
-#Library : External PARSFILE
+LOG_ENTRY Used Dataset: External Parsfile; { Road Properties } Mu_Road_Constant = 0.85
+#Library : External Parsfile
 #DataSet : Mu_Road_Constant = 0.85
 #Category: Road Properties
 #FileID  : GenExt_2bf2c345-0f57-4d36-a151-50277b58a587
 #Created : 05-21-2021 11:08:46
-#Modified: 05-28-2021 15:02:33
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:30
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode External file
 
 END

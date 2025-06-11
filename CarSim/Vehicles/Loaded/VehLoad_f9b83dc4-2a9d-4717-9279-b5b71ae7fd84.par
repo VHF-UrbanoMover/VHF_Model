@@ -51,8 +51,8 @@ LOG_ENTRY Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { C-Class } 
 #Category: C-Class
 #FileID  : VehLoad_f9b83dc4-2a9d-4717-9279-b5b71ae7fd84
 #Modified: 05-28-2021 14:58:48
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_Ind
 
 END

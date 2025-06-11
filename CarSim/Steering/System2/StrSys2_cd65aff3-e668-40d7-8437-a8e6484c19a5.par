@@ -1,5 +1,6 @@
 PARSFILE
 #FullDataName Steering`SUV, Full Size: Power, R&P`Utility Vehicles: SUVs and Vans
+INSTALL_STEERING
 I_COL 0.02
 I_GEAR_IN 0.0005
 D_COL 0.02
@@ -20,6 +21,8 @@ OPT_I_GEAR_IN 0
 #RingCtrl5 0
 #RingCtrl6 0
 #RingCtrl7 1
+#RingCtrl8 0
+#RingCtrl9 0
 
 OPT_STEER_DEF 1
 
@@ -65,7 +68,8 @@ iaxle 1
 OPT_POWER 1
 OPT_RACK 1
 OPT_STEER_EXT 0
-RACK_TRAVEL_COEFFICIENT 40/360
+SET_UNITS_TABLE_ROW RACK_TRAVEL_TABLE rev
+RACK_TRAVEL_COEFFICIENT 40
 D_RACK 4
 HYS_RACK 0
 BETA_RACK 0.5
@@ -96,9 +100,9 @@ LOG_ENTRY Used Dataset: Steering; { Utility Vehicles: SUVs and Vans } SUV, Full 
 #DataSet : SUV, Full Size: Power, R&P
 #Category: Utility Vehicles: SUVs and Vans
 #FileID  : StrSys2_cd65aff3-e668-40d7-8437-a8e6484c19a5
-#Modified: 09-30-2021 13:17:53
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:52
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 4-Wheel Steer
 
 END

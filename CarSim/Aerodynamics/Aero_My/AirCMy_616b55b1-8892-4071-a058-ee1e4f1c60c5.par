@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; { A
 #Category: Artic Bus
 #FileID  : AirCMy_616b55b1-8892-4071-a058-ee1e4f1c60c5
 #Modified: 11-11-2021 13:48:18
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode My vs. Aero Slip
 
 END

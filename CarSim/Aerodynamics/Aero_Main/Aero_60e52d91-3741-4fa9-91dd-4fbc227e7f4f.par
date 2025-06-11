@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Exotic Sports Car } Exotic Car Ae
 #FileID  : Aero_60e52d91-3741-4fa9-91dd-4fbc227e7f4f
 #Created : 04-14-2021 07:57:47
 #Modified: 05-28-2021 15:03:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Aerodynamics
 
 END

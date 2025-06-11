@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -71,9 +72,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { Payloads and Sprung Masses } Sprun
 #DataSet : Sprung Mass from Whole Vehicle: i_i
 #Category: Payloads and Sprung Masses
 #FileID  : Run_6eb0abe3-dab4-4942-b9b6-71350c007aa4
-#Modified: 07-02-2021 15:35:19
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

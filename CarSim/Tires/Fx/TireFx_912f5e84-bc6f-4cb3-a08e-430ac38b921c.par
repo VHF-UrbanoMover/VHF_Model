@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/55 R17
 #Category: Touring Tires
 #FileID  : TireFx_912f5e84-bc6f-4cb3-a08e-430ac38b921c
 #Modified: 05-28-2021 14:58:50
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fx
 
 END

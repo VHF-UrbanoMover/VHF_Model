@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { Utility Veh
 #Category: Utility Vehicles: SUVs and Vans
 #FileID  : KinInd_f189598e-a459-4423-a6a5-345cbcfb93b7
 #Modified: 11-17-2021 11:46:08
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Independent
 
 END

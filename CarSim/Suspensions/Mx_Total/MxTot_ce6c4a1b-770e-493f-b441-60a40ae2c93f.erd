@@ -1,0 +1,17 @@
+ERDFILEV2.00
+24, -1, -1, 96, 1, 0.000500
+TITLE   Default data set
+CATEGORY 
+DATASET 
+SHORTNAMFullStepID_Run  T_RecordT_Stamp Event   ID_EventT_Event Roll_A  Z_A     Roll_gndFS_L    FS_R    CmpS_L  CmpS_R  FT_L    FT_R    CmpT_L  CmpT_R  Mx_Aux  Mx_TiresMx_Sprs FT_diff FT_sum  FS_sum  
+LONGNAME     Integrator full-step status                ID number of run   Recording time in output file           Simulation time stamp         Running count of events              ID number of event    Time since event clock reset                    Roll of axle                       Z of axle                  Roll of ground    Left suspension-spring force   Right suspension-spring force     Left suspension compression    Right suspension compression          Left tire-spring force         Right tire-spring force           Left tire compression          Right tire compression           Auxiliary roll moment   Roll moment from tire springs  Roll moment from susp. springs                         FT_diff                          FT_sum                          FS_sum
+GENNAME                          Boolean                       ID number                            Time                            Time                           Count                       ID number                            Time                           Angle                        Distance                           Angle                           Force                           Force                        Distance                        Distance                           Force                           Force                        Distance                        Distance                          Moment                          Moment                          Moment                           Force                           Force                           Force
+RIGIBODY     Integrator full-step status                       ID of run          Recording time in file           Simulation time stamp                           Event                     ID of event                           Event                               ?                               ?                               ?                               ?                               ?                               ?                               ?                               ?                               ?                               ?                               ?                               ?                               ?                               ?                               ?                               ?                               ?
+UNITSNAM-       -       s       s       -       -       s       deg     mm      deg     N       N       mm      mm      N       N       mm      mm      N-m     N-m     N-m     N       N       N       
+HISTORY VS Maux Calculator: Utility to calculate Maux from Mtot measured at the ground
+HISTORY Input parameter file was Suspensions\Mx_Total\MxTot_ce6c4a1b-770e-493f-b441-60a40ae2c93f
+XLABEL  Time
+XUNITS  s
+XSTART  0.000000
+HISTORY Run made at 18:20 on June 09, 2025.
+END

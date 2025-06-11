@@ -108,8 +108,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; { Artic Bus 
 #Category: Artic Bus
 #FileID  : LatJnc_58c9ec2c-c7fe-4af8-b7a6-b9fa5bdb1d7e
 #Modified: 11-11-2021 13:48:21
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Lateral Movement
 
 END

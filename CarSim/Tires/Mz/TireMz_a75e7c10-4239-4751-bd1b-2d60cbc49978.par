@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Artic Bus } Mz: 3000 kg Load Ra
 #Category: Artic Bus
 #FileID  : TireMz_a75e7c10-4239-4751-bd1b-2d60cbc49978
 #Modified: 11-11-2021 13:48:16
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Mz
 
 END

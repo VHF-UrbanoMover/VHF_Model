@@ -1,6 +1,7 @@
 PARSFILE
 #FullDataName Powertrain: Front-Wheel Drive`125 kW, 6-spd., 4.1 Ratio w/ Visc. Diff.`75 kW - 125 kW Powertrains
 INSTALL_POWERTRAIN 1
+OPT_PT 1
 INSTALL_ENGINE
 INSTALL_TORQUE_TRANSFER_DEVICE
 INSTALL_TRANSMISSION
@@ -51,9 +52,9 @@ LOG_ENTRY Used Dataset: Powertrain: Front-Wheel Drive; { 75 kW - 125 kW Powertra
 #DataSet : 125 kW, 6-spd., 4.1 Ratio w/ Visc. Diff.
 #Category: 75 kW - 125 kW Powertrains
 #FileID  : FWD_91f1f768-3a4c-4639-af6f-63bbabf63dd5
-#Modified: 11-24-2021 14:02:40
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:54
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode FWD
 
 END

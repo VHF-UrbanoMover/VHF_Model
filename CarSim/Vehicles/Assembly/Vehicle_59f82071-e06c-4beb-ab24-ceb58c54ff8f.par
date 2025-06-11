@@ -113,8 +113,8 @@ LOG_ENTRY Used Dataset: Vehicle: Assembly; { Pickup Trucks } Pickup, Full Size (
 #Category: Pickup Trucks
 #FileID  : Vehicle_59f82071-e06c-4beb-ab24-ceb58c54ff8f
 #Modified: 09-01-2021 12:45:25
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode SA_SA
 
 END

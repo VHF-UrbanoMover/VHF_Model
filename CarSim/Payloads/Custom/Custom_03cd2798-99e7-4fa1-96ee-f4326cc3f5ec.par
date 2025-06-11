@@ -13,7 +13,7 @@ SET_OFFSET_X -4.60000021849
 SET_OFFSET_Y 0
 SET_OFFSET_Z 2.00000009499
 Z_CG_PL 2000
-LX_CG_PL 4600
+X_CG_PL 4600
 Y_CG_PL 0
 M_PL 3300
 IXX_PL 1942
@@ -23,6 +23,8 @@ IZZ_PL 14575
 *RY 2.083
 *RZ 2.102
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; Artic Bus: Passengers - Unit 2
@@ -31,9 +33,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; Artic Bus: Passengers - Unit 2
 #Category: 
 #FileID  : Custom_03cd2798-99e7-4fa1-96ee-f4326cc3f5ec
 #Created : 12-09-2021 03:42:00
-#Modified: 12-10-2021 15:20:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:55
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Payload: Custom
 
 END

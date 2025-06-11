@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Steering Wheel Angle vs. Lat A
 #Category: Steering
 #FileID  : Plot_af9aa3e7-4034-4052-8f9f-687c314f6292
 #Modified: 05-28-2021 14:59:44
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

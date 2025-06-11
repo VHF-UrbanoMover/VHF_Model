@@ -13,7 +13,7 @@ SET_OFFSET_X -4.00000018999
 SET_OFFSET_Y 0
 SET_OFFSET_Z 0.87500004156
 Z_CG_PL 875
-LX_CG_PL 4000
+X_CG_PL 4000
 Y_CG_PL 0
 M_PL 2000
 IXX_PL 333
@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 0.645
 *RZ 0.645
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; Crate for Pickup
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; Crate for Pickup
 #DataSet : Crate for Pickup
 #Category: 
 #FileID  : Custom_224495de-fe46-484d-a42c-fb917224aabd
-#Modified: 06-08-2021 14:25:08
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:55
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Payload: Custom
 
 END

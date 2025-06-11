@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Torques in Powertrain
 #Category: Powertrain
 #FileID  : Plot_2cd77a14-4a29-44d1-a8e0-03a81f9c74cf
 #Modified: 05-28-2021 14:59:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

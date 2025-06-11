@@ -109,8 +109,8 @@ LOG_ENTRY Used Dataset: Vehicle: Assembly; { B-Class } B-Class, Sports Car (6-sp
 #Category: B-Class
 #FileID  : Vehicle_b976c570-0e0b-4b78-827d-fa6a24ef9fb3
 #Modified: 09-01-2021 12:45:22
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_Ind
 
 END

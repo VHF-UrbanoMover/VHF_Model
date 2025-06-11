@@ -32,8 +32,8 @@ LOG_ENTRY Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0 
 #Category: 
 #FileID  : BrkProp_139de4eb-5c60-4501-a053-695e60ad9d1b
 #Modified: 05-28-2021 15:02:40
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Prop / Limit Valve
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 0
 #RingCtrl1 10
@@ -86,9 +87,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { * Auxiliary Steer Control } 01 - E
 #Category: * Auxiliary Steer Control
 #FileID  : Run_2e6d62a6-3a09-4bd0-8e35-2dd96dd50efa
 #Created : 11-05-2021 08:17:54
-#Modified: 11-17-2021 10:30:48
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:37
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

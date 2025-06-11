@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Miles per gallon
 #Category: Powertrain (Hybrid)
 #FileID  : Plot_033b13aa-a635-4ea4-a1b3-cebbfea1b76b
 #Modified: 05-28-2021 14:59:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

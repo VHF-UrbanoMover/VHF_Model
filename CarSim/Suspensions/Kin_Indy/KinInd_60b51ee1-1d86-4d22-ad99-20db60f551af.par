@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { Artic Bus }
 #FileID  : KinInd_60b51ee1-1d86-4d22-ad99-20db60f551af
 #Created : 09-29-2021 17:27:55
 #Modified: 12-01-2021 09:19:05
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Independent
 
 END

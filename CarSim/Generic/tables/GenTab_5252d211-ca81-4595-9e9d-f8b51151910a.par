@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain VHF } Optimal CB250F Twister
 #FileID  : GenTab_5252d211-ca81-4595-9e9d-f8b51151910a
 #Created : 12-23-2022 10:16:22
 #Modified: 01-13-2023 11:44:37
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

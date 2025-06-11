@@ -78,8 +78,8 @@ LOG_ENTRY Used Dataset: Tire; { Touring Tires } 175/65 R14
 #Category: Touring Tires
 #FileID  : Tire_d4b58623-61c9-4fd6-9d6b-d19fdbbbd93f
 #Modified: 05-28-2021 14:59:07
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

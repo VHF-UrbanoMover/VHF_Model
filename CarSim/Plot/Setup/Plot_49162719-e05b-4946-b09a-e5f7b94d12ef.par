@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Battery efficiency
 #Category: Powertrain (Hybrid)
 #FileID  : Plot_49162719-e05b-4946-b09a-e5f7b94d12ef
 #Modified: 05-28-2021 14:59:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

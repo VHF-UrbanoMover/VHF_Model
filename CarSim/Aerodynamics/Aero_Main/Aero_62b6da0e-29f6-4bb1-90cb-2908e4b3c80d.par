@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Pickup Trucks } Full-Size Pickup 
 #Category: Pickup Trucks
 #FileID  : Aero_62b6da0e-29f6-4bb1-90cb-2908e4b3c80d
 #Modified: 05-28-2021 15:03:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Aerodynamics
 
 END

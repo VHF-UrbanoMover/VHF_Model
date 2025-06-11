@@ -1,54 +1,1570 @@
-2025-04-26T14:28:04 Logfile initialized.
-2025-04-26T14:28:04 (Info):    CarSim 2022.0
-2025-04-26T14:28:04 (Info):    -
-2025-04-26T14:28:04 (Info):    command-line: 
-2025-04-26T14:28:04 (Info):    -
-2025-04-26T14:28:04 (Info):    Working Dir: E:\Henrique\Poli\Pos-Mestrado2025\VCU HiL\VHF_Model\CarSim\
-2025-04-26T14:28:04 (Info):    Program Dir: C:\Program Files (x86)\CarSim2022.0_Prog\
-2025-04-26T14:28:04 (Info):    -
-2025-04-26T14:28:04 (Info):    OS Version:        6.2 (build 9200)
-2025-04-26T14:28:04 (Info):    CPU Architecture:  x64
-2025-04-26T14:28:04 (Info):    CPU Count:         8
-2025-04-26T14:28:04 (Info):    CPU Level/Rev:     6/36364
-2025-04-26T14:28:04 (Info):    Start Mem Total:   16235 MB
-2025-04-26T14:28:04 (Info):    Start Mem Used:    90%
-2025-04-26T14:28:04 (Info):    -
-2025-04-26T14:28:04 (Info):    Could not load dataset index cache "Configuration\index.cache"
-2025-04-26T14:28:06 (Info):    Feature                  Source                       Version  Acquired  Count
-2025-04-26T14:28:06 (Info):    -----------------        -----------------            -------  --------  -----
-2025-04-26T14:28:06 (Info):    carsimbr                 @carsimrt                    2024     [   ]          
-2025-04-26T14:28:06 (Info):    carsimsguibr             @carsimrt                    2024     [   ]          
-2025-04-26T14:28:06 (Info):    carsimsmobr              @carsimrt                    2024     [   ]          
-2025-04-26T14:28:06 (Info):    trucksimbr               @carsimrt                    2024     [   ]          
-2025-04-26T14:28:06 (Info):    trucksimsguibr           @carsimrt                    2024     [   ]          
-2025-04-26T14:28:06 (Info):    trucksimsmobr            @carsimrt                    2024     [   ]          
-2025-04-26T14:28:06 (Info):    carsimbr                 @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimdspacebr           @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimlabcarbr           @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimsguibr             @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimsmobr              @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimsmortbr            @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimoptionsrtbr        @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimebr                @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimengmtbr            @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimlinuxbr            @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimmvbr               @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimopalbr             @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimepibr              @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimfbr                @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimlinuxsolverbr      @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimlabviewbr          @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimspdgtbr            @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimwdsbr              @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimanibr              @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimtbr                @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:06 (Info):    carsimcanoebr            @carsimrt2                   2025     [   ]          
-2025-04-26T14:28:16 (Info):    Acquired [1] license for carsimsguibr
-2025-04-26T14:28:16 (Info):    Acquired [1] license for carsimbr
-2025-04-26T14:28:16 (Info):    Acquired [1] license for carsimsmobr
-2025-04-26T14:28:16 (Info):    License check took 11.22 seconds.
-2025-04-26T14:28:30 (Info):    Indexed whole database in 13.89s
-2025-04-26T14:28:34 (Info):    Initial setup took 3.88 seconds.
-2025-04-26T14:28:34 (Info):    Auto updates took 0.00 seconds.
-2025-04-26T14:28:35 (Info):    Loaded last screen in 0.66 seconds.
-2
+2025-06-09T18:17:25 Logfile initialized.
+2025-06-09T18:17:25 (Info):    CarSim 2024.1
+2025-06-09T18:17:25 (Info):    -
+2025-06-09T18:17:25 (Info):    command-line: 
+2025-06-09T18:17:25 (Info):    -
+2025-06-09T18:17:25 (Info):    Working Dir: E:\Henrique\Poli\Pos-Mestrado2025\VCU HiL\VHF_Model\CarSim\
+2025-06-09T18:17:25 (Info):    Program Dir: C:\Program Files (x86)\CarSim2024.1_Prog\
+2025-06-09T18:17:25 (Info):    -
+2025-06-09T18:17:25 (Info):    OS Version:        6.2 (build 9200)
+2025-06-09T18:17:25 (Info):    CPU Architecture:  x64
+2025-06-09T18:17:25 (Info):    CPU Count:         16
+2025-06-09T18:17:25 (Info):    CPU Level/Rev:     6/47618
+2025-06-09T18:17:25 (Info):    Start Mem Total:   32389 MB
+2025-06-09T18:17:25 (Info):    Start Mem Used:    38%
+2025-06-09T18:17:25 (Info):    -
+2025-06-09T18:17:25 (Info):    Loaded dataset index cache in 0.00s, 0.1 megabytes.
+2025-06-09T18:17:28 (Info):    Feature                  Source                       Version  Acquired  Count
+2025-06-09T18:17:28 (Info):    -----------------        -----------------            -------  --------  -----
+2025-06-09T18:17:28 (Info):    carsimbr                 @carsimrt                    2024     [   ]          
+2025-06-09T18:17:28 (Info):    carsimsguibr             @carsimrt                    2024     [   ]          
+2025-06-09T18:17:28 (Info):    carsimsmobr              @carsimrt                    2024     [   ]          
+2025-06-09T18:17:28 (Info):    trucksimbr               @carsimrt                    2024     [   ]          
+2025-06-09T18:17:28 (Info):    trucksimsguibr           @carsimrt                    2024     [   ]          
+2025-06-09T18:17:28 (Info):    trucksimsmobr            @carsimrt                    2024     [   ]          
+2025-06-09T18:17:28 (Info):    carsimbr                 @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimdspacebr           @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimlabcarbr           @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimsguibr             @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimsmobr              @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimsmortbr            @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimoptionsrtbr        @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimebr                @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimengmtbr            @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimlinuxbr            @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimmvbr               @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimopalbr             @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimepibr              @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimfbr                @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimlinuxsolverbr      @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimlabviewbr          @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimspdgtbr            @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimwdsbr              @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimanibr              @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimtbr                @carsimrt2                   2025     [   ]          
+2025-06-09T18:17:28 (Info):    carsimcanoebr            @carsimrt2                   2025     [   ]          
+2025-06-09T18:18:56 (Info):    Acquired [1] license for carsimsguibr
+2025-06-09T18:18:56 (Info):    Acquired [1] license for carsimbr
+2025-06-09T18:18:56 (Info):    Acquired [1] license for carsimsmobr
+2025-06-09T18:18:56 (Info):    Acquired [1] license for carsimanibr
+2025-06-09T18:18:56 (Info):    License check took 91.53 seconds.
+2025-06-09T18:19:02 (Info):    Indexed whole database in 5.70s
+2025-06-09T18:19:58 (Error):   Could not copy to destination location. Note that you must select an empty and writeable directory to put your backup database.
+2025-06-09T18:20:20 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\CarSim 2024.1".
+2025-06-09T18:20:20 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\CarSim 2024.1".
+2025-06-09T18:20:22 (Info):    Initial setup took 79.91 seconds.
+2025-06-09T18:20:22 (Info):    Auto updates took 0.00 seconds.
+2025-06-09T18:20:22 (Info):    Re-write Entire Database
+2025-06-09T18:20:22 (Info):    Re-writing all parsfiles, Library Preferences, 0% complete
+2025-06-09T18:20:22 (Info):    Writing Dataset: {  } Default Settings
+2025-06-09T18:20:22 (Info):    Not rewriting library "Wind Heading", no unencrypted datasets found (0 total).
+2025-06-09T18:20:22 (Info):    Not rewriting library "Wind Speed", no unencrypted datasets found (0 total).
+2025-06-09T18:20:22 (Info):    Not rewriting library "Vehicle: Trailer with 3 Axles", no unencrypted datasets found (0 total).
+2025-06-09T18:20:22 (Info):    Re-writing all parsfiles, Library Vehicle: Trailer with 2 Axles, 0% complete
+2025-06-09T18:20:22 (Info):    Writing Dataset: {  } 2A Heavy Flatbed GN, Dual Wheels
+2025-06-09T18:20:22 (Info):    Re-writing all parsfiles, Library Vehicle: Trailer with 1 Axle, 0% complete
+2025-06-09T18:20:22 (Info):    Writing Dataset: {  } Art Bus Rear, Simple Ani
+2025-06-09T18:20:22 (Info):    Writing Dataset: {  } Artic Bus - Rear
+2025-06-09T18:20:22 (Info):    Re-writing all parsfiles, Library Vehicle: Trailer Sprung Mass, 0% complete
+2025-06-09T18:20:22 (Info):    Writing Dataset: { Artic Bus } Articulated Bus, L = 500
+2025-06-09T18:20:22 (Info):    Writing Dataset: { Gooseneck } Gooseneck Trailer (2A) w Dual Wheels
+2025-06-09T18:20:22 (Info):    Re-writing all parsfiles, Library Vehicle: Sprung Mass (from Whole Vehicle), 0% complete
+2025-06-09T18:20:22 (Info):    Writing Dataset: {  } D-Class, Sedan
+2025-06-09T18:20:22 (Info):    Writing Dataset: {  } Pickup, Full Size
+2025-06-09T18:20:22 (Info):    Re-writing all parsfiles, Library Vehicle: Sprung Mass, 1% complete
+2025-06-09T18:20:22 (Info):    Writing Dataset: { Artic Bus } Articulated Bus
+2025-06-09T18:20:22 (Info):    Writing Dataset: { Artic Bus } Articulated Bus w damping
+2025-06-09T18:20:22 (Info):    Writing Dataset: { B-Class } B-Class, Hatchback w/Hybrid Powertrain
+2025-06-09T18:20:22 (Info):    Writing Dataset: { B-Class } B-Class, Sports Car
+2025-06-09T18:20:22 (Info):    Writing Dataset: { C-Class } C-Class, Hatchback
+2025-06-09T18:20:22 (Info):    Writing Dataset: { D-Class } D-Class, Sedan
+2025-06-09T18:20:22 (Info):    Writing Dataset: { E-Class } E-Class, Sedan
+2025-06-09T18:20:22 (Info):    Writing Dataset: { Exotic Sports Car } Exotic Car
+2025-06-09T18:20:22 (Info):    Writing Dataset: { Meu Veiculo } VHF, Hatchback
+2025-06-09T18:20:22 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size, Super Cab, 8 ft. Bed
+2025-06-09T18:20:22 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Midsize, Electric
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Reg. Cab 8 ft Bed DRW, GN hitch
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Utility Vehicles: SUVs and Vans } SUV, Full Size
+2025-06-09T18:20:23 (Info):    Re-writing all parsfiles, Library Vehicle: Assembly, 2% complete
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Articulated Bus } Artic Bus Lead, damping, no pwrtrn
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Articulated Bus } Artic Bus Lead, w/o damping, no pwrtrn
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Articulated Bus } Articulated Bus Lead, Simple Ani
+2025-06-09T18:20:23 (Info):    Writing Dataset: { B-Class } B-Class, Hatchback: Pre.T.P.Hybrid RWD
+2025-06-09T18:20:23 (Info):    Writing Dataset: { B-Class } B-Class, Hatchback: RE-Electric RWD
+2025-06-09T18:20:23 (Info):    Writing Dataset: { B-Class } B-Class, Hbk: A.Split Hybrid RWD, Regen
+2025-06-09T18:20:23 (Info):    Writing Dataset: { B-Class } B-Class, Hbk: Pos.T.P.Hybrid RWD, Regen
+2025-06-09T18:20:23 (Info):    Writing Dataset: { B-Class } B-Class, Hbk: Pre.T.P.Hybrid RWD, Regen
+2025-06-09T18:20:23 (Info):    Writing Dataset: { B-Class } B-Class, Hbk: RE-Electric RWD, Regen Brk
+2025-06-09T18:20:23 (Info):    Writing Dataset: { B-Class } B-Class, Sports Car (6-speed AT)
+2025-06-09T18:20:23 (Info):    Writing Dataset: { C-Class } C-Class, Hatchback
+2025-06-09T18:20:23 (Info):    Writing Dataset: { C-Class } C-Class, Hatchback: No ABS
+2025-06-09T18:20:23 (Info):    Writing Dataset: { D-Class } D-Class, Sedan: Twist-Beam (No Comp.)
+2025-06-09T18:20:23 (Info):    Writing Dataset: { D-Class } D-Class, Sedan: Whole Veh. Spr. Mass
+2025-06-09T18:20:23 (Info):    Writing Dataset: { E-Class } E-Class, Sedan
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Exotic Sports Car } Exotic Sports Car, Parallel Hybrid AWD
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Meus Veiculos } VHF Urbano, eRWD 500 Hibrido Serie
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Meus Veiculos } VHF Urbano, eRWD External Powertrain
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Meus Veiculos } VHF Urbano, eRWD Hibrido Serie
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Meus Veiculos } VHF Urbano, eRWD Hibrido Serie com controle Vx
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Meus Veiculos } VHF Urbano, eRWD Hibrido Serie w/o Reg. Brake
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size (SA_SA): SM (whole veh)
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size Reg Cab DRW, GN hitch
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size Sup Cab 8 Bed
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Midsize: Electric
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Utility Vehicles } SUV, Full Size
+2025-06-09T18:20:23 (Info):    Re-writing all parsfiles, Library Vehicle with Loads, Sensors, Trailer, etc., 4% complete
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Artic Bus } Art bus, Simple Ani
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Artic Bus } Artic bus, damping
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Artic Bus } Artic Bus, w/o artic joint damping
+2025-06-09T18:20:23 (Info):    Writing Dataset: { B-Class } Sports Car: Driver & Fuel Payloads
+2025-06-09T18:20:23 (Info):    Writing Dataset: { C-Class } C-Class for Update Path Example
+2025-06-09T18:20:23 (Info):    Writing Dataset: { D-Class } D-Class, Sedan (Twist-Beam): K Test
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Pickup, Full Size } Pickup, DRW, 2A GN Trailer w Dual Whls
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Pickup, Full Size } Pickup, Full Size, 2000 kg Payload
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Utility Vehicles } SUV, Full Size, 7 Passengers
+2025-06-09T18:20:23 (Info):    Re-writing all parsfiles, Library Tire: Vertical Force vs. Compression, 4% complete
+2025-06-09T18:20:23 (Info):    Writing Dataset: { GT } GT Front - 27/68 - 18
+2025-06-09T18:20:23 (Info):    Writing Dataset: { GT } GT Rear - 28/71 - 18
+2025-06-09T18:20:23 (Info):    Not rewriting library "Tire: Overturning Moment vs. Inclination", no unencrypted datasets found (0 total).
+2025-06-09T18:20:23 (Info):    Not rewriting library "Tire: Overturning Moment", no unencrypted datasets found (0 total).
+2025-06-09T18:20:23 (Info):    Re-writing all parsfiles, Library Tire: Longitudinal Force, 5% complete
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Artic Bus } Fx: 3000 kg Load Rating
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Performance Tires } 205/45 R17
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Racing Tires } GT Front - 27/68 - 18
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Racing Tires } GT Rear - 28/71 - 18
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Touring Tires } 175/65 R14
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Touring Tires } 185/65 R15
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Touring Tires } 215/55 R17
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Touring Tires } 225/60 R18
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Touring Tires } 265/70 R17
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Touring Tires } 265/75 R16
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Trailers and Light Truck Tires } 235/80  R16 - Trailer
+2025-06-09T18:20:23 (Info):    Not rewriting library "Tire: Lateral Force vs. Inclination", no unencrypted datasets found (0 total).
+2025-06-09T18:20:23 (Info):    Re-writing all parsfiles, Library Tire: Lateral Force, 5% complete
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Artic Bus } Fy: 3000 kg Load Rating
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Performance Tires } 205/45 R17
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Racing Tires } GT Front - 27/68 - 18
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Racing Tires } GT Rear - 28/71 - 18
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Touring Tires } 175/65 R14
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Touring Tires } 185/65 R15
+2025-06-09T18:20:23 (Info):    Writing Dataset: { Touring Tires } 215/55 R17
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 225/60 R18
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 265/70 R17
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 265/75 R16
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Trailer and Light Truck Tires } 235/80 R16 - Trailer
+2025-06-09T18:20:24 (Info):    Re-writing all parsfiles, Library Tire: Camber Thrust Coefficient, 6% complete
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Artic Bus } Linear Coefficient: -0.01
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Performance Tires } 205/45 R17
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Racing Tires } GT Front - 27/68 - 18
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Racing Tires } GT Rear - 28/71 - 18
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 175/65 R14
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 185/65 R15
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 215/55 R17
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 225/60 R18
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 265/70 R17
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 265/75 R16
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Trailers and Light Trucks } 235/80 R16 - Trailer
+2025-06-09T18:20:24 (Info):    Not rewriting library "Tire: Aligning Moment vs. Inclination", no unencrypted datasets found (0 total).
+2025-06-09T18:20:24 (Info):    Re-writing all parsfiles, Library Tire: Aligning Moment, 7% complete
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Artic Bus } Mz: 3000 kg Load Rating
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Performance Tires } 205/45 R17
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Racing Tires } GT Front - 27/68 - 18
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Racing Tires } GT Rear - 28/71 - 18
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 175/65 R14 (SAE)
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 185/65 R15 (SAE)
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 215/55 R17 (SAE)
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 225/60 R18
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 265/70 R17
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 265/75 R16
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Trailer and Light Truck Tires } 235/80 R16 - Trailer
+2025-06-09T18:20:24 (Info):    Re-writing all parsfiles, Library Tires for Any Vehicle Unit, 8% complete
+2025-06-09T18:20:24 (Info):    Writing Dataset: {  } 265/75 R16 for Duals
+2025-06-09T18:20:24 (Info):    Writing Dataset: {  } Trailer Duals - 235/80 R16
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Artic Bus } 3000 kg Steer, 3000 kg Drive (510 mm)
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Artic Bus } 510 mm, Trailer, Dual
+2025-06-09T18:20:24 (Info):    Not rewriting library "Tire (External)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:24 (Info):    Re-writing all parsfiles, Library Tire, 8% complete
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Artic Bus } 510 mm Radius (Drive)
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Artic Bus } 510 mm Radius (Steer)
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Artic Bus } 510 mm Radius (Trailer)
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Performance Tires } 205/45 R17
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Performance Tires } Exotic Front - 235/35 19
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Performance Tires } Exotic Rear - 305/30 19
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 175/65 R14
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 215/55 R17
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 225/60 R18
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 265/75 R16
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 265/75 R16 Off-Road
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } 275/65 R18
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Touring Tires } R=287mm for Hybrid Evaluation
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Trailer and Light Truck Tires } 235/80 R16 - Trailer Duals
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Trailer and Light Truck Tires } 265/75 R16 for Duals
+2025-06-09T18:20:24 (Info):    Not rewriting library "Suspension: Twist Beam Compliances - Longitudinal", no unencrypted datasets found (0 total).
+2025-06-09T18:20:24 (Info):    Not rewriting library "Suspension: Twist Beam Compliances - Lateral", no unencrypted datasets found (0 total).
+2025-06-09T18:20:24 (Info):    Not rewriting library "Suspension: Twist Beam Compliances - Inclination", no unencrypted datasets found (0 total).
+2025-06-09T18:20:24 (Info):    Not rewriting library "Suspension: Twist Beam Compliances - Steer", no unencrypted datasets found (0 total).
+2025-06-09T18:20:24 (Info):    Re-writing all parsfiles, Library Suspension: Toe Angle, 10% complete
+2025-06-09T18:20:24 (Info):    Writing Dataset: { 5-Link Rear } Rear 5-Link - Toe Change
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Artic Bus } Zero Offset
+2025-06-09T18:20:24 (Info):    Writing Dataset: { SLA } Front SLA - Toe Change
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Strut } Front Strut - Toe Angle
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Tri-Link Strut } Rear Tri-Link Strut - Toe Change
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Twist-Beam (2D): Generic Suspension } Toe: Twist-Beam - Rear (2D)
+2025-06-09T18:20:24 (Info):    Not rewriting library "Suspension: Steer Angle (Virtual Steering Axis)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:24 (Info):    Re-writing all parsfiles, Library Suspension: Spring, 10% complete
+2025-06-09T18:20:24 (Info):    Writing Dataset: {  } 30 N/mm
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Artic Bus } Air Spring, 2000 N Friction
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Pickup } Pickup - Rear (HD DRW)
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Pickup } Pickup - Rear (HD)
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Pickup } SUV, Full Size - Rear
+2025-06-09T18:20:24 (Info):    Re-writing all parsfiles, Library Suspension: Shock Absorber, 10% complete
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Linear } Linear: 10 kN-s/m
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Linear } Linear: 20 kN-s/m
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Linear } Linear: 50 kN-s/m
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Passenger Car } Big Car
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Passenger Car } Small Car
+2025-06-09T18:20:24 (Info):    Writing Dataset: { SUV and Light Truck } Big SUV
+2025-06-09T18:20:24 (Info):    Re-writing all parsfiles, Library Suspension: Roll Steer (Solid Axle), 11% complete
+2025-06-09T18:20:24 (Info):    Writing Dataset: {  } Spline: 0.15 deg/deg
+2025-06-09T18:20:24 (Info):    Writing Dataset: { Rear } 2D Steer - 4 Link w/ Track Bar
+2025-06-09T18:20:24 (Info):    Re-writing all parsfiles, Library Suspension: Ride Rate (Spring + Tire), 11% complete
+2025-06-09T18:20:24 (Info):    Writing Dataset: {  } 42.4 N/mm, Bmp. 6250 N, No Friction
+2025-06-09T18:20:24 (Info):    Writing Dataset: {  } 42.4 N/mm, Bmp. 6250 N, Strk. 150 mm
+2025-06-09T18:20:24 (Info):    Writing Dataset: {  } 50.7 N/mm, Bmp. 8200 N, No Friction
+2025-06-09T18:20:24 (Info):    Writing Dataset: {  } 50.7 N/mm, Bmp. 8200 N, Strk. 150 mm
+2025-06-09T18:20:25 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:20:25 (Info):    Re-writing all parsfiles, Library Suspension: Measured Total Roll Stiffness, 11% complete
+2025-06-09T18:20:25 (Info):    Writing Dataset: {  } Linear: 1105 N-m/deg
+2025-06-09T18:20:49 (Info):    Note: Dataset took a while to write: 24.000000s.
+2025-06-09T18:20:49 (Info):    Writing Dataset: {  } Linear: 1282 N-m/deg
+2025-06-09T18:20:49 (Info):    Not rewriting library "Suspension: Longitudinal Movement (Virtual Steering Axis)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:49 (Info):    Re-writing all parsfiles, Library Suspension: Longitudinal Movement (Solid Axle), 12% complete
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Artic Bus } Zero Forward X Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Hotchkiss Rear Axle } Rear Hotchkiss - Longitudinal Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Rear } 2D X - 4 Link w/ Track Bar
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Solid Axle } Front SA: Longitudinal Movement
+2025-06-09T18:20:49 (Info):    Re-writing all parsfiles, Library Suspension: Longitudinal Movement, 12% complete
+2025-06-09T18:20:49 (Info):    Writing Dataset: { 5-Link Rear } Rear 5-Link - Longitudinal Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Artic Bus } Tour Bus - Steer Axle
+2025-06-09T18:20:49 (Info):    Writing Dataset: { SLA } Front SLA - Longitudinal Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Strut } Front Strut -  Longitudinal Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Tri-Link Strut } Rr. TLS: Longitudinal Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Twist-Beam (2D): Generic Suspension } Longitudinal: Twist-Beam - Rear (2D)
+2025-06-09T18:20:49 (Info):    Not rewriting library "Suspension: Lateral Movement (Virtual Steering Axis)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:49 (Info):    Re-writing all parsfiles, Library Suspension: Lateral Movement Due to Roll and Jounce, 12% complete
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Artic Bus } Roll Center: 195 mm Above Axle
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Hotchkiss } Rear Hotchkiss - Lateral Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Rear } 2D Y - 4 Link w/ Track Bar
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Solid Axle } 1.7 mm/deg
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Solid Axle } Front Solid Axle - Lateral Movement
+2025-06-09T18:20:49 (Info):    Re-writing all parsfiles, Library Suspension: Lateral Movement Due to Jounce, 13% complete
+2025-06-09T18:20:49 (Info):    Writing Dataset: { 5-Link Rear } Rear 5-Link - Lateral Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Artic Bus } Tour Bus - Steer Axle
+2025-06-09T18:20:49 (Info):    Writing Dataset: { SLA } Front SLA - Lateral Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Strut } Front Strut - Lateral Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Tri-Link Strut } Rear Tri-Link Strut - Lateral Movement
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Twist-Beam (2D): Generic Suspension } Lateral: Twist-Beam - Rear (2D)
+2025-06-09T18:20:49 (Info):    Re-writing all parsfiles, Library Suspension: Jounce and Rebound Stops, 13% complete
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 100 mm to 150 mm } +100 mm / -100 mm
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 100 mm to 150 mm } +120 mm / -60 mm
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 100 mm to 150 mm } +150 mm / -110 mm
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 100 mm to 150 mm } +150 mm / -150 mm
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 25 mm to 49 mm } +25 mm / -55 mm
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 50 mm to 99 mm } +60 mm / -40 mm
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 50 mm to 99 mm } +60 mm / -60 mm
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 50 mm to 99 mm } +70 mm / -25 mm
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 50 mm to 99 mm } +70 mm / -50 mm
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 50 mm to 99 mm } +80 mm / -50 mm
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Jounce Range: 50 mm to 99 mm } +80 mm / -80 mm
+2025-06-09T18:20:49 (Info):    Not rewriting library "Suspension: Dive Angle (Virtual Steering Axis)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:49 (Info):    Re-writing all parsfiles, Library Suspension: Dive Angle (Solid Axle), 14% complete
+2025-06-09T18:20:49 (Info):    Writing Dataset: {  } Constant: Zero Dive Angle (deg)
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Rear } 2D Dive - 4 Link w/ Track Bar
+2025-06-09T18:20:49 (Info):    Re-writing all parsfiles, Library Suspension: Dive Angle (Caster Change), 14% complete
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Artic Bus } Constant: Zero Dive Angle (deg)
+2025-06-09T18:20:49 (Info):    Writing Dataset: { SLA } Front SLA - Dive Angle
+2025-06-09T18:20:49 (Info):    Writing Dataset: { Strut } Front Strut - Dive Angle
+2025-06-09T18:20:50 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Twist-Beam (2D): Generic Suspension } Dive: Twist-Beam - Rear (2D)
+2025-06-09T18:20:50 (Info):    Re-writing all parsfiles, Library Suspension: Compliance (Nonlinear), 15% complete
+2025-06-09T18:20:50 (Info):    Writing Dataset: {  } SUV, Full Size - Front
+2025-06-09T18:20:50 (Info):    Not rewriting library "Suspension: Camber Angle (Virtual Steering Axis)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:50 (Info):    Re-writing all parsfiles, Library Suspension: Camber Angle, 15% complete
+2025-06-09T18:20:50 (Info):    Writing Dataset: { 5-Link Rear } Rear 5-Link - Camber Change
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Artic Bus } Generic Commercial Vehicle
+2025-06-09T18:20:50 (Info):    Writing Dataset: { SLA } Front SLA - Camber Change
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Strut } Front Strut - Camber Change
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Tri-Link Strut } Rear Tri-Link Strut - Camber Change
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Twist-Beam (2D): Generic Suspension } Camber: Twist-Beam - Rear (2D)
+2025-06-09T18:20:50 (Info):    Re-writing all parsfiles, Library Suspension: Auxiliary Roll Moment, 15% complete
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Constant } Constant: Zero
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Linear } Linear: 184 N-m/deg
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Linear } Linear: 205 N-m/deg
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Linear } Linear: 251 N-m/deg
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Linear } Linear: 344 N-m/deg
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Linear } Linear: 384 N-m/deg
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Linear } Linear: 510 N-m/deg
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Linear } Linear: 569 N-m/deg
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Linear } Linear: 8500 N-m/deg
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Linear } Load Dependent: Trailer
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Non-Linear } Non-linear: 344 N-m/deg
+2025-06-09T18:20:50 (Info):    Not rewriting library "Suspension: Virtual Steering Axis Compliance, Springs, and Dampers", no unencrypted datasets found (0 total).
+2025-06-09T18:20:50 (Info):    Not rewriting library "Suspension: Virtual Steering Axis System Kinematics", no unencrypted datasets found (0 total).
+2025-06-09T18:20:50 (Info):    Not rewriting library "Suspension: Twist Beam Compliance, Springs, and Dampers (Legacy)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:50 (Info):    Not rewriting library "Suspension: Twist Beam Kinematics (Legacy)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:50 (Info):    Not rewriting library "Suspension: Twist Beam System Compliance, Springs, and Dampers", no unencrypted datasets found (0 total).
+2025-06-09T18:20:50 (Info):    Not rewriting library "Suspension: Twist Beam System Kinematics", no unencrypted datasets found (0 total).
+2025-06-09T18:20:50 (Info):    Re-writing all parsfiles, Library Suspension: Solid Axle Compliance, Springs, and Dampers, 16% complete
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Artic Bus } 10t Air: +60 mm, -60 mm Travel
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size - Front
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size - Rear
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size - Rear (HD DRW)
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Midsize, Electric - Rear
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Trailers } Susp. Compliance - GN Trailer, Dual Whls
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Utility Vehicles: SUVs and Vans } SUV, Full Size - Rear
+2025-06-09T18:20:50 (Info):    Re-writing all parsfiles, Library Suspension: Solid Axle System Kinematics, 17% complete
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Artic Bus } 10t Drive, Dual Wheels
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Artic Bus } 10t Trailer, Dual Wheels
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size - Front
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size - Rear
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size - Rear (HD DRW)
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Midsize, Electric - Rear
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Trailers } Susp. Kinematics: 2A GN Trailer Duals
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Utility Vehicles: SUVs and Vans } SUV, Full Size - Rear
+2025-06-09T18:20:50 (Info):    Re-writing all parsfiles, Library Suspension: Independent Compliance, Springs, and Dampers, 17% complete
+2025-06-09T18:20:50 (Info):    Writing Dataset: { A-Class } A-Class, Hatchback - Front
+2025-06-09T18:20:50 (Info):    Writing Dataset: { A-Class } A-Class, Hatchback - Rear
+2025-06-09T18:20:50 (Info):    Writing Dataset: { Artic Bus } Tour Bus - Steer Axle
+2025-06-09T18:20:50 (Info):    Writing Dataset: { B-Class } B-Class, Hatchback - Front
+2025-06-09T18:20:50 (Info):    Writing Dataset: { B-Class } B-Class, Hatchback - Rear
+2025-06-09T18:20:50 (Info):    Writing Dataset: { B-Class } B-Class, Sports Car - Front
+2025-06-09T18:20:50 (Info):    Writing Dataset: { B-Class } B-Class, Sports Car - Rear
+2025-06-09T18:20:50 (Info):    Writing Dataset: { C-Class } C-Class, Hatchback - Front
+2025-06-09T18:20:50 (Info):    Writing Dataset: { C-Class } C-Class, Hatchback - Rear
+2025-06-09T18:20:50 (Info):    Writing Dataset: { D-Class } D-Class, Sdn - Front
+2025-06-09T18:20:50 (Info):    Writing Dataset: { D-Class } D-Class, Sdn - Ft. Measured Ride Rates
+2025-06-09T18:20:51 (Info):    Writing Dataset: { D-Class } D-Class, Sdn - Rear (Twist, No Comp.)
+2025-06-09T18:20:51 (Info):    Writing Dataset: { D-Class } D-Class, Sdn - Rr. Measured Ride Rates
+2025-06-09T18:20:51 (Info):    Writing Dataset: { E-Class } E-Class, Sedan - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { E-Class } E-Class, Sedan - Rear
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Exotic Sports Car } Exotic - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Exotic Sports Car } Exotic - Rear
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Compact - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size - Front (HD)
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Utility Vehicles: SUVs and Vans } SUV, Full Size - Front
+2025-06-09T18:20:51 (Info):    Re-writing all parsfiles, Library Suspension: Independent System Kinematics, 19% complete
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Artic Bus } Articulated Bus - Steer Axle
+2025-06-09T18:20:51 (Info):    Writing Dataset: { B-Class } B-Class, Hatchback - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { B-Class } B-Class, Hatchback - Rear
+2025-06-09T18:20:51 (Info):    Writing Dataset: { B-Class } B-Class, Sports Car - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { B-Class } B-Class, Sports Car - Rear
+2025-06-09T18:20:51 (Info):    Writing Dataset: { C-Class } C-Class, Hatchback - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { C-Class } C-Class, Hatchback - Rear
+2025-06-09T18:20:51 (Info):    Writing Dataset: { D-Class } D-Class, Sedan - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { D-Class } D-Class, Sedan - Rear
+2025-06-09T18:20:51 (Info):    Writing Dataset: { D-Class } D-Class, Sedan - Rear (Twist-Beam)
+2025-06-09T18:20:51 (Info):    Writing Dataset: { E-Class } E-Class, Sedan - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { E-Class } E-Class, Sedan - Rear
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Exotic Sports Car } Exotic - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Exotic Sports Car } Exotic - Rear
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size - Front (HD)
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Midsize - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Utility Vehicles: SUVs and Vans } SUV, Full Size - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { VHF } VHF, Hatchback - Front
+2025-06-09T18:20:51 (Info):    Writing Dataset: { VHF } VHF, Hatchback - Rear
+2025-06-09T18:20:51 (Info):    Not rewriting library "Steering Wheel Torque", no unencrypted datasets found (0 total).
+2025-06-09T18:20:51 (Info):    Re-writing all parsfiles, Library Steering: Power Assist Torque, 20% complete
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Gear Assist Torque } Speed Sensitive, 300 N-m Maximum
+2025-06-09T18:20:51 (Info):    Re-writing all parsfiles, Library Steering: Power Assist Force, 21% complete
+2025-06-09T18:20:51 (Info):    Writing Dataset: {  } Pickup, Midsize
+2025-06-09T18:20:51 (Info):    Writing Dataset: { B-Class } B-Class Hatchback, Not Spd Sens
+2025-06-09T18:20:51 (Info):    Writing Dataset: { B-Class } B-Class Sports Car, Not Spd Sens
+2025-06-09T18:20:51 (Info):    Writing Dataset: { C-Class } C-Class Hatchback, Not Spd Sens
+2025-06-09T18:20:51 (Info):    Writing Dataset: { D-Class } D-Class Sedan, Not Spd Sens
+2025-06-09T18:20:51 (Info):    Writing Dataset: { E-Class } E-Class Sedan, Not Spd Sens
+2025-06-09T18:20:51 (Info):    Writing Dataset: { Speed Sensitive } Symetrical, High Boost Curve
+2025-06-09T18:20:51 (Info):    Re-writing all parsfiles, Library Steering: Parking Torque for 2 Wheels, 21% complete
+2025-06-09T18:20:51 (Info):    Writing Dataset: {  } Constant: Zero
+2025-06-09T18:20:51 (Info):    Writing Dataset: { A-Class } A-Class Hatchback
+2025-06-09T18:20:51 (Info):    Writing Dataset: { B-Class } B-Class Hatchback
+2025-06-09T18:20:51 (Info):    Writing Dataset: { B-Class } B-Class Sports Car
+2025-06-09T18:20:51 (Info):    Writing Dataset: { C-Class } C-Class Hatchback
+2025-06-09T18:20:51 (Info):    Writing Dataset: { E-Class } E-Class Sedan
+2025-06-09T18:20:51 (Info):    Not rewriting library "Steering System: Steer Gain vs. Speed", no unencrypted datasets found (0 total).
+2025-06-09T18:20:51 (Info):    Re-writing all parsfiles, Library Steering System: Rack Kinematics, 22% complete
+2025-06-09T18:20:51 (Info):    Writing Dataset: { E-Class } E-Class, Sedan
+2025-06-09T18:20:51 (Info):    Re-writing all parsfiles, Library Steering System: Kinematics for 2 Wheels (Recirc. Ball), 22% complete
+2025-06-09T18:20:51 (Info):    Writing Dataset: { CS Pickup Trucks } Pickup, Full Size
+2025-06-09T18:20:51 (Info):    Writing Dataset: { CS Utility Vehicles: SUVs and Vans } Large European Van
+2025-06-09T18:20:51 (Info):    Re-writing all parsfiles, Library Steering System: Kinematics for 2 Wheels (Rack & Pinion), 22% complete
+2025-06-09T18:20:51 (Info):    Writing Dataset: { CS A-Class } A-Class, Hatchback
+2025-06-09T18:20:51 (Info):    Writing Dataset: { CS B-Class } B-Class, Hatchback
+2025-06-09T18:20:51 (Info):    Writing Dataset: { CS B-Class } B-Class, Sports Car
+2025-06-09T18:20:51 (Info):    Writing Dataset: { CS C-Class } C-Class, Hatchback
+2025-06-09T18:20:51 (Info):    Writing Dataset: { CS D-Class } D-Class, Sedan
+2025-06-09T18:20:51 (Info):    Writing Dataset: { CS E-Class } E-Class, Sedan
+2025-06-09T18:20:51 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:20:52 (Info):    Writing Dataset: { CS Exotic Sports Car } Exotic
+2025-06-09T18:20:52 (Info):    Writing Dataset: { CS Pickup Trucks, SUVs, and Vans } Pickup, Midsize
+2025-06-09T18:20:52 (Info):    Writing Dataset: { CS Pickup Trucks, SUVs, and Vans } SUV, Full Size
+2025-06-09T18:20:52 (Info):    Not rewriting library "Steering System: Gear Kinematics", no unencrypted datasets found (0 total).
+2025-06-09T18:20:52 (Info):    Re-writing all parsfiles, Library Steering System: Compliance, 23% complete
+2025-06-09T18:20:52 (Info):    Writing Dataset: {  } Constant: Zero
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Linear } 0.001 deg/N-m
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Linear } 0.002 deg/N-m
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Linear } B-Class, Sports Car: 7e-07 deg/N-m
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Linear } E-Class, Sedan: 1.7738e-07 deg/N-m
+2025-06-09T18:20:52 (Info):    Not rewriting library "Steering: Virtual Steering Axis", no unencrypted datasets found (0 total).
+2025-06-09T18:20:52 (Info):    Re-writing all parsfiles, Library Steering, 23% complete
+2025-06-09T18:20:52 (Info):    Writing Dataset: {  } Artic Bus
+2025-06-09T18:20:52 (Info):    Writing Dataset: { CS A-Class } A-Class, Hbk: Manual, R&P
+2025-06-09T18:20:52 (Info):    Writing Dataset: { CS B-Class } B-Class, Hbk: Power, R&P
+2025-06-09T18:20:52 (Info):    Writing Dataset: { CS B-Class } B-Class, Sports Car: Power, R&P
+2025-06-09T18:20:52 (Info):    Writing Dataset: { CS C-Class } C-Class, Hbk: Power, R&P
+2025-06-09T18:20:52 (Info):    Writing Dataset: { CS D-Class } D-Class, Sdn: Power, R&P
+2025-06-09T18:20:52 (Info):    Writing Dataset: { CS E-Class } E-Class, Sdn: Power R&P
+2025-06-09T18:20:52 (Info):    Writing Dataset: { CS Exotic Sports Car } Exotic: Manual R&P
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full: Power, Recirc. Ball
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Mid: Power, R&P
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Utility Vehicles: SUVs and Vans } SUV, Full Size: Power, R&P
+2025-06-09T18:20:52 (Info):    Not rewriting library "Tire Tester", no unencrypted datasets found (0 total).
+2025-06-09T18:20:52 (Info):    Re-writing all parsfiles, Library Procedures, 24% complete
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Accel. and Brake Testing } Hybrid/Electric: Accel then Regen. Brk.
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Accel. and Brake Testing } Hybrid/Electric: EPA Urban Cycle
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Accel. and Brake Testing } Part-Throttle Accel: 1.0 Thr, Split-Mu
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Auxiliary Steer Controller } Auxiliary Steer Control Changes Lanes
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Driver Controls } Handling Course, Aggressive Driving
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Driver Controls } Lane Keeping, Normal Driving
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Driver Controls } Update Path to Avoid Collision
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Driver Controls } Update Path: Simulink Obs. Avoid: Poly
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Driver Controls } Update Path: Simulink Obstacle Avoid
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Handling Testing } DLC @ 120 km/h (Quick Start)
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Handling Testing } DLC @ 120 km/h, Ext. Parsfile for LTARG
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Handling Testing } DLC @ 120 km/h, Ext. Parsfiles for Road
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Handling Testing } DLC @ 50 km/h
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Handling Testing } DLC @ 65 km/h (Low Mu Surface)
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Handling Testing } Double Lane Change, Tight
+2025-06-09T18:20:52 (Info):    Writing Dataset: { K&C Individual Tests } K & C Bounce Test
+2025-06-09T18:20:52 (Info):    Writing Dataset: { K&C Individual Tests } K & C Roll Test (+- 8 deg)
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Meus procedimentos } Full Throttle Accel. and Mu constant
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Meus procedimentos } Full Throttle Accel. w/ Events and Mu variation
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Meus procedimentos } Growing Speed -S tep 9km/h
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Meus procedimentos } Hybrid/Electric: EPA Urban Cycle #1
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Ride Tests } Bounce Sine Sweep Test
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Ride Tests } Chassis Twist Road
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Road Networks } 3-Way Intersection (Articulated Trucks)
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Validation Conditions } At Rest
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Validation Conditions } Slowly Increasing Speed
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Validation Conditions } Slowly Increasing Steer
+2025-06-09T18:20:52 (Info):    Re-writing all parsfiles, Library Events, 26% complete
+2025-06-09T18:20:52 (Info):    Writing Dataset: {  } End Events
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } Avoid Obstruction
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } New Detect
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } New Detect: Simulink
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } New Detect: Simulink Poly
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } Path Return Complete: Check
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } Returned to path
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } Returned to path: Simulink
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } Returned to path: Simulink Poly
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } Simulink Obstacle Avoid Events
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } Simulink Obstacle Avoid Events Poly
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } Update Path
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } Update Path Simulink
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Embedded Python: Obstacle Detection } Update Path Simulink Poly
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Infinity road } Reset to S = 0
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Infinity road } Reset vehicle location when s = 1000
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Recording a Lap } Record Lap Time, End Events
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Recording a Lap } Record Start Time, Write to File
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Recording a Lap } Stop Condition: Record Exactly 1 Lap
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Speed Control with Path Preview } Don't Calculate Edges After First Lap
+2025-06-09T18:20:52 (Info):    Writing Dataset: { Speed Control with Path Preview } Stop After Number of Laps
+2025-06-09T18:20:52 (Info):    Writing Dataset: { VHF Acceleration } A. Wait 0.5 seconds
+2025-06-09T18:20:52 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:20:52 (Info):    Writing Dataset: { VHF Acceleration } A. Wait 3 seconds
+2025-06-09T18:20:53 (Info):    Writing Dataset: { VHF Acceleration } B. Wait 0.5s and reset speed
+2025-06-09T18:20:53 (Info):    Writing Dataset: { VHF Acceleration } B2. Wait 0.5s and reset speed
+2025-06-09T18:20:53 (Info):    Writing Dataset: { VHF Acceleration } C. Ramp throttle till 5s
+2025-06-09T18:20:53 (Info):    Writing Dataset: { Validation Tests } Stop at Ay = AY_STOP
+2025-06-09T18:20:53 (Info):    Writing Dataset: { Validation Tests } Stop at Speed = V_STOP
+2025-06-09T18:20:53 (Info):    Not rewriting library "Powertrain: Yaw Control Differential", no unencrypted datasets found (0 total).
+2025-06-09T18:20:53 (Info):    Not rewriting library "Powertrain: Upshift Schedule (Deprecated)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:53 (Info):    Re-writing all parsfiles, Library Powertrain: Shift Schedule, 28% complete
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-speed } 6-speed, 1-2 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-speed } 6-speed, 2-3 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-speed } 6-speed, 3-4 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-speed } 6-speed, 4-5 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-speed } 6-speed, 5-6 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-speed, Diesel } 6-speed, 1-2 Shift (Diesel)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-speed, Diesel } 6-speed, 2-3 Shift (Diesel)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-speed, Diesel } 6-speed, 3-4 Shift (Diesel)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-speed, Diesel } 6-speed, 4-5 Shift (Diesel)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-speed, Diesel } 6-speed, 5-6 Shift (Diesel)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 1-2, 3000 RPM
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 2-3, 3000 RPM
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 3-4, 3000 RPM
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 4-5, 3000 RPM
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 5-6, 3000 RPM
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-Speed Shift Schedule, 3000 RPM (2A Tour Bus) } 7 Spd., 6-7, 3000 RPM
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed } 7-speed, 1-2 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed } 7-speed, 2-3 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed } 7-speed, 3-4 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed } 7-speed, 4-5 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed } 7-speed, 5-6 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed } 7-speed, 6-7 Shift
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed (Exotic Sports Car) } 7-speed, 1-2 Shift (MT)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed (Exotic Sports Car) } 7-speed, 2-3 Shift (MT)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed (Exotic Sports Car) } 7-speed, 3-4 Shift (MT)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed (Exotic Sports Car) } 7-speed, 4-5 Shift (MT)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed (Exotic Sports Car) } 7-speed, 5-6 Shift (MT)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-speed (Exotic Sports Car) } 7-speed, 6-7 Shift (MT)
+2025-06-09T18:20:53 (Info):    Not rewriting library "Powertrain: Limited Slip Differential for Center Case", no unencrypted datasets found (0 total).
+2025-06-09T18:20:53 (Info):    Re-writing all parsfiles, Library Powertrain: Limited Slip Differential (Front or Rear), 30% complete
+2025-06-09T18:20:53 (Info):    Writing Dataset: { Differential Clutch } LSD: TBR 3:1, No Bias, No Preload
+2025-06-09T18:20:53 (Info):    Re-writing all parsfiles, Library Powertrain: Fuel Consumption Rate, 30% complete
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } 1.5L, 43 kW Gasoline Engine
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } 150 kW Gasoline Engine
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } 250cc
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } 300 kW Gasoline Engine
+2025-06-09T18:20:53 (Info):    Not rewriting library "Powertrain: Downshift Schedule (Deprecated)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:53 (Info):    Not rewriting library "Powertrain: Differential Clutch", no unencrypted datasets found (0 total).
+2025-06-09T18:20:53 (Info):    Not rewriting library "Powertrain: CVT Gear Ratio", no unencrypted datasets found (0 total).
+2025-06-09T18:20:53 (Info):    Not rewriting library "Powertrain: CVT Efficiencies", no unencrypted datasets found (0 total).
+2025-06-09T18:20:53 (Info):    Not rewriting library "Powertrain: Clutch with Viscous Differential", no unencrypted datasets found (0 total).
+2025-06-09T18:20:53 (Info):    Not rewriting library "Powertrain: AT Clutch Schedule", no unencrypted datasets found (0 total).
+2025-06-09T18:20:53 (Info):    Re-writing all parsfiles, Library Powertrain: Electric Motor Torque, 31% complete
+2025-06-09T18:20:53 (Info):    Writing Dataset: { Electric Motor } Constant 1000 N-m
+2025-06-09T18:20:53 (Info):    Writing Dataset: { Electric Motor } Max. Output 1489 N-m
+2025-06-09T18:20:53 (Info):    Writing Dataset: { Electric Motor } Max. Output 286 N-m
+2025-06-09T18:20:53 (Info):    Writing Dataset: { Electric Motor } Max. Output 305 N-m
+2025-06-09T18:20:53 (Info):    Writing Dataset: { Electric Motor } Max. Output 350 N-m
+2025-06-09T18:20:53 (Info):    Writing Dataset: { Electric Motor } Max. Output 762.5 N-m
+2025-06-09T18:20:53 (Info):    Re-writing all parsfiles, Library Powertrain: Hybrid/Electric Power Management Control, 31% complete
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } PL-HEV Pwr Mgmt: Full Load 165kW
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } PL-HEV Pwr Mgmt: Full Load 500kW
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } Power Management: Full Load 300 kW
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } RE-Elect. Power Mgmt: Full Load 165kW
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } VHF Power Mgmt: Full Load 20kW optimized
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } VHF Power Mgmt: Full Load 20kW w/o Reg. Brake
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } VHF Power Mgmt: Full Load 22kW
+2025-06-09T18:20:53 (Info):    Re-writing all parsfiles, Library Powertrain: Hybrid/Electric System, 32% complete
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } 723 V Battery, Axle Motors
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } Parallel Hyb. Motor on Axle, Hi-Gr
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } Parallel Hybrid, Motor on Axle
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } Post-Transmission Parallel Hybrid
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } Pre-Transmission Parallel Hybrid
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } Range-Ext. Electric Powertrain Assembly
+2025-06-09T18:20:53 (Info):    Writing Dataset: {  } Range-Ext. VHF Powertrain Assembly
+2025-06-09T18:20:53 (Info):    Re-writing all parsfiles, Library Powertrain: Transmission (External, Deprecated), 32% complete
+2025-06-09T18:20:53 (Info):    Writing Dataset: { External } External Transmission
+2025-06-09T18:20:53 (Info):    Re-writing all parsfiles, Library Powertrain: Transmission (18 Gears or CVT), 32% complete
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-Speed Transmissions } 6-Speed
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 6-Speed Transmissions } 6-Speed for Diesel
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-Speed } 7 Spd., AT, 3000 RPM (2A Tour Bus)
+2025-06-09T18:20:53 (Info):    Writing Dataset: { 7-Speed Transmissions } 7-Speed
+2025-06-09T18:20:53 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 7-Speed Transmissions } 7-Speed (Exotic Sports Car)
+2025-06-09T18:20:54 (Info):    Re-writing all parsfiles, Library Powertrain: Transfer Case, 33% complete
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Electric Motor Drive } A.Split HEV: Fr ICE; Rr EM, Gr. 1.0
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Electric Motor Drive } EV eTransfer Case: 50/50, Gr. 1.0
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Electric Motor Drive } HEV: RWD base eAWD, Gr. 1.0
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Limited Slip and Viscous Coupling } Viscous Coupling: 50/50, Gear Ratio 1:1
+2025-06-09T18:20:54 (Info):    Re-writing all parsfiles, Library Powertrain: Torque Converter, 33% complete
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Torque Converters: 150 kW to 250 kW } 175 kW, 3000 RPM Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Torque Converters: 150 kW to 250 kW } Torque Converter: 150 kW Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Torque Converters: 150 kW to 250 kW } Torque Converter: 250 kW Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Torque Converters: 251 kW to 350 kW } Torque Converter: 270 kW Diesel Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Torque Converters: 75 kW to 150 kW } Torque Converter: 125 kW Engine
+2025-06-09T18:20:54 (Info):    Re-writing all parsfiles, Library Powertrain: Rear-Wheel Drive, 34% complete
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 125 kW Powertrains } 125 kW, 6-spd., 4.1 Ratio
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 175 kW Powertrains } 175 kW, 7 Speed AT (2A Tour Bus)
+2025-06-09T18:20:54 (Info):    Writing Dataset: { External } External Powertrain
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Hybrid: 43/40 kW (Engine + Motor) } 43/40 kW, Pos.T.P.Hybrid (Hi-Pw), 3.905
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Hybrid: 43/40 kW (Engine + Motor) } 43/40 kW, Pre.T.P.Hybrid (Hi-Pw), 3.905
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Hybrid: 43/40 kW (Engine + Motor) } 43/40 kW, Series Hybrid, 3.905 Ratio
+2025-06-09T18:20:54 (Info):    Writing Dataset: { VHF Hibrido (Engine + Dual Rear Motor) } Hibrido Serie 250cc 2RWD
+2025-06-09T18:20:54 (Info):    Writing Dataset: { VHF Hibrido (Engine + Dual Rear Motor) } Hibrido Serie 250cc 2RWD 1000 N-m
+2025-06-09T18:20:54 (Info):    Writing Dataset: { VHF Hibrido (Engine + Dual Rear Motor) } Hibrido Serie 250cc 2RWD optimized
+2025-06-09T18:20:54 (Info):    Writing Dataset: { VHF Hibrido (Engine + Dual Rear Motor) } Hibrido Serie 250cc 2RWD w/o Reg. Brake
+2025-06-09T18:20:54 (Info):    Not rewriting library "Powertrain: Rear Twin-Clutch Differential", no unencrypted datasets found (0 total).
+2025-06-09T18:20:54 (Info):    Re-writing all parsfiles, Library Powertrain: Rear Differential, 34% complete
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Electric Motor Drive (100 kW) } EV Viscous Diff.: Gear Ratio 3.1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Electric Motor Drive (150 kW) } 150 kW Drive Unit, Limited Slip Diff. 10:1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Electric Motor Drive (40 kW) } EV (40kW) Open Diff.: Ratio 3.905:1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Limited Slip and Viscous Coupling } Viscous: Gear Ratio 2.65:1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Limited Slip and Viscous Coupling } Viscous: Gear Ratio 4.1:1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Open } Open Differential: Gear Ratio 3.905:1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Open } Open Differential: Gear Ratio 5:1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { VHF Electric Motor Drive (30 kW) } VHF Twin-Motor 1000 N-m w/ 2.65:1 ratio
+2025-06-09T18:20:54 (Info):    Writing Dataset: { VHF Electric Motor Drive (30 kW) } VHF Twin-Motor w/ 2.65:1 ratio
+2025-06-09T18:20:54 (Info):    Re-writing all parsfiles, Library Powertrain: Front-Wheel Drive, 35% complete
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 150 kW Powertrains } 150 kW, 6-spd., 4.1 Ratio
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 75 kW - 125 kW Powertrains } 125 kW, 6-spd., 4.1 Ratio w/ Visc. Diff.
+2025-06-09T18:20:54 (Info):    Not rewriting library "Powertrain: Front Twin-Clutch Differential", no unencrypted datasets found (0 total).
+2025-06-09T18:20:54 (Info):    Re-writing all parsfiles, Library Powertrain: Front Differential, 35% complete
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Electric Motor Drive (100 kW) } EV Twin-Motor: Visc. R3.1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Electric Motor Drive (150 kW) } 150 kW Drive Unit, Open Diff. 10:1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Limited Slip and Viscous Coupling } Viscous: Gear Ratio 2.65
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Limited Slip and Viscous Coupling } Viscous: Gear Ratio 4.1:1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Open } Open Differential: Gear Ratio 3.905:1
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Open } Open Differential: Gear Ratio 4.1:1
+2025-06-09T18:20:54 (Info):    Re-writing all parsfiles, Library Powertrain: Engine, 36% complete
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 150 kW Engines } 150 kW Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 200 kW - 270 kW Engines } 250 kW Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 200 kW - 270 kW Engines } 270 kW Diesel Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 250cc } Honda CB250F Twister Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 300 kW Engines } 300 kW Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 43 kW - 125 kW Engines } 1.5L, 43 kW  Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 43 kW - 125 kW Engines } 1.5L, 43 kW  Engine w/o delay
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 43 kW - 125 kW Engines } 125 kW Engine
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Engines: 150 kW to 250 kW } 175 kW Diesel (3000 RPM)
+2025-06-09T18:20:54 (Info):    Not rewriting library "Powertrain: Clutch Torque", no unencrypted datasets found (0 total).
+2025-06-09T18:20:54 (Info):    Re-writing all parsfiles, Library Powertrain: 4-Wheel Drive, 36% complete
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 250 kW Powertrains } 250 kW, 7-spd., 2.65 Ratio
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 270 kW Powertrains } 270 kW Diesel, 6-spd., 4.1 Ratio
+2025-06-09T18:20:54 (Info):    Writing Dataset: { 300 kW Powertrains } 300 kW Electric Dual-Motor AWD
+2025-06-09T18:20:54 (Info):    Writing Dataset: { A.Split Hybrid: 43kW/40kW (Engine+Motor) } 43kW/40kW, A.Split Hybrid Hi-Pw
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Hybrid: 300/100/50kW x2 (Engine + 3 Motors) } 300/100/50kW x2, Axle-Split Hybrid
+2025-06-09T18:20:54 (Info):    Re-writing all parsfiles, Library Plot: Setup, 37% complete
+2025-06-09T18:20:54 (Info):    Writing Dataset: { ADAS and AEB Alerts and Commands } AEB: AxCrit
+2025-06-09T18:20:54 (Info):    Writing Dataset: { ADAS and AEB Alerts and Commands } AEB: Booleans
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Aerodynamics and Wind } Aerodynamic Forces
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Artic Bus } Axle Loads
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Artic Bus } Fs vs. Wheel Jounce (Axle 1)
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Artic Bus } Spring: Force vs. Time
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Auxiliary Steer Control } Road Wheel Steer Angle Targets
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Braking } Brake Control: M/C Pressure
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Braking } Brake Control: M/C Pressure vs Station
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Braking } Wheel Speeds
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Controls: Driver } Speed Limit, Target, and Actual
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Controls: Driver } Throttle: Control Input
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Controls: Driver } Throttle: Control Input vs Station
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Ground } Ground Elevation
+2025-06-09T18:20:54 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:20:54 (Info):    Writing Dataset: { Ground } Ground Slope on Path vs. Station
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Hitch } Hitch Deflections
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Obstacle Avoidance } Obstacle Avoidance Plots: 1
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Obstacle Avoidance } Obstacle Avoidance Plots: 2
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Position, Accel. and Rate Sensors } Sensor Vertical Acceleration w/ G
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Engine RPM
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Fuel Consumed
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Gear Ratio
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Gear Selection
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Spin Rates in Powertrain
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Spin Rates in Powertrain - Unit 2
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Torques in Powertrain
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Transmision Clutch Control State
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Transmission Clutch Torque
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Wheel Drive Torques
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain } Wheel Drive Torques - Rear
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Battery current
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Battery efficiency
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Battery power limit
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Battery remaining level
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Battery temperature
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Battery voltage
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Fuel Consumed (gallon)
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Hybrid powertrain mode
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Miles per gallon
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Motor efficiency
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Powers in Hybrid Powertrain
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Spin Rates in Hybrid Powertrain
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Hybrid) } Torques in Hybrid Powertrain
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Powertrain (Series Hybrid VHF) } Powers in VHF Powertrain
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Speed Controller } Speed Target and Actual
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Kingpin Torque
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Power Steering Assist Force
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Rack position
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Road Wheel Steer (Axle 1)
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Road Wheel Steer (Compliance Only)
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Road Wheel Steer (Kinematics Only)
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Road Wheel Steer Angle - Front
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Road Wheel Steer Angles
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Steer Torque
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Steering Wheel Angle
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Steering Wheel Angle vs Station
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Steering Wheel Angle vs. Lat Accel
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Steering Wheel Angle vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Steering Wheel Angular Rate
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Steering } Steering: Handwheel Angle
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension - Ind. Kin. Outputs } Camber vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension - Ind. Kin. Outputs } Dive vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension - Ind. Kin. Outputs } Steer vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension - Ind. Kin. Outputs } X vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension - Ind. Kin. Outputs } Y vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension - Ind. Kin. Outputs } Z vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Forces and Moments } Damping Force
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Forces and Moments } Jounce Stop Force
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Forces and Moments } Rebound Stop Force
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Forces and Moments } Spring Force
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Forces and Moments } Spring: Force vs. Compression
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Camber vs. Jounce - Front
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Camber vs. Jounce - Rear
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Jounce - Front
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Jounce - Rear
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Jounce Stop Compression
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Rebound Stop Compression
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Spring Compression
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Steer vs. Jounce - Front
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Steer vs. Jounce - Rear
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Wheel Fore/Aft vs. Jounce - Front
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Wheel Fore/Aft vs. Jounce - Rear
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Wheel Lateral vs. Jounce - Front
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Suspension Motion } Wheel Lateral vs. Jounce - Rear
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Forces } Vertical Forces (Axle 1, Single Tires)
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Forces } Vertical Forces (Axle 2, Dual Tires)
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Forces } Vertical Forces (Axle 3, Dual Tires)
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Forces and Moments } Aligning Moments
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Forces and Moments } Axle Loads
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Forces and Moments } Fx vs. Slip
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Forces and Moments } Lateral Forces
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Forces and Moments } Longitudinal Forces
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Forces and Moments } Vertical Forces
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Kinematics } Slip Angles: Instant
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Kinematics } Slip Angles: Lagged
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Kinematics } Slip Ratios: Instant
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tire Kinematics } Slip Ratios: Lagged
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tracking } GPS Trajectory: Lat vs Long
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tracking } Lateral Tracking vs. Station
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tracking } Path Curvature vs. Station
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tracking } Sprung Mass Origin Vertical Position
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tracking } Station vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tracking } Vehicle Path with Road Edges
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Tracking } Y vs X - Trajectory
+2025-06-09T18:20:55 (Info):    Writing Dataset: { VHF Plots } Electric traction motors Torque
+2025-06-09T18:20:55 (Info):    Writing Dataset: { VHF Plots } Powers in Series Hybrid Powertrain
+2025-06-09T18:20:55 (Info):    Writing Dataset: { VHF Plots } Rear Wheels laged Slip Rate
+2025-06-09T18:20:55 (Info):    Writing Dataset: { VHF Plots } Slip Ratios w/ Ref: Lagged (Axle 2)
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Lateral Accel. of CG's vs. Station
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Lateral Accel. of CG's vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Longitudinal Accel. of CG's vs. Station
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Longitudinal Accel. of CG's vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Longitudinal Speed (Vxz_Fwd) vs. Station
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Longitudinal Speed (Vxz_Fwd) vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Longitudinal vs. Lateral Accel.
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Pitch Angle of Sprung Masses vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Roll Angle of Sprung Masses vs. Station
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Roll Angle of Sprung Masses vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Roll vs. Lateral Accel.
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Vehicle Sideslip Angle vs. Station
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Vertical Accel. of Sprung Mass CG's
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Yaw Angle of Sprung Masses vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Yaw Rate of Sprung Masses vs. Time
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Vehicle Motion } Z Coord.: Wheel Centers, SM Origin
+2025-06-09T18:20:55 (Info):    Re-writing all parsfiles, Library Plot: Format, 47% complete
+2025-06-09T18:20:55 (Info):    Writing Dataset: {  } Default Plot Settings
+2025-06-09T18:20:55 (Info):    Writing Dataset: {  } Lines without Symbols
+2025-06-09T18:20:55 (Info):    Writing Dataset: { Artic Bus } Default Plot Settings
+2025-06-09T18:20:55 (Info):    Re-writing all parsfiles, Library Payload: Custom, 47% complete
+2025-06-09T18:20:55 (Info):    Writing Dataset: {  } Artic Bus: Passengers - Unit 1
+2025-06-09T18:20:55 (Info):    Writing Dataset: {  } Artic Bus: Passengers - Unit 2
+2025-06-09T18:20:55 (Info):    Writing Dataset: {  } Crate for Pickup
+2025-06-09T18:20:56 (Info):    Writing Dataset: {  } Tractor Tire 1
+2025-06-09T18:20:56 (Info):    Writing Dataset: {  } Tractor Tire 2
+2025-06-09T18:20:56 (Info):    Writing Dataset: {  } Tractor Tire 3
+2025-06-09T18:20:56 (Info):    Writing Dataset: {  } Tractor Tire 4
+2025-06-09T18:20:56 (Info):    Re-writing all parsfiles, Library Payload: Box Shape, 47% complete
+2025-06-09T18:20:56 (Info):    Writing Dataset: { B-Class, Sports Car Payloads } Driver (75 kg)
+2025-06-09T18:20:56 (Info):    Writing Dataset: { B-Class, Sports Car Payloads } Fuel (22 kg)
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Passengers } Driver - Front Left Seat
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Passengers } Passenger - 2nd Row Left Seat
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Passengers } Passenger - 2nd Row Right Seat
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Passengers } Passenger - 3rd Row Center Seat
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Passengers } Passenger - 3rd Row Left Seat
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Passengers } Passenger - 3rd Row Right Seat
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Passengers } Passenger - Front Right
+2025-06-09T18:20:56 (Info):    Not rewriting library "Scene: External Import", no unencrypted datasets found (0 total).
+2025-06-09T18:20:56 (Info):    Not rewriting library "Path/Road: Segment Builder (Simple 3D)", no unencrypted datasets found (0 total).
+2025-06-09T18:20:56 (Info):    Re-writing all parsfiles, Library Surface: Roughness Profiles, 48% complete
+2025-06-09T18:20:56 (Info):    Writing Dataset: {  } Example Road Roughness
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Rough Road - Sample Data Edited } Rough Road 04 - 55 in/mi (0.87 m/km)
+2025-06-09T18:20:56 (Info):    Re-writing all parsfiles, Library Road Boundary: New Station, 48% complete
+2025-06-09T18:20:56 (Info):    Writing Dataset: {  } Negative S
+2025-06-09T18:20:56 (Info):    Re-writing all parsfiles, Library Road Boundary: New Road ID, 48% complete
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Intersection, 3-Way } Left Edge for 1001
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Intersection, 3-Way } Left Edge for 1002
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Intersection, 3-Way } Left Edge for 1013
+2025-06-09T18:20:56 (Info):    Re-writing all parsfiles, Library Road Boundary: Lateral Edge, 49% complete
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Intersections and Roundabouts } Turn into 3-Way Intersection
+2025-06-09T18:20:56 (Info):    Not rewriting library "Road: X-Y-Z Coordinates of Edges", no unencrypted datasets found (0 total).
+2025-06-09T18:20:56 (Info):    Not rewriting library "Road: X-Y-Z Coordinates of Reference Line", no unencrypted datasets found (0 total).
+2025-06-09T18:20:56 (Info):    Not rewriting library "Road: Off-Center Elevation Map, Variable Width", no unencrypted datasets found (0 total).
+2025-06-09T18:20:56 (Info):    Re-writing all parsfiles, Library Road: Off-Center Elevation Map, S-L Grid, 49% complete
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Gutters, Curbs, Ditches } 2003: Lane with Curb and Cross-Slope
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Gutters, Curbs, Ditches } Cross-slope and Curb for Intersection
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Handling Course } Handling Course Camber
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Handling Course } Handling Course Curbing
+2025-06-09T18:20:56 (Info):    Writing Dataset: { Ride } Bounce Road Edges
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Ride } Chassis Twist Sine Wave
+2025-06-09T18:20:57 (Info):    Not rewriting library "Road: Rolling Resistance Map, Variable Width", no unencrypted datasets found (0 total).
+2025-06-09T18:20:57 (Info):    Not rewriting library "Road: Rolling Resistance Map, S-L Grid", no unencrypted datasets found (0 total).
+2025-06-09T18:20:57 (Info):    Not rewriting library "Road: Friction Map, Variable Width", no unencrypted datasets found (0 total).
+2025-06-09T18:20:57 (Info):    Re-writing all parsfiles, Library Road: Friction Map, S-L Grid, 49% complete
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Constant } Constant: 0.0
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Constant } Constant: 0.3
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Constant } Constant: 0.85
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Constant } Constant: 0.9
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Constant Mu } Constant: 0.85
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Road Handling Course } Handling Course Variable Mu
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Split Mu } Mu = 0.3 Test Pad; 0.85 Everywhere Else
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Split Mu } Split Mu @ 10 m 0.2L/0.5R
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Straight Variable Mu } Variable 0.3 to 0.85 to 0.5 to 0.85 to 0.3
+2025-06-09T18:20:57 (Info):    Re-writing all parsfiles, Library Road: Reference Line Elevation, 50% complete
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Handling Course } Handling Course
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Hills and Valleys } 1.5 km with Hills
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Uniform Grades } Flat
+2025-06-09T18:20:57 (Info):    Re-writing all parsfiles, Library Road: Animator Repeated Object, 50% complete
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Cones } Consumers Union Short Course Right
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Cones } DLC Cones
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Cones } Handling Course Cones
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Cones } Straight Course Cones
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Forests } Mixed Forest (-100, 2000)
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Forests } Mixed Forest, R. Side, -1000m - 0
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Forests } Mixed Forest, R. Side, 0 - 1000m
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Trees } Snow Covered Trees (-500,500)
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Trees } Trees (-100, 2000)
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Trees } Trees (-100, 2000): 4-Lane Divided
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Trees } Trees (-100, 400)
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Trees } Trees (0, 1000)
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Trees } Trees (0, 1200)
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Trees } Trees (0, 500)
+2025-06-09T18:20:57 (Info):    Re-writing all parsfiles, Library Road: Animator Surface Shapes, 51% complete
+2025-06-09T18:20:57 (Info):    Writing Dataset: {  } No Machine-Generated Shapes
+2025-06-09T18:20:57 (Info):    Writing Dataset: { 3D Grid } 5-m Grid
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Intersections } Big Grass, Pavement Intersection, 3-Way
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Intersections } Right Turn w/ Curb, Crosswalk @ -10m
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Intersections } Right Turn w/ Curb, Crosswalk @ 10m
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Intersections } Straight w/ Curb
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Lane-Keeping Assist Roads } Four Lanes
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Lane-Keeping Assist Roads } Four Lanes (Adjacent)
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Ride Roads and Suspension Testing } Ride Chassis Twist Sine Wave
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Ride Roads and Suspension Testing } Sine Sweep Ride Test
+2025-06-09T18:20:57 (Info):    Writing Dataset: { Roads } 1 km Square
+2025-06-09T18:20:58 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:20:58 (Info):    Writing Dataset: { Roads } 1200 m Road, 100 m Grass (1 ln)
+2025-06-09T18:20:58 (Info):    Writing Dataset: { Roads } 3km Road, 200m Grass, One Lane
+2025-06-09T18:20:58 (Info):    Writing Dataset: { Roads } DLC Road
+2025-06-09T18:20:58 (Info):    Writing Dataset: { Roads } DLC Road (Low Mu Surface)
+2025-06-09T18:20:58 (Info):    Writing Dataset: { Variable friction } Low Mu (Wet Tile) at -5m
+2025-06-09T18:20:58 (Info):    Writing Dataset: { Variable friction } Split Mu at 3 m
+2025-06-09T18:20:58 (Info):    Not rewriting library "Path: X-Y Coordinates for Segment", no unencrypted datasets found (0 total).
+2025-06-09T18:20:58 (Info):    Re-writing all parsfiles, Library Road: Boundaries, 53% complete
+2025-06-09T18:20:58 (Info):    Writing Dataset: { Crossing with Curbs } 3-Way Intersection, No West Entrance
+2025-06-09T18:20:58 (Info):    Writing Dataset: { Road Boundary Stop Conditions } Handling Course Edges
+2025-06-09T18:20:58 (Info):    Re-writing all parsfiles, Library Path: X-Y Coordinates, 53% complete
+2025-06-09T18:20:58 (Info):    Writing Dataset: { Handling Course } Handling Course Left Edge
+2025-06-09T18:20:58 (Info):    Writing Dataset: { Handling Course } Handling Course Race Line
+2025-06-09T18:21:22 (Info):    Re-writing all parsfiles, Library Path: Segment Builder, 53% complete
+2025-06-09T18:21:22 (Info):    Writing Dataset: { Crossing with Curbs } 2004: South Entrance, Right Turn, Wide
+2025-06-09T18:21:22 (Info):    Writing Dataset: { Crossing with Curbs } East Entrance, Right Turn, 1002
+2025-06-09T18:21:22 (Info):    Writing Dataset: { Crossing with Curbs } South Entrance, Right Turn, 1001
+2025-06-09T18:21:23 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:21:23 (Info):    Writing Dataset: { Curves } Single Curve, R = 1000 m
+2025-06-09T18:21:23 (Info):    Writing Dataset: { Straight } 1013: Straight Path South
+2025-06-09T18:21:23 (Info):    Writing Dataset: { Straight } Straight East
+2025-06-09T18:21:23 (Info):    Writing Dataset: { Straight } Straight South, ID = 1013
+2025-06-09T18:21:23 (Info):    Re-writing all parsfiles, Library Road: 3D Surface (All Properties), 53% complete
+2025-06-09T18:21:23 (Info):    Writing Dataset: { Flat Test Pads } 1 km Square, Mu = 0.85
+2025-06-09T18:21:24 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:21:24 (Info):    Writing Dataset: { Flat Test Pads } 20 m Wide Pad, 5 m Grid, Mu = 0.85
+2025-06-09T18:21:24 (Info):    Writing Dataset: { Flat Test Pads } DLC, Mu = 0.3
+2025-06-09T18:21:24 (Info):    Writing Dataset: { Flat Test Pads } DLC, Mu = 0.85
+2025-06-09T18:21:24 (Info):    Writing Dataset: { Flat Test Pads } DLC, Mu = 0.85, Ext. Parsfiles for Road
+2025-06-09T18:21:24 (Info):    Writing Dataset: { Flat Test Pads } DLC, Tight (CU), Mu = 0.85
+2025-06-09T18:21:24 (Info):    Writing Dataset: { Intersection, 3D Roads with Curbs } 1001: Enter South, Exit East
+2025-06-09T18:21:25 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:21:25 (Info):    Writing Dataset: { Intersection, 3D Roads with Curbs } 1002: Enter East, Exit North
+2025-06-09T18:21:25 (Info):    Writing Dataset: { Intersection, 3D Roads with Curbs } 1013: Enter North Straight South
+2025-06-09T18:21:25 (Info):    Writing Dataset: { Intersection, 3D Roads with Curbs } 999: Grass and Intersection, 3-Way
+2025-06-09T18:21:25 (Info):    Writing Dataset: { Many Lanes } 4-Lane Section (Divided)
+2025-06-09T18:21:25 (Info):    Writing Dataset: { Many Lanes } 4-Lane Section w/ Envir Straight
+2025-06-09T18:21:25 (Info):    Writing Dataset: { Many Lanes } 4-Lane Section w/ Environment
+2025-06-09T18:21:26 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:21:26 (Info):    Writing Dataset: { Ride Roads } Bounce Sine Sweep
+2025-06-09T18:21:26 (Info):    Writing Dataset: { Ride Roads } Chassis Twist Road Sine Wave
+2025-06-09T18:21:27 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:21:27 (Info):    Writing Dataset: { Self-Contained Scenes } Handling Course
+2025-06-09T18:21:27 (Info):    Writing Dataset: { Straight } 1200 m, One Lane, Mu = 0.85
+2025-06-09T18:21:27 (Info):    Writing Dataset: { Straight } 1200 m, One Lane, Mu = 0.9
+2025-06-09T18:21:27 (Info):    Writing Dataset: { Straight } 3km, Mu = 0.9, One Lane
+2025-06-09T18:21:27 (Info):    Writing Dataset: { Straight } Split Mu 10m
+2025-06-09T18:21:27 (Info):    Writing Dataset: { Straight VHF Courses } 1200 m, One Lane, 0 Degree, Mu = 0.3
+2025-06-09T18:21:28 (Info):    Writing Dataset: { Straight VHF Courses } 1200 m, One Lane, Mu Variation
+2025-06-09T18:21:28 (Info):    Writing Dataset: { Test Facilities } K & C Test Rig
+2025-06-09T18:21:28 (Info):    Not rewriting library "Models: Transfer to RT-Lab Target", no unencrypted datasets found (0 total).
+2025-06-09T18:21:28 (Info):    Not rewriting library "Models: Transfer to Remote RT Target", no unencrypted datasets found (0 total).
+2025-06-09T18:21:28 (Info):    Not rewriting library "Models: Transfer to NI-RT Target", no unencrypted datasets found (0 total).
+2025-06-09T18:21:28 (Info):    Not rewriting library "Models: Transfer to Local Windows Directory", no unencrypted datasets found (0 total).
+2025-06-09T18:21:28 (Info):    Not rewriting library "Models: Transfer to dSPACE DS1006 Target", no unencrypted datasets found (0 total).
+2025-06-09T18:21:28 (Info):    Not rewriting library "Models: Transfer to dSPACE SCALEXIO Target", no unencrypted datasets found (0 total).
+2025-06-09T18:21:28 (Info):    Re-writing all parsfiles, Library Models: Self-Contained Solvers, 55% complete
+2025-06-09T18:21:28 (Info):    Writing Dataset: { Wrappers: Custom } Live Animation Wrapper, 64-bit
+2025-06-09T18:21:28 (Info):    Not rewriting library "Models: LabVIEW for Windows (VI)", no unencrypted datasets found (0 total).
+2025-06-09T18:21:28 (Info):    Not rewriting library "Models: Export FMU/FMI", no unencrypted datasets found (0 total).
+2025-06-09T18:21:28 (Info):    Re-writing all parsfiles, Library Models: Simulink, 55% complete
+2025-06-09T18:21:28 (Info):    Writing Dataset: {  } Update Path: Obs. Avoid
+2025-06-09T18:21:28 (Info):    Writing Dataset: {  } Update Path: Obs. Avoid Poly
+2025-06-09T18:21:28 (Info):    Writing Dataset: { TCS/ABS HiL } VHF HiL Model IO
+2025-06-09T18:21:28 (Info):    Writing Dataset: { Traction Control for TCS and ESC } VHF Optimal TCS Model Free
+2025-06-09T18:21:28 (Info):    Writing Dataset: { Traction Control for TCS and ESC } VHF TCS Controller
+2025-06-09T18:21:28 (Info):    Writing Dataset: { Traction Control for TCS and ESC } VHF TCS Model Free
+2025-06-09T18:21:28 (Info):    Writing Dataset: { Traction Control for TCS and ESC } VHF TCS Model Free Const Torque
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF XiL setup } HiL External Powertrain
+2025-06-09T18:21:28 (Info):    Re-writing all parsfiles, Library I/O Channels: Write, 56% complete
+2025-06-09T18:21:28 (Info):    Writing Dataset: {  } Copy All Active Output Variables to Excel
+2025-06-09T18:21:28 (Info):    Writing Dataset: {  } Copy Ay and AvZ to Excel and MATLAB
+2025-06-09T18:21:28 (Info):    Writing Dataset: {  } Optimal_ASR Analisys (MAT File)
+2025-06-09T18:21:28 (Info):    Re-writing all parsfiles, Library I/O Channels: Import, 56% complete
+2025-06-09T18:21:28 (Info):    Writing Dataset: { ADAS and Active Safety } Import: Update Path
+2025-06-09T18:21:28 (Info):    Writing Dataset: { ADAS and Active Safety } Import: Update Path Poly
+2025-06-09T18:21:28 (Info):    Writing Dataset: { Powertrain } Rear Axle Motors Torque
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } ESC/TCS: Eng. Torque
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } ESC/TCS: Torque Cmd
+2025-06-09T18:21:28 (Info):    Re-writing all parsfiles, Library I/O Channels: Export, 57% complete
+2025-06-09T18:21:28 (Info):    Writing Dataset: { ADAS and Active Safety } Export: Update Path
+2025-06-09T18:21:28 (Info):    Writing Dataset: { ADAS and Active Safety } Export: Update Path Poly
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } Accelerations, angular velocitys and orientation
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } Adhesion coefficients
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } Driver Desired Power
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } Lagged Slip Ratio
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } Longitudinal rear tires forces
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } powertrain
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } Reference slip
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } Slip ratio
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } Tires forces
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } Vehicle Body Velocity
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } Wheels Speeds
+2025-06-09T18:21:28 (Info):    Re-writing all parsfiles, Library I/O Channels: Ports, 58% complete
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } ASR Controllers: Multi-port w/ sensors
+2025-06-09T18:21:28 (Info):    Writing Dataset: { VHF Controls } MF const ASR Controllers: Multi-port
+2025-06-09T18:21:28 (Info):    Writing Dataset: { XiL IO setup } XiL External Powertrain
+2025-06-09T18:21:29 (Info):    Re-writing all parsfiles, Library Hitch: Yaw Moment, 58% complete
+2025-06-09T18:21:29 (Info):    Writing Dataset: {  } Artic Bus: 100 kN-m/deg (108 deg Lash)
+2025-06-09T18:21:29 (Info):    Not rewriting library "Hitch: Pitch Moment", no unencrypted datasets found (0 total).
+2025-06-09T18:21:29 (Info):    Re-writing all parsfiles, Library Hitch: Roll Moment, 58% complete
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Turntable } 500 kN-m/deg (0 deg lash)
+2025-06-09T18:21:29 (Info):    Re-writing all parsfiles, Library Hitch: Parameters, 58% complete
+2025-06-09T18:21:29 (Info):    Writing Dataset: {  } Gooseneck
+2025-06-09T18:21:29 (Info):    Re-writing all parsfiles, Library Hitch: Joint Assembly, 58% complete
+2025-06-09T18:21:29 (Info):    Writing Dataset: {  } Ball Hitch
+2025-06-09T18:21:29 (Info):    Writing Dataset: {  } Turntable Art Bus
+2025-06-09T18:21:29 (Info):    Writing Dataset: {  } Turntable Art Bus w damping
+2025-06-09T18:21:29 (Info):    Re-writing all parsfiles, Library Generic VS Commands, 58% complete
+2025-06-09T18:21:29 (Info):    Writing Dataset: { ADAS Support } FCW  Alert and AEB control Update Path
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Alternate Unit Systems } Force Euler Angles to Degrees
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Alternate Unit Systems } SI Units
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Auxiliary Steer Control } Control by rack force (P-I-D control)
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Auxiliary Steer Control } Enable Aux Steer Control
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Ind. Susp. Kinematics } Disable Ind. Susp. Comp.
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Ind. Susp. Kinematics } Disable R&P Comp.
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Ind. Susp. Kinematics } Ind. Kinematics Outputs
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Ind. Susp. Kinematics } Set Static Camber/Toe
+2025-06-09T18:21:29 (Info):    Writing Dataset: { K & C Testing } K & C Bounce Test VS
+2025-06-09T18:21:29 (Info):    Writing Dataset: { K & C Testing } K & C Roll Test VS (+- 8 deg)
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Obstacle Avoidance } Simulink Events Setup
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Obstacle Avoidance } Simulink Events Setup Poly
+2025-06-09T18:21:29 (Info):    Re-writing all parsfiles, Library Generic Table, 59% complete
+2025-06-09T18:21:29 (Info):    Writing Dataset: { 4 Link w/ Track Bar } Left J-Stop Compression
+2025-06-09T18:21:29 (Info):    Writing Dataset: { 4 Link w/ Track Bar } Left R-Stop Compression
+2025-06-09T18:21:29 (Info):    Writing Dataset: { 4 Link w/ Track Bar } Left Shock Compression
+2025-06-09T18:21:29 (Info):    Writing Dataset: { 4 Link w/ Track Bar } Left Spring Compression
+2025-06-09T18:21:29 (Info):    Writing Dataset: { 4 Link w/ Track Bar } Right J-Stop Compression
+2025-06-09T18:21:29 (Info):    Writing Dataset: { 4 Link w/ Track Bar } Right R-Stop Compression
+2025-06-09T18:21:29 (Info):    Writing Dataset: { 4 Link w/ Track Bar } Right Shock Compression
+2025-06-09T18:21:29 (Info):    Writing Dataset: { 4 Link w/ Track Bar } Right Spring Compression
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Artic Bus } Lx Variable, Scaled to Tire
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Artic Bus } Ly Variable, Scaled to Tire
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Generic Suspension Comp.: Twist-Beam (2D) } Damper Compression (2D)
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Generic Suspension Comp.: Twist-Beam (2D) } Jounce Stop Compression (2D)
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Generic Suspension Comp.: Twist-Beam (2D) } Rebound Stop Compression (2D)
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Generic Suspension Comp.: Twist-Beam (2D) } Spring Compression (2D)
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Non-Linear Suspension Compliance } SUV, Full Size - Lat. Disp. Comp. vs. Fy
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Non-Linear Suspension Compliance } SUV, Full Size - Long. Disp. Comp. vs. Fx
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV / EV) } 723 V Battery, Charge Resistance per Cell
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV / EV) } 723 V Battery, Discharge Resist. per Cell
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV / EV) } 723 V Battery, OCV per Cell
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV / EV) } 723 V Battery, Total Capacity
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV / EV) } Driver Demand Power: Full Load 300 kW
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV / EV) } Drv. Demand Pwr: Full 500 kW Non-Lin.
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV / EV) } Motor efficiency: 286 N-m motor
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Batt. discharged resis. (Hi-Power)
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Battery charged resis. (Hi-Power)
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Battery charged resistance
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Battery discharged resistance
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Battery Max Capacity (Hybrid)
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Battery Open-Circuit Voltage
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Driver Demand Power: Full Load 165 kW
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Electric Generator Max Load 132 N-m
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Electric Generator Max Load 66 N-m
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Generator efficiency
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Motor efficiency
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Motor efficiency at wheel
+2025-06-09T18:21:29 (Info):    Writing Dataset: { Powertrain (HEV) } Opt. engine speed (Parallel hybrid)
+2025-06-09T18:21:29 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain (HEV) } Optimal engine speed
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain (HEV) } Optimal engine speed (Hi-Power)
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain (REEV) } Batt. discharged resis. (range-extender)
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain (REEV) } Battery charged resis. (range-extender)
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain VHF } Batt. discharged resistance
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain VHF } Battery charged resistance
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain VHF } Battery Max Capacity VHF
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain VHF } Battery Open-Circuit Voltage
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain VHF } Driver Demand Power: Full Load 22 kW
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain VHF } Optimal CB250F Twister engine speed
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Speed Controller: Accel Limits } Ax Limit Throttle for RWD Sports Car
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Tire Contact Patch Dimensions } Length vs. Compression
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Tire Contact Patch Dimensions } Width vs. Compression
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Tire Relaxation Length } Lx Variable, Scaled to Tire
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Tire Relaxation Length } Ly Variable, Scaled to Tire
+2025-06-09T18:21:30 (Info):    Re-writing all parsfiles, Library Generic Data Lists, 63% complete
+2025-06-09T18:21:30 (Info):    Writing Dataset: {  } Rear View Mirror (C -Class Example)
+2025-06-09T18:21:30 (Info):    Writing Dataset: {  } Rear View Mirror (D -Class Example)
+2025-06-09T18:21:30 (Info):    Re-writing all parsfiles, Library Generic Group of Links, 64% complete
+2025-06-09T18:21:30 (Info):    Writing Dataset: { ADAS: Moving Objects, incl. Pedestrians } Animated Deer for Update Path
+2025-06-09T18:21:30 (Info):    Writing Dataset: { ADAS: Moving Objects, incl. Pedestrians } Animated Deer for Update Path: Simulink
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Payloads } 7 Passengers
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain (HEV) } Electric Generator: Max. Load 66 N-m
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Powertrain (REEV) } Electric Generator: Max. Load 132 N-m
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Roads and Paths } 3-Way Intersection, Articulated Trucks
+2025-06-09T18:21:30 (Info):    Not rewriting library "Generic Data Group (More)", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Re-writing all parsfiles, Library Generic Data Group, 64% complete
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Multple Payloads } Payload: Tractor Tires
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Obstacle Avoidance } Deer and Vehicle Event Setup
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Obstacle Avoidance } Deer and Vehicle Event Setup Poly
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Suspension Extensions } Ind. Kinematics Outputs
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Tire Force Arrows } 2 Axle - Fx, Fy, Fz
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Tire Force Arrows } 2 Axle - Fx, Fy, Fz custom reference
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Tire Force Arrows } 3 Axle - Fx, Fy, Fz (duals)
+2025-06-09T18:21:30 (Info):    Re-writing all parsfiles, Library External Parsfile, 65% complete
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Driver Controls } Double Lane Change (Quick Start)
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Road Properties } Mu_Road_Constant = 0.85
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Road Properties } Path: X-Y: Straight Path East
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Yaw Damping", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Pitch Damping", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Roll Damping", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Yaw Stiffness", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Pitch Stiffness", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Roll Stiffness", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Vertical Damping", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Lateral Damping", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Longitudinal Damping", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Vertical Stiffness", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Lateral Stiffness", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Longitudinal Stiffness", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Mount Characteristics", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Engine Mounts: Engine Mass and Geometry", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Path Detectors for External Driver Control", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Not rewriting library "Preview Points for External Driver Control", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Re-writing all parsfiles, Library Positions, Velocities, and Accelerations, 65% complete
+2025-06-09T18:21:30 (Info):    Writing Dataset: {  } Hitch Point (Lead)
+2025-06-09T18:21:30 (Info):    Writing Dataset: { SM and USM CGs } Accelerometer at SM CG
+2025-06-09T18:21:30 (Info):    Writing Dataset: { SM and USM CGs } Accelerometers at SM and USM CGs
+2025-06-09T18:21:30 (Info):    Re-writing all parsfiles, Library Custom Forces and Reference Points, 65% complete
+2025-06-09T18:21:30 (Info):    Writing Dataset: {  } K and C Table (X=-1388mm, Z=200mm)
+2025-06-09T18:21:30 (Info):    Re-writing all parsfiles, Library Control: Throttle (Open Loop), 65% complete
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Constant } Constant: 0
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Constant } Constant: 1.0
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Ramp } Ramp to Full in 2 s, Hold 15 s, then Zero
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Ramp } Ramp To Full Throttle in 1 sec.
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Ramp } Ramp: 0 to 0.2 in 5 sec.
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Ramp } Ramp: 0 to 0.65 in 10 sec., then 0
+2025-06-09T18:21:30 (Info):    Not rewriting library "Control: Steering Torque (Open Loop)", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Re-writing all parsfiles, Library Control: Steering (Open Loop), 66% complete
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Constant } Constant: 0 deg.
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Ramp } Ramp Steer, 1 deg/s, Start at T=2s
+2025-06-09T18:21:30 (Info):    Not rewriting library "Control: Steering Preview Time for the Driver Model", no unencrypted datasets found (0 total).
+2025-06-09T18:21:30 (Info):    Re-writing all parsfiles, Library Control: Steering by the Closed-loop Driver Model, 66% complete
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Constant Position: No Offset } 0.15s Preview
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Constant Position: No Offset } 0.25s Single Preview
+2025-06-09T18:21:30 (Info):    Writing Dataset: { Constant Position: No Offset } 0.4 sec. Single Preview
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Constant Position: No Offset } 0.75s Single Preview
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Constant Position: Non-Zero Offset } 1.65m Right, 0.75s Single Preview
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Constant Position: Non-Zero Offset } 2m Right, 0.75s Single Preview
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Vehicle Dynamics Tests } DLC, 1.65 Offset Right, Torque Control
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Vehicle Dynamics Tests } Double Lane Change (Quick Start)
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Vehicle Dynamics Tests } Double Lane Change - Tight
+2025-06-09T18:21:31 (Info):    Re-writing all parsfiles, Library Control: Speed (Closed Loop) Using Target Speed, 66% complete
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Constant } Constant: 6 km/h (Ackermann Test)
+2025-06-09T18:21:31 (Info):    Writing Dataset: { EPA Cycles } EPA Urban Cycle
+2025-06-09T18:21:31 (Info):    Writing Dataset: { EPA Cycles } EPA Urban Cycle: control modifications
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Handling and Performance Driving } Normal Driving on Road Course
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Speed vs Time } Step: 0-9-90 km/h
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Speed vs. Station } Crossing, Right Turn (Air Brakes)
+2025-06-09T18:21:31 (Info):    Re-writing all parsfiles, Library Control: Speed (Closed Loop) Using Path Preview, 67% complete
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Aggressive Driving } Sports Car on Racetrack
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Miscellaneous } Normal Driving on Road Course
+2025-06-09T18:21:31 (Info):    Not rewriting library "Control: Shifting (Open Loop)", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Re-writing all parsfiles, Library Control: Shifting (Closed Loop), 67% complete
+2025-06-09T18:21:31 (Info):    Writing Dataset: {  } Neutral
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Closed-Loop Shifting } AT (All Available Gears)
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Closed-Loop Shifting } NGEARS, Clutch Act 0.5s, Gear 0.1s
+2025-06-09T18:21:31 (Info):    Not rewriting library "Control: Electronic Stability (ESC)", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Re-writing all parsfiles, Library Control: Clutch Shifting Timelines (Closed Loop), 67% complete
+2025-06-09T18:21:31 (Info):    Writing Dataset: {  } Clutch Actuation: 0.5s, Gear Change: 0.1s
+2025-06-09T18:21:31 (Info):    Not rewriting library "Control: Clutch (Open Loop)", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Not rewriting library "Control: Braking Pedal Force (Open Loop)", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Re-writing all parsfiles, Library Control: Braking MC Pressure (Open Loop), 67% complete
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Constant } Constant: 0 MPa
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Constant } Constant: 0.3 MPa
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Spike } Spike: 2 MPa @ 15 sec.
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Step } Step: 2.5 MPa at 20 sec.
+2025-06-09T18:21:31 (Info):    Not rewriting library "Calculator: Symbolic", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Not rewriting library "Brakes: Torque vs. Rotor Temperature", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Re-writing all parsfiles, Library Brakes: Torque, 68% complete
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Artic Bus } 10 kN-m, Air
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Artic Bus } 7.5 kN-m, Air
+2025-06-09T18:21:31 (Info):    Re-writing all parsfiles, Library Brakes: Proportioning / Limiting Valve, 68% complete
+2025-06-09T18:21:31 (Info):    Writing Dataset: {  } Linear: Unity Gain
+2025-06-09T18:21:31 (Info):    Writing Dataset: {  } Unity until 1.5MPa then 30%
+2025-06-09T18:21:31 (Info):    Writing Dataset: {  } Unity until 2.0 MPa then 30%
+2025-06-09T18:21:31 (Info):    Writing Dataset: {  } Zero Brake Pressure
+2025-06-09T18:21:31 (Info):    Not rewriting library "Brakes: Cooling Coefficient", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Not rewriting library "Brakes: Caliper Pressure vs Volume", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Not rewriting library "Brakes: Booster Force", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Not rewriting library "Brakes: Caliper and Rotor Properties", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Re-writing all parsfiles, Library Brakes: Trailer Two-Wheel System, 68% complete
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Artic Bus } 10 kN-m Capacity, Air (2 ch. ABS)
+2025-06-09T18:21:31 (Info):    Re-writing all parsfiles, Library Brakes: Four-Wheel System, 68% complete
+2025-06-09T18:21:31 (Info):    Writing Dataset: {  } Artic Bus
+2025-06-09T18:21:31 (Info):    Writing Dataset: { A-Class } Hatchback: M/C Press, No ABS
+2025-06-09T18:21:31 (Info):    Writing Dataset: { B-Class } Hatchback: M/C Press, No ABS
+2025-06-09T18:21:31 (Info):    Writing Dataset: { B-Class } Hatchback: M/C Press, No ABS or Rr bk
+2025-06-09T18:21:31 (Info):    Writing Dataset: { B-Class } Sports Car: M/C Press, ABS
+2025-06-09T18:21:31 (Info):    Writing Dataset: { C-Class } Hatchback: M/C Press, ABS
+2025-06-09T18:21:31 (Info):    Writing Dataset: { C-Class } Hatchback: M/C Press, No ABS
+2025-06-09T18:21:31 (Info):    Writing Dataset: { D-Class } Sedan: M/C Press, ABS
+2025-06-09T18:21:31 (Info):    Writing Dataset: { E-Class } Sedan: M/C Press, ABS
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Exotic Sports Car } Exotic: M/C Press, ABS
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Pickup Trucks } Pickup (Full): MC Press, ABS
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Trailers } Trailer (2A): MC Press, No ABS
+2025-06-09T18:21:31 (Info):    Writing Dataset: { Utility Vehicles: SUVs and Vans } SUV (Full): MC Press, ABS
+2025-06-09T18:21:31 (Info):    Not rewriting library "Parallel VS Math Models", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Not rewriting library "Batch Runs", no unencrypted datasets found (0 total).
+2025-06-09T18:21:31 (Info):    Not rewriting library "Batch Matrix", no unencrypted datasets found (0 total).
+2025-06-09T18:21:32 (Info):    Re-writing all parsfiles, Library Animator: Wheel Arrows and Other Indicators, 69% complete
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Skid Marks } Tire Skid Marks (2 Axles)
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Tire Force Arrows (2 Axles) } 2A - Fx Tire Force Arrows
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Tire Force Arrows (2 Axles) } 2A - Fx Tire Force Arrows 500N reference
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Tire Force Arrows (2 Axles) } 2A - Fy Tire Force Arrows
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Tire Force Arrows (2 Axles) } 2A - Fy Tire Force Arrows custom reference
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Tire Force Arrows (2 Axles) } 2A - Fz Tire Force Arrows
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Tire Force Arrows (3 Axles) } 3A - Fx Tire Force Arrows (duals)
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Tire Force Arrows (3 Axles) } 3A - Fy Tire Force Arrows (duals)
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Tire Force Arrows (3 Axles) } 3A - Fz Tire Force Arrows (duals)
+2025-06-09T18:21:32 (Info):    Re-writing all parsfiles, Library Animator: Vehicles and Sensor Targets, 70% complete
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Artic Bus } 2A Articulated Bus - Front
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Artic Bus } 2A Articulated Bus - Front, Simple Ani
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Artic Bus } Articulated Bus - Rear
+2025-06-09T18:21:32 (Info):    Writing Dataset: { B-Class } B-Class, Hatchback
+2025-06-09T18:21:32 (Info):    Writing Dataset: { B-Class } B-Class, Sports Car
+2025-06-09T18:21:32 (Info):    Writing Dataset: { C-Class } C-Class, Hatchback
+2025-06-09T18:21:32 (Info):    Writing Dataset: { D-Class } D-Class, Sedan
+2025-06-09T18:21:32 (Info):    Writing Dataset: { D-Class } Euro Sedan (Transparent)
+2025-06-09T18:21:32 (Info):    Writing Dataset: { E-Class } E-Class, Sedan
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Exotic Sports Car } Exotic Car
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Meu Veiculo } VHF,A-Class, Subcompact
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size Crew Cab 5.5 Bed
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size Reg Cab 8 Bed DRW
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Full Size Sup Cab 8 Bed
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Midsize: Regular Cab
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Trailers } Gooseneck Trailer (2A) w Dual  Wheels
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Utility Vehicles: SUVs and Vans } SUV, Full Size
+2025-06-09T18:21:32 (Info):    Re-writing all parsfiles, Library Animator: HUD, 71% complete
+2025-06-09T18:21:32 (Info):    Writing Dataset: { ADAS Alerts } FCW Alert (small) Update path
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Vehicle Status Indicators } Acceleration Text
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Vehicle Status Indicators } Simulation Time
+2025-06-09T18:21:32 (Info):    Writing Dataset: { Vehicle Status Indicators } Throttle and Speed, L. Side, 19% Up
+2025-06-09T18:21:33 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:21:33 (Info):    Not rewriting library "Animator: Sound Set", no unencrypted datasets found (0 total).
+2025-06-09T18:21:33 (Info):    Not rewriting library "Animator: Sound Sample", no unencrypted datasets found (0 total).
+2025-06-09T18:21:33 (Info):    Not rewriting library "Animator: Sound Modifier", no unencrypted datasets found (0 total).
+2025-06-09T18:21:33 (Info):    Re-writing all parsfiles, Library Animator: Shape Assembly, 72% complete
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Articulated Bus - Front
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Articulated Bus - Rear
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Highway Trailer Tire
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Buildings } House
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Passenger Cars } A-Class Sub Compact
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Passenger Cars } B-Class Convertible
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Passenger Cars } B-Class Hatchback
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Passenger Cars } C-Class Hatchback
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Passenger Cars } D-Class Sedan
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Passenger Cars } D-Class Sedan (Transparent, No Interior)
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Passenger Cars } European Sedan
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Passenger Cars } Exotic Car
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Pickup Trucks } 5.5-Ft Box (For Crew Cab)
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Pickup Trucks } 6-Ft Box Midsize
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Pickup Trucks } 8-Ft Box (For Regular Cab, w/ Duals)
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Pickup Trucks } 8-Ft Box (For Super Cab)
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Pickup Trucks } Cab Assembly: Regular (Compact)
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Tires } 145/80 R13
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Tires } 195/45 R16
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Tires } 275/65 R18
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Tires } 275/70 R16
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Tires } 280/75 R24 Dual
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Tires } Exotic Front Tire
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Tires } Exotic Rear Tire
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Tires } Off-Road Tire
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Trailers } Gooseneck Trailer (2A) w Dual Wheels
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Utility Vehicles } SUV, Full Size
+2025-06-09T18:21:33 (Info):    Re-writing all parsfiles, Library Animator: Shape File Link, 74% complete
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Artic Bus Rear
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Artic Bus:  Driver
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Articulated Bus: Body
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Highway: Driven
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Highway: Steer
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Highway: Trailer
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Unit 1 Passengers
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Artic Bus } Unit 2 Passengers
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Auxiliary Steer Controller } Target Point (Red)
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: A-Class } Hatchback
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: A-Class } Hatchback: Brake Lights
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: A-Class } Hatchback: Driver (Asian Female)
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: A-Class } Subcompact: Reverse Lights
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: B-Class } Hatchback: Body
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: B-Class } Hatchback: Brake Lights
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: B-Class } Hatchback: Driver (Caucasian Male)
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: B-Class } Hatchback: Reverse Lights
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: B-Class } Sports Car: Body
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: B-Class } Sports Car: Brake Lights
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: B-Class } Sports Car: Details
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: B-Class } Sports Car: Driver (Asian Male)
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: B-Class } Sports Car: Reverse Lights
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: B-Class } Sports Car: Windows
+2025-06-09T18:21:33 (Info):    Writing Dataset: { Cars: C-Class } C-Class Hatchback Reverse Lights
+2025-06-09T18:21:34 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: C-Class } Hatchback
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: C-Class } Hatchback: Brake Lights
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: C-Class } Hatchback: Driver (Caucasian Male)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: D-Class } Sedan
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: D-Class } Sedan: Brake Lights
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: D-Class } Sedan: Driver (Caucasian Female)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: D-Class } Sedan: Reverse Lights
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Body
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Brake Lights (D-Class)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Brake Lights (E-Class)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Details
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Driver (Caucasian Male)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Interior Trim
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Reverse Lights (D-Class)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Reverse Lights (E-Class)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Seats
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Steering Wheel
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: European Vehicles } Sedan: Windows
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Body
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Brake Caliper (Left Front)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Brake Caliper (Left Rear)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Brake Caliper (Right Front)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Brake Caliper (Right Rear)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Brake Lights
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Brake Lights (Off)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Details
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Driver (Caucasian Male)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Reverse Lights
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Tire (Front)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Tire (Rear)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Exotic } Sports Car: Windows
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Large SUV } Body
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Large SUV } Brake Lights
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Large SUV } Details
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Large SUV } Driver (Caucasian Male)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Large SUV } Reverse Lights
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Cars: Large SUV } Windows
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets } Hitches: Ball Hitch
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets } Hitches: Gooseneck
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets } Sensor Fields: 20 deg FOV
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets } Solid Axles: Heavy Duty (Driven)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets } Solid Axles: Light Duty (Driven)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets } Solid Axles: Light Duty (Front, Driven)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets } Solid Axles: Trailer Axle
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets } Tire Mark (Run Color)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Payloads } Crate (Scale: X = 2 Y = 1.2)
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Payloads } Tractor Tire
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 145/80 R13: Stripe
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 145/80 R13: Tire
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 145/80 R13: Wheel
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 195/45 R16: Stripe
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 195/45 R16: Tire
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 195/45 R16: Wheel
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 275/65 R18: Brake Rotor
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 275/65 R18: Tire
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 275/65 R18: Wheel
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 275/70 R16: Brake Rotor
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 275/70 R16: Stripe
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 275/70 R16: Tire
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } 275/70 R16: Wheel
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Blurred Dual Tire: Truck
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Blurred Tire: Car
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Blurred Tire: Car - Width 175 mm
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Blurred Tire: Car - Width 185 mm
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Blurred Tire: Car - Width 205 mm
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Blurred Tire: Truck
+2025-06-09T18:21:34 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Off-Road: Bolts
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Off-Road: Inflator Guard
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Off-Road: Stripe
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Off-Road: Tire
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Off-Road: Wheel
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Common Vehicle Assets: Tires } Standard Dual for Cars: Tire (Assembly)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Animals (Animated) } Deer: Idle
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Buildings } House
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Buildings } House: Roof
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Buildings } K & C Garage (Yaw 90 degrees)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Land Bowls } Horizon: Snowy Mountains
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Land Bowls } Light Grass
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Land Bowls } Snow
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Props (2 of 2) } Traffic Cone
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Props (2 of 2) } Water Tower
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Props (Animated) } Windmill
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Sky Boxes } Overcast Sky
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Sky Boxes } Partly Cloudy Sky
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Trees } Elm: Summer, Small
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Trees } Mixed Forest
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Trees } Oak: Summer
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Trees } Pine: Summer
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Environment: Trees } Pine: Winter
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes } Cube: 1m (Transparency=0.5) Ref = 1000
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes } Cylinder: 1m Radius, 1m Long
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes } Cylinder: D=0.1m, L=1m, X direction
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes } Sphere 0.2 m (Green) Z = .625
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes } Sphere 0.2 m (Orange)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes } Sphere 0.2 m, X = -1m
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes } Sphere: 0.1m Radius
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes } Square: 1m (Scale: Y = 0.1)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (X-Axis)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Y-Axis)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Geometric Shapes: Arrows } 3D Pyramid: Tail Org (Z-Axis)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { K & C Machine } K & C Machine: Base
+2025-06-09T18:21:35 (Info):    Writing Dataset: { K & C Machine } K & C Machine: Table
+2025-06-09T18:21:35 (Info):    Writing Dataset: { K & C Machine } K & C Machine: Wheel Pad
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Self-Contained Scenes } Handling Course: Details
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Self-Contained Scenes } Handling Course: Road
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Self-Contained Scenes } Handling Course: Trees
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trailers } Gooseneck (Dual Wheels): Body
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trailers } Gooseneck (Dual Wheels): Ramps
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 5.5-Ft Box: Body
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 5.5-Ft Box: Brake Lights (Crew Cab)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 5.5-Ft Box: Details
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 5.5-Ft Box: Reverse Lights (Crew Cab)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 6-Ft Box: Body Midsize
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 6-Ft Box: Brake Lights (Midsize)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 6-Ft Box: Details Midsize
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 6-Ft Box: Reverse Lights (Midsize)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 8-Ft Box: Body
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 8-Ft Box: Brake Lights (Regular Cab)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 8-Ft Box: Brake Lights (Super Cab)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 8-Ft Box: Details
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 8-Ft Box: Dually Fenders (Body)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 8-Ft Box: Dually Fenders (Details)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 8-Ft Box: Reverse Lights (Regular Cab)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Beds } 8-Ft Box: Reverse Lights (Super Cab)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } All Cabs: Driver (Caucasian Male)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Compact Cab: Driver (Caucasian Male)
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Compact, Regular Cab: Body
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Compact, Regular Cab: Details
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Compact, Regular Cab: Windows
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Crew Cab: Body
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Crew Cab: Details
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Crew Cab: Windows
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Regular Cab: Body
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Regular Cab: Details
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Regular Cab: Windows
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Super Cab: Body
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Super Cab: Details
+2025-06-09T18:21:35 (Info):    Writing Dataset: { Trucks: Pickup Cabs } Super Cab: Windows
+2025-06-09T18:21:35 (Info):    Re-writing all parsfiles, Library Animator: Reference Frame, 87% complete
+2025-06-09T18:21:35 (Info):    Writing Dataset: {  } Articulated Bus Rear Cube
+2025-06-09T18:21:35 (Info):    Writing Dataset: {  } Articulation Lead Arm
+2025-06-09T18:21:35 (Info):    Writing Dataset: {  } Trailing body of articulated bus
+2025-06-09T18:21:35 (Info):    Writing Dataset: { 5-Lane Section } House 1
+2025-06-09T18:21:36 (Info):    Writing Dataset: { 5-Lane Section } House 2
+2025-06-09T18:21:36 (Info):    Writing Dataset: { 5-Lane Section } Idle Deer
+2025-06-09T18:21:36 (Info):    Writing Dataset: { 5-Lane Section } Idle Deer 2
+2025-06-09T18:21:36 (Info):    Writing Dataset: { 5-Lane Section } Idle Deer 3
+2025-06-09T18:21:36 (Info):    Writing Dataset: { 5-Lane Section } Water Tower
+2025-06-09T18:21:36 (Info):    Writing Dataset: { 5-Lane Section } Windmill
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Auxiliary Steer Controller } Aux Steer Controller Target
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Brake Calipers } LF Brake Caliper
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Brake Calipers } LR Brake Caliper
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Brake Calipers } RF Brake Caliper
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Brake Calipers } RR Brake Caliper
+2025-06-09T18:21:36 (Info):    Writing Dataset: { K & C Machine } K & C: Table
+2025-06-09T18:21:36 (Info):    Writing Dataset: { K & C Machine } K & C: Wheel Pad (All Wheels)
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Road Tracking } Camera Rear Point w/ Yaw
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview: Generic } Fixed
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview: Generic } Yaw for Shape Preview
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Tracking: Road } Camera Rear Point w/ Yaw
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Tracking: Vehicle } Skybox (Vehicle X-Y-Z)
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Tracking: Vehicle } Vehicle X-Y
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Tracking: Vehicle } Vehicle X-Y-Z
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Tracking: Vehicle } Vehicle X-Y-Z-Yaw
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Trailers } Trailer
+2025-06-09T18:21:36 (Info):    Not rewriting library "Animator: Group (More)", no unencrypted datasets found (0 total).
+2025-06-09T18:21:36 (Info):    Re-writing all parsfiles, Library Animator: Group, 89% complete
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Auxiliary Steer Controller } Aux Steer Target Point (Red)
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Brake System } Exotic Brake Calipers
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Environment Spheres } Overcast Sky with Snow
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Environment Spheres } Partly Cloudy Sky with Light Grass
+2025-06-09T18:21:36 (Info):    Writing Dataset: { K & C Machine } K & C Table
+2025-06-09T18:21:36 (Info):    Writing Dataset: { K & C Machine } K & C Wheel Pads
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Pickup Trucks } Crew Cab, 5.5 Bed
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Pickup Trucks } Pickup, Midsize: Regular Cab, 6 ft. Bed
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Pickup Trucks } Reg Cab 8 Bed, Duals
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Pickup Trucks } Sup Cab, 8 Bed
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Roads and Environment } Environment
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Roads and Environment } Handling Course Extra Shapes
+2025-06-09T18:21:36 (Info):    Re-writing all parsfiles, Library Animator: Camera Setup, 90% complete
+2025-06-09T18:21:36 (Info):    Writing Dataset: { K & C } K & C View
+2025-06-09T18:21:36 (Info):    Writing Dataset: { K & C } K & C View (Rear)
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Road Reference } 180 Azm, 25 El, 49 m
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Road Reference } 180 Azm, 5 El, 36.5 m
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Road Reference } 180 Azm, 5 El, 49 m
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Road Reference } 21 Azm, 5 El, 25 m
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Road Reference } 90 Azm, 5 El, 23 m
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Isometric View - Extra Large Objects
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Isometric View - Large Objects
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Isometric View - Medium Objects
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Isometric View - Scene Objects
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Isometric View - Small Objects
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Rear View
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Rear View - Trailers
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Shape Preview (Side)
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Shape Preview (Top)
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Vehicles - Trailers (Heavy)
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Vehicles and Drivers - Cars
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } Vehicles and Drivers - Trucks
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } XY Plane, No Offsets - Medium Objects
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } XY Plane, No Offsets - Satellite View
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } XY Plane, No Offsets - Small Objects
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } XZ Plane, No Offsets - Large Objects
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } YZ-Plane, No Offsets (with Yaw)
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Shape Preview } YZ-Plane, No Offsets - Small Objects
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Trailer Reference } 160 Azm, 7.4 El, 50 m
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Vehicle Fixed Camera } Custom Fender View
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Vehicle Reference } 0 Azm, 1 El, 37 m
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Vehicle Reference } 13 Azm, 9 El, 18 m, No Yaw
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Vehicle Reference } 150 Azm, 5 El, 30 m
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Vehicle Reference } 180 Azm, 10 El, 36 m
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Vehicle Reference } 180 Azm, 15 El, 30 m
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Vehicle Reference } 200 Azm, 10 El, 25 m, No Yaw
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Vehicle Reference } 254 Azm, 8 El, 15 m, No Yaw
+2025-06-09T18:21:36 (Info):    Not rewriting library "Aerodynamics: Mz (Yaw Moment) Coef. vs. Bounce and Pitch", no unencrypted datasets found (0 total).
+2025-06-09T18:21:36 (Info):    Re-writing all parsfiles, Library Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip, 92% complete
+2025-06-09T18:21:36 (Info):    Writing Dataset: {  } CMz = 0
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Artic Bus } Linear: 0.012 1/deg.
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Spline Interpolation } Spline: 0.2 at 35 deg.
+2025-06-09T18:21:36 (Info):    Not rewriting library "Aerodynamics: My (Pitch Moment) Coef. vs. Bounce and Pitch", no unencrypted datasets found (0 total).
+2025-06-09T18:21:36 (Info):    Re-writing all parsfiles, Library Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip, 93% complete
+2025-06-09T18:21:36 (Info):    Writing Dataset: {  } CMy = 0
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Artic Bus } Spline: 0.2 at 0 deg., 0.38 at 25 deg.
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Spline Interpolation } Spline: 0.15 at 0 deg.
+2025-06-09T18:21:36 (Info):    Not rewriting library "Aerodynamics: Mx (Roll Moment) Coef. vs. Bounce and Pitch", no unencrypted datasets found (0 total).
+2025-06-09T18:21:36 (Info):    Re-writing all parsfiles, Library Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip, 93% complete
+2025-06-09T18:21:36 (Info):    Writing Dataset: {  } CMx = 0
+2025-06-09T18:21:36 (Info):    Writing Dataset: { Artic Bus } Spline: 0.064 1/deg.
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Spline Interpolation } Spline: 0.3 at 90 deg.
+2025-06-09T18:21:37 (Info):    Not rewriting library "Aerodynamics: Fz (Lift) Coef. vs. Bounce and Pitch", no unencrypted datasets found (0 total).
+2025-06-09T18:21:37 (Info):    Re-writing all parsfiles, Library Aerodynamics: Fz (Lift) Coef. vs. Aero Slip, 93% complete
+2025-06-09T18:21:37 (Info):    Writing Dataset: {  } CFz = 0
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Artic Bus } Spline: -0.15 at 0 deg.
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Spline Interpolation } Spline: 0.18 at 0 deg.
+2025-06-09T18:21:37 (Info):    Not rewriting library "Aerodynamics: Fy (Side Force) Coef. vs. Bounce and Pitch", no unencrypted datasets found (0 total).
+2025-06-09T18:21:37 (Info):    Re-writing all parsfiles, Library Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip, 93% complete
+2025-06-09T18:21:37 (Info):    Writing Dataset: {  } CFy = 0
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Artic Bus } Linear: 0.082 1/deg.
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Spline Interpolation } Spline: 2 at 90 deg.
+2025-06-09T18:21:37 (Info):    Not rewriting library "Aerodynamics: Fx (Drag) Coef. vs. Bounce and Pitch", no unencrypted datasets found (0 total).
+2025-06-09T18:21:37 (Info):    Re-writing all parsfiles, Library Aerodynamics: Fx (Drag) Coef. vs. Aero Slip, 94% complete
+2025-06-09T18:21:37 (Info):    Writing Dataset: {  } CFx = 0
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Artic Bus } Cab-Over-Engine
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Spline Interpolation } Spline: 0.30 at 0 deg.
+2025-06-09T18:21:37 (Info):    Not rewriting library "Aerodynamics: Pitch, Bounce, Yaw", no unencrypted datasets found (0 total).
+2025-06-09T18:21:37 (Info):    Re-writing all parsfiles, Library Aerodynamics: Basic, 94% complete
+2025-06-09T18:21:37 (Info):    Writing Dataset: {  } No Aerodynamics
+2025-06-09T18:21:37 (Info):    Writing Dataset: { A-Class } A-Class, Hatchback Aero
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Artic Bus } Tour Bus, 4.5 m Ref.
+2025-06-09T18:21:37 (Info):    Writing Dataset: { B-Class } B-Class, Hatchback Aero
+2025-06-09T18:21:37 (Info):    Writing Dataset: { B-Class } B-Class, Sports Car Aero
+2025-06-09T18:21:37 (Info):    Writing Dataset: { C-Class } C-Class, Hatchback Aero
+2025-06-09T18:21:37 (Info):    Writing Dataset: { D-Class } D-Class, Sedan Aero
+2025-06-09T18:21:37 (Info):    Writing Dataset: { E-Class } E-Class, Sedan Aero
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Exotic Sports Car } Exotic Car Aero
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Generic Aerodynamic Properties } No Aerodynamics
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Pickup Trucks } Full-Size Pickup (3390 mm wheelbase)
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Pickup Trucks } Full-Size Pickup (3725 mm wheelbase)
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Pickup Trucks } Full-Size Pickup (4280 mm wheelbase)
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Pickup Trucks } Mid-Size Pickup (3261 mm wheelbase)
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Utility Vehicles: SUVs and Vans } SUV, Full Size Aero
+2025-06-09T18:21:37 (Info):    Not rewriting library "Sensor Reflectiveness Map", no unencrypted datasets found (0 total).
+2025-06-09T18:21:37 (Info):    Re-writing all parsfiles, Library Sensor Range and Bearing Sensitivity, 95% complete
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Limit from Range } 50-m Range
+2025-06-09T18:21:37 (Info):    Re-writing all parsfiles, Library Sensor Elevation Sensitivity, 95% complete
+2025-06-09T18:21:37 (Info):    Writing Dataset: {  } Unity Gain
+2025-06-09T18:21:37 (Info):    Not rewriting library "Polygonal Shape Coordinates", no unencrypted datasets found (0 total).
+2025-06-09T18:21:37 (Info):    Re-writing all parsfiles, Library Single Moving Object (Custom), 95% complete
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Animals Crossing } Deer #1, Update Path
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Animals Crossing } Deer #2, Update Path
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Animals Crossing } Deer #3, Update Path
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Animals Crossing } Deer #4, Update Path (RND)
+2025-06-09T18:21:37 (Info):    Re-writing all parsfiles, Library Multiple Moving Objects, 95% complete
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Points of Interest } 1 Driver Preview Point
+2025-06-09T18:21:37 (Info):    Re-writing all parsfiles, Library ADAS Sensors for Range and Tracking, 96% complete
+2025-06-09T18:21:37 (Info):    Writing Dataset: { Forward Facing Sensors: FCW and ACC } FCW
+2025-06-09T18:21:37 (Info):    Re-writing all parsfiles, Library CarSim Run Control, 96% complete
+2025-06-09T18:21:37 (Info):    Writing Dataset: { * * Quick Start Guide Example } Baseline
+2025-06-09T18:21:37 (Info):    Writing Dataset: { * Articulated Bus } Artic Bus, 90-deg Turn
+2025-06-09T18:21:37 (Info):    Writing Dataset: { * Articulated Bus } Artic Bus, DLC Low Mu
+2025-06-09T18:21:37 (Info):    Writing Dataset: { * Articulated Bus } Artic Bus, DLC Low Mu, w damping
+2025-06-09T18:21:37 (Info):    Writing Dataset: { * Articulated Bus } Artic Bus, Simple Ani, 90-deg Turn
+2025-06-09T18:21:37 (Info):    Writing Dataset: { * Auxiliary Steer Control } 01 - Enable Aux Steer Control
+2025-06-09T18:21:37 (Info):    Writing Dataset: { * Auxiliary Steer Control } 02 - Aux Str Ctrl, LTARG_ID_AUX = 0
+2025-06-09T18:21:37 (Info):    Writing Dataset: { * Auxiliary Steer Control } 03 - Aux Str Ctrl with Avoidance Path
+2025-06-09T18:21:37 (Info):    Writing Dataset: { * Auxiliary Steer Control } 04 - Using the Auxiliary Steer Output
+2025-06-09T18:21:37 (Info):    Writing Dataset: { * Independent Suspension Kinematics } Kinematics: Bounce (OPT_IND_KIN = 0)
+2025-06-09T18:21:38 (Info):    Note: Dataset took a while to write: 1.000000s.
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * Independent Suspension Kinematics } Kinematics: Bounce (OPT_IND_KIN = 1)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * Independent Suspension Kinematics } Kinematics: Roll (OPT_IND_KIN = 0)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * Independent Suspension Kinematics } Kinematics: Roll (OPT_IND_KIN = 1)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * New Vehicle Configuration } DRW Pickup + GN Trailer w Dual Wheels
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * Parallel-Hybrid Electric } A.Split Hyb./3Mot: OL Regen. Brk.
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * Parallel-Hybrid Electric } A.Split Hybrid: OL, Regen. Brk.100%
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * Parallel-Hybrid Electric } Pos.T.P.Hybrid: OL, Regen. Brk.100%
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * Parallel-Hybrid Electric } Pre.T.P.Hybrid: EPA Urban Cycle
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * Parallel-Hybrid Electric } Pre.T.P.Hybrid: OL, Regen. Brk.100%
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * Range-Extended Electric (Series Hybrid) } RE-Electric: EPA Urban Cycle
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * Range-Extended Electric (Series Hybrid) } RE-Electric: OL, Regen. Brk.100%
+2025-06-09T18:21:38 (Info):    Writing Dataset: { * VS Connect Live Animation } Live Animation Wrapper
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Electric Midsize Pickup } Accelerate then Brake
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Electric Midsize Pickup } At Rest
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Electric Midsize Pickup } EPA Urban Cycle
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Embedded Python } Update Path with Embedded Python
+2025-06-09T18:21:38 (Info):    Writing Dataset: { External Parsfiles } Closed Loop Driver Model
+2025-06-09T18:21:38 (Info):    Writing Dataset: { External Parsfiles } Path: X-Y Coordinates and Road Mu
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Obstacle Avoidance } Path Update DLC: Simulink, Spline
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Obstacle Avoidance } Path Update SLC: Simulink, Poly.
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Output Options } GPS and 64-bit Output
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Output Options } Output to Excel (ERD to CSV/MAT)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Output Options } Quick Start Example: CSV Only
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Output Options } Quick Start Example: Export to CSV
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Output Options } SI Units for Output
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Payloads and Sprung Masses } Payload: DLC, Loaded 2000 kg
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Payloads and Sprung Masses } Payload: Driver and Fuel Loads
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Payloads and Sprung Masses } Payload: SUV w/ 7 Passengers
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Payloads and Sprung Masses } Sprung Mass from Whole Vehicle: i_i
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Payloads and Sprung Masses } Sprung Mass from Whole Vehicle: s_s
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } Accel: Full Thr, Split-Mu (Model Free)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } Accel: Full Thr, Split-Mu (No Control)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } Full_acc_Optimal_TC Simulink (Model Free)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } Full_acc_TC Simulink (Model Free Const My)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } Full_acc_TC Simulink (Model Free)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } Full_acc_TC Simulink (PI)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } Growing Speed (Step)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } Modelo principal (Full_acc)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } Multiple tests Dataset (change this as u want)
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } TCS_HiL_Control
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } TCS_HiL_Simulink_Model
+2025-06-09T18:21:38 (Info):    Writing Dataset: { VHF Urbano } XiL_external_powertrain
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Validation of Vehicle Data } At Rest
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Validation of Vehicle Data } Slowly Increasing Speed
+2025-06-09T18:21:38 (Info):    Writing Dataset: { Validation of Vehicle Data } Slowly Increasing Steer
+2025-06-09T18:21:39 (Info):    Finished re-write of entire database

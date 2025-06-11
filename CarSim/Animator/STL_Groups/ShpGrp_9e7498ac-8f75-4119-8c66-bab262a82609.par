@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Pickup Trucks } 6-Ft Box Mid
 #Category: Pickup Trucks
 #FileID  : ShpGrp_9e7498ac-8f75-4119-8c66-bab262a82609
 #Modified: 05-28-2021 15:03:00
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shape Assembly
 
 END

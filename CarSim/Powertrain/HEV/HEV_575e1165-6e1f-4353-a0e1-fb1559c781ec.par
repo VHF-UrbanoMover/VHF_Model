@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Parallel Hyb. Motor 
 #FileID  : HEV_575e1165-6e1f-4353-a0e1-fb1559c781ec
 #Created : 11-18-2021 15:44:04
 #Modified: 11-24-2021 14:04:29
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode HEV
 
 END

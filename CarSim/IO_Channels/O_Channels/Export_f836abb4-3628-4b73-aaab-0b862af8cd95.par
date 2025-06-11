@@ -1,6 +1,5 @@
 PARSFILE
 #FullDataName I/O Channels: Export`Slip ratio`VHF Controls
-#RingCtrl0 1
 #RingCtrl1 1
 
 
@@ -17,16 +16,15 @@ EXPORT Kappa_R2
 #ENDMYellow
 
 
-
 LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Slip ratio
 #Library : I/O Channels: Export
 #DataSet : Slip ratio
 #Category: VHF Controls
 #FileID  : Export_f836abb4-3628-4b73-aaab-0b862af8cd95
 #Created : 08-16-2023 11:29:54
-#Modified: 08-16-2023 11:30:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Export Channels
 
 END

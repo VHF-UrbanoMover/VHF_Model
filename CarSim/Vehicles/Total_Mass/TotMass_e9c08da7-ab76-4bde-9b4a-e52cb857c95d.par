@@ -2,6 +2,7 @@ PARSFILE
 #FullDataName Vehicle: Sprung Mass (from Whole Vehicle)`Pickup, Full Size`
 #VehCode Rigid sprung mass (whole)
 #CheckBox1 1    
+#CheckBox2 1    
 symbol_push_or_set <<hitch_x>> -5.09
 symbol_push_or_set <<hitch_y>> 0
 symbol_push_or_set <<hitch_z>> 0.35
@@ -50,6 +51,7 @@ Y_LENGTH 2392
 *L_TRACK(2) 2000
 *IA(2) 50
 *IA(1) 50
+X_LENGTH 3725
 #RingCtrl0 2
 #RingCtrl1 0
 X_LENGTH 3725
@@ -76,9 +78,9 @@ LOG_ENTRY Used Dataset: Vehicle: Sprung Mass (from Whole Vehicle); Pickup, Full 
 #DataSet : Pickup, Full Size
 #Category: 
 #FileID  : TotMass_e9c08da7-ab76-4bde-9b4a-e52cb857c95d
-#Modified: 05-28-2021 14:58:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rigid sprung mass (whole)
 
 END

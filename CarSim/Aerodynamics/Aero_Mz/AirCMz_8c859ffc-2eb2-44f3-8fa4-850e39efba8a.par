@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; { Spl
 #Category: Spline Interpolation
 #FileID  : AirCMz_8c859ffc-2eb2-44f3-8fa4-850e39efba8a
 #Modified: 05-28-2021 15:03:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Mz vs. Aero Slip
 
 END

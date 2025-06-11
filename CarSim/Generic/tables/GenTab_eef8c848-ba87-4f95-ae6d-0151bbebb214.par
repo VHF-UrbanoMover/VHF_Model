@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Generic Table; { 4 Link w/ Track Bar } Right R-Stop Comp
 #FileID  : GenTab_eef8c848-ba87-4f95-ae6d-0151bbebb214
 #Created : 05-18-2021 13:00:56
 #Modified: 05-28-2021 15:02:29
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Brakes: Torque; { Artic Bus } 7.5 kN-m, Air
 #Category: Artic Bus
 #FileID  : BrkTrq_5efadd3b-efd9-45a6-9d36-a07cd1659fb1
 #Modified: 11-11-2021 13:48:20
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Brake Torque
 
 END

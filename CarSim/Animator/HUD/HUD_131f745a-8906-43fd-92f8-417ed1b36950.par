@@ -21,13 +21,13 @@ PARSFILE
 #Selection 18 for Icon 0
 #Selection_1 18 for Icon
 #Selection_2 Title: Time AlX 0 AlY 0
-#Selection_3 Scale 1.333333 locX 100 locY 40
+#Selection_3 Scale 1.333333 locX 80 locY 32
 #Selection_4 Fixed: 1 VarName: T_Stamp  ColorStr: 1 1 1 1
 #Selection_5 ImgName: 
 ANI_T_Stamp
 WRT_T_Stamp
 ADD_ENTITY hud_text Text Output
-location 100 40 24 24
+location 80 32 24 24
 align_x left
 align_y top
 size_mode absolute
@@ -46,9 +46,9 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Vehicle Status Indicators } Simulation 
 #Category: Vehicle Status Indicators
 #FileID  : HUD_131f745a-8906-43fd-92f8-417ed1b36950
 #Created : 12-09-2021 10:05:47
-#Modified: 12-13-2021 10:41:03
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:32
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode HUD
 
 END

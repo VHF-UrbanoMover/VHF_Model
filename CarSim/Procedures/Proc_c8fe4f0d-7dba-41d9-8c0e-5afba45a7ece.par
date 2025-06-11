@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: Procedures; { Accel. and Brake Testing } Part-Throttle A
 #FileID  : Proc_c8fe4f0d-7dba-41d9-8c0e-5afba45a7ece
 #Created : 08-17-2023 16:24:27
 #Modified: 08-17-2023 17:06:27
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Procedure
 
 END

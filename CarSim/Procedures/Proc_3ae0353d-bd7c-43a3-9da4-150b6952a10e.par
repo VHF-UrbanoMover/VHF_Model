@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Procedures; { Handling Testing } DLC @ 120 km/h (Quick S
 #Category: Handling Testing
 #FileID  : Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e
 #Modified: 05-28-2021 14:59:19
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Procedure
 
 END

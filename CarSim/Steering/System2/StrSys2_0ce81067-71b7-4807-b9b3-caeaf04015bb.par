@@ -1,5 +1,6 @@
 PARSFILE
 #FullDataName Steering`Artic Bus`
+INSTALL_STEERING
 I_COL 0.02
 I_GEAR_IN 0.0005
 D_COL 0.01
@@ -20,6 +21,8 @@ OPT_I_GEAR_IN 0
 #RingCtrl5 0
 #RingCtrl6 0
 #RingCtrl7 1
+#RingCtrl8 0
+#RingCtrl9 0
 
 OPT_STEER_DEF 1
 
@@ -81,9 +84,9 @@ LOG_ENTRY Used Dataset: Steering; Artic Bus
 #Category: 
 #FileID  : StrSys2_0ce81067-71b7-4807-b9b3-caeaf04015bb
 #Created : 11-24-2021 12:02:17
-#Modified: 12-09-2021 03:21:57
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:52
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 4-Wheel Steer
 
 END

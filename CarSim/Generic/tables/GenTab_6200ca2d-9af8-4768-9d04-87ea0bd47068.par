@@ -1,17 +1,17 @@
 PARSFILE
 #FullDataName Generic Table`Lx Variable, Scaled to Tire`Tire Relaxation Length
-#RingCtrl0 SPLINE_FLAT
-#RingCtrl1 MULTIPLY
-#RingCtrl2 LINEAR
-#CheckBox0 1    
-
-L_RELAX_X_COMBINE MULTIPLY
 #MiscYellow0
 SET_UNITS L_RELAX_X_TABLE m
 L_RELAX_X_GAIN = RRE/5
 FZ_SCALE_L_RELAX_X = FZ_REF
 #ENDMYellow
 
+#RingCtrl0 SPLINE_FLAT
+#RingCtrl1 MULTIPLY
+#RingCtrl2 LINEAR
+#CheckBox0 1    
+
+L_RELAX_X_COMBINE MULTIPLY
 #DiagramOne0
 L_RELAX_X_TABLE SPLINE_FLAT
 -0.1, 0.13526
@@ -85,9 +85,9 @@ LOG_ENTRY Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, S
 #DataSet : Lx Variable, Scaled to Tire
 #Category: Tire Relaxation Length
 #FileID  : GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068
-#Modified: 05-28-2021 15:02:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:30
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

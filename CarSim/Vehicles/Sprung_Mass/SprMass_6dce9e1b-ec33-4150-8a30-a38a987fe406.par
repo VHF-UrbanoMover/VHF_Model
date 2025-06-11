@@ -3,6 +3,7 @@ PARSFILE
 #VehCode Rigid sprung mass
 #RingCtrl0 0
 #CheckBox2 0    
+#CheckBox3 1    
 X_LENGTH 3140
 Y_LENGTH 1500
 iaxle 2
@@ -27,6 +28,7 @@ Y_LENGTH 2384
 *HWC_RF 400
 *HWC_LR 400
 *HWC_RR 400
+X_LENGTH 3140
 H_WC 400
 iside 2
 H_WC 400
@@ -45,9 +47,9 @@ LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Utility Vehicles: SUVs and Vans 
 #DataSet : SUV, Full Size
 #Category: Utility Vehicles: SUVs and Vans
 #FileID  : SprMass_6dce9e1b-ec33-4150-8a30-a38a987fe406
-#Modified: 05-28-2021 14:58:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:23
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rigid sprung mass
 
 END

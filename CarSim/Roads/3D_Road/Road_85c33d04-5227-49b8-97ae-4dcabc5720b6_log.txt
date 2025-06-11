@@ -1,0 +1,23 @@
+Run made by VS Road Calculator at 18:21 on June 09, 2025.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_85c33d04-5227-49b8-97ae-4dcabc5720b6.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_299f5dd8-31b0-44f2-9251-eaaf215df33c.par"
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Include PARSFILE "Roads\Friction\RdMu_f0ef4b80-14f8-4aaf-8181-11d9129217ec.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Split Mu } Split Mu @ 10 m 0.2L/0.5R
+Include PARSFILE "Roads\Shapes\RdShape_22356e54-d502-4482-8b1f-c32264f22202.par"
+Used Dataset: Road: Animator Surface Shapes; { Variable friction } Split Mu at 3 m
+ Split Mu 10m <Straight>
+Used Dataset: Road: 3D Surface (All Properties); { Straight } Split Mu 10m
+
+Time to read input = 0.0007205
+
+Run stopped at t = 16.52. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_85c33d04-5227-49b8-97ae-4dcabc5720b6.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

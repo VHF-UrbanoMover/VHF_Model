@@ -92,8 +92,8 @@ LOG_ENTRY Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers;
 #Category: Pickup Trucks
 #FileID  : CmpSA_648aa2cf-03c4-4d12-97b4-530d19c14efd
 #Modified: 05-28-2021 14:59:11
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Solid Axle
 
 END

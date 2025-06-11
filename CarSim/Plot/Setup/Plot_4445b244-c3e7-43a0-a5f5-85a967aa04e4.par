@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Battery current
 #Category: Powertrain (Hybrid)
 #FileID  : Plot_4445b244-c3e7-43a0-a5f5-85a967aa04e4
 #Modified: 05-28-2021 14:59:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

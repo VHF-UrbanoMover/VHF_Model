@@ -3,6 +3,7 @@ PARSFILE
 #VehCode Rigid sprung mass
 #RingCtrl0 0
 #CheckBox2 1    
+#CheckBox3 1    
 X_LENGTH 3390
 Y_LENGTH 1500
 iaxle 2
@@ -36,7 +37,7 @@ Y_LENGTH 2486
 *HWC_RF 400
 *HWC_LR 325
 *HWC_RR 325
-LEN_SM 3390
+X_LENGTH 3390
 H_WC 325
 iside 2
 H_WC 325
@@ -49,6 +50,7 @@ iaxle 2
 iside 1
 HT_SM 1609
 WID_SM 2486
+LEN_SM 3390
 
 #EMBEDDED_NOTES
 #This sprung mass dataset is intended to represent a diesel, 4WD full-size pickup with regular cab, long (8 ft) bed, and dual rear wheels (DRW).
@@ -60,9 +62,9 @@ LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Pickup Trucks } Pickup, Reg. Cab
 #Category: Pickup Trucks
 #FileID  : SprMass_80cb47c9-0ca7-4425-a6f6-188017e1517a
 #Created : 08-03-2021 11:45:10
-#Modified: 08-03-2021 14:37:42
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:23
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rigid sprung mass
 
 END

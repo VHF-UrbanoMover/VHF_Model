@@ -71,8 +71,8 @@ LOG_ENTRY Used Dataset: Tire; { Trailer and Light Truck Tires } 235/80 R16 - Tra
 #FileID  : Tire_77fb7122-b7ab-4d33-a462-9756a920fd65
 #Created : 08-03-2021 13:19:52
 #Modified: 08-03-2021 13:21:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

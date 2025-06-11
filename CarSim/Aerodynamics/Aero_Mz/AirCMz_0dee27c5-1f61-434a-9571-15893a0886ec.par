@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; { Art
 #Category: Artic Bus
 #FileID  : AirCMz_0dee27c5-1f61-434a-9571-15893a0886ec
 #Modified: 11-11-2021 13:48:18
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Mz vs. Aero Slip
 
 END

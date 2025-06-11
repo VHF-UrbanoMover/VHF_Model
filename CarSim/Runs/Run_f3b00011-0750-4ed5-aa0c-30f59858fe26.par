@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 5
 #RingCtrl1 17
@@ -93,9 +94,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { VHF Urbano } TCS_HiL_Control
 #Category: VHF Urbano
 #FileID  : Run_f3b00011-0750-4ed5-aa0c-30f59858fe26
 #Created : 11-19-2024 18:30:37
-#Modified: 11-19-2024 18:30:37
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

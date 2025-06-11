@@ -1414,8 +1414,8 @@ LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { EPA C
 #Category: EPA Cycles
 #FileID  : SpdTime_4ad2e3f5-4b27-45b0-bf2f-e00bdc6fcc52
 #Modified: 05-28-2021 15:02:38
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Target Speed
 
 END

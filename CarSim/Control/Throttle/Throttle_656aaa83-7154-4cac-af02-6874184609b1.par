@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Control: Throttle (Open Loop); { Ramp } Ramp to Full in 
 #FileID  : Throttle_656aaa83-7154-4cac-af02-6874184609b1
 #Created : 05-18-2021 12:07:58
 #Modified: 05-28-2021 15:02:35
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Open-loop Throttle
 
 END

@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 20
 #Category: Linear
 #FileID  : AuxMx_9c8f9407-2193-4310-a403-343efd012f6b
 #Modified: 05-28-2021 14:59:11
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Aux. Roll Moment
 
 END

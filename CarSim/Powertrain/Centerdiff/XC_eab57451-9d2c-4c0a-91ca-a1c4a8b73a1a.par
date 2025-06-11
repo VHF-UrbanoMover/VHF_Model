@@ -95,8 +95,8 @@ LOG_ENTRY Used Dataset: Powertrain: Transfer Case; { Limited Slip and Viscous Co
 #Category: Limited Slip and Viscous Coupling
 #FileID  : XC_eab57451-9d2c-4c0a-91ca-a1c4a8b73a1a
 #Modified: 05-28-2021 14:59:35
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Transfer Case
 
 END

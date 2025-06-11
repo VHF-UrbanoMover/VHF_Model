@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Exotic Front Tire
 #Category: Tires
 #FileID  : ShpGrp_bea935be-912e-4ae1-9d2c-ad366906d7b1
 #Modified: 05-28-2021 15:03:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shape Assembly
 
 END

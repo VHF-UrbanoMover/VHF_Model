@@ -1,6 +1,8 @@
 PARSFILE
 #FullDataName Brakes: Four-Wheel System`Trailer (2A): MC Press, No ABS`Trailers
+#CheckBox0 0    
 #CheckBox1 0    
+
 #RingCtrl0 0
 #RingCtrl1 0
 #RingCtrl2 1
@@ -86,9 +88,9 @@ LOG_ENTRY Used Dataset: Brakes: Four-Wheel System; { Trailers } Trailer (2A): MC
 #DataSet : Trailer (2A): MC Press, No ABS
 #Category: Trailers
 #FileID  : Brk4W_eed6147d-3340-4846-b7a5-e1b637c17333
-#Modified: 05-28-2021 15:02:41
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:31
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 4-Wheel System
 
 END

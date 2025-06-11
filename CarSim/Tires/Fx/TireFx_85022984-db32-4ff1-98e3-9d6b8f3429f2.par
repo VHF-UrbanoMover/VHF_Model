@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Touring Tires } 175/65 R14
 #Category: Touring Tires
 #FileID  : TireFx_85022984-db32-4ff1-98e3-9d6b8f3429f2
 #Modified: 03-21-2023 13:40:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fx
 
 END

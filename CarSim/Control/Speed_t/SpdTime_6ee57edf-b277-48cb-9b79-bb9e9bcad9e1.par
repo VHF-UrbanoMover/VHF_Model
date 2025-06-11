@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { Handl
 #Category: Handling and Performance Driving
 #FileID  : SpdTime_6ee57edf-b277-48cb-9b79-bb9e9bcad9e1
 #Modified: 05-28-2021 15:02:38
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Target Speed
 
 END

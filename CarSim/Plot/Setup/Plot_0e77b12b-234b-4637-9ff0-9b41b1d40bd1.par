@@ -3,7 +3,6 @@ PARSFILE
 
 ADD_ENTITY Plot
 
-
 #CheckBox1 0    
 
 
@@ -18,8 +17,6 @@ PLOTCHANNELS KappL_R2, Time
 YMaxmin Auto
 #RingCtrl3 Auto
 XMaxmin Auto
-#RingCtrl4 0
-#RingCtrl6 1
 #RingCtrl8 1
 
 
@@ -34,9 +31,9 @@ LOG_ENTRY Used Dataset: Plot: Setup; { VHF Plots } Rear Wheels laged Slip Rate
 #Category: VHF Plots
 #FileID  : Plot_0e77b12b-234b-4637-9ff0-9b41b1d40bd1
 #Created : 11-07-2022 10:20:50
-#Modified: 11-07-2022 10:21:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:55
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

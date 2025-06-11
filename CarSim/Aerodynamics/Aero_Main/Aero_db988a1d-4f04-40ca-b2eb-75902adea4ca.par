@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { B-Class } B-Class, Hatchback Aero
 #Category: B-Class
 #FileID  : Aero_db988a1d-4f04-40ca-b2eb-75902adea4ca
 #Modified: 05-28-2021 15:03:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Aerodynamics
 
 END

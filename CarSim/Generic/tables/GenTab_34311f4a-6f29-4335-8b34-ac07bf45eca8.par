@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV / EV) } 723 V Battery, 
 #FileID  : GenTab_34311f4a-6f29-4335-8b34-ac07bf45eca8
 #Created : 05-18-2021 12:18:22
 #Modified: 05-28-2021 15:02:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

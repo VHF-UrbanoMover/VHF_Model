@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Electric Generator M
 #Category: Powertrain (HEV)
 #FileID  : GenTab_a0db5041-d4b4-45a8-b02b-253fd56e256c
 #Modified: 05-28-2021 15:02:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

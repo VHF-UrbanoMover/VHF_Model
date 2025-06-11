@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Powertrain: Front Differential; { Electric Motor Drive (
 #FileID  : DiffF_1affb025-46e3-4266-b52c-d4ff2e43b4a9
 #Created : 05-18-2021 12:35:57
 #Modified: 05-28-2021 14:59:36
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Front Differential
 
 END

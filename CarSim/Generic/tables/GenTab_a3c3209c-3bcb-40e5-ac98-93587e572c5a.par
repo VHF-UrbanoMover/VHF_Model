@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Tire Contact Patch Dimensions } Length 
 #Category: Tire Contact Patch Dimensions
 #FileID  : GenTab_a3c3209c-3bcb-40e5-ac98-93587e572c5a
 #Modified: 05-28-2021 15:02:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

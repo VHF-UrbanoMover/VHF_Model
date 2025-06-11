@@ -1,6 +1,7 @@
 PARSFILE
 #FullDataName Powertrain: 4-Wheel Drive`43kW/40kW, A.Split Hybrid Hi-Pw`A.Split Hybrid: 43kW/40kW (Engine+Motor)
 INSTALL_POWERTRAIN 3
+OPT_PT 3
 INSTALL_ENGINE
 
 R_REAR_DRIVE_SC 0.5
@@ -20,8 +21,6 @@ R_MDRIVE 1
 OPT_ENGINE_INTERNAL 1
 OPT_PWR_CPL_INTERNAL 0
 OPT_TRANS_INTERNAL 0
-OPT_SHIFT_INTERNAL 0
-OPT_TR_GEAR_INTERNAL 0
 IDIFF 1
 OPT_DIFF_INTERNAL 1
 IDIFF 2
@@ -67,9 +66,9 @@ LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { A.Split Hybrid: 43kW/40kW (
 #Category: A.Split Hybrid: 43kW/40kW (Engine+Motor)
 #FileID  : 4WD_18727b30-c5ec-4cc3-9c9d-546429d31dc1
 #Created : 11-18-2021 13:44:11
-#Modified: 11-24-2021 14:03:13
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:54
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 4WD
 
 END

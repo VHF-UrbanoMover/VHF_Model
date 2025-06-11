@@ -53,6 +53,7 @@ set_offset_var_y -33
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_2_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -60,6 +61,7 @@ set_offset_var_x -81.8
 set_offset_var_y 35.55
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_3_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -69,6 +71,7 @@ set_offset_var_y -27.6
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_4_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -76,6 +79,7 @@ set_offset_var_x -37.6
 set_offset_var_y 32.1
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_5_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -85,6 +89,7 @@ set_offset_var_y -30.75
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_6_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -92,6 +97,7 @@ set_offset_var_x -9.1
 set_offset_var_y 34.95
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_7_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -101,6 +107,7 @@ set_offset_var_y -22.8
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_8_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -108,6 +115,7 @@ set_offset_var_x 52.3
 set_offset_var_y 36.45
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_9_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -117,6 +125,7 @@ set_offset_var_y -30.9
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_10_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -124,6 +133,7 @@ set_offset_var_x 83.6
 set_offset_var_y 34.2
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_11_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -133,6 +143,7 @@ set_offset_var_y -24.75
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_12_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -140,6 +151,7 @@ set_offset_var_x 110.6
 set_offset_var_y 24
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_13_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -149,6 +161,7 @@ set_offset_var_y -32.1
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_14_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -156,6 +169,7 @@ set_offset_var_x 142.8
 set_offset_var_y 35.1
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_15_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -165,6 +179,7 @@ set_offset_var_y -32.85
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_16_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -172,6 +187,7 @@ set_offset_var_x 172.4
 set_offset_var_y 22.8
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_17_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -181,6 +197,7 @@ set_offset_var_y -24.45
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_18_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -188,6 +205,7 @@ set_offset_var_x 203
 set_offset_var_y 33
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_19_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -197,6 +215,7 @@ set_offset_var_y -28.95
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_20_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -204,6 +223,7 @@ set_offset_var_x 233.8
 set_offset_var_y 28.5
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_21_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -213,6 +233,7 @@ set_offset_var_y -36
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_22_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -220,6 +241,7 @@ set_offset_var_x 262.4
 set_offset_var_y 24.9
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_23_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -229,6 +251,7 @@ set_offset_var_y -26.7
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_24_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -236,6 +259,7 @@ set_offset_var_x 293.7
 set_offset_var_y 28.35
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_25_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -245,6 +269,7 @@ set_offset_var_y -34.65
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_26_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -252,6 +277,7 @@ set_offset_var_x 320.6
 set_offset_var_y 35.85
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_27_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -261,6 +287,7 @@ set_offset_var_y -31.35
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_28_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -268,6 +295,7 @@ set_offset_var_x 350.5
 set_offset_var_y 31.95
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 add_reference_frame road_stuff_29_2_Elm:_Summer,_Small
 reference_frame_ghosts off
@@ -277,6 +305,7 @@ set_offset_var_y -31.8
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_30_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -285,6 +314,7 @@ set_offset_var_y 27.45
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
 
+
 add_reference_frame road_stuff_31_2_Elm:_Summer,_Small
 reference_frame_ghosts off
 set_offset_var_yaw 0
@@ -292,6 +322,7 @@ set_offset_var_x 397.8
 set_offset_var_y -28.65
 set_offset_var_z 0
 parsfile Animator\STL\Shape_a1860187-937f-4a26-bbf6-484e7ce439e3.par
+
 
 #EMBEDDED_NOTES
 #This is a flat level surface. A road is defined going east, such that global X = road station and global Y= road lateral coordinate L. Animator shapes are defined to show a 5 m grid for a test pad 20 m wide.
@@ -302,9 +333,9 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Flat Test Pads } 20
 #DataSet : 20 m Wide Pad, 5 m Grid, Mu = 0.85
 #Category: Flat Test Pads
 #FileID  : Road_640a07ac-70a7-4b2a-91b7-4da143200c16
-#Modified: 09-27-2021 13:21:08
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:24
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 3D Road
 
 END

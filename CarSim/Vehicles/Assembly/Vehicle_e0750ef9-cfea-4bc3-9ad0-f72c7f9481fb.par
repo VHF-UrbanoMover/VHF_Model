@@ -110,8 +110,8 @@ LOG_ENTRY Used Dataset: Vehicle: Assembly; { B-Class } B-Class, Hbk: Pre.T.P.Hyb
 #FileID  : Vehicle_e0750ef9-cfea-4bc3-9ad0-f72c7f9481fb
 #Created : 11-17-2021 15:25:14
 #Modified: 11-17-2021 16:39:46
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_Ind
 
 END

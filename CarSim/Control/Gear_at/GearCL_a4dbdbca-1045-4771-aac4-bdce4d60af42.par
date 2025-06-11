@@ -23,8 +23,8 @@ LOG_ENTRY Used Dataset: Control: Shifting (Closed Loop); { Closed-Loop Shifting 
 #FileID  : GearCL_a4dbdbca-1045-4771-aac4-bdce4d60af42
 #Created : 04-14-2021 08:51:32
 #Modified: 05-28-2021 15:02:39
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Closed-Loop Shift Control
 
 END

@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire; { Artic Bus } 510 mm Radius (Steer)
 #Category: Artic Bus
 #FileID  : Tire_72d731fb-e58f-4aa6-b7e8-d8d67953251e
 #Modified: 11-11-2021 13:48:22
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

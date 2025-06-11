@@ -1,7 +1,7 @@
 PARSFILE
 #FullDataName Powertrain: 4-Wheel Drive`300 kW Electric Dual-Motor AWD`300 kW Powertrains
 INSTALL_POWERTRAIN 3
-INSTALL_ENGINE
+OPT_PT 3
 
 R_REAR_DRIVE_SC 0.5
 
@@ -20,8 +20,6 @@ R_MDRIVE 0
 OPT_ENGINE_INTERNAL 0
 OPT_PWR_CPL_INTERNAL 0
 OPT_TRANS_INTERNAL 0
-OPT_SHIFT_INTERNAL 0
-OPT_TR_GEAR_INTERNAL 0
 IDIFF 1
 OPT_DIFF_INTERNAL 1
 IDIFF 2
@@ -61,9 +59,9 @@ LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { 300 kW Powertrains } 300 kW
 #Category: 300 kW Powertrains
 #FileID  : 4WD_521b50b4-2caf-40dc-8831-f47104baecc9
 #Created : 05-18-2021 12:15:23
-#Modified: 11-24-2021 14:03:13
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:54
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 4WD
 
 END

@@ -133,8 +133,8 @@ LOG_ENTRY Used Dataset: Steering: Power Assist Force; { B-Class } B-Class Sports
 #Category: B-Class
 #FileID  : FBoost_aa1bc3f4-ed3d-430b-b369-405e466e41a7
 #Modified: 05-28-2021 14:59:14
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Power Assist Force
 
 END

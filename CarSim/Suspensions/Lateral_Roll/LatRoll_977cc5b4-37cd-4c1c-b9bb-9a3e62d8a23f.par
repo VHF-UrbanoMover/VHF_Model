@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; { H
 #Category: Hotchkiss
 #FileID  : LatRoll_977cc5b4-37cd-4c1c-b9bb-9a3e62d8a23f
 #Modified: 05-28-2021 14:59:09
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Lateral Movement
 
 END

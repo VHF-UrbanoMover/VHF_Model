@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { Touring Tires } 215/55 R17
 #Category: Touring Tires
 #FileID  : TireFy_a3dbd701-dd04-4bbe-ae9d-4f8143ca326f
 #Modified: 05-28-2021 14:58:50
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fy
 
 END

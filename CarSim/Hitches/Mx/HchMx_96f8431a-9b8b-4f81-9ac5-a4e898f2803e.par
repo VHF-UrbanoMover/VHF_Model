@@ -16,8 +16,8 @@ LOG_ENTRY Used Dataset: Hitch: Roll Moment; { Turntable } 500 kN-m/deg (0 deg la
 #FileID  : HchMx_96f8431a-9b8b-4f81-9ac5-a4e898f2803e
 #Created : 09-28-2021 17:02:52
 #Modified: 09-28-2021 17:03:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Hitch Mx
 
 END

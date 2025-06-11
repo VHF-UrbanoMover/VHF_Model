@@ -10,12 +10,15 @@ IOBJECT_SAVE
 *Z_LENGTH 250
 Y_CG_PL 0
 H_BOX_BOTTOM 275
-LX_CG_PL 2000
+X_CG_PL 2000
 M_PL 22
 *SET_COLOR 1 0 0
 
 #CheckBox0 0    
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
+! Calculated height of payload CG
 Z_CG_PL 400.00
 IXX_PL 1.95
 IYY_PL 1.15
@@ -30,9 +33,9 @@ LOG_ENTRY Used Dataset: Payload: Box Shape; { B-Class, Sports Car Payloads } Fue
 #DataSet : Fuel (22 kg)
 #Category: B-Class, Sports Car Payloads
 #FileID  : Box_6ee8a565-0469-4f65-9d83-ffdb8a3f68e8
-#Modified: 06-08-2021 14:24:57
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:56
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Payload: Box
 
 END

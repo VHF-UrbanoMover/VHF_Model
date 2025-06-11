@@ -9,6 +9,8 @@ PARSFILE
 #CheckBox6 0    
 #CheckBox8 1    
 
+#RingCtrl1 0
+OPT_TRAILER_REF_FRAME 0
 OBJ_X_LENGTH 3261
 OBJ_Y_LENGTH 2152
 OBJ_Z_LENGTH 1418
@@ -88,9 +90,9 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Pickup Trucks }
 #DataSet : Pickup, Midsize: Regular Cab
 #Category: Pickup Trucks
 #FileID  : AniVeh_8c1ef862-f575-48ef-bc5c-245201b31c42
-#Modified: 05-28-2021 15:02:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:32
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Vehicle Shape
 
 END

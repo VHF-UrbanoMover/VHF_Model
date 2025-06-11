@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Suspension: Camber Angle; { Artic Bus } Generic Commerci
 #Category: Artic Bus
 #FileID  : Camber_99faa2fd-5b70-4847-a899-e049806ef4d6
 #Modified: 11-11-2021 13:48:21
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Camber
 
 END

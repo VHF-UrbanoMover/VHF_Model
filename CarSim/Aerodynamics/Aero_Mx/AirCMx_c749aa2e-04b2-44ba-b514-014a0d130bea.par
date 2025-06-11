@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; CMx 
 #Category: 
 #FileID  : AirCMx_c749aa2e-04b2-44ba-b514-014a0d130bea
 #Modified: 05-28-2021 15:03:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Mx vs. Aero Slip
 
 END

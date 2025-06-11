@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Tire: Camber Thrust Coefficient; { Racing Tires } GT Fro
 #Category: Racing Tires
 #FileID  : CamStiff_96ac3181-273b-4547-8371-301f904d3873
 #Modified: 05-28-2021 14:58:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Camber Thrust
 
 END

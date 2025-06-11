@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_f672fe6b-6162-4c2f-8df7-54285c2c5a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 5
@@ -86,9 +87,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { Output Options } Output to Excel (
 #DataSet : Output to Excel (ERD to CSV/MAT)
 #Category: Output Options
 #FileID  : Run_6a056983-5f35-4790-af76-8838aec5209f
-#Modified: 07-02-2021 15:35:10
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

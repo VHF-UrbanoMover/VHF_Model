@@ -10,12 +10,15 @@ IOBJECT_SAVE
 *Z_LENGTH 750
 Y_CG_PL 500
 H_BOX_BOTTOM 700
-LX_CG_PL 1250
+X_CG_PL 1250
 M_PL 80
 *SET_COLOR 0.627 0.627 0.627
 
 #CheckBox0 0    
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
+! Calculated height of payload CG
 Z_CG_PL 1075.00
 IXX_PL 4.57
 IYY_PL 4.57
@@ -30,9 +33,9 @@ LOG_ENTRY Used Dataset: Payload: Box Shape; { Passengers } Driver - Front Left S
 #DataSet : Driver - Front Left Seat
 #Category: Passengers
 #FileID  : Box_6f76af2d-e684-49e5-9ea8-a767720c9583
-#Modified: 06-08-2021 14:24:57
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:56
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Payload: Box
 
 END

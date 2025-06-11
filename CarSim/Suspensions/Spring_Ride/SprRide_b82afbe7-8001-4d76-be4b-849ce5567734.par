@@ -159,8 +159,8 @@ LOG_ENTRY Used Dataset: Suspension: Ride Rate (Spring + Tire); 50.7 N/mm, Bmp. 8
 #Category: 
 #FileID  : SprRide_b82afbe7-8001-4d76-be4b-849ce5567734
 #Modified: 05-28-2021 14:59:09
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ride Measurement
 
 END

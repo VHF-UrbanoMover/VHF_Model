@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Tires for Any Vehicle Unit; { Artic Bus } 3000 kg Steer,
 #Category: Artic Bus
 #FileID  : Tire2a_ce7613fd-1353-498c-a681-66afad847a9c
 #Modified: 12-01-2021 09:18:56
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire Group
 
 END

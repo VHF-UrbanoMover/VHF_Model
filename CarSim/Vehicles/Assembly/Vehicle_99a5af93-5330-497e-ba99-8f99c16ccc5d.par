@@ -110,8 +110,8 @@ LOG_ENTRY Used Dataset: Vehicle: Assembly; { B-Class } B-Class, Hatchback: Pre.T
 #FileID  : Vehicle_99a5af93-5330-497e-ba99-8f99c16ccc5d
 #Created : 11-17-2021 16:05:16
 #Modified: 11-17-2021 16:42:02
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_Ind
 
 END

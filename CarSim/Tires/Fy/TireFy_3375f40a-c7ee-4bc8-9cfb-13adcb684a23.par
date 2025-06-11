@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { Artic Bus } Fy: 3000 kg Load Rati
 #Category: Artic Bus
 #FileID  : TireFy_3375f40a-c7ee-4bc8-9cfb-13adcb684a23
 #Modified: 11-11-2021 13:48:16
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fy
 
 END

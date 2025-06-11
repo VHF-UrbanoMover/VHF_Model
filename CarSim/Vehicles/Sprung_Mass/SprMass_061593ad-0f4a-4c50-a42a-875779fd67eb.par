@@ -3,6 +3,7 @@ PARSFILE
 #VehCode Rigid sprung mass
 #RingCtrl0 0
 #CheckBox2 0    
+#CheckBox3 1    
 X_LENGTH 2330
 Y_LENGTH 1500
 iaxle 2
@@ -27,8 +28,7 @@ Y_LENGTH 1718
 *HWC_RF 330
 *HWC_LR 310
 *HWC_RR 310
-LEN_SM 3300
-LX_F_SM 800
+X_LENGTH 2330
 H_WC 310
 iside 2
 H_WC 310
@@ -39,17 +39,19 @@ iside 2
 H_WC 330
 iaxle 2
 iside 1
+LX_F_SM 800
 HT_SM 1080
 WID_SM 1718
+LEN_SM 3300
 
 LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { B-Class } B-Class, Sports Car
 #Library : Vehicle: Sprung Mass
 #DataSet : B-Class, Sports Car
 #Category: B-Class
 #FileID  : SprMass_061593ad-0f4a-4c50-a42a-875779fd67eb
-#Modified: 05-28-2021 14:58:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rigid sprung mass
 
 END

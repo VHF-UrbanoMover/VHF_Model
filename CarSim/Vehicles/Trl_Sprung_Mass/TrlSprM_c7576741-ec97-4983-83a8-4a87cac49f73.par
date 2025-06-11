@@ -2,11 +2,10 @@ PARSFILE
 #FullDataName Vehicle: Trailer Sprung Mass`Articulated Bus, L = 500`Artic Bus
 #CheckBox0 1    
 #CheckBox1 0    
+#CheckBox2 1    
 
 #RingCtrl0 4
 X_LENGTH 5870
-HT_SM 2910
-WID_SM 2100
 H_CG_SU 971
 Z_LENGTH 2910
 LX_CG_SU 4000
@@ -26,6 +25,9 @@ H_H_FRONT 625
 *HWC_LF 530
 *HWC_RF 530
 *LXA1 5870
+X_LENGTH 5870
+HT_SM 2910
+WID_SM 2100
 SYMBOL_PUSH <<h>> <<unit>>
 SYMBOL_ADD <<h>> -1
 OPT_HITCH_TYPE(<<h>>) = 4
@@ -53,9 +55,9 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { Artic Bus } Articulated 
 #Category: Artic Bus
 #FileID  : TrlSprM_c7576741-ec97-4983-83a8-4a87cac49f73
 #Created : 11-15-2021 13:31:57
-#Modified: 12-10-2021 15:14:16
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Sprung Mass (Trailer)
 
 END

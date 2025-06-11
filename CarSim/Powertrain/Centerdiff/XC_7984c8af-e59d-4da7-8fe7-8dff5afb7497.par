@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Powertrain: Transfer Case; { Electric Motor Drive } HEV:
 #FileID  : XC_7984c8af-e59d-4da7-8fe7-8dff5afb7497
 #Created : 05-21-2021 18:04:27
 #Modified: 05-28-2021 14:59:35
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Transfer Case
 
 END

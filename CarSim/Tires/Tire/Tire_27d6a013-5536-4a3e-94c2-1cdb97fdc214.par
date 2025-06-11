@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Tire; { Trailer and Light Truck Tires } 265/75 R16 for D
 #Category: Trailer and Light Truck Tires
 #FileID  : Tire_27d6a013-5536-4a3e-94c2-1cdb97fdc214
 #Modified: 05-28-2021 14:59:07
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

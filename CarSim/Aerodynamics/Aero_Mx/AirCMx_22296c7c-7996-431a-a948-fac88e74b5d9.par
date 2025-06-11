@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; { Ar
 #Category: Artic Bus
 #FileID  : AirCMx_22296c7c-7996-431a-a948-fac88e74b5d9
 #Modified: 11-11-2021 13:48:18
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Mx vs. Aero Slip
 
 END

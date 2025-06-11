@@ -17,8 +17,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Auxiliary Steer Controller } Aux Stee
 #FileID  : Group_dfb415e0-ec98-432c-b718-d30379f8cd8b
 #Created : 11-12-2021 09:17:52
 #Modified: 11-12-2021 09:23:40
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Animator Group
 
 END

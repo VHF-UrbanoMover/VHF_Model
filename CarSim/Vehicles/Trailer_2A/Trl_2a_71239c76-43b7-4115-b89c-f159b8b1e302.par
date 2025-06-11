@@ -12,34 +12,10 @@ symbol_add  <<unit>> 1
 #RingCtrl2 3
 
 * Trailer front suspension
+symbol_add  <<axle>> 1
 iaxle 1
-OPT_STEER_EXT 1
-ADD_REFERENCE_FRAME Axle 3
-SET_EULER_ANGLES yaw_roll_pitch
-SET_X_NAME X_A3
-WRT_X_A3
-ANI_X_A3
-SET_Y_NAME Y_A3
-WRT_Y_A3
-ANI_Y_A3
-SET_Z_NAME Z_A3
-WRT_Z_A3
-ANI_Z_A3
-SET_YAW_NAME Yaw_2
-WRT_Yaw_2
-ANI_Yaw_2
-SET_PITCH_NAME Pitch_A3
-WRT_Pitch_A3
-ANI_Pitch_A3
-SET_ROLL_NAME Roll_A3
-WRT_Roll_A3
-ANI_Roll_A3
-X_REF_LENGTH 1
-Y_REF_LENGTH 1
-Z_REF_LENGTH 1
-X_LENGTH 1
-Y_LENGTH 1
-Z_LENGTH 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+
 PARSFILE Suspensions\Compliance_SA\CmpSA_91eb47c8-86bc-4c04-87c9-0a8506dbd929.par
 #BlueLink10 Suspension: Solid Axle Compliance, Springs, and Dampers`Susp. Compliance - GN Trailer, Dual Whls` Trailers` , Compliance`CmpSA_91eb47c8-86bc-4c04-87c9-0a8506dbd929
 
@@ -48,44 +24,20 @@ PARSFILE Suspensions\Kin_Solid\KinSA_e06d61c7-1471-4517-9bdd-fd46c3b3c763.par
 
 
 * Trailer rear suspension
+symbol_add  <<axle>> 1
 iaxle 2
-OPT_STEER_EXT 1
-ADD_REFERENCE_FRAME Axle 4
-SET_EULER_ANGLES yaw_roll_pitch
-SET_X_NAME X_A4
-WRT_X_A4
-ANI_X_A4
-SET_Y_NAME Y_A4
-WRT_Y_A4
-ANI_Y_A4
-SET_Z_NAME Z_A4
-WRT_Z_A4
-ANI_Z_A4
-SET_YAW_NAME Yaw_2
-WRT_Yaw_2
-ANI_Yaw_2
-SET_PITCH_NAME Pitch_A4
-WRT_Pitch_A4
-ANI_Pitch_A4
-SET_ROLL_NAME Roll_A4
-WRT_Roll_A4
-ANI_Roll_A4
-X_REF_LENGTH 1
-Y_REF_LENGTH 1
-Z_REF_LENGTH 1
-X_LENGTH 1
-Y_LENGTH 1
-Z_LENGTH 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+
 PARSFILE Suspensions\Compliance_SA\CmpSA_91eb47c8-86bc-4c04-87c9-0a8506dbd929.par
 #BlueLink14 Suspension: Solid Axle Compliance, Springs, and Dampers`Susp. Compliance - GN Trailer, Dual Whls` Trailers` , Compliance`CmpSA_91eb47c8-86bc-4c04-87c9-0a8506dbd929
 
 PARSFILE Suspensions\Kin_Solid\KinSA_e06d61c7-1471-4517-9bdd-fd46c3b3c763.par
 #BlueLink16 Suspension: Solid Axle System Kinematics`Susp. Kinematics: 2A GN Trailer Duals` Trailers` , Kinematics`KinSA_e06d61c7-1471-4517-9bdd-fd46c3b3c763
 
-symbol_add  <<axle>> 1
 PARSFILE Tires\Group_2a\Tire2a_deb22125-0714-4338-a0f0-ec4e160306b0.par
 #BlueLink17 Tires for Any Vehicle Unit`Trailer Duals - 235/80 R16` ` , Duals`Tire2a_deb22125-0714-4338-a0f0-ec4e160306b0
 
+symbol_add  <<axle>> -2
 
 * sprung mass data
 WRITE_ADD_REFERENCE_FRAME_BODY
@@ -122,9 +74,9 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer with 2 Axles; 2A Heavy Flatbed GN, Dual
 #Category: 
 #FileID  : Trl_2a_71239c76-43b7-4115-b89c-f159b8b1e302
 #Created : 08-03-2021 12:00:44
-#Modified: 08-18-2021 16:26:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode SS
 
 END

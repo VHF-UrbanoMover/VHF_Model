@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } 145/80 R13
 #Category: Tires
 #FileID  : ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb
 #Modified: 05-28-2021 15:03:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shape Assembly
 
 END

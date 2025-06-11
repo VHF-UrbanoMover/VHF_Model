@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Steering System: Kinematics for 2 Wheels (Rack & Pinion)
 #Category: CS Pickup Trucks, SUVs, and Vans
 #FileID  : RkKin2_5505acfc-eb88-402d-8df0-0086f7ba6960
 #Modified: 05-28-2021 14:59:16
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Steer Kinematics
 
 END

@@ -6,6 +6,7 @@ PARSFILE
 #CheckBox0 0    
 
 SET_IROAD_FOR_ID 999
+ROAD_N_DZ = 0
 CURRENT_ROAD_ID = ROAD_ID
 set_description road_id 999: Grass and Intersection, 3-Way
 PARSFILE Roads\BuilderSegment\RoadSeg_681ce8ba-17ae-429c-8f85-4f7a447e2ed2.par
@@ -51,9 +52,9 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Intersection, 3D Ro
 #DataSet : 999: Grass and Intersection, 3-Way
 #Category: Intersection, 3D Roads with Curbs
 #FileID  : Road_a7d44c5a-7add-421f-9d72-f959b260f643
-#Modified: 09-27-2021 13:21:17
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:25
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 3D Road
 
 END

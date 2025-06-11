@@ -24,8 +24,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { ADAS and Active Safety } Import:
 #Category: ADAS and Active Safety
 #FileID  : Import_a4441d10-5de9-4b98-838a-18b1b20053bd
 #Modified: 05-28-2021 15:02:22
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Import Channels
 
 END

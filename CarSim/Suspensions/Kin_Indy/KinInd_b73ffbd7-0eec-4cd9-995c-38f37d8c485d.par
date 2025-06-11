@@ -83,8 +83,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { VHF } VHF, 
 #FileID  : KinInd_b73ffbd7-0eec-4cd9-995c-38f37d8c485d
 #Created : 06-29-2022 11:53:20
 #Modified: 03-01-2023 14:04:38
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Independent
 
 END

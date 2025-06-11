@@ -133,8 +133,8 @@ LOG_ENTRY Used Dataset: Steering System: Kinematics for 2 Wheels (Rack & Pinion)
 #Category: CS E-Class
 #FileID  : RkKin2_71dfca47-e94b-4c4a-b78a-b742eaa522c9
 #Modified: 05-28-2021 14:59:16
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Steer Kinematics
 
 END

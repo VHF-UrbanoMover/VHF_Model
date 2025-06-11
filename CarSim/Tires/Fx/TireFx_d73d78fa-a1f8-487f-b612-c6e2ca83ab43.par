@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Touring Tires } 225/60 R18
 #Category: Touring Tires
 #FileID  : TireFx_d73d78fa-a1f8-487f-b612-c6e2ca83ab43
 #Modified: 05-28-2021 14:58:50
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fx
 
 END

@@ -74,8 +74,8 @@ LOG_ENTRY Used Dataset: Tire; { Touring Tires } 265/75 R16
 #Category: Touring Tires
 #FileID  : Tire_38403927-966a-47a5-81c3-0c9c4ff8520d
 #Modified: 05-28-2021 14:59:07
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

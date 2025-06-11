@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Pickup Trucks } Crew Cab, 5.5 Bed
 #Category: Pickup Trucks
 #FileID  : Group_340c19fe-787f-4630-98d0-e641c14c7932
 #Modified: 05-28-2021 15:03:27
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Animator Group
 
 END

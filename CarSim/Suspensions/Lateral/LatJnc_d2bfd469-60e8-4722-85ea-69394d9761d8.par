@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; { SLA } Fron
 #Category: SLA
 #FileID  : LatJnc_d2bfd469-60e8-4722-85ea-69394d9761d8
 #Modified: 05-28-2021 14:59:10
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Lateral Movement
 
 END

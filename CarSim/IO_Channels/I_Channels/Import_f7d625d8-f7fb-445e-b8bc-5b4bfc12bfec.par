@@ -1,13 +1,11 @@
 PARSFILE
 #FullDataName I/O Channels: Import`ESC/TCS: Torque Cmd`VHF Controls
-#RingCtrl0 0
 #RingCtrl1 1
 
 #MiscYellow0
-IMP_TCMD_R2 Add 0.0 ! 0
-IMP_TCMD_L2 Add 0.0 ! 0
+IMP_TCMD_R2 Add 0.0! 0
+IMP_TCMD_L2 Add 0.0! 0
 #ENDMYellow
-
 
 
 #EMBEDDED_NOTES
@@ -27,9 +25,9 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { VHF Controls } ESC/TCS: Torque C
 #Category: VHF Controls
 #FileID  : Import_f7d625d8-f7fb-445e-b8bc-5b4bfc12bfec
 #Created : 04-04-2023 10:58:41
-#Modified: 04-04-2023 11:05:08
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Import Channels
 
 END

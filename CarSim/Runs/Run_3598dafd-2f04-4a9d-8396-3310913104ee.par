@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_d988c2d4-cc54-46a0-bd8a-31056567ae48.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 0
 #RingCtrl1 0
@@ -84,9 +85,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { Electric Midsize Pickup } Accelera
 #DataSet : Accelerate then Brake
 #Category: Electric Midsize Pickup
 #FileID  : Run_3598dafd-2f04-4a9d-8396-3310913104ee
-#Modified: 11-09-2021 13:37:09
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

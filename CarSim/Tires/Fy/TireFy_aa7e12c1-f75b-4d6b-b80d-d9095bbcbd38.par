@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { Trailer and Light Truck Tires } 2
 #Category: Trailer and Light Truck Tires
 #FileID  : TireFy_aa7e12c1-f75b-4d6b-b80d-d9095bbcbd38
 #Modified: 05-28-2021 14:58:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fy
 
 END

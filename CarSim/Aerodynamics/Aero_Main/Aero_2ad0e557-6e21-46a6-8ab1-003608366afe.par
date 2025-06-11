@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { B-Class } B-Class, Sports Car Aer
 #Category: B-Class
 #FileID  : Aero_2ad0e557-6e21-46a6-8ab1-003608366afe
 #Modified: 05-28-2021 15:03:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Aerodynamics
 
 END

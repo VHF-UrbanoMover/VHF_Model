@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } 195/45 R16
 #Category: Tires
 #FileID  : ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2
 #Modified: 05-28-2021 15:03:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shape Assembly
 
 END

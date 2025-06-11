@@ -53,6 +53,7 @@ set_offset_var_y -22
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_2_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -60,6 +61,7 @@ set_offset_var_x -440
 set_offset_var_y 19
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_3_1_Pine:_Winter
 reference_frame_ghosts off
@@ -69,6 +71,7 @@ set_offset_var_y -20
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_4_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -76,6 +79,7 @@ set_offset_var_x -354
 set_offset_var_y 17
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_5_1_Pine:_Winter
 reference_frame_ghosts off
@@ -85,6 +89,7 @@ set_offset_var_y -22
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_6_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -92,6 +97,7 @@ set_offset_var_x -290
 set_offset_var_y 21
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_7_1_Pine:_Winter
 reference_frame_ghosts off
@@ -101,6 +107,7 @@ set_offset_var_y -14
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_8_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -108,6 +115,7 @@ set_offset_var_x -231
 set_offset_var_y 15
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_9_1_Pine:_Winter
 reference_frame_ghosts off
@@ -117,6 +125,7 @@ set_offset_var_y -21
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_10_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -124,6 +133,7 @@ set_offset_var_x -179
 set_offset_var_y 15
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_11_1_Pine:_Winter
 reference_frame_ghosts off
@@ -133,6 +143,7 @@ set_offset_var_y -18
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_12_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -140,6 +151,7 @@ set_offset_var_x -118
 set_offset_var_y 22
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_13_1_Pine:_Winter
 reference_frame_ghosts off
@@ -149,6 +161,7 @@ set_offset_var_y -17
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_14_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -156,6 +169,7 @@ set_offset_var_x -50
 set_offset_var_y 22
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_15_1_Pine:_Winter
 reference_frame_ghosts off
@@ -165,6 +179,7 @@ set_offset_var_y -14
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_16_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -172,6 +187,7 @@ set_offset_var_x 19
 set_offset_var_y 18
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_17_1_Pine:_Winter
 reference_frame_ghosts off
@@ -181,6 +197,7 @@ set_offset_var_y -18
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_18_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -188,6 +205,7 @@ set_offset_var_x 69
 set_offset_var_y 16
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_19_1_Pine:_Winter
 reference_frame_ghosts off
@@ -197,6 +215,7 @@ set_offset_var_y -14
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_20_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -204,6 +223,7 @@ set_offset_var_x 138
 set_offset_var_y 19
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_21_1_Pine:_Winter
 reference_frame_ghosts off
@@ -213,6 +233,7 @@ set_offset_var_y -19
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_22_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -220,6 +241,7 @@ set_offset_var_x 192
 set_offset_var_y 13
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_23_1_Pine:_Winter
 reference_frame_ghosts off
@@ -229,6 +251,7 @@ set_offset_var_y -19
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_24_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -236,6 +259,7 @@ set_offset_var_x 244
 set_offset_var_y 14
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_25_1_Pine:_Winter
 reference_frame_ghosts off
@@ -245,6 +269,7 @@ set_offset_var_y 21
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_26_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -252,6 +277,7 @@ set_offset_var_x 310
 set_offset_var_y 19
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_27_1_Pine:_Winter
 reference_frame_ghosts off
@@ -261,6 +287,7 @@ set_offset_var_y -19
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_28_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -268,6 +295,7 @@ set_offset_var_x 378
 set_offset_var_y 17
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_29_1_Pine:_Winter
 reference_frame_ghosts off
@@ -277,6 +305,7 @@ set_offset_var_y -17
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_30_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -284,6 +313,7 @@ set_offset_var_x 430
 set_offset_var_y 21
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 add_reference_frame road_stuff_31_1_Pine:_Winter
 reference_frame_ghosts off
@@ -293,6 +323,7 @@ set_offset_var_y -17
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
 
+
 add_reference_frame road_stuff_32_1_Pine:_Winter
 reference_frame_ghosts off
 set_offset_var_yaw 180
@@ -300,6 +331,7 @@ set_offset_var_x 497
 set_offset_var_y 20
 set_offset_var_z 0
 parsfile Animator\STL\Shape_7b301e3a-82c1-488b-9c18-205e5fdfb317.par
+
 
 #EMBEDDED_NOTES
 #A straight road with split-mu surface. Friction coefficients are 0.2 and 0.5.
@@ -311,9 +343,9 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Straight } Split Mu
 #Category: Straight
 #FileID  : Road_85c33d04-5227-49b8-97ae-4dcabc5720b6
 #Created : 08-17-2023 17:06:24
-#Modified: 08-17-2023 17:07:38
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:27
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 3D Road
 
 END

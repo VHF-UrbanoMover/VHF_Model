@@ -6,6 +6,7 @@ PARSFILE
 #CheckBox0 0    
 
 SET_IROAD_FOR_ID 1013
+ROAD_N_DZ = 0
 CURRENT_ROAD_ID = ROAD_ID
 set_description road_id 1013: Enter North Straight South
 PARSFILE Roads\BuilderSegment\RoadSeg_08ba0f79-cc4a-4553-ae31-1adf1e0c58b9.par
@@ -54,6 +55,7 @@ set_offset_var_y 80
 set_offset_var_z -0.36
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_2_1_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -61,6 +63,7 @@ set_offset_var_x -50
 set_offset_var_y 160
 set_offset_var_z -0.325714285714
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_3_1_Mixed_Forest
 reference_frame_ghosts off
@@ -70,6 +73,7 @@ set_offset_var_y 250
 set_offset_var_z -0.36
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_4_1_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -77,6 +81,7 @@ set_offset_var_x -58
 set_offset_var_y 320
 set_offset_var_z -0.394285714286
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_5_1_Mixed_Forest
 reference_frame_ghosts off
@@ -86,6 +91,7 @@ set_offset_var_y 380
 set_offset_var_z -0.394285714286
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_6_1_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -93,6 +99,7 @@ set_offset_var_x -58
 set_offset_var_y 445
 set_offset_var_z -0.394285714286
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_7_1_Mixed_Forest
 reference_frame_ghosts off
@@ -102,6 +109,7 @@ set_offset_var_y 520
 set_offset_var_z -0.36
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_8_1_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -109,6 +117,7 @@ set_offset_var_x -52
 set_offset_var_y 615
 set_offset_var_z -0.342857142857
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_9_1_Mixed_Forest
 reference_frame_ghosts off
@@ -118,6 +127,7 @@ set_offset_var_y 740
 set_offset_var_z -0.308571428571
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_10_1_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -125,6 +135,7 @@ set_offset_var_x -52
 set_offset_var_y 820
 set_offset_var_z -0.342857142857
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_11_1_Mixed_Forest
 reference_frame_ghosts off
@@ -134,6 +145,7 @@ set_offset_var_y 880
 set_offset_var_z -0.36
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_12_1_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -141,6 +153,7 @@ set_offset_var_x -56
 set_offset_var_y 930
 set_offset_var_z -0.377142857143
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_13_1_Mixed_Forest
 reference_frame_ghosts off
@@ -150,6 +163,7 @@ set_offset_var_y 985
 set_offset_var_z -0.394285714286
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_1_2_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -157,6 +171,7 @@ set_offset_var_x -60
 set_offset_var_y -3.67394039744e-15
 set_offset_var_z -1.09714285714
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_2_2_Mixed_Forest
 reference_frame_ghosts off
@@ -166,6 +181,7 @@ set_offset_var_y -80
 set_offset_var_z -0.36
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_3_2_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -173,6 +189,7 @@ set_offset_var_x -50
 set_offset_var_y -160
 set_offset_var_z -0.325714285714
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_4_2_Mixed_Forest
 reference_frame_ghosts off
@@ -182,6 +199,7 @@ set_offset_var_y -250
 set_offset_var_z -0.36
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_5_2_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -189,6 +207,7 @@ set_offset_var_x -58
 set_offset_var_y -320
 set_offset_var_z -0.394285714286
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_6_2_Mixed_Forest
 reference_frame_ghosts off
@@ -198,6 +217,7 @@ set_offset_var_y -380
 set_offset_var_z -0.394285714286
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_7_2_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -205,6 +225,7 @@ set_offset_var_x -58
 set_offset_var_y -445
 set_offset_var_z -0.394285714286
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_8_2_Mixed_Forest
 reference_frame_ghosts off
@@ -214,6 +235,7 @@ set_offset_var_y -520
 set_offset_var_z -0.36
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_9_2_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -221,6 +243,7 @@ set_offset_var_x -52
 set_offset_var_y -615
 set_offset_var_z -0.342857142857
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_10_2_Mixed_Forest
 reference_frame_ghosts off
@@ -230,6 +253,7 @@ set_offset_var_y -740
 set_offset_var_z -0.308571428571
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_11_2_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -237,6 +261,7 @@ set_offset_var_x -52
 set_offset_var_y -820
 set_offset_var_z -0.342857142857
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 add_reference_frame road_stuff_12_2_Mixed_Forest
 reference_frame_ghosts off
@@ -246,6 +271,7 @@ set_offset_var_y -880
 set_offset_var_z -0.36
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_13_2_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -254,6 +280,7 @@ set_offset_var_y -930
 set_offset_var_z -0.377142857143
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
 
+
 add_reference_frame road_stuff_14_2_Mixed_Forest
 reference_frame_ghosts off
 set_offset_var_yaw -90
@@ -261,6 +288,7 @@ set_offset_var_x -58
 set_offset_var_y -985
 set_offset_var_z -0.394285714286
 parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
 
 #EMBEDDED_NOTES
 #This road is part of the 3-way intersection example. This part is straight, going South.
@@ -273,9 +301,9 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Intersection, 3D Ro
 #DataSet : 1013: Enter North Straight South
 #Category: Intersection, 3D Roads with Curbs
 #FileID  : Road_4d523001-97a6-4842-813f-3782b79fb456
-#Modified: 11-24-2021 12:32:09
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:25
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 3D Road
 
 END

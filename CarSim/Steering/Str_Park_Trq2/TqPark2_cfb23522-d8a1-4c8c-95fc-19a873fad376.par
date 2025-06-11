@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Steering: Parking Torque for 2 Wheels; Constant: Zero
 #Category: 
 #FileID  : TqPark2_cfb23522-d8a1-4c8c-95fc-19a873fad376
 #Modified: 05-28-2021 14:59:15
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Parking Torque
 
 END

@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_27cfa3aa-bcd7-4b05-b522-6516bf0a17ae.par
 #CheckBox9 1    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 5
 #RingCtrl1 17
@@ -77,8 +78,7 @@ SPECIAL_PARSFILE Runs\Run_b6e8b1b1-8bb5-45a4-a854-d3ebd04fe6db.par
 #BlueLink23 CarSim Run Control`Accel: Full Thr, Split-Mu (No Control)` VHF Urbano` , Overlay run or ERD file`Run_b6e8b1b1-8bb5-45a4-a854-d3ebd04fe6db
 
 
-*IMAGE_TYPE PASS_THROUGH
-*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea.png
+*IMAGE_TYPE DEFAULT
 
 OPT_ALL_WRITE 1
 WRITE_SENSOR_DETECT
@@ -111,9 +111,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { VHF Urbano } Accel: Full Thr, Spli
 #Category: VHF Urbano
 #FileID  : Run_ffde6a6e-9bc3-443d-aa0f-d77d45f3a041
 #Created : 08-17-2023 16:31:09
-#Modified: 08-17-2023 17:00:57
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

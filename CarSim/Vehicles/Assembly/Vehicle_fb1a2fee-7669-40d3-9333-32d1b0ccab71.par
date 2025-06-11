@@ -74,8 +74,8 @@ LOG_ENTRY Used Dataset: Vehicle: Assembly; { Articulated Bus } Articulated Bus L
 #FileID  : Vehicle_fb1a2fee-7669-40d3-9333-32d1b0ccab71
 #Created : 11-24-2021 11:53:24
 #Modified: 12-10-2021 16:17:57
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_SA
 
 END

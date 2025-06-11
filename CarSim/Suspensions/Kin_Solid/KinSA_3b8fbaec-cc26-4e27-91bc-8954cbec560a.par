@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Suspension: Solid Axle System Kinematics; { Artic Bus } 
 #Category: Artic Bus
 #FileID  : KinSA_3b8fbaec-cc26-4e27-91bc-8954cbec560a
 #Modified: 12-09-2021 02:15:41
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Solid Axle
 
 END

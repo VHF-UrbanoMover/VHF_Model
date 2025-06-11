@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Racing Tires } GT Rear - 28/71 
 #Category: Racing Tires
 #FileID  : TireMz_be4634f3-6fc9-4d81-9ff4-404c66a6c48b
 #Modified: 05-28-2021 14:58:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Mz
 
 END

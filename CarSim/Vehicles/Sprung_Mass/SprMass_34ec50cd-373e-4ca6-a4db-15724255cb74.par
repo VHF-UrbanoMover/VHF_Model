@@ -3,6 +3,7 @@ PARSFILE
 #VehCode Rigid sprung mass
 #RingCtrl0 0
 #CheckBox2 1    
+#CheckBox3 1    
 X_LENGTH 5375
 Y_LENGTH 1500
 iaxle 2
@@ -36,7 +37,7 @@ Y_LENGTH 2632
 *HWC_RF 510
 *HWC_LR 530
 *HWC_RR 530
-LEN_SM 10940
+X_LENGTH 5375
 H_WC 530
 iside 2
 H_WC 530
@@ -49,6 +50,7 @@ iaxle 2
 iside 1
 HT_SM 2973
 WID_SM 2632
+LEN_SM 10940
 
 #EMBEDDED_NOTES
 #The hitch properties can be modified by clicking on the Hitch bluelink in the upper right corner.
@@ -60,9 +62,9 @@ LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Artic Bus } Articulated Bus
 #Category: Artic Bus
 #FileID  : SprMass_34ec50cd-373e-4ca6-a4db-15724255cb74
 #Created : 09-29-2021 17:27:55
-#Modified: 12-10-2021 15:41:39
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rigid sprung mass
 
 END

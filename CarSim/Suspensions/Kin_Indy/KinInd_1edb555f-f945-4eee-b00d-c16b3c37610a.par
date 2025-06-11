@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { B-Class } B
 #Category: B-Class
 #FileID  : KinInd_1edb555f-f945-4eee-b00d-c16b3c37610a
 #Modified: 11-17-2021 11:46:07
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Independent
 
 END

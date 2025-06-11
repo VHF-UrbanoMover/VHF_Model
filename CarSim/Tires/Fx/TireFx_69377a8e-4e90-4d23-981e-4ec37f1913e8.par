@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Touring Tires } 185/65 R15
 #Category: Touring Tires
 #FileID  : TireFx_69377a8e-4e90-4d23-981e-4ec37f1913e8
 #Modified: 05-28-2021 14:58:50
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fx
 
 END

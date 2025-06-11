@@ -72,8 +72,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; { Tri-Link S
 #Category: Tri-Link Strut
 #FileID  : LatJnc_2d1706c3-ddcf-4177-9d5d-3259b29b38a2
 #Modified: 05-28-2021 14:59:10
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Lateral Movement
 
 END

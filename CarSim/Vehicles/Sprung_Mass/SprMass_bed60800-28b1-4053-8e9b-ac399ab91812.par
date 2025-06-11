@@ -3,6 +3,7 @@ PARSFILE
 #VehCode Rigid sprung mass
 #RingCtrl0 0
 #CheckBox2 0    
+#CheckBox3 1    
 X_LENGTH 2650
 Y_LENGTH 1500
 iaxle 2
@@ -27,6 +28,7 @@ Y_LENGTH 2064
 *HWC_RF 325
 *HWC_LR 335
 *HWC_RR 335
+X_LENGTH 2650
 H_WC 335
 iside 2
 H_WC 335
@@ -46,9 +48,9 @@ LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Exotic Sports Car } Exotic Car
 #Category: Exotic Sports Car
 #FileID  : SprMass_bed60800-28b1-4053-8e9b-ac399ab91812
 #Created : 04-14-2021 07:55:57
-#Modified: 05-28-2021 14:58:45
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:22
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rigid sprung mass
 
 END

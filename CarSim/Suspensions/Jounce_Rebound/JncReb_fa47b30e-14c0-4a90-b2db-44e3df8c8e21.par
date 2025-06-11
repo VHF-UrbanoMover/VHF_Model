@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 25
 #Category: Jounce Range: 25 mm to 49 mm
 #FileID  : JncReb_fa47b30e-14c0-4a90-b2db-44e3df8c8e21
 #Modified: 05-28-2021 14:59:10
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 
 
 END

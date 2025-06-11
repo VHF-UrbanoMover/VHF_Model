@@ -86,8 +86,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent Compliance, Springs, and Dampers
 #Category: Utility Vehicles: SUVs and Vans
 #FileID  : CmpInd_b73cd89c-fb0a-4bef-a30f-a5d3071d4f2a
 #Modified: 05-28-2021 14:59:13
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Springs and Dampers
 
 END

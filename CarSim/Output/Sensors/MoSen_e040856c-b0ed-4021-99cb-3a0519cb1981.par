@@ -73,8 +73,8 @@ LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; { SM and USM C
 #Category: SM and USM CGs
 #FileID  : MoSen_e040856c-b0ed-4021-99cb-3a0519cb1981
 #Modified: 08-05-2022 13:40:33
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Motion Sensors
 
 END

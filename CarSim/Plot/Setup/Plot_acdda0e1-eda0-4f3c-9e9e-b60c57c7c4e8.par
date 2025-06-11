@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Transmision Clutch Control S
 #Category: Powertrain
 #FileID  : Plot_acdda0e1-eda0-4f3c-9e9e-b60c57c7c4e8
 #Modified: 05-28-2021 14:59:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

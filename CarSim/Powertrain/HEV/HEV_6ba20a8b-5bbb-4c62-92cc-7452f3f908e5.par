@@ -63,8 +63,8 @@ LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Pre-Transmission Par
 #FileID  : HEV_6ba20a8b-5bbb-4c62-92cc-7452f3f908e5
 #Created : 11-17-2021 15:25:56
 #Modified: 11-24-2021 14:04:59
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode HEV
 
 END

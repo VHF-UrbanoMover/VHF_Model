@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain VHF } Battery charged resist
 #FileID  : GenTab_6f47a0fa-dc8a-4808-b1d1-8e00dd3b9062
 #Created : 07-01-2022 17:25:58
 #Modified: 07-01-2022 17:29:22
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

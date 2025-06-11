@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } 280/75 R24 Dual
 #Category: Tires
 #FileID  : ShpGrp_659d470f-31c5-4b96-a28d-8c794617a2c3
 #Modified: 05-28-2021 15:03:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shape Assembly
 
 END

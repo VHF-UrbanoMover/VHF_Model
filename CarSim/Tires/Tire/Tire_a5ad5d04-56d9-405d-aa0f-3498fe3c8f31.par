@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire; { Touring Tires } R=287mm for Hybrid Evaluation
 #Category: Touring Tires
 #FileID  : Tire_a5ad5d04-56d9-405d-aa0f-3498fe3c8f31
 #Modified: 05-28-2021 14:59:07
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

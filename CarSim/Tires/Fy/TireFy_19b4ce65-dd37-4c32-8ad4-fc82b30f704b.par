@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { Racing Tires } GT Front - 27/68 -
 #Category: Racing Tires
 #FileID  : TireFy_19b4ce65-dd37-4c32-8ad4-fc82b30f704b
 #Modified: 05-28-2021 14:58:50
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fy
 
 END

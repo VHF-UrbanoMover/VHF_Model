@@ -16,8 +16,8 @@ LOG_ENTRY Used Dataset: Steering System: Compliance; { Linear } 0.001 deg/N-m
 #Category: Linear
 #FileID  : StrCmp_04155b90-303f-4e9a-b97c-a2f522ed3d2a
 #Modified: 05-28-2021 14:59:16
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Steering Compliance
 
 END

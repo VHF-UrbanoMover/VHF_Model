@@ -8,6 +8,8 @@ PARSFILE
 #CheckBox6 0    
 #CheckBox8 0    
 
+#RingCtrl1 0
+OPT_TRAILER_REF_FRAME 0
 OBJ_X_LENGTH 5375
 OBJ_Y_LENGTH 2632
 OBJ_Z_LENGTH 2973
@@ -37,9 +39,9 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Artic Bus } 2A 
 #Category: Artic Bus
 #FileID  : AniVeh_a503b340-e942-4bdd-8627-9f454864c047
 #Created : 11-18-2021 08:47:37
-#Modified: 12-09-2021 03:28:47
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:32
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Vehicle Shape
 
 END

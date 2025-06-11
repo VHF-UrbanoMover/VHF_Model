@@ -113,8 +113,8 @@ LOG_ENTRY Used Dataset: Vehicle: Assembly; { Meus Veiculos } VHF Urbano, eRWD 50
 #FileID  : Vehicle_bd699e8e-e4d6-4c7c-bfd8-5185f1131fcd
 #Created : 08-16-2023 17:19:11
 #Modified: 07-04-2024 15:20:20
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_Ind
 
 END

@@ -97,8 +97,8 @@ LOG_ENTRY Used Dataset: Tires for Any Vehicle Unit; Trailer Duals - 235/80 R16
 #FileID  : Tire2a_deb22125-0714-4338-a0f0-ec4e160306b0
 #Created : 08-03-2021 12:57:43
 #Modified: 08-03-2021 14:26:29
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire Group
 
 END

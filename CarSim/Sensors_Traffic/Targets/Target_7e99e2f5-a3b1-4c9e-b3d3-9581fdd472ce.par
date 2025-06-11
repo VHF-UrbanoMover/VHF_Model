@@ -11,7 +11,6 @@ ROAD_ID_OBJ 1
 #CheckBox1 0    
 OPT_RECYCLE_OBJ 0
 #CheckBox2 0    
-#CheckBox3 0    
 #CheckBox5 1    
 #CheckBox6 0    
 #CheckBox7 0    
@@ -53,9 +52,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Animals Crossing } Deer
 #DataSet : Deer #2, Update Path
 #Category: Animals Crossing
 #FileID  : Target_7e99e2f5-a3b1-4c9e-b3d3-9581fdd472ce
-#Modified: 05-28-2021 15:03:32
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:37
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Moving Object (Custom)
 
 END

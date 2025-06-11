@@ -1,5 +1,6 @@
 PARSFILE
 #FullDataName Steering`Pickup, Full: Power, Recirc. Ball`Pickup Trucks
+INSTALL_STEERING
 I_COL 0.02
 I_GEAR_IN 0.0005
 D_COL 0.02
@@ -20,6 +21,8 @@ OPT_I_GEAR_IN 0
 #RingCtrl5 0
 #RingCtrl6 0
 #RingCtrl7 1
+#RingCtrl8 0
+#RingCtrl9 0
 
 OPT_STEER_DEF 1
 
@@ -96,9 +99,9 @@ LOG_ENTRY Used Dataset: Steering; { Pickup Trucks } Pickup, Full: Power, Recirc.
 #DataSet : Pickup, Full: Power, Recirc. Ball
 #Category: Pickup Trucks
 #FileID  : StrSys2_c860e0c1-118a-40e7-b9f7-f714f0e5b5af
-#Modified: 09-30-2021 13:17:52
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:52
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 4-Wheel Steer
 
 END

@@ -60,8 +60,8 @@ LOG_ENTRY Used Dataset: Road: Friction Map, S-L Grid; { Road Handling Course } H
 #Category: Road Handling Course
 #FileID  : RdMu_14d0d322-e529-4060-b63a-06992b038998
 #Modified: 05-28-2021 15:00:38
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Mu via S-L Grid
 
 END

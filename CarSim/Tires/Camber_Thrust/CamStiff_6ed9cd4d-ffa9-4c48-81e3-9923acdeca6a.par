@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Tire: Camber Thrust Coefficient; { Trailers and Light Tr
 #Category: Trailers and Light Trucks
 #FileID  : CamStiff_6ed9cd4d-ffa9-4c48-81e3-9923acdeca6a
 #Modified: 05-28-2021 14:58:51
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Camber Thrust
 
 END

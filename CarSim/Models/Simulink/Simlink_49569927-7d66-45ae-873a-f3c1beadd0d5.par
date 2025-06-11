@@ -3,17 +3,17 @@ PARSFILE
 #RunMdlFile Extensions\Simulink\tc_vhf\tcs_VHF_model_free.slx
 SIMULINK_MODEL_FILE Extensions\Simulink\tc_vhf\tcs_VHF_model_free.slx
 #RingCtrl0 -1
+#RingCtrl2 0
+*MULTI_SOLVERS 0
+*MULTI_S_WRAPPER 0
 #CheckBox0 1    
 *USE_ALT_DIR 1
 #CheckBox1 0    
 *USE_DIFF_SOLVERS 0
 #CheckBox3 1    
-#CheckBox4 1    
-OPT_IO_SYNC_FM 1
+#CheckBox5 0    
 #RingCtrl1 0
 OPT_INT_METHOD 0
-#CheckBox2 1    
-OPT_IO_UPDATE 1
 #CheckBox4 1    
 OPT_IO_SYNC_FM 1
 *TSTEP 0.0005
@@ -22,12 +22,18 @@ OPT_IO_SYNC_FM 1
 *FREQ_OUT 200
 tstep 0.0005
 iprint 10
-#CheckBox5 0    
-*MULTI_SOLVERS 0
 #AltPath Extensions\Simulink\tc_vhf
 *ALTERNATE_PATH Extensions\Simulink\tc_vhf
 PARSFILE IO_Channels\Ports\Port_beabe2d7-45c2-4437-8d9a-2059d70d598e.par
 #BlueLink0 I/O Channels: Ports`MF const ASR Controllers: Multi-port` VHF Controls` , Import`Port_beabe2d7-45c2-4437-8d9a-2059d70d598e
+
+#BlueLink3 I/O Channels: Ports`` ` , vs_state Ports`
+
+#BlueLink4 I/O Channels: Ports`` ` , vs_ctl Ports`
+
+#BlueLink5 I/O Channels: Ports`` ` , vs_kin Ports`
+
+#BlueLink6 I/O Channels: Ports`` ` , vs_dyn Ports`
 
 LIVE_SERVER_UPDATE_FREQ_MAX 60
 
@@ -49,9 +55,9 @@ LOG_ENTRY Used Dataset: Models: Simulink; { Traction Control for TCS and ESC } V
 #Category: Traction Control for TCS and ESC
 #FileID  : Simlink_49569927-7d66-45ae-873a-f3c1beadd0d5
 #Created : 08-05-2022 09:37:09
-#Modified: 01-11-2024 09:47:54
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 
 
 END

@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Powertrain: Shift Schedule; { 7-speed (Exotic Sports Car
 #FileID  : Shift_96f78661-96bf-4e41-b27f-2d3cadda81f6
 #Created : 04-14-2021 08:26:21
 #Modified: 05-28-2021 14:59:33
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shift Schedule
 
 END

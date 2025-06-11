@@ -1,0 +1,15 @@
+PARSFILE
+add_reference_frame The Road
+reference_frame_ghosts off
+
+add_obj Roads\3D_Road\Road_3d3efdbc-9b94-40d6-aa37-04d5a6fb360d_1.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 0 0 0
+set_auto_detail_type Random
+
+
+
+END

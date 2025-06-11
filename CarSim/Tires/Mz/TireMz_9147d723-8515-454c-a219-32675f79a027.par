@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
 #Category: Touring Tires
 #FileID  : TireMz_9147d723-8515-454c-a219-32675f79a027
 #Modified: 05-28-2021 14:58:52
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Mz
 
 END

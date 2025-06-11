@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Range-Ext. Electric 
 #FileID  : HEV_abdb2392-8cc5-4466-a8c9-f8c61073ae91
 #Created : 09-13-2021 15:42:54
 #Modified: 11-23-2021 19:11:09
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode HEV
 
 END

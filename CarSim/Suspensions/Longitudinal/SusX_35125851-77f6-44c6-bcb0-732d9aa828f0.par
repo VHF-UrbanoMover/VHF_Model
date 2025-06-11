@@ -30,33 +30,15 @@ SUSP_X_JNC_OTHER_SIDE_CONSTANT 0
 #RadioCtrl0 0    
 #RadioCtrl1 0    
 
-#DiagramOne0
-SUSP_X_AXLE_TABLE SPLINE
--70, -0.779336
--60, -0.596671
--50, -0.438583
--40, -0.304523
--30, -0.194019
--20, -0.106665
--10, -0.042102
-0, 0
-10, 0.019968
-20, 0.018152
-30, -0.005034
-40, -0.049059
-50, -0.113201
-60, -0.196434
-70, -0.297272
-ENDTABLE
 
 LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; { Strut } Front Strut -  Longitudinal Movement
 #Library : Suspension: Longitudinal Movement
 #DataSet : Front Strut -  Longitudinal Movement
 #Category: Strut
 #FileID  : SusX_35125851-77f6-44c6-bcb0-732d9aa828f0
-#Modified: 05-28-2021 14:59:09
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:49
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Longitudinal Movement
 
 END

@@ -1,0 +1,25 @@
+Run made by VS Road Calculator at 18:21 on June 09, 2025.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_bab0c5bb-34f6-4a15-aa43-799bdb947506.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_299f5dd8-31b0-44f2-9251-eaaf215df33c.par"
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Include PARSFILE "Roads\dZ_Map\RdMapZ_e90891ae-b32e-4dfe-a299-defaac52282d.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Ride } Bounce Road Edges
+Include PARSFILE "Roads\Friction\RdMu_25e73395-9471-44b9-9c60-27bd9cc24921.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_e85c2d2a-2b88-4b52-ac5d-65eadc0b0e76.par"
+Used Dataset: Road: Animator Surface Shapes; { Ride Roads and Suspension Testing } Sine Sweep Ride Test
+ Bounce Sine Sweep <Ride Roads>
+Used Dataset: Road: 3D Surface (All Properties); { Ride Roads } Bounce Sine Sweep
+
+Time to read input = 0.0007329
+
+Run started: VS output file = Roads\3D_Road\Road_bab0c5bb-34f6-4a15-aa43-799bdb947506.vsb
+
+Run stopped at t = 7.52. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

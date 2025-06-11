@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Road: Friction Map, S-L Grid; { Split Mu } Mu = 0.3 Test
 #FileID  : RdMu_776a3308-b368-43ee-ac62-737bcb933854
 #Created : 12-10-2021 15:55:21
 #Modified: 12-10-2021 15:56:01
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Mu via S-L Grid
 
 END

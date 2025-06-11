@@ -1,6 +1,8 @@
 PARSFILE
 #FullDataName Brakes: Trailer Two-Wheel System`10 kN-m Capacity, Air (2 ch. ABS)`Artic Bus
+#CheckBox0 0    
 #CheckBox1 0    
+
 #RingCtrl0 2
 #RingCtrl1 2
 #RingCtrl3 2
@@ -54,9 +56,9 @@ LOG_ENTRY Used Dataset: Brakes: Trailer Two-Wheel System; { Artic Bus } 10 kN-m 
 #DataSet : 10 kN-m Capacity, Air (2 ch. ABS)
 #Category: Artic Bus
 #FileID  : Brk2W_c1daa283-16c4-49c3-bef3-cde55425bcfd
-#Modified: 12-01-2021 09:22:24
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:31
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Brakes
 
 END

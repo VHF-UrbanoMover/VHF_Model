@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Suspension: Spring; { Artic Bus } Air Spring, 2000 N Fri
 #Category: Artic Bus
 #FileID  : Spring_4f21b30d-1b35-4783-8727-a7e382ee1151
 #Modified: 11-11-2021 13:48:19
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Spring Alone
 
 END

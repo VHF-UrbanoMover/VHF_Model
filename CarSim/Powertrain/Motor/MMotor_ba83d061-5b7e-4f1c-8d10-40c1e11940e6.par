@@ -1,6 +1,7 @@
 PARSFILE
 #FullDataName Powertrain: Electric Motor Torque`Max. Output 286 N-m`Electric Motor
 #CheckBox0 0    
+#CheckBox1 0    
 
 #RingCtrl0 LINEAR
 #DiagramOne0
@@ -21,6 +22,7 @@ ENDTABLE
 
 TC_MOTOR 0.05
 IMOTOR 0.07
+I_MOTOR 0.07
 
 PARSFILE Generic\tables\GenTab_4cdab7ed-ceb0-4b5a-a9bb-b4cb503c10ef.par
 #BlueLink0 Generic Table`Motor efficiency: 286 N-m motor` Powertrain (HEV / EV)` , Motor Efficiency`GenTab_4cdab7ed-ceb0-4b5a-a9bb-b4cb503c10ef
@@ -36,9 +38,9 @@ LOG_ENTRY Used Dataset: Powertrain: Electric Motor Torque; { Electric Motor } Ma
 #Category: Electric Motor
 #FileID  : MMotor_ba83d061-5b7e-4f1c-8d10-40c1e11940e6
 #Created : 05-18-2021 12:36:51
-#Modified: 05-28-2021 14:59:34
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:53
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Drive torque w/ electric motor
 
 END

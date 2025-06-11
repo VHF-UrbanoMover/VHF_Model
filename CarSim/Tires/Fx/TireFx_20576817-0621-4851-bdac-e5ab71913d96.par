@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Trailers and Light Truck Tir
 #Category: Trailers and Light Truck Tires
 #FileID  : TireFx_20576817-0621-4851-bdac-e5ab71913d96
 #Modified: 05-28-2021 14:58:50
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fx
 
 END

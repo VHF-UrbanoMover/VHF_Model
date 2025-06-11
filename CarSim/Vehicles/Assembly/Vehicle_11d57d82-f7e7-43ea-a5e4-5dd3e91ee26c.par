@@ -72,8 +72,8 @@ LOG_ENTRY Used Dataset: Vehicle: Assembly; { Articulated Bus } Artic Bus Lead, w
 #FileID  : Vehicle_11d57d82-f7e7-43ea-a5e4-5dd3e91ee26c
 #Created : 12-10-2021 16:10:54
 #Modified: 12-10-2021 16:11:42
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_SA
 
 END

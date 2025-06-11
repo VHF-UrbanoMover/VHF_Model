@@ -49,8 +49,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Powers in Hybrid Po
 #Category: Powertrain (Hybrid)
 #FileID  : Plot_07737336-620f-4fa5-baca-5458abaf7d80
 #Modified: 05-28-2021 14:59:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

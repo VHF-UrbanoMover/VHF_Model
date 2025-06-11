@@ -74,8 +74,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/70 R17
 #Category: Touring Tires
 #FileID  : TireMz_bc0be167-41a3-4159-b2c9-cf4bf2e30b07
 #Modified: 05-28-2021 14:58:52
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Mz
 
 END

@@ -112,8 +112,8 @@ LOG_ENTRY Used Dataset: Vehicle: Assembly; { B-Class } B-Class, Hbk: A.Split Hyb
 #FileID  : Vehicle_ad868796-bfff-4f5d-a571-684e166c708d
 #Created : 11-18-2021 13:41:38
 #Modified: 11-22-2021 16:41:46
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_Ind
 
 END

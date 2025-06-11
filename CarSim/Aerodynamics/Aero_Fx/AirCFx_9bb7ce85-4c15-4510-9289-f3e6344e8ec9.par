@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; CFx = 0
 #Category: 
 #FileID  : AirCFx_9bb7ce85-4c15-4510-9289-f3e6344e8ec9
 #Modified: 05-28-2021 15:03:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Drag vs. Aero Slip
 
 END

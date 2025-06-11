@@ -138,8 +138,8 @@ LOG_ENTRY Used Dataset: Powertrain: Transmission (18 Gears or CVT); { 7-Speed Tr
 #FileID  : Trans18_4dfb5d8a-94a1-4f31-b6ac-807129b2cc8a
 #Created : 04-14-2021 08:22:35
 #Modified: 05-28-2021 14:59:35
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Transmission
 
 END

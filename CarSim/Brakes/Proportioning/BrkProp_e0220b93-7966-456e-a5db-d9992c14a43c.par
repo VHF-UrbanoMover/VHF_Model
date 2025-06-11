@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Brakes: Proportioning / Limiting Valve; Linear: Unity Ga
 #Category: 
 #FileID  : BrkProp_e0220b93-7966-456e-a5db-d9992c14a43c
 #Modified: 12-09-2021 01:28:21
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Prop / Limit Valve
 
 END

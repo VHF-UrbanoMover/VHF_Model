@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { Pickup, Fu
 #Category: Pickup, Full Size
 #FileID  : VehLoad_0a552f6e-d626-4fb0-b6a4-e4a75eed5b0b
 #Modified: 05-28-2021 14:58:49
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_SA
 
 END

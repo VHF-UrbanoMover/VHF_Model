@@ -10,12 +10,15 @@ IOBJECT_SAVE
 *Z_LENGTH 950
 Y_CG_PL 425
 H_BOX_BOTTOM 175
-LX_CG_PL 1500
+X_CG_PL 1500
 M_PL 75
 *SET_COLOR 1 1 0
 
 #CheckBox0 0    
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
+! Calculated height of payload CG
 Z_CG_PL 650.00
 IXX_PL 7.53
 IYY_PL 6.20
@@ -30,9 +33,9 @@ LOG_ENTRY Used Dataset: Payload: Box Shape; { B-Class, Sports Car Payloads } Dri
 #DataSet : Driver (75 kg)
 #Category: B-Class, Sports Car Payloads
 #FileID  : Box_5cfc75a9-4a1b-48d9-aa4d-5459e53f38d2
-#Modified: 06-08-2021 14:24:57
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:56
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Payload: Box
 
 END

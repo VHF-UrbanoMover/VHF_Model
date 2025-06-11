@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { Pickup Truc
 #Category: Pickup Trucks
 #FileID  : KinInd_7eb894a6-45e7-462b-946d-98172e6ad5af
 #Modified: 11-17-2021 11:46:08
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Independent
 
 END

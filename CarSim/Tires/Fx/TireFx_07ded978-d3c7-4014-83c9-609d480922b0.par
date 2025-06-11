@@ -50,8 +50,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Artic Bus } Fx: 3000 kg Load
 #Category: Artic Bus
 #FileID  : TireFx_07ded978-d3c7-4014-83c9-609d480922b0
 #Modified: 11-11-2021 13:48:16
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fx
 
 END

@@ -1,6 +1,7 @@
 PARSFILE
 #FullDataName Powertrain: 4-Wheel Drive`300/100/50kW x2, Axle-Split Hybrid`Hybrid: 300/100/50kW x2 (Engine + 3 Motors)
 INSTALL_POWERTRAIN 3
+OPT_PT 3
 INSTALL_ENGINE
 
 R_REAR_DRIVE_SC 0.5
@@ -20,8 +21,6 @@ R_MDRIVE 0
 OPT_ENGINE_INTERNAL 1
 OPT_PWR_CPL_INTERNAL 0
 OPT_TRANS_INTERNAL 0
-OPT_SHIFT_INTERNAL 0
-OPT_TR_GEAR_INTERNAL 0
 IDIFF 1
 OPT_DIFF_INTERNAL 1
 IDIFF 2
@@ -74,9 +73,9 @@ LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { Hybrid: 300/100/50kW x2 (En
 #Category: Hybrid: 300/100/50kW x2 (Engine + 3 Motors)
 #FileID  : 4WD_887952d6-d02a-4a79-bbf6-6cac2b9eeb06
 #Created : 11-18-2021 15:42:00
-#Modified: 11-24-2021 14:03:14
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:54
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 4WD
 
 END

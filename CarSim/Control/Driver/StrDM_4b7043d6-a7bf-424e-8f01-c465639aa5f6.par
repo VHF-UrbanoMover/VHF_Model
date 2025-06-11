@@ -2,6 +2,12 @@ PARSFILE
 #FullDataName Control: Steering by the Closed-loop Driver Model`0.15s Preview`Constant Position: No Offset
 SET_ILTARG_FOR_ID 0
 set_description LTARG_ID 0.15s Preview
+INSTALL_DM_PATH_FOLLOWER
+#CheckBox4 0    
+OPT_DM 1
+#CheckBox6 0    
+#CheckBox7 0    
+OPT_DM_2019 0
 #RingCtrl0 0
 #RingCtrl1 CONSTANT
 #RingCtrl2 1
@@ -20,13 +26,8 @@ LTARG_ID_DM LTARG_ID
 #CheckBox0 0    
 #CheckBox1 1    
 CREATE_PATH_OBJ on
-#CheckBox4 0    
 #CheckBox5 0    
 OPT_STR_BY_TRQ 0
-OPT_DM 1
-#CheckBox6 0    
-#CheckBox7 0    
-OPT_DM_2019 0
 AV_SW_MAX_DM 1200
 A_SW_MAX_DM 720
 *TPREV 0.15
@@ -45,9 +46,9 @@ LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Con
 #DataSet : 0.15s Preview
 #Category: Constant Position: No Offset
 #FileID  : StrDM_4b7043d6-a7bf-424e-8f01-c465639aa5f6
-#Modified: 09-09-2021 08:52:32
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:30
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Driver Path Follower
 
 END

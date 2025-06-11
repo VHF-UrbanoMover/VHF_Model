@@ -16,8 +16,8 @@ LOG_ENTRY Used Dataset: Powertrain: Limited Slip Differential (Front or Rear); {
 #Category: Differential Clutch
 #FileID  : LSD_1a777464-4a6c-4c41-be03-4574415b3d37
 #Modified: 05-28-2021 14:59:34
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Limited Slip Diff.
 
 END

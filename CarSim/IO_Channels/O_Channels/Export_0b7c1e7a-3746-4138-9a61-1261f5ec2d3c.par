@@ -1,6 +1,5 @@
 PARSFILE
 #FullDataName I/O Channels: Export`Tires forces`VHF Controls
-#RingCtrl0 1
 #RingCtrl1 1
 
 
@@ -25,7 +24,6 @@ EXPORT Fz_R2
 #ENDMYellow
 
 
-
 #EMBEDDED_NOTES
 #ESC/TCS export variables involve engine torque management:
 #
@@ -39,9 +37,9 @@ LOG_ENTRY Used Dataset: I/O Channels: Export; { VHF Controls } Tires forces
 #Category: VHF Controls
 #FileID  : Export_0b7c1e7a-3746-4138-9a61-1261f5ec2d3c
 #Created : 10-31-2022 17:47:08
-#Modified: 02-17-2023 21:39:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Export Channels
 
 END

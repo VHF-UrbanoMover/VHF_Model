@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; { Spline In
 #Category: Spline Interpolation
 #FileID  : AirCFx_67b7c1a5-2eb8-4548-b585-873fbb86b674
 #Modified: 05-28-2021 15:03:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Drag vs. Aero Slip
 
 END

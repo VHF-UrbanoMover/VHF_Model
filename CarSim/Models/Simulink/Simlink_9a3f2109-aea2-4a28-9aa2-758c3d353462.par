@@ -3,20 +3,28 @@ PARSFILE
 #RunMdlFile Extensions\Simulink\PathUpdateObsAvoidDeerPoly.slx
 SIMULINK_MODEL_FILE Extensions\Simulink\PathUpdateObsAvoidDeerPoly.slx
 #RingCtrl0 -1
+#RingCtrl2 0
+*MULTI_SOLVERS 0
+*MULTI_S_WRAPPER 0
 #CheckBox0 0    
 *USE_ALT_DIR 0
 #CheckBox1 0    
 *USE_DIFF_SOLVERS 0
 #CheckBox3 0    
-#CheckBox4 0    
-OPT_IO_SYNC_FM 0
 #CheckBox5 0    
-*MULTI_SOLVERS 0
 PARSFILE IO_Channels\I_Channels\Import_c48b7a24-8f56-4067-a673-29013d7172be.par
 #BlueLink0 I/O Channels: Import`Import: Update Path Poly` ADAS and Active Safety` , Import`Import_c48b7a24-8f56-4067-a673-29013d7172be
 
 PARSFILE IO_Channels\O_Channels\Export_a7b21637-daca-49a0-a10e-6d5b62387f09.par
 #BlueLink1 I/O Channels: Export`Export: Update Path Poly` ADAS and Active Safety` , Import/Export`Export_a7b21637-daca-49a0-a10e-6d5b62387f09
+
+#BlueLink3 I/O Channels: Ports`` ` , vs_state Ports`
+
+#BlueLink4 I/O Channels: Ports`` ` , vs_ctl Ports`
+
+#BlueLink5 I/O Channels: Ports`` ` , vs_kin Ports`
+
+#BlueLink6 I/O Channels: Ports`` ` , vs_dyn Ports`
 
 
 LOG_ENTRY Used Dataset: Models: Simulink; Update Path: Obs. Avoid Poly
@@ -25,9 +33,9 @@ LOG_ENTRY Used Dataset: Models: Simulink; Update Path: Obs. Avoid Poly
 #Category: 
 #FileID  : Simlink_9a3f2109-aea2-4a28-9aa2-758c3d353462
 #Created : 02-26-2021 16:51:12
-#Modified: 06-10-2021 16:00:13
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:28
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode 
 
 END

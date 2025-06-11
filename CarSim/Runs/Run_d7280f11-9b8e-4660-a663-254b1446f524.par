@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_5feacfa5-2cee-4705-8aee-f5baa805e553.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -74,9 +75,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { Payloads and Sprung Masses } Paylo
 #DataSet : Payload: SUV w/ 7 Passengers
 #Category: Payloads and Sprung Masses
 #FileID  : Run_d7280f11-9b8e-4660-a663-254b1446f524
-#Modified: 07-02-2021 15:35:18
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

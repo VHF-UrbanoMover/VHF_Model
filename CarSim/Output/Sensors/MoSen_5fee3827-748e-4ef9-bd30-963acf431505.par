@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; Hitch Point (L
 #FileID  : MoSen_5fee3827-748e-4ef9-bd30-963acf431505
 #Created : 11-18-2021 17:07:06
 #Modified: 11-18-2021 17:29:10
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Motion Sensors
 
 END

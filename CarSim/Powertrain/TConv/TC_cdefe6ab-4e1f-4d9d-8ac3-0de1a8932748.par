@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Powertrain: Torque Converter; { Torque Converters: 75 kW
 #Category: Torque Converters: 75 kW to 150 kW
 #FileID  : TC_cdefe6ab-4e1f-4d9d-8ac3-0de1a8932748
 #Modified: 05-28-2021 14:59:35
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Torque Converter
 
 END

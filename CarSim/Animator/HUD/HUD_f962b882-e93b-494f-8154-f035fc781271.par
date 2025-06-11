@@ -20,14 +20,14 @@ PARSFILE
 #Selection 9 for Icon 0
 #Selection_1 9 for Icon
 #Selection_2 Title:  AlX 2 AlY 0
-#Selection_3 Scale 0.666667 locX 100 locY 50
+#Selection_3 Scale 0.666667 locX 80 locY 40
 #Selection_4 Fixed: 1 VarName: Show_FCW  ColorStr: 0 0 0
 #Selection_5 ImgName: Animator\2D_HUD_Icons\Distance_Warning\Distance_Warning.png
 ! General Icon
 ANI_Show_FCW
 WRT_Show_FCW
 ADD_ENTITY hud_image General Icon
-location 100 50 85 85
+location 80 40 85 85
 align_x right
 align_y top
 size_mode absolute
@@ -45,9 +45,9 @@ LOG_ENTRY Used Dataset: Animator: HUD; { ADAS Alerts } FCW Alert (small) Update 
 #DataSet : FCW Alert (small) Update path
 #Category: ADAS Alerts
 #FileID  : HUD_f962b882-e93b-494f-8154-f035fc781271
-#Modified: 12-13-2021 10:40:55
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:32
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode HUD
 
 END

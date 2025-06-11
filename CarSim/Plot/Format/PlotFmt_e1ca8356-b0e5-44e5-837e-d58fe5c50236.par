@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Plot: Format; { Artic Bus } Default Plot Settings
 #Category: Artic Bus
 #FileID  : PlotFmt_e1ca8356-b0e5-44e5-837e-d58fe5c50236
 #Modified: 11-11-2021 13:48:25
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Format
 
 END

@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Wheel Drive Torques
 #Category: Powertrain
 #FileID  : Plot_8077fc50-941c-45ed-a470-23f6069121a5
 #Modified: 05-28-2021 14:59:43
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

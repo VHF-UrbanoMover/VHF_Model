@@ -131,8 +131,8 @@ LOG_ENTRY Used Dataset: Steering System: Kinematics for 2 Wheels (Recirc. Ball);
 #Category: CS Utility Vehicles: SUVs and Vans
 #FileID  : StrKin2_25ff5e6a-b920-4baa-a0b1-eff909e200a8
 #Modified: 05-28-2021 14:59:15
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Steer Kinematics
 
 END

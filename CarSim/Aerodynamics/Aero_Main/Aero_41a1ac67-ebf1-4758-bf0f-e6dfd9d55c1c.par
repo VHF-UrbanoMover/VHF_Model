@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { C-Class } C-Class, Hatchback Aero
 #Category: C-Class
 #FileID  : Aero_41a1ac67-ebf1-4758-bf0f-e6dfd9d55c1c
 #Modified: 05-28-2021 15:03:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Aerodynamics
 
 END

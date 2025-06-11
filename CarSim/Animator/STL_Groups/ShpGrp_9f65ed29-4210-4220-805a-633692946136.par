@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Artic Bus } Articulated Bus 
 #FileID  : ShpGrp_9f65ed29-4210-4220-805a-633692946136
 #Created : 11-17-2021 17:35:08
 #Modified: 12-10-2021 15:07:18
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shape Assembly
 
 END

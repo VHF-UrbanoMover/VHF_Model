@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Utility Vehicles: SUVs and Vans }
 #Category: Utility Vehicles: SUVs and Vans
 #FileID  : Aero_fedd58ba-17c5-497e-9c27-e7f697143880
 #Modified: 05-28-2021 15:03:31
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Aerodynamics
 
 END

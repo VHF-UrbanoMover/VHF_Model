@@ -50,8 +50,8 @@ LOG_ENTRY Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { Utility Ve
 #Category: Utility Vehicles
 #FileID  : VehLoad_e9500064-106e-4ca8-9ad4-f043669d5a12
 #Modified: 11-17-2021 15:39:08
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Ind_SA
 
 END

@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire; { Artic Bus } 510 mm Radius (Trailer)
 #Category: Artic Bus
 #FileID  : Tire_27c5e7d4-1710-49c6-b0d2-4b36bc4b3ab5
 #Modified: 11-11-2021 13:48:23
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; { Artic Bus
 #Category: Artic Bus
 #FileID  : AirCFz_8ce1137e-3dea-4603-9c6a-46dd066e878c
 #Modified: 11-11-2021 13:48:18
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Lift vs. Aero Slip
 
 END

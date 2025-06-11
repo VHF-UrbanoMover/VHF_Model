@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; 723 V Battery, Axle 
 #FileID  : HEV_3a33a31c-d1cf-4ec7-b62c-108429a0b5f7
 #Created : 05-18-2021 12:16:36
 #Modified: 11-23-2021 19:11:08
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode HEV
 
 END

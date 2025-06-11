@@ -1,6 +1,6 @@
 SIMFILE
-INPUT Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1.par
-ECHO Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1_echo.par
-ERDFILE Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1.vs
-LOGFILE Roads\3D_Road\Road_54cfa953-a221-4fcb-8db2-1324cfdabaa1_log.txt
+INPUT Roads\3D_Road\Road_3d3efdbc-9b94-40d6-aa37-04d5a6fb360d.par
+ECHO Roads\3D_Road\Road_3d3efdbc-9b94-40d6-aa37-04d5a6fb360d_echo.par
+ERDFILE Roads\3D_Road\Road_3d3efdbc-9b94-40d6-aa37-04d5a6fb360d.vs
+LOGFILE Roads\3D_Road\Road_3d3efdbc-9b94-40d6-aa37-04d5a6fb360d_log.txt
 END

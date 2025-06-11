@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Passenger Cars } Exotic Car
 #Category: Passenger Cars
 #FileID  : ShpGrp_d72b9472-c5ba-46b7-80fc-30eb3d74c724
 #Modified: 05-28-2021 15:03:00
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Shape Assembly
 
 END

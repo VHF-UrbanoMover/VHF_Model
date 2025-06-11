@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (REEV) } Battery charged res
 #FileID  : GenTab_294dace0-f5f6-48d8-888a-800fd02998df
 #Created : 09-13-2021 16:02:21
 #Modified: 09-13-2021 16:04:53
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

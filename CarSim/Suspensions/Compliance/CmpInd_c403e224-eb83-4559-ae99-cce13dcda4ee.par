@@ -105,8 +105,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent Compliance, Springs, and Dampers
 #Category: Artic Bus
 #FileID  : CmpInd_c403e224-eb83-4559-ae99-cce13dcda4ee
 #Modified: 12-09-2021 02:19:14
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Springs and Dampers
 
 END

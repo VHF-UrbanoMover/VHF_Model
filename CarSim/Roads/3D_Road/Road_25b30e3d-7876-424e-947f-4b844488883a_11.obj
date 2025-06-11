@@ -1,0 +1,20 @@
+# Shape file for lane 11
+v 102.186 -0.125 0.005
+vt 0 0
+v 102.186 -0.025 0.005
+vt 1 0
+v 13.38599 -0.125 0.005
+vt 0 8.880001
+v 13.38599 -0.025 0.005
+vt 1 8.880001
+mtllib Roads\3D_Road\Road_25b30e3d-7876-424e-947f-4b844488883a_11.mtl
+usemtl Yellow Line
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

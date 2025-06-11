@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Battery Max Capacity
 #Category: Powertrain (HEV)
 #FileID  : GenTab_3c330519-3554-4bdd-89d8-5b63d61c667e
 #Modified: 05-28-2021 15:02:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

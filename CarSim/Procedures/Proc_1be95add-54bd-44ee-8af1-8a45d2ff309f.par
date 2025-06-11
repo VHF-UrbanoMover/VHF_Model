@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Procedures; { Handling Testing } DLC @ 65 km/h (Low Mu S
 #FileID  : Proc_1be95add-54bd-44ee-8af1-8a45d2ff309f
 #Created : 12-10-2021 15:54:15
 #Modified: 12-10-2021 16:03:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Procedure
 
 END

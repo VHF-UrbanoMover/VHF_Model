@@ -1,6 +1,7 @@
 PARSFILE
 #FullDataName Powertrain: Rear-Wheel Drive`43/40 kW, Pre.T.P.Hybrid (Hi-Pw), 3.905`Hybrid: 43/40 kW (Engine + Motor)
 INSTALL_POWERTRAIN 2
+OPT_PT 2
 R_REAR_DRIVE_SC 1
 
 OPT_ENGINE_PITCH_REACTION(2) 0
@@ -47,9 +48,9 @@ LOG_ENTRY Used Dataset: Powertrain: Rear-Wheel Drive; { Hybrid: 43/40 kW (Engine
 #Category: Hybrid: 43/40 kW (Engine + Motor)
 #FileID  : RWD_8e569069-1eb2-47ca-8bbe-9251450e16de
 #Created : 11-17-2021 15:25:25
-#Modified: 11-24-2021 14:02:57
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:54
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode RWD
 
 END

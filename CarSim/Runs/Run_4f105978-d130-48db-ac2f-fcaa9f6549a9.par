@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_0f5c43ef-ab77-4055-86ff-be8da1e4debf.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 1
@@ -90,9 +91,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { * Articulated Bus } Artic Bus, 90-
 #Category: * Articulated Bus
 #FileID  : Run_4f105978-d130-48db-ac2f-fcaa9f6549a9
 #Created : 11-19-2021 12:18:35
-#Modified: 12-10-2021 15:28:42
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:37
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_32ea6678-907c-4a10-af4b-b9431e3d2f8a.par
 #CheckBox9 1    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 5
 #RingCtrl1 11
@@ -58,8 +59,7 @@ PARSFILE Plot\Setup\Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f.par
 #BlueLink17 Plot: Setup`Station vs. Time` Tracking` , Plot`Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f
 
 
-*IMAGE_TYPE PASS_THROUGH
-*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_99b90058-6273-4731-841b-fa795a1ac9ea.png
+*IMAGE_TYPE DEFAULT
 
 OPT_ALL_WRITE 1
 WRITE_SENSOR_DETECT
@@ -85,9 +85,9 @@ LOG_ENTRY Used Dataset: CarSim Run Control; { VHF Urbano } Growing Speed (Step)
 #Category: VHF Urbano
 #FileID  : Run_6d696624-fd65-4a9a-bda8-ebbc093b0e96
 #Created : 01-13-2023 13:31:36
-#Modified: 01-13-2023 13:32:04
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:21:38
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Run
 
 END

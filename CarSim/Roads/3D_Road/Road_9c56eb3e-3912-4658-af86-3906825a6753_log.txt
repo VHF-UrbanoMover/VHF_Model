@@ -1,0 +1,24 @@
+Run made by VS Road Calculator at 18:21 on June 09, 2025.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_9c56eb3e-3912-4658-af86-3906825a6753.par"
+Include PARSFILE "Generic\External\GenExt_7ed613ff-d2bf-47e0-b4c9-0b71f5230e2a.par"
+Include PARSFILE "Generic\Path_XY_Straight.par"
+Used Dataset: External PARSFILE; { Road Properties } Path: X-Y: Straight Path East
+Include PARSFILE "Generic\External\GenExt_2bf2c345-0f57-4d36-a151-50277b58a587.par"
+Include PARSFILE "Generic\Mu_Road_Constant_085.par"
+Used Dataset: External PARSFILE; { Road Properties } Mu_Road_Constant = 0.85
+Include PARSFILE "Roads\Shapes\RdShape_8c8a59c7-01ef-42eb-8aa5-a5c0c0605130.par"
+Used Dataset: Road: Animator Surface Shapes; { Roads } DLC Road
+ DLC, Mu = 0.85, Ext. Parsfiles for Road <Flat Test Pads>
+Used Dataset: Road: 3D Surface (All Properties); { Flat Test Pads } DLC, Mu = 0.85, Ext. Parsfiles for Road
+
+Time to read input = 0.0005427
+
+Run started: VS output file = Roads\3D_Road\Road_9c56eb3e-3912-4658-af86-3906825a6753.vsb
+
+Run stopped at t = 8.96. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

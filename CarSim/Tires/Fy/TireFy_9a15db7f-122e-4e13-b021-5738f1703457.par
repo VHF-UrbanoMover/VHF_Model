@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { Touring Tires } 175/65 R14
 #Category: Touring Tires
 #FileID  : TireFy_9a15db7f-122e-4e13-b021-5738f1703457
 #Modified: 05-28-2021 14:58:50
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire: Fy
 
 END

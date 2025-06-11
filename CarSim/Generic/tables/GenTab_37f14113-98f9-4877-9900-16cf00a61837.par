@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Non-Linear Suspension Compliance } SUV,
 #Category: Non-Linear Suspension Compliance
 #FileID  : GenTab_37f14113-98f9-4877-9900-16cf00a61837
 #Modified: 05-28-2021 15:02:30
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode table
 
 END

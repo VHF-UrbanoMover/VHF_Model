@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Series Hybrid VHF) } Powers i
 #FileID  : Plot_5ad46bd2-8310-4bc0-a616-b45effecb7ca
 #Created : 07-29-2022 10:06:55
 #Modified: 08-03-2022 15:19:11
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Plot Setup
 
 END

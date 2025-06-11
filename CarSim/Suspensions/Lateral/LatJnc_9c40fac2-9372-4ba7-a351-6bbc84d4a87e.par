@@ -60,8 +60,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; { 5-Link Rea
 #Category: 5-Link Rear
 #FileID  : LatJnc_9c40fac2-9372-4ba7-a351-6bbc84d4a87e
 #Modified: 05-28-2021 14:59:10
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Lateral Movement
 
 END

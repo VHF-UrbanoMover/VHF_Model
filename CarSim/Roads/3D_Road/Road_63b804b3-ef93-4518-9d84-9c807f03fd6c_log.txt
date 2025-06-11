@@ -1,0 +1,25 @@
+Run made by VS Road Calculator at 18:21 on June 09, 2025.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_63b804b3-ef93-4518-9d84-9c807f03fd6c.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_bc7a8b54-7094-4b6a-a89a-427da8f4532d.par"
+ Single Curve, R = 1000 m <Curves>
+Used Dataset: Path: Segment Builder; { Curves } Single Curve, R = 1000 m
+Include PARSFILE "Roads\Center_Z\RdRefZ_16e72c88-2feb-4bd2-bb8a-4a7746b0d925.par"
+Used Dataset: Road: Reference Line Elevation; { Hills and Valleys } 1.5 km with Hills
+Include PARSFILE "Roads\Friction\RdMu_25e73395-9471-44b9-9c60-27bd9cc24921.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_8bcf37fb-3d17-4601-b792-be113bfb2edc.par"
+Used Dataset: Road: Animator Surface Shapes; { Lane-Keeping Assist Roads } Four Lanes
+ 4-Lane Section (Divided) <Many Lanes>
+Used Dataset: Road: 3D Surface (All Properties); { Many Lanes } 4-Lane Section (Divided)
+
+Time to read input = 0.0004833
+
+Run stopped at t = 18.36. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_63b804b3-ef93-4518-9d84-9c807f03fd6c.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

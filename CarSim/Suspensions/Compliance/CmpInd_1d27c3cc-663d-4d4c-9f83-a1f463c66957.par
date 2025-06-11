@@ -108,8 +108,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent Compliance, Springs, and Dampers
 #Category: E-Class
 #FileID  : CmpInd_1d27c3cc-663d-4d4c-9f83-a1f463c66957
 #Modified: 05-28-2021 14:59:13
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Springs and Dampers
 
 END

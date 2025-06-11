@@ -54,8 +54,8 @@ LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) Using Path Preview; { Misce
 #Category: Miscellaneous
 #FileID  : SpdPath_65670824-831c-47e5-a0ce-1ce4d6dd8fa1
 #Modified: 05-28-2021 15:02:39
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Speed Using Path Preview
 
 END

@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Tire; { Performance Tires } Exotic Rear - 305/30 19
 #Category: Performance Tires
 #FileID  : Tire_ca639635-05d0-4e2c-aa22-d15d109a74b9
 #Modified: 05-28-2021 14:59:07
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Tire
 
 END

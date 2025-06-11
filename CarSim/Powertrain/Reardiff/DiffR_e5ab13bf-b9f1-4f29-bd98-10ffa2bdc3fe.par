@@ -120,8 +120,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear Differential; { VHF Electric Motor Driv
 #FileID  : DiffR_e5ab13bf-b9f1-4f29-bd98-10ffa2bdc3fe
 #Created : 11-07-2022 14:01:08
 #Modified: 08-16-2023 17:13:37
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Rear Differential
 
 END

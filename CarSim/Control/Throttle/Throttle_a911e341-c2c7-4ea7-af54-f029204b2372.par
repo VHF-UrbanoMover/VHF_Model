@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: Control: Throttle (Open Loop); { Ramp } Ramp: 0 to 0.2 i
 #Category: Ramp
 #FileID  : Throttle_a911e341-c2c7-4ea7-af54-f029204b2372
 #Modified: 05-28-2021 15:02:35
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Open-loop Throttle
 
 END

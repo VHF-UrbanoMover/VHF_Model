@@ -30,9 +30,9 @@ LOG_ENTRY Used Dataset: Suspension: Measured Total Roll Stiffness; Linear: 1105 
 #DataSet : Linear: 1105 N-m/deg
 #Category: 
 #FileID  : MxTot_ec58e3dd-2dfa-4eb3-8c7c-10579c611b5a
-#Modified: 12-13-2021 14:07:20
-#Product : CarSim 2022.0
-#DataVer : 2022.0
+#Modified: 06-09-2025 18:20:49
+#Product : CarSim 2024.1
+#DataVer : 2024.1
 #VehCode Total Susp. (Meas.)
 
 END
