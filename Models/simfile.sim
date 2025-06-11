@@ -12,13 +12,11 @@ ECHO $(OUTPUT_FILE_PREFIX)$_echo.par
 FINAL $(OUTPUT_FILE_PREFIX)$_end.par
 LOGFILE $(OUTPUT_FILE_PREFIX)$_log.txt
 ERDFILE $(OUTPUT_FILE_PREFIX)$.vs
-PROGDIR C:\Program Files (x86)\CarSim2022.0_Prog\
+PROGDIR C:\Program Files (x86)\CarSim2024.1_Prog\
 DATADIR E:\Henrique\Poli\Pos-Mestrado2025\VCU HiL\VHF_Model\CarSim\
-GUI_REFRESH_V CarSim_RefreshEvent_29412
-RESOURCEDIR C:\Program Files (x86)\CarSim2022.0_Prog\\Resources\
+GUI_REFRESH_V CarSim_RefreshEvent_6044
 PRODUCT_ID CarSim
-PRODUCT_VER 2022.0
-ANIFILE E:\Henrique\Poli\Pos-Mestrado2025\VCU HiL\VHF_Model\CarSim\runs\animator.par
+PRODUCT_VER 2024.1
 VEHICLE_CODE i_i
 EXT_MODEL_STEP 0.00050000
 PORTS_IMP 1,2
