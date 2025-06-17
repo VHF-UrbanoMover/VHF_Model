@@ -8,6 +8,8 @@ rpm_speed = (RPM_idle:100:RPM_max)';
 % Considering generator power
 Imax = 120;
 Ke = 0.0054;                % Constante de tensão [V/rpm]
+rs = 0.001943;      % [ohm] Resistencia do estator 
+Ls = 77e-6;
 
 tdat=[11 15 30 50 70 90];
 torque = 9.8*[polyval(p_Torque_11,rpm_speed),...
@@ -35,43 +37,56 @@ temptorqueMCI = tfit(temprpmGrid,tempthrottleGrid);
 tpowerMCI = temptorqueMCI.*tspeed*pi/30/1000;
 tempeffMCI = efffit(temprpmGrid,tempthrottleGrid);
 
-powerTarget=(0:0.1:15.3)';
+Vretmax = sqrt(6)*(Ke*tspeed - Imax/sqrt(2)*sqrt(rs^2+Ls^2*(tspeed*pi/30).^2))-2*Vd;
+Idcdcmax = Vret/V_nom*Imax;
+powerRetMax = Vretmax*Imax/1000;
+powerMax = Imax*Ke*60/5*tspeed*pi/30/1000;
+
+powerTarget=(0:0.1:6.8)';
 effTarget = zeros(length(powerTarget),1);
-speedTarget = zeros(length(powerTarget),1);
+speedTarget = 5000*ones(length(powerTarget),1);
 thetaTarget = zeros(length(powerTarget),1);
-for p = 1:length(powerTarget)
+for p = 2:length(powerTarget)
     idx = zeros(length(tspeed),1);
     dif = zeros(length(tspeed),1);
     teffspeed = zeros(length(tspeed),1);
     % Iterate over each speed to calculate to find the best efficiency
-    for i=find((powerTarget(p)*1000./(3*Ke*tspeed))<Imax)
+    % for i=find((powerTarget(p)*1000./(3*Ke*tspeed))<Imax)
+    for i=find((powerMax>powerTarget(p))& abs(tspeed-speedTarget(p-1))<500)
         [dif(i),idx(i)]=min(abs(tpowerMCI(:,i)-powerTarget(p)));
-        if (powerTarget(p)>1 || tspeed(i)<4000)
-            teffspeed(i) = tempeffMCI(idx(i),i);
-        end
+        teffspeed(i) = tempeffMCI(idx(i),i);
+        % if (powerTarget(p)>1.5 || tspeed(i)<4000)
+        %     teffspeed(i) = tempeffMCI(idx(i),i);
+        % end
     end
     [effTarget(p),id] = max(teffspeed);
-    if powerTarget(p) <0.7
-        % The algorithm don't work so well for low power
-        % Specifying speed manually
-        id = find(tspeed==(1800+300*powerTarget(p)));
-        effTarget(p) = tempeffMCI(idx(id),id);
-    elseif abs(temprpmGrid(1,id)-speedTarget(p-1)) > 200
-        % Avoid high speed jumps
-        id = find(tspeed==(speedTarget(p-1)+200));
-        effTarget(p) = tempeffMCI(idx(id),id);
-    end
+    % if powerTarget(p) <0.5
+    %     % The algorithm don't work so well for low power
+    %     % Specifying speed manually
+    %     % id = find(tspeed==(1800+300*powerTarget(p)));
+    %     % effTarget(p) = tempeffMCI(idx(id),id);
+    % elseif abs(temprpmGrid(1,id)-speedTarget(p-1)) > 50
+    %     % Avoid high speed jumps
+    %     id = find(tspeed==(speedTarget(p-1)+50));
+    %     if isempty(id)
+    %         id = find(tspeed==RPM_max);
+    %     end
+    %     effTarget(p) = tempeffMCI(idx(id),id);
+    % end
     speedTarget(p) = temprpmGrid(1,id);
     thetaTarget(p) = tempthrottleGrid(id);
 end
 
 % Estimate generator current without loss
-currTarget = powerTarget*1000./(3*Ke*speedTarget);
+torqueTarget = 1000*powerTarget./(speedTarget*pi/30);
+genRetCurrTarget = torqueTarget/(Ke*60/5);
+vRetTarget = sqrt(6)*(Ke*speedTarget - genRetCurrTarget/sqrt(2).*sqrt(rs^2+Ls^2*(speedTarget*pi/30).^2));
+dcdcCurrentTarget = vRetTarget/V_nom.*genRetCurrTarget;
 
-targetsMCI = table(powerTarget,speedTarget,thetaTarget,effTarget,currTarget,'VariableNames',["Power","Speed","Throttle","Efficiency","GenCurrent"]);
+targetsMCI = table(powerTarget,speedTarget,torqueTarget,thetaTarget,effTarget,genRetCurrTarget,vRetTarget,dcdcCurrentTarget,'VariableNames',["Power","Speed","Torque","Throttle","Efficiency","GenRetCurrent","GenRetVoltage","dcdcGenCurrent"]);
 
-clear tempthrottleGrid temprpmGrid tempeffMCI temptorqueMCI teffspeed tpowerMCI tspeed idx dif id p i
-clear powerTarget speedTarget currTarget thetaTarget effTarget
+% clear tempthrottleGrid temprpmGrid tempeffMCI temptorqueMCI teffspeed tpowerMCI tspeed idx dif id p i
+% clear powerTarget speedTarget genRetCurrTarget thetaTarget effTarget torqueTarget vRetTarget dcdcCurrentTarget
 
 figure(1)
 contourf(rpmGrid,powerMCI,throttleGrid,'ShowText','on')

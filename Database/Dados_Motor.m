@@ -15,6 +15,7 @@ peso = [11.97, 10.01, 8.08, 6.1, 4.04, 2.04, 12.11, 10.07, 8.04, 6.08, 4.11, 20.
 % Calculate Torque (Nm)
 lever_arm = 0.8; % meters
 torque = peso * lever_arm * 9.807;
+B = 0.0009; % perdas por rotação
 
 % Calculate V_RMS (average of U1, U2, U3)
 u_rms = mean([u1; u2; u3], 1);
@@ -47,4 +48,4 @@ motorData = table(throttle', rpm', v_dc', i_dc', u_rms', i_rms', torque', ...
     'VariableNames', {'Throttle', 'RPM', 'V_DC', 'I_DC', 'V_RMS', 'I_RMS', 'Torque'});
 
 % Save for Simulink
-save('motorData.mat', 'motorData');
+% save('motorData.mat', 'motorData');
